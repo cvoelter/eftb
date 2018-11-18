@@ -1,0 +1,223 @@
+---
+title: "Shifting_tray_Markdown"
+author: "Christoph Voelter"
+date: "November 18, 2018"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(gridExtra)
+source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+#load(file ="mm1_mult_poss.RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE}
+#Preparing code for mixed modeling. 
+all.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T, sep="\t")
+
+```
+
+
+##Summary
+
+
+
+##Plotting data
+
+###Plotting box_changes
+```{r error=FALSE}
+
+###Plotting side_changes
+plot_individual <- all.data %>%
+  group_by(Session, side_change, Subject) %>% 
+  summarize(correct_resp = mean(correct)) 
+
+
+plot_ind1 <- plot_individual %>% 
+  filter(Session == 1 & side_change!="")%>%
+  add_count(correct_resp)
+
+plot_ind1_mean <- plot_ind1 %>% 
+  group_by(side_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p1 <- ggplot(
+  data=plot_ind1, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind1$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("Session 1")+
+  geom_segment(aes(y = plot_ind1_mean$mean_correct[1], yend = plot_ind1_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind1_mean$mean_correct[2], yend = plot_ind1_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))
+
+
+
+plot_ind2 <- plot_individual %>% 
+  filter(Session == 2 & side_change!="")%>%
+  add_count(correct_resp)
+p2 <- ggplot(
+  data=plot_ind2, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind2$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("Session 2")
+
+###plotting box changes
+plot_individual <- all.data %>%
+  group_by(Session, box_change, Subject) %>% 
+  summarize(correct_resp = mean(correct)) 
+
+
+plot_ind1 <- plot_individual %>% 
+  filter(Session == 1 & box_change!="")%>%
+  add_count(correct_resp)
+p3 <- ggplot(
+  data=plot_ind1, aes(box_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind1$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Box Change",y="Mean correct")+
+  theme_few()+
+  scale_y_continuous(breaks=seq(0,1,0.25))
+
+
+
+
+plot_ind2 <- plot_individual %>% 
+  filter(Session == 2 & box_change!="")%>%
+  add_count(correct_resp)
+p4 <- ggplot(
+  data=plot_ind2, aes(box_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind2$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Box Change",y="Mean correct")+
+  theme_few()+
+  scale_y_continuous(breaks=seq(0,1,0.25))
+
+grid.arrange(p1, p2,p3,p4, nrow = 2)
+
+
+
+```
+
+
+
+\pagebreak  
+
+##Paired-sample t-test
+```{r}
+
+contr_data <- plot_individual %>%  
+  filter(condition == "control")
+
+exp_data <- plot_individual %>%  
+  filter(condition == "test")
+
+
+t.test(exp_data$correct_resp, contr_data$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+
+## GLMM
+
+``` {r mixed modeling, error=TRUE}
+
+# centering variables for modeling
+model.data <- all.data %>% 
+  mutate(z.trial = scale(trial, scale = T, center = T),
+         condition = relevel(condition, ref = "control"))
+
+## code to run the model
+mm.1 <- glmer(both_ropes ~ condition + z.trial + 
+               (1 + condition + z.trial |chimp)
+             , data = model.data
+             , family = binomial
+             #, control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+## save model output
+#saveRDS(mm.1, "multpos_model.rds")
+#save.image("mm1_mult_poss.RData")
+```
+####Confidence intervals
+Confidence intervals for the binomial models were derived using the function bootMer of the R package lme4, using 1,000 parametric bootstraps and bootstrapping over the random effects.
+
+```{R}		
+#boot.res=boot.glmm(model.res=mm.1, excl.warnings=T,nboots=1000, para=F)
+#saveRDS(mm.1, "multpos_model.rds")
+round(boot.res,3)
+```
+
+####Null model	 
+```{r}	 
+mm.1.null <- glmer(both_ropes ~ 1 + 
+               (1 + condition + z.trial |chimp)
+             , data = model.data
+             , family = binomial
+            # , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
+)
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm.1, mm.1.null, test="Chisq")
+```
+####Model output
+  + Coefficients
+```{r}
+round(summary(mm.1)$coefficients, 3)
+```
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop1=drop1(mm.1, test="Chisq")
+round(xdrop1,3)
+```
+
+
+#### check for colinearity in the previous model.
+
+```{R echo=FALSE}
+library (car)
+
+col.mm1 <- glm(both_ropes ~ condition + z.trial 
+             , data = model.data
+             , family = binomial
+)
+vif(col.mm1)
+#no problem
+```
+-> no collinearity
+
+####Model output
+`````` {r plot mixed modeling, error=TRUE}
+
+plot_model(mm.1, type='est') 
+plot_model(mm.1, type='re') 
+```
+
+
+
+
+
