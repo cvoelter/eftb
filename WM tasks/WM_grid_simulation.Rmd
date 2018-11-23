@@ -1,0 +1,69 @@
+---
+title: "WM_grid_simulation"
+author: "Christoph Voelter"
+date: "November 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+rand1=round(runif(12)*4,0)
+rand2=round(runif(12)*4,0)
+food_x=c(1,2,2,4,2,3,1,3,2,4,3,3)
+food_y=c(3,2,3,3,1,3,2,1,4,2,2,4)
+
+
+##completly random performance
+for(j in 1:1000000){
+  rand1=sample(c(1:4),size=12, replace=TRUE)
+  rand2=sample(c(1:4),size=12, replace=TRUE)
+  for(i in 1:12){
+  res[i]<-sqrt((rand1[i]-food_x[i])^2+(rand2[i]-food_y[i])^2)
+  }
+  sim_res[j]<-mean(res)
+}
+mean(sim_res)
+#1.954068
+#1.954166
+#1.954224
+median(sim_res)
+hist(sim_res)
+xres=table(sim_res)
+which.max(xres)
+
+##preference for inner cells
+for(j in 1:1000000){
+  rand1=sample(c(2:3),size=12, replace=TRUE)
+  rand2=sample(c(2:3),size=12, replace=TRUE)
+  for(i in 1:12){
+  res[i]<-sqrt((rand1[i]-food_x[i])^2+(rand2[i]-food_y[i])^2)
+  }
+  sim_res[j]<-mean(res)
+}
+mean(sim_res)
+median(sim_res)
+hist(sim_res)
+#mean
+#1.666981
+#1.666871
+#1.666857
+
+#median
+#1.529874
+#1.526694
+
+#max frequency
+xres=table(sim_res)
+which.max(xres)
+#1.39
+
+
+ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")
+
+
+```

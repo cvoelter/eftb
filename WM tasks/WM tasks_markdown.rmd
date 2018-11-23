@@ -1,7 +1,7 @@
 ---
-title: "Shifting_tray_Markdown"
+title: "WM_tasks_Markdown"
 author: "Christoph Voelter"
-date: "November 18, 2018"
+date: "November 21, 2018"
 output:
   pdf_document: default
   html_document: default
@@ -18,6 +18,9 @@ library(sjPlot)
 library(ggthemes)
 library(gridExtra)
 library(ggpubr)
+library(corrr)
+#library(Hmisc)
+library("PerformanceAnalytics")
 source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
 source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
 source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
@@ -29,7 +32,13 @@ source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
 
 ```{r loading data, include = FALSE}
 #Preparing code for mixed modeling. 
-all.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T, sep="\t")
+updating.data <- read.table(file="20181121 WM updating data.txt", header=T, sep="\t")
+updatingtraining.data <- read.table(file="20181121 WM updating training data.txt", header=T, sep="\t")
+boxes.data <- read.table(file="20181121 WM boxes data.txt", header=T, sep="\t")
+grid.data <- read.table(file="20181122 WM grid data.txt", header=T, sep="\t")
+```
+```{r}
+summary(updating.data)
 
 ```
 
@@ -44,33 +53,168 @@ all.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T
 ```{r error=FALSE}
 
 ###Plotting side_changes
-plot_individual_side <- all.data %>%
-  filter(Subject != "George")%>%
-  group_by(Session, side_change, Subject) %>% 
-  summarize(correct_resp = mean(correct)) 
+grid_individual2 <- grid.data %>%
+  filter(!is.na(NrUntilfindGrid)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Type == "test")%>%
+  group_by(Subject) %>% 
+  summarize(grid_numberAttempts = mean(NrUntilfindGrid)) 
+
+grid_individual <- grid.data %>%
+  filter(!is.na(distance_c01)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Type == "test")%>%
+  group_by(Subject) %>% 
+  summarize(grid_distance = mean(distance_c01)) 
+
+grid_individual3 <- grid.data %>%
+  filter(!is.na(choice1_correct)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Type == "test")%>%
+  group_by(Subject) %>% 
+  summarize(grid_choice1c = mean(choice1_correct)) 
+
+box_individual <- boxes.data %>%
+  filter(!is.na(count_mistakes)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Condition == "test")%>%
+  group_by(Subject) %>% 
+  summarize(boxes_mistakes = mean(count_mistakes)) 
+
+box_individual2 <- boxes.data %>%
+  filter(!is.na(Correct_P1)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Condition == "test")%>%
+  group_by(Subject) %>% 
+  summarize(boxes_P1mistakes = mean(Correct_P1)) 
+
+updating_individual <- updating.data %>%
+  filter(!is.na(diff_score)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  group_by(Subject) %>% 
+  summarize(updating_diffscore = mean(diff_score))
+
+updating_individual2 <- updating.data %>%
+  filter(!is.na(redundant_searches)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  group_by(Subject) %>% 
+  summarize(updating_redSearch = mean(redundant_searches))
+
+updating_individual3 <- updating.data %>%
+  filter(!is.na(number_retr_food)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  group_by(Subject) %>% 
+  summarize(updating_retrfood = mean(number_retr_food))
+
+updatingtraining_individual <- updatingtraining.data %>%
+  filter(!is.na(number_redundant_searched)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  group_by(Subject) %>% 
+  summarize(updatingTraining_redSearch = mean(number_redundant_searched))
+
+updatingtraining_5boxes <- updatingtraining.data %>%
+  filter(!is.na(number_redundant_searched)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Number_boxes==5)%>%
+  group_by(Subject) %>% 
+  summarize(updatingTraining5_redSearch = mean(number_redundant_searched))
 
 
-plot_ind_S1_side <- plot_individual_side %>% 
-  filter(Session == 1 & side_change!="")%>%
-  add_count(correct_resp)
+updatingtraining_4boxes <- updatingtraining.data %>%
+  filter(!is.na(number_redundant_searched)) %>%
+  filter(Subject != "George" & Subject != "Saidia")%>%
+  filter(Number_boxes==4)%>%
+  group_by(Subject) %>% 
+  summarize(updatingTraining4_redSearch = mean(number_redundant_searched))
 
-plot_ind_S1_side_mean <- plot_ind_S1_side %>% 
-  group_by(side_change) %>% 
-  summarize(mean_correct = mean(correct_resp)) 
+WM_task_individual <- updating_individual  %>% 
+  inner_join(updating_individual2) %>%
+  inner_join(updating_individual3)%>%
+  inner_join(updatingtraining_individual) %>%
+  inner_join(updatingtraining_4boxes)%>%
+  inner_join(updatingtraining_5boxes)%>%
+  inner_join(box_individual) %>%
+  inner_join(box_individual2) %>%
+  inner_join(grid_individual) %>%
+  inner_join(grid_individual2) %>%
+  inner_join(grid_individual3)#%>%
 
-p1 <- ggplot(
-  data=plot_ind_S1_side, aes(side_change, correct_resp, group = Subject)) +   
-  geom_point(size = plot_ind_S1_side$n, colour = "purple") +
+  #filter(Subject != "Edvard")
+```
+
+##Test against chance
+
+```{r}
+#Updating - training - 5 boxes
+mean(updating_individual$updating_diffscore)
+mean(updating_individual2$updating_redSearch)
+
+t.test( updatingtraining_5boxes$updatingTraining5_redSearch, mu=3.98, alternative = "two.sided")
+
+t.test( updatingtraining_4boxes$updatingTraining4_redSearch, mu=3.18, alternative = "two.sided")
+
+
+#Boxes
+t.test( box_individual2$boxes_P1mistakes, mu=0.25, alternative = "two.sided")
+
+#Grid
+#test against random choices
+t.test( grid_individual$grid_distance, mu=1.954, alternative = "two.sided")
+
+#test against inner cell preference - mean
+t.test( grid_individual$grid_distance, mu=1.667, alternative = "two.sided")
+
+#test against inner cell preference - median
+t.test( grid_individual$grid_distance, mu=1.52, alternative = "two.sided")
+
+hist(grid_individual$grid_distance)
+```
+
+```{r}
+d <- correlate(WM_task_individual[-1], method="spearman")
+d
+
+d %>%
+  shave(upper = FALSE) %>%
+  rplot() 
+
+#rcorr(as.matrix(WM_task_individual[-1]), type="pearson")
+
+chart.Correlation(WM_task_individual[-1], histogram=TRUE, pch=19, method="pearson")
+
+```
+
+```{r}
+
+WM_task_individual<-WM_task_individual %>%  add_count(updatingTraining_redSearch)
+
+max(WM_task_individual$updatingTraining_redSearch) 
+
+p1 <- 
+  ggplot(
+  data=WM_task_individual, aes(x=rep(1, 28), y=updatingTraining_redSearch, group=Subject)) +
+  geom_point(size = WM_task_individual$n, colour = "purple") +
   geom_line(lty=2)+
-  ylim(0,1)+
-  labs(x="Side Change",y="Mean correct")+
-  theme_few()+
+  ylim(0,5)+
+  labs(x="Updating training",y="Mean redundant choices")+
+  theme_few()
+ 
+ 
+ +
   #scale_y_continuous(breaks=seq(0,1,0.25))+
-  ggtitle("Session 1")+
-  geom_segment(aes(y = plot_ind_S1_side_mean$mean_correct[1], yend = plot_ind_S1_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  g
+ 
+ 
+ gtitle("Session 1")+
+  
+   
+   
+   geom_segment(aes(y = plot_ind_S1_side_mean$mean_correct[1], yend = plot_ind_S1_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
   geom_segment(aes(y = plot_ind_S1_side_mean$mean_correct[2], yend = plot_ind_S1_side_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
   stat_compare_means(aes(group = side_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
  
+```
+
 
 
 plot_ind_S2_side <- plot_individual_side %>% 

@@ -1,0 +1,423 @@
+Subject	Gender	Group	Age	Date	Trial	Type	Grid	2nd task	Nr. Until find Grid	choice P2	corr P2	Comment	choice01	choice01_x	choice01_y	food_x	food_y	distance_c01
+William	m	young chimps	18		1	warm-up	8		1				8	4	2	4	2	0
+William	m	young chimps	18		2	warm-up	3		9				8	4	2	3	1	1.414213562
+William	m	young chimps	18		1	test	9	1->2	4	2	1		6	2	2	1	3	1.414213562
+William	m	young chimps	18		2	test	6	3->1	1	1	1		6	2	2	2	2	0
+William	m	young chimps	18		3	test	10	2->3	6	3	1		5	1	2	2	3	1.414213562
+William	m	young chimps	18		4	test	12	3->2	13	2	1		10	2	3	4	3	2
+William	m	young chimps	18		5	test	2	2->1	4	2	0		6	2	2	2	1	1
+William	m	young chimps	18		6	test	11	1->3	11	3	1		10	2	3	3	3	1
+William	m	young chimps	18		7	test	5	1->2	1	2	1		6	2	2	1	2	1
+William	m	young chimps	18		8	test	3	3->2	3	3	0		6	2	2	3	1	1.414213562
+William	m	young chimps	18		9	test	14	1->3	36	3	1		2	2	1	2	4	3
+William	m	young chimps	18		10	test	8	2->1	9	1	1		6	2	2	4	2	2
+William	m	young chimps	18		11	test	7	3->1	6	1	1		6	2	2	3	2	1
+William	m	young chimps	18		12	test	15	2->3	19	2	0		7	3	2	3	4	2
+Roy 	m	young chimps	11		1	warm-up	8		6				9	1	3	4	2	3.16227766
+Roy 	m	young chimps	11		2	warm-up	3		1				3	3	1	3	1	0
+Roy 	m	young chimps	11		1	test	9	1->2	2	1	0		10	2	3	1	3	1
+Roy 	m	young chimps	11		2	test	6	3->1	1	1	1		6	2	2	2	2	0
+Roy 	m	young chimps	11		3	test	10	2->3	6	3	1		6	2	2	2	3	1
+Roy 	m	young chimps	11		4	test	12	3->2	10	2	1		6	2	2	4	3	2.236067977
+Roy 	m	young chimps	11		5	test	2	2->1	10	1	1		6	2	2	2	1	1
+Roy 	m	young chimps	11		6	test	11	1->3	2	1	0		10	2	3	3	3	1
+Roy 	m	young chimps	11		7	test	5	1->2	14	2	1		11	3	3	1	2	2.236067977
+Roy 	m	young chimps	11		8	test	3	3->2	4	2	1		6	2	2	3	1	1.414213562
+Roy 	m	young chimps	11		9	test	14	1->3	13	3	1		10	2	3	2	4	1
+Roy 	m	young chimps	11		10	test	8	2->1	5	1	1		10	2	3	4	2	2.236067977
+Roy 	m	young chimps	11		11	test	7	3->1	4	1	1		14	2	4	3	2	2.236067977
+Roy 	m	young chimps	11		12	test	15	2->3	2	3	1		11	3	3	3	4	1
+Tess	f	young chimps	26		1	warm-up	8		1				8	4	2	4	2	0
+Tess	f	young chimps	26		2	warm-up	3		5				14	2	4	3	1	3.16227766
+Tess	f	young chimps	26		1	test	9	1->2	12	1	0		4	4	1	1	3	3.605551275
+Tess	f	young chimps	26		2	test	6	3->1	3	1	1		8	4	2	2	2	2
+Tess	f	young chimps	26		3	test	10	2->3	5	3	1		6	2	2	2	3	1
+Tess	f	young chimps	26		4	test	12	3->2	1	3	0		12	4	3	4	3	0
+Tess	f	young chimps	26		5	test	2	2->1	8	1	1		6	2	2	2	1	1
+Tess	f	young chimps	26		6	test	11	1->3	41	1	1		5	1	2	3	3	2.236067977
+Tess	f	young chimps	26		7	test	5	1->2	6	2	1		8	4	2	1	2	3
+Tess	f	young chimps	26		8	test	3	3->2	9	2	1		7	3	2	3	1	1
+Tess	f	young chimps	26		9	test	14	1->3	11	3	1		2	2	1	2	4	3
+Tess	f	young chimps	26		10	test	8	2->1	7	2	0		6	2	2	4	2	2
+Tess	f	young chimps	26		11	test	7	3->1	5	1	1		6	2	2	3	2	1
+Tess	f	young chimps	26		12	test	15	2->3	10	3	1		6	2	2	3	4	2.236067977
+Uruhara	m	young chimps	29		1	warm-up	8		9				15	3	4	4	2	2.236067977
+Uruhara	m	young chimps	29		2	warm-up	3		9				16	4	4	3	1	3.16227766
+Uruhara	m	young chimps	29		1	test	9	1->2	2	2	1		13	1	4	1	3	1
+Uruhara	m	young chimps	29		2	test	6	3->1	7	1	1		13	1	4	2	2	2.236067977
+Uruhara	m	young chimps	29		3	test	10	2->3	48	2	0		14	2	4	2	3	1
+Uruhara	m	young chimps	29		4	test	12	3->2	1	3	0		12	4	3	4	3	0
+Uruhara	m	young chimps	29		5	test	2	2->1	27	1	1		7	3	2	2	1	1.414213562
+Uruhara	m	young chimps	29		6	test	11	1->3	32	3	1		13	1	4	3	3	2.236067977
+Uruhara	m	young chimps	29		7	test	5	1->2	1	2	1		5	1	2	1	2	0
+Uruhara	m	young chimps	29		8	test	3	3->2	16	2	1		16	4	4	3	1	3.16227766
+Uruhara	m	young chimps	29		9	test	14	1->3	1	3	1		14	2	4	2	4	0
+Uruhara	m	young chimps	29		10	test	8	2->1	21	2	0		14	2	4	4	2	2.828427125
+Uruhara	m	young chimps	29		11	test	7	3->1	10	1	1		2	2	1	3	2	1.414213562
+Uruhara	m	young chimps	29		12	test	15	2->3	3	3	1		10	2	3	3	4	1.414213562
+Manno	m	young chimps	5		1	warm-up	8		6				15	3	4	4	2	2.236067977
+Manno	m	young chimps	5		2	warm-up	3		13				11	3	3	3	1	2
+Manno	m	young chimps	5		1	test	9	1->2	2	2	1		14	2	4	1	3	1.414213562
+Manno	m	young chimps	5		2	test	6	3->1	4	2	0		14	2	4	2	2	2
+Manno	m	young chimps	5		3	test	10	2->3	5	2	0		6	2	2	2	3	1
+Manno	m	young chimps	5		4	test	12	3->2	2	3	0		6	2	2	4	3	2.236067977
+Manno	m	young chimps	5		5	test	2	2->1	3	1	1		6	2	2	2	1	1
+Manno	m	young chimps	5		6	test	11	1->3	1	2	0		11	3	3	3	3	0
+Manno	m	young chimps	5		7	test	5	1->2	6	2	1		10	2	3	1	2	1.414213562
+Manno	m	young chimps	5		8	test	3	3->2	7	2	1		6	2	2	3	1	1.414213562
+Manno	m	young chimps	5		9	test	14	1->3	2	1	0		15	3	4	2	4	1
+Manno	m	young chimps	5		10	test	8	2->1	11	2	0		14	2	4	4	2	2.828427125
+Manno	m	young chimps	5		11	test	7	3->1	7	3	0		6	2	2	3	2	1
+Manno	m	young chimps	5		12	test	15	2->3	1	3	1		15	3	4	3	4	0
+Jane	f	young chimps	14		1	warm-up	8		1				8	4	2	4	2	0
+Jane	f	young chimps	14		2	warm-up	3		6				14	2	4	3	1	3.16227766
+Jane	f	young chimps	14		1	test	9	1->2	3	3	0		15	3	4	1	3	2.236067977
+Jane	f	young chimps	14		2	test	6	3->1	4	3	0		16	4	4	2	2	2.828427125
+Jane	f	young chimps	14		3	test	10	2->3	18	3	1		15	3	4	2	3	1.414213562
+Jane	f	young chimps	14		4	test	12	3->2	32	3	0		11	3	3	4	3	1
+Jane	f	young chimps	14		5	test	2	2->1	4	2	0	5+6 and 1+2 two hands	5	1	2	2	1	1.414213562
+Jane	f	young chimps	14		6	test	11	1->3	7	3	1	used two hands for 1+2	6	2	2	3	3	1.414213562
+Jane	f	young chimps	14		7	test	5	1->2	2	1	0		6	2	2	1	2	1
+Jane	f	young chimps	14		8	test	3	3->2	12	2	1		5	1	2	3	1	2.236067977
+Jane	f	young chimps	14		9	test	14	1->3	6	3	1		10	2	3	2	4	1
+Jane	f	young chimps	14		10	test	8	2->1	14	1	1		14	2	4	4	2	2.828427125
+Jane	f	young chimps	14		11	test	7	3->1	10	1	1		10	2	3	3	2	1.414213562
+Jane	f	young chimps	14		12	test	15	2->3	13	1	1		10	2	3	3	4	1.414213562
+Chipie	f	young chimps	27	15-Oct-18	1	warm-up	8		1				8	4	2	4	2	0
+Chipie	f	young chimps	27	15-Oct-18	2	warm-up	3		8				6	2	2	3	1	1.414213562
+Chipie	f	young chimps	27	15-Oct-18	1	test	9	1->2	27+	2	1		6	2	2	1	3	1.414213562
+Chipie	f	young chimps	27	15-Oct-18	2	test	6	3->1	1	3	0		6	2	2	2	2	0
+Chipie	f	young chimps	27	15-Oct-18	3	test	10	2->3	12	2	0		6	2	2	2	3	1
+Chipie	f	young chimps	27	15-Oct-18	4	test	12	3->2		3	0	stopped searching	6	2	2	4	3	2.236067977
+Chipie	f	young chimps	27	15-Oct-18	5	test	2	2->1	2	2	0		6	2	2	2	1	1
+Chipie	f	young chimps	27	15-Oct-18	6	test	11	1->3	13	2	0		10	2	3	3	3	1
+Chipie	f	young chimps	27	15-Oct-18	7	test	5	1->2	6	2	1		6	2	2	1	2	1
+Chipie	f	young chimps	27	15-Oct-18	8	test	3	3->2	4	2	1		6	2	2	3	1	1.414213562
+Chipie	f	young chimps	27	15-Oct-18	9	test	14	1->3	18	2	0		6	2	2	2	4	2
+Chipie	f	young chimps	27	15-Oct-18	10	test	8	2->1		2	0	stopped searching	6	2	2	4	2	2
+Chipie	f	young chimps	27	15-Oct-18	11	test	7	3->1		3	0	stopped searching	2	2	1	3	2	1.414213562
+Chipie	f	young chimps	27	15-Oct-18	12	test	15	2->3		2	0	stopped searching	6	2	2	3	4	2.236067977
+Amizero	f	young chimps	29	15-Oct-18	1	warm-up	8		1				8	4	2	4	2	0
+Amizero	f	young chimps	29	15-Oct-18	2	warm-up	3		10				8	4	2	3	1	1.414213562
+Amizero	f	young chimps	29	15-Oct-18	1	test	9	1->2	21	2	1		7	3	2	1	3	2.236067977
+Amizero	f	young chimps	29	15-Oct-18	2	test	6	3->1	1	1	1		6	2	2	2	2	0
+Amizero	f	young chimps	29	15-Oct-18	3	test	10	2->3	25	3	1		6	2	2	2	3	1
+Amizero	f	young chimps	29	15-Oct-18	4	test	12	3->2	1	2	1		9	1	3	4	3	3
+Amizero	f	young chimps	29	15-Oct-18	5	test	2	2->1	4	1	1		3	3	1	2	1	1
+Amizero	f	young chimps	29	15-Oct-18	6	test	11	1->3	9	3	1		7	3	2	3	3	1
+Amizero	f	young chimps	29	15-Oct-18	7	test	5	1->2	5	2	1		6	2	2	1	2	1
+Amizero	f	young chimps	29	15-Oct-18	8	test	3	3->2	5	2	1		6	2	2	3	1	1.414213562
+Amizero	f	young chimps	29	15-Oct-18	9	test	14	1->2	13	2	1	"cups different from protocol, should have been 1_>3"	16	4	4	2	4	2
+Amizero	f	young chimps	29	15-Oct-18	10	test	8	2->1	8	1	1		16	4	4	4	2	2
+Amizero	f	young chimps	29	15-Oct-18	11	test	7	3->1	1	1	1		7	3	2	3	2	0
+Amizero	f	young chimps	29	15-Oct-18	12	test	15	2->3	4	3	1		7	3	2	3	4	2
+Julia	f	old chimps	18	19-Oct-18	1	warm-up	8		14				6	2	2	4	2	2
+Julia	f	old chimps	18	19-Oct-18	2	warm-up	3		17				4	4	1	3	1	1
+Julia	f	old chimps	18	19-Oct-18	1	test	9	1->2	6	1	0		6	2	2	1	3	1.414213562
+Julia	f	old chimps	18	19-Oct-18	2	test	6	3->1	1	1	1		6	2	2	2	2	0
+Julia	f	old chimps	18	19-Oct-18	3	test	10	2->3	2	1	0		7	3	2	2	3	1.414213562
+Julia	f	old chimps	18	19-Oct-18	4	test	12	3->2	5	1	0		6	2	2	4	3	2.236067977
+Julia	f	old chimps	18	19-Oct-18	5	test	2	2->1	15	1	1		6	2	2	2	1	1
+Julia	f	old chimps	18	19-Oct-18	6	test	11	1->3	2	1	0		7	3	2	3	3	1
+Julia	f	old chimps	18	20-Oct-18	7	test	5	1->2		1	0	"did not find reward, ended session"	10	2	3	1	2	1.414213562
+Julia	f	old chimps	18	20-Oct-18	8	test	3	3->2	2	1	0		2	2	1	3	1	1
+Julia	f	old chimps	18	20-Oct-18	9	test	14	1->3	2	1	0		10	2	3	2	4	1
+Julia	f	old chimps	18	20-Oct-18	10	test	8	2->1	13	1	1		7	3	2	4	2	1
+Julia	f	old chimps	18	20-Oct-18	11	test	7	3->1	1	1	1		7	3	2	3	2	0
+Julia	f	old chimps	18	20-Oct-18	12	test	15	2->3	31	3	1		11	3	3	3	4	1
+Amahirwe	m	old chimps	20	19-Oct-18	1	warm-up	8		2							4	2	
+Amahirwe	m	old chimps	20	19-Oct-18	2	warm-up	3		14				7	3	2	3	1	1
+Amahirwe	m	old chimps	20	19-Oct-18	1	test	9	1->2	1	2	1		9	1	3	1	3	0
+Amahirwe	m	old chimps	20	19-Oct-18	2	test	6	3->1	2	1	1		9	1	3	2	2	1.414213562
+Amahirwe	m	old chimps	20	19-Oct-18	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Amahirwe	m	old chimps	20	19-Oct-18	4	test	12	3->2	2	2	1		11	3	3	4	3	1
+Amahirwe	m	old chimps	20	19-Oct-18	5	test	2	2->1	6	1	1		11	3	3	2	1	2.236067977
+Amahirwe	m	old chimps	20	19-Oct-18	6	test	11	1->3	1	1	0		11	3	3	3	3	0
+Amahirwe	m	old chimps	20	19-Oct-18	7	test	5	1->2	3	2	1		11	3	3	1	2	2.236067977
+Amahirwe	m	old chimps	20	19-Oct-18	8	test	3	3->2	8	2	1		11	3	3	3	1	2
+Amahirwe	m	old chimps	20	19-Oct-18	9	test	14	1->3	1	3	1		14	2	4	2	4	0
+Amahirwe	m	old chimps	20	19-Oct-18	10	test	8	2->1	10	1	1		5	1	2	4	2	3
+Amahirwe	m	old chimps	20	19-Oct-18	11	test	7	3->1	6	1	1		10	2	3	3	2	1.414213562
+Amahirwe	m	old chimps	20	19-Oct-18	12	test	15	2->3	12	2	0		11	3	3	3	4	1
+Mwanzo	f	old chimps	22	19-Oct-18	1	warm-up	8		7				11	3	3	4	2	1.414213562
+Mwanzo	f	old chimps	22	19-Oct-18	2	warm-up	3		9				7	3	2	3	1	1
+Mwanzo	f	old chimps	22	19-Oct-18	1	test	9	1->2	6	1	0		10	2	3	1	3	1
+Mwanzo	f	old chimps	22	19-Oct-18	2	test	6	3->1	1	1	1		6	2	2	2	2	0
+Mwanzo	f	old chimps	22	19-Oct-18	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Mwanzo	f	old chimps	22	19-Oct-18	4	test	12	3->2	1	2	1		12	4	3	4	3	0
+Mwanzo	f	old chimps	22	19-Oct-18	5	test	2	2->1	2	1	1		6	2	2	2	1	1
+Mwanzo	f	old chimps	22	19-Oct-18	6	test	11	1->3	8	1	0		6	2	2	3	3	1.414213562
+Mwanzo	f	old chimps	22	19-Oct-18	7	test	5	1->2	11	2	1		10	2	3	1	2	1.414213562
+Mwanzo	f	old chimps	22	19-Oct-18	8	test	3	3->2	3	2	1		1	1	1	3	1	2
+Mwanzo	f	old chimps	22	19-Oct-18	9	test	14	1->3	1	1	0		14	2	4	2	4	0
+Mwanzo	f	old chimps	22	19-Oct-18	10	test	8	2->1	6	1	1		10	2	3	4	2	2.236067977
+Mwanzo	f	old chimps	22	19-Oct-18	11	test	7	3->1	1	2	1		7	3	2	3	2	0
+Mwanzo	f	old chimps	22	19-Oct-18	12	test	15	2->3	7	2	0		6	2	2	3	4	2.236067977
+Mary	f	old chimps	15	19-Oct-18	1	warm-up	8		6				12	4	3	4	2	1
+Mary	f	old chimps	15	19-Oct-18	2	warm-up	3		21				8	4	2	3	1	1.414213562
+Mary	f	old chimps	15	19-Oct-18	1	test	9	1->2	1	1	0		9	1	3	1	3	0
+Mary	f	old chimps	15	19-Oct-18	2	test	6	3->1	4	1	1		10	2	3	2	2	1
+Mary	f	old chimps	15	19-Oct-18	3	test	10	2->3	1	2	0		10	2	3	2	3	0
+Mary	f	old chimps	15	19-Oct-18	4	test	12	3->2	5	2	1		10	2	3	4	3	2
+Mary	f	old chimps	15	19-Oct-18	5	test	2	2->1	30	1	1		10	2	3	2	1	2
+Mary	f	old chimps	15	19-Oct-18	6	test	11	1->3	1	3	1		11	3	3	3	3	0
+Mary	f	old chimps	15		7	test	5	1->2		2	1	"did not find reward, stopped session"	10	2	3	1	2	1.414213562
+Mary	f	old chimps	15		8	test	3	3->2	11	2	1		11	3	3	3	1	2
+Mary	f	old chimps	15		9	test	14	1->3	8	3	1		11	3	3	2	4	1.414213562
+Mary	f	old chimps	15		10	test	8	2->1	10	1	1		11	3	3	4	2	1.414213562
+Mary	f	old chimps	15		11	test	7	3->1	2	1	1					3	2	
+Mary	f	old chimps	15		12	test	15	2->3	5	3	1		6	2	2	3	4	2.236067977
+Edvard	m	old chimps	18	19-Oct-18	1	warm-up	8		1				8	4	2	4	2	0
+Edvard	m	old chimps	18	19-Oct-18	2	warm-up	3		3 (7)				4	4	1	3	1	1
+Edvard	m	old chimps	18	19-Oct-18	1	test	9	1->2	3	2	1		7	3	2	1	3	2.236067977
+Edvard	m	old chimps	18	19-Oct-18	2	test	6	3->1	2	1	1		11	3	3	2	2	1.414213562
+Edvard	m	old chimps	18	19-Oct-18	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Edvard	m	old chimps	18	19-Oct-18	4	test	12	3->2	6	2	1					4	3	
+Edvard	m	old chimps	18	19-Oct-18	5	test	2	2->1	5	2	0					2	1	
+Edvard	m	old chimps	18	19-Oct-18	6	test	11	1->3	8	3	1					3	3	
+Edvard	m	old chimps	18	19-Oct-18	7	test	5	1->2	4	2	1					1	2	
+Edvard	m	old chimps	18	19-Oct-18	8	test	3	3->2	2	3	0					3	1	
+Edvard	m	old chimps	18	19-Oct-18	9	test	14	1->3	16	2	0					2	4	
+Edvard	m	old chimps	18	19-Oct-18	10	test	8	2->1	8	2	0					4	2	
+Edvard	m	old chimps	18	19-Oct-18	11	test	7	3->1	7	2	0					3	2	
+Edvard	m	old chimps	18	19-Oct-18	12	test	15	2->3	12	2	0					3	4	
+Zee	m	old chimps	18	19-Oct-18	1	warm-up	8		1				8	4	2	4	2	0
+Zee	m	old chimps	18	19-Oct-18	2	warm-up	3		8				4	4	1	3	1	1
+Zee	m	old chimps	18	19-Oct-18	1	test	9	1->2	6	2	1		7	3	2	1	3	2.236067977
+Zee	m	old chimps	18	19-Oct-18	2	test	6	3->1	1	3	0		6	2	2	2	2	0
+Zee	m	old chimps	18	19-Oct-18	3	test	10	2->3	13	2	0		6	2	2	2	3	1
+Zee	m	old chimps	18	19-Oct-18	4	test	12	3->2	10	2	1		7	3	2	4	3	1.414213562
+Zee	m	old chimps	18	19-Oct-18	5	test	2	2->1	4	2	0		3	3	1	2	1	1
+Zee	m	old chimps	18	19-Oct-18	6	test	11	1->3	2	3	1		6	2	2	3	3	1.414213562
+Zee	m	old chimps	18	19-Oct-18	7	test	5	1->2	2	2	1		7	3	2	1	2	2
+Zee	m	old chimps	18	19-Oct-18	8	test	3	3->2	6	2	1		7	3	2	3	1	1
+Zee	m	old chimps	18	19-Oct-18	9	test	14	1->3	18	3	1		6	2	2	2	4	2
+Zee	m	old chimps	18	19-Oct-18	10	test	8	2->1	15	2	0		7	3	2	4	2	1
+Zee	m	old chimps	18	19-Oct-18	11	test	7	3->1	1	3	0	chose between 2 and 1	7	3	2	3	2	0
+Zee	m	old chimps	18	19-Oct-18	12	test	15	2->3	11	3	1		10	2	3	3	4	1.414213562
+Cheetah	f	old chimps	31	19-Oct-18	1	warm-up	8		2				12	4	3	4	2	1
+Cheetah	f	old chimps	31	19-Oct-18	2	warm-up	3		1				3	3	1	3	1	0
+Cheetah	f	old chimps	31	19-Oct-18	1	test	9	1->2	6	2	1		6	2	2	1	3	1.414213562
+Cheetah	f	old chimps	31	19-Oct-18	2	test	6	3->1	4	3	0		9	1	3	2	2	1.414213562
+Cheetah	f	old chimps	31	19-Oct-18	3	test	10	2->3	3	3	1		6	2	2	2	3	1
+Cheetah	f	old chimps	31	19-Oct-18	4	test	12	3->2	1	3	0		12	4	3	4	3	0
+Cheetah	f	old chimps	31	19-Oct-18	5	test	2	2->1	7	2	0		3	3	1	2	1	1
+Cheetah	f	old chimps	31	19-Oct-18	6	test	11	1->3	1	3	1		11	3	3	3	3	0
+Cheetah	f	old chimps	31	19-Oct-18	7	test	5	1->2	6	2	1		6	2	2	1	2	1
+Cheetah	f	old chimps	31	19-Oct-18	8	test	3	3->2	18	2	1		6	2	2	3	1	1.414213562
+Cheetah	f	old chimps	31	19-Oct-18	9	test	14	1->3	4	3	1		10	2	3	2	4	1
+Cheetah	f	old chimps	31	19-Oct-18	10	test	8	2->1	9	1	1		10	2	3	4	2	2.236067977
+Cheetah	f	old chimps	31	19-Oct-18	11	test	7	3->1	14	2	0		10	2	3	3	2	1.414213562
+Cheetah	f	old chimps	31	19-Oct-18	12	test	15	2->3	6	3	1		7	3	2	3	4	2
+Alikaka	m	old chimps	16	20-Oct-18	1	warm-up	8		1				8	4	2	4	2	0
+Alikaka	m	old chimps	16	20-Oct-18	2	warm-up	3		21				12	4	3	3	1	2.236067977
+Alikaka	m	old chimps	16	20-Oct-18	1	test	9	1->2	4	2	1		6	2	2	1	3	1.414213562
+Alikaka	m	old chimps	16	20-Oct-18	2	test	6	3->1	2	3	0		5	1	2	2	2	1
+Alikaka	m	old chimps	16	20-Oct-18	3	test	10	2->3	11	3	1		11	3	3	2	3	1
+Alikaka	m	old chimps	16	20-Oct-18	4	test	12	3->2	5	3	0		10	2	3	4	3	2
+Alikaka	m	old chimps	16	20-Oct-18	5	test	2	2->1	12	3	0		8	4	2	2	1	2.236067977
+Alikaka	m	old chimps	16	20-Oct-18	6	test	11	1->3	26	3	1		7	3	2	3	3	1
+Alikaka	m	old chimps	16	20-Oct-18	7	test	5	1->2	3	2	1		10	2	3	1	2	1.414213562
+Alikaka	m	old chimps	16	20-Oct-18	8	test	3	3->2	1	2	1		3	3	1	3	1	0
+Alikaka	m	old chimps	16	20-Oct-18	9	test	14	1->3	9	3	1		12	4	3	2	4	2.236067977
+Alikaka	m	old chimps	16	20-Oct-18	10	test	8	2->1	5	1	1		10	2	3	4	2	2.236067977
+Alikaka	m	old chimps	16	20-Oct-18	11	test	7	3->1	2	1	1		8	4	2	3	2	1
+Alikaka	m	old chimps	16	20-Oct-18	12	test	15	2->3	10	3	1		10	2	3	3	4	1.414213562
+Niyonkuru	m	young chimps	28	14/11/2018	1	warm-up	8		14				14	2	4	4	2	2.828427125
+Niyonkuru	m	young chimps	28	14/11/2018	2	warm-up	3		2				4	4	1	3	1	1
+Niyonkuru	m	young chimps	28	14/11/2018	1	test	9	1->2	3	2	1		5	1	2	1	3	1
+Niyonkuru	m	young chimps	28	14/11/2018	2	test	6	3->1	60	1	1		2	2	1	2	2	1
+Niyonkuru	m	young chimps	28	14/11/2018	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Niyonkuru	m	young chimps	28	14/11/2018	4	test	12	3->2	14	2	1		11	3	3	4	3	1
+Niyonkuru	m	young chimps	28	14/11/2018	5	test	2	2->1	30	3	0		6	2	2	2	1	1
+Niyonkuru	m	young chimps	28	14/11/2018	6	test	11	1->3	2	3	1		6	2	2	3	3	1.414213562
+Niyonkuru	m	young chimps	28	14/11/2018	7	test	5	1->2	2	2	1		6	2	2	1	2	1
+Niyonkuru	m	young chimps	28	14/11/2018	8	test	3	3->2	12	2	1		7	3	2	3	1	1
+Niyonkuru	m	young chimps	28	14/11/2018	9	test	14	1->3	5	2	0		7	3	2	2	4	2.236067977
+Niyonkuru	m	young chimps	28	14/11/2018	10	test	8	2->1	13	2	0		11	3	3	4	2	1.414213562
+Niyonkuru	m	young chimps	28	14/11/2018	11	test	7	3->1	6	3	0		11	3	3	3	2	1
+Niyonkuru	m	young chimps	28	14/11/2018	12	test	15	2->3	11	3	1		7	3	2	3	4	2
+Kisa	m	young chimps	25	14/11/2018	1	warm-up	8		6				15	3	4	4	2	2.236067977
+Kisa	m	young chimps	25	14/11/2018	2	warm-up	3		4				4	4	1	3	1	1
+Kisa	m	young chimps	25	14/11/2018	1	test	9	1->2	3	2	1		11	3	3	1	3	2
+Kisa	m	young chimps	25	14/11/2018	2	test	6	3->1	17	1	1		11	3	3	2	2	1.414213562
+Kisa	m	young chimps	25	14/11/2018	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Kisa	m	young chimps	25	14/11/2018	4	test	12	3->2	8	3	0		11	3	3	4	3	1
+Kisa	m	young chimps	25	14/11/2018	5	test	2	2->1	18	1	1	did not tke peanut	3	3	1	2	1	1
+Kisa	m	young chimps	25	14/11/2018	6	test	11	1->3	1	1	0		11	3	3	3	3	0
+Kisa	m	young chimps	25	14/11/2018	7	test	5	1->2	6	3	0		11	3	3	1	2	2.236067977
+Kisa	m	young chimps	25	14/11/2018	8	test	3	3->2	19	1	0		10	2	3	3	1	2.236067977
+Kisa	m	young chimps	25	14/11/2018	9	test	14	1->3	2	2	0	apple	15	3	4	2	4	1
+Kisa	m	young chimps	25	14/11/2018	10	test	8	2->1	10	2	0	apple	15	3	4	4	2	2.236067977
+Kisa	m	young chimps	25	14/11/2018	11	test	7	3->1	2	1	1	apple	8	4	2	3	2	1
+Kisa	m	young chimps	25	14/11/2018	12	test	15	2->3	10	3	1	apple	11	3	3	3	4	1
+Joy	f	young chimps	14	14/11/2018	1	warm-up	8		?				3	3	1	4	2	1.414213562
+Joy	f	young chimps	14	14/11/2018	2	warm-up	3		2				6	2	2	3	1	1.414213562
+Joy	f	young chimps	14	14/11/2018	1	test	9	1->2	10	2	1		2	2	1	1	3	2.236067977
+Joy	f	young chimps	14	14/11/2018	2	test	6	3->1	1	3	0		6	2	2	2	2	0
+Joy	f	young chimps	14	14/11/2018	3	test	10	2->3	6	3	1		6	2	2	2	3	1
+Joy	f	young chimps	14	14/11/2018	4	test	12	3->2	12	2	1		11	3	3	4	3	1
+Joy	f	young chimps	14	14/11/2018	5	test	2	2->1	7	1	1		7	3	2	2	1	1.414213562
+Joy	f	young chimps	14	14/11/2018	6	test	11	1->3	7	3	1		6	2	2	3	3	1.414213562
+Joy	f	young chimps	14	14/11/2018	7	test	5	1->2	10	2	1		11	3	3	1	2	2.236067977
+Joy	f	young chimps	14	14/11/2018	8	test	3	3->2	20	2	1		11	3	3	3	1	2
+Joy	f	young chimps	14	14/11/2018	9	test	14	1->3	5	3	1		7	3	2	2	4	2.236067977
+Joy	f	young chimps	14	14/11/2018	10	test	8	2->1	11	1	1		10	2	3	4	2	2.236067977
+Joy	f	young chimps	14	14/11/2018	11	test	11	3->1	3	1	1	baited 11 again instead of 7	7	3	2	3	3	1
+Joy	f	young chimps	14	14/11/2018	12	test	15	2->3	2	3	1		11	3	3	3	4	1
+Bahati	m	young chimps	25	14/11/2018	1	warm-up	8		4				15	3	4	4	2	2.236067977
+Bahati	m	young chimps	25	14/11/2018	2	warm-up	3		17				8	4	2	3	1	1.414213562
+Bahati	m	young chimps	25	14/11/2018	1	test	9	1->2	12	3	0		6	2	2	1	3	1.414213562
+Bahati	m	young chimps	25	14/11/2018	2	test	6	3->1	1	2	0		6	2	2	2	2	0
+Bahati	m	young chimps	25	14/11/2018	3	test	10	2->3	13	1	0		6	2	2	2	3	1
+Bahati	m	young chimps	25	14/11/2018	4	test	12	3->2	7	1	0		10	2	3	4	3	2
+Bahati	m	young chimps	25	14/11/2018	5	test	2	2->1	22	1	1		5	1	2	2	1	1.414213562
+Bahati	m	young chimps	25	14/11/2018	6	test	11	1->3	31	1	0		6	2	2	3	3	1.414213562
+Bahati	m	young chimps	25	14/11/2018	7	test	5	1->2	1	2	1		5	1	2	1	2	0
+Bahati	m	young chimps	25	14/11/2018	8	test	3	3->2	4	2	1		2	2	1	3	1	1
+Bahati	m	young chimps	25	14/11/2018	9	test	14	1->3	3	1	0		9	1	3	2	4	1.414213562
+Bahati	m	young chimps	25	14/11/2018	10	test	8	2->1	11	2	0		15	3	4	4	2	2.236067977
+Bahati	m	young chimps	25	14/11/2018	11	test	7	3->1	8	1	1		13	1	4	3	2	2.828427125
+Bahati	m	young chimps	25	14/11/2018	12	test	15	2->3	4	2	0		8	4	2	3	4	2.236067977
+Dufatanya	m	young chimps	27	14/11/2018	1	warm-up	8		1				8	4	2	4	2	0
+Dufatanya	m	young chimps	27	14/11/2018	2	warm-up	3		11				6	2	2	3	1	1.414213562
+Dufatanya	m	young chimps	27	14/11/2018	1	test	9	1->2	7	1	0		7	3	2	1	3	2.236067977
+Dufatanya	m	young chimps	27	14/11/2018	2	test	6	3->1	1	1	1		6	2	2	2	2	0
+Dufatanya	m	young chimps	27	14/11/2018	3	test	10	2->3	1	2	0		10	2	3	2	3	0
+Dufatanya	m	young chimps	27	14/11/2018	4	test	12	3->2	3	2	1		10	2	3	4	3	2
+Dufatanya	m	young chimps	27	14/11/2018	5	test	2	2->1	6	1	1		10	2	3	2	1	2
+Dufatanya	m	young chimps	27	14/11/2018	6	test	11	1->3	32	2	0		10	2	3	3	3	1
+Dufatanya	m	young chimps	27	14/11/2018	7	test	5	1->2	6	2	1		6	2	2	1	2	1
+Dufatanya	m	young chimps	27	14/11/2018	8	test	3	3->2	6	2	1		7	3	2	3	1	1
+Dufatanya	m	young chimps	27	14/11/2018	9	test	14	1->3	3	1	0		11	3	3	2	4	1.414213562
+Dufatanya	m	young chimps	27	14/11/2018	10	test	8	2->1	7	1	1		6	2	2	4	2	2
+Dufatanya	m	young chimps	27	14/11/2018	11	test	7	3->1	2	2	0		11	3	3	3	2	1
+Dufatanya	m	young chimps	27	14/11/2018	12	test	15	2->3	7	2	0		11	3	3	3	4	1
+Akela	f	young chimps	30	15/11/2018	1	warm-up	8		13				6	2	2	4	2	2
+Akela	f	young chimps	30	15/11/2018	2	warm-up	3		5				7	3	2	3	1	1
+Akela	f	young chimps	30	15/11/2018	1	test	9	1->2	11	2	1		11	3	3	1	3	2
+Akela	f	young chimps	30	15/11/2018	2	test	6	3->1	2	1	1		14	2	4	2	2	2
+Akela	f	young chimps	30	15/11/2018	3	test	10	2->3	8	3	1		7	3	2	2	3	1.414213562
+Akela	f	young chimps	30	15/11/2018	4	test	12	3->2	14	2	1		7	3	2	4	3	1.414213562
+Akela	f	young chimps	30	15/11/2018	5	test	2	2->1	7	1	1		15	3	4	2	1	3.16227766
+Akela	f	young chimps	30	15/11/2018	6	test	11	1->3	26	3	1		7	3	2	3	3	1
+Akela	f	young chimps	30	15/11/2018	7	test	5	1->2	4	2	1		8	4	2	1	2	3
+Akela	f	young chimps	30	15/11/2018	8	test	3	3->2	4	2	1		7	3	2	3	1	1
+Akela	f	young chimps	30	15/11/2018	9	test	14	1->3	2	3	1		7	3	2	2	4	2.236067977
+Akela	f	young chimps	30	15/11/2018	10	test	8	2->1	8	1	1		7	3	2	4	2	1
+Akela	f	young chimps	30	15/11/2018	11	test	7	3->1	1	1	1		7	3	2	3	2	0
+Akela	f	young chimps	30	15/11/2018	12	test	15	2->3	10	3	1		16	4	4	3	4	1
+Safari	m	old chimps	34	19/11/2018	1	warm-up	8		2				16	4	4	4	2	2
+Safari	m	old chimps	34	19/11/2018	2	warm-up	3		2				8	4	2	3	1	1.414213562
+Safari	m	old chimps	34	19/11/2018	1	test	9	1->2		2	1	"with apple, did not find the food"	5	1	2	1	3	1
+Safari	m	old chimps	34	19/11/2018	2	test	6	3->1	1	2	0		6	2	2	2	2	0
+Safari	m	old chimps	34	19/11/2018	3	test	10	2->3	1	3	1		10	2	3	2	3	0
+Safari	m	old chimps	34	19/11/2018	4	test	12	3->2	1	3	0		12	4	3	4	3	0
+Safari	m	old chimps	34	19/11/2018	5	test	2	2->1	10	1	1		12	4	3	2	1	2.828427125
+Safari	m	old chimps	34	19/11/2018	6	test	11	1->3	1	2	0		11	3	3	3	3	0
+Safari	m	old chimps	34	19/11/2018	7	test	5	1->2	5	2	1		12	4	3	1	2	3.16227766
+Safari	m	old chimps	34	19/11/2018	8	test	3	3->2	6	3	0	"did not approach platform after this trial, session stopped"	6	2	2	3	1	1.414213562
+Safari	m	old chimps	34	19/11/2018	9	test	14	1->3	1	3	1		14	2	4	2	4	0
+Safari	m	old chimps	34	19/11/2018	10	test	8	2->1	7	2	0		10	2	3	4	2	2.236067977
+Safari	m	old chimps	34	19/11/2018	11	test	7	3->1	3	2	0		12	4	3	3	2	1.414213562
+Safari	m	old chimps	34	19/11/2018	12	test	15	2->3	15	2	0		11	3	3	3	4	1
+Oscar	m	old chimps	21	19/11/2018	1	warm-up	8		4				4	4	1	4	2	1
+Oscar	m	old chimps	21	19/11/2018	2	warm-up	3		1				3	3	1	3	1	0
+Oscar	m	old chimps	21	19/11/2018	1	test	9	1->2	1	1	0		9	1	3	1	3	0
+Oscar	m	old chimps	21	19/11/2018	2	test	6	3->1	2	1	1		8	4	2	2	2	2
+Oscar	m	old chimps	21	19/11/2018	3	test	10	2->3	5	1	0		8	4	2	2	3	2.236067977
+Oscar	m	old chimps	21	19/11/2018	4	test	12	3->2	9	1	0		4	4	1	4	3	2
+Oscar	m	old chimps	21	19/11/2018	5	test	2	2->1	7	2	0		12	4	3	2	1	2.828427125
+Oscar	m	old chimps	21	19/11/2018	6	test	11	1->3	1	1	0		11	3	3	3	3	0
+Oscar	m	old chimps	21	19/11/2018	7	test	5	1->2	6	1	0		10	2	3	1	2	1.414213562
+Oscar	m	old chimps	21	19/11/2018	8	test	3	3->2	8	3	0		11	3	3	3	1	2
+Oscar	m	old chimps	21	19/11/2018	9	test	14	1->3	15	1	0		10	2	3	2	4	1
+Oscar	m	old chimps	21	19/11/2018	10	test	8	2->1	5	1	1		6	2	2	4	2	2
+Oscar	m	old chimps	21	19/11/2018	11	test	7	3->1	33	1	1		10	2	3	3	2	1.414213562
+Oscar	m	old chimps	21	19/11/2018	12	test	15	2->3	4	2	0		11	3	3	3	4	1
+Judy	f	old chimps	35	19/11/2018	1	warm-up	8		3				3	3	1	4	2	1.414213562
+Judy	f	old chimps	35	19/11/2018	2	warm-up	3		4				5	1	2	3	1	2.236067977
+Judy	f	old chimps	35	19/11/2018	1	test	9	1->2	9	1	0		10	2	3	1	3	1
+Judy	f	old chimps	35	19/11/2018	2	test	6	3->1	13	3	0		11	3	3	2	2	1.414213562
+Judy	f	old chimps	35	19/11/2018	3	test	10	2->3	6	1	0		9	1	3	2	3	1
+Judy	f	old chimps	35	19/11/2018	4	test	12	3->2	3	3	0		11	3	3	4	3	1
+Judy	f	old chimps	35	19/11/2018	5	test	2	2->1	8	1	1		11	3	3	2	1	2.236067977
+Judy	f	old chimps	35	19/11/2018	6	test	11	1->3	1	3	1		11	3	3	3	3	0
+Judy	f	old chimps	35	19/11/2018	7	test	5	1->2	2	2	1		6	2	2	1	2	1
+Judy	f	old chimps	35	19/11/2018	8	test	3	3->2	3	2	1		6	2	2	3	1	1.414213562
+Judy	f	old chimps	35	19/11/2018	9	test	14	1->3	4	3	1		11	3	3	2	4	1.414213562
+Judy	f	old chimps	35	19/11/2018	10	test	8	2->1	6	1	1		11	3	3	4	2	1.414213562
+Judy	f	old chimps	35	19/11/2018	11	test	7	3->1	1	1	1		7	3	2	3	2	0
+Judy	f	old chimps	35	19/11/2018	12	test	15	2->3	24	3	1		12	4	3	3	4	1.414213562
+Alley	f	old chimps	31	19/11/2018	1	warm-up	8		7				7	3	2	4	2	1
+Alley	f	old chimps	31	19/11/2018	2	warm-up	3		2				7	3	2	3	1	1
+Alley	f	old chimps	31	19/11/2018	1	test	9	1->2			0	"no second camera, reward in grid not found"	11	3	3	1	3	2
+Alley	f	old chimps	31	19/11/2018	2	test	6	3->1			1	did not find the food reward	10	2	3	2	2	1
+Alley	f	old chimps	31	19/11/2018	3	test	10	2->3			-	"no response in cup task for 1 min, grid task with apple"				2	3	
+Alley	f	old chimps	31	19/11/2018	4	test	12	3->2	19		0		10	2	3	4	3	2
+Alley	f	old chimps	31	19/11/2018	5	test	2	2->1		2	0	did not find the food reward	7	3	2	2	1	1.414213562
+Alley	f	old chimps	31	19/11/2018	6	test	11	1->3								3	3	
+Alley	f	old chimps	31	19/11/2018	7	test	5	1->2								1	2	
+Alley	f	old chimps	31	19/11/2018	8	test	3	3->2								3	1	
+Alley	f	old chimps	31	19/11/2018	9	test	14	1->3								2	4	
+Alley	f	old chimps	31	19/11/2018	10	test	8	2->1								4	2	
+Alley	f	old chimps	31	19/11/2018	11	test	7	3->1								3	2	
+Alley	f	old chimps	31	19/11/2018	12	test	15	2->3								3	4	
+George	m	old chimps	15	19/11/2018	1	warm-up	8		2				6	2	2	4	2	2
+George	m	old chimps	15	19/11/2018	2	warm-up	3					"not found, stopped for one minute"	7	3	2	3	1	1
+George	m	old chimps	15	19/11/2018	2	warm-up	3		8			repetition	7	3	2	3	1	1
+George	m	old chimps	15	19/11/2018	1	test	9	1->2				"no response in 1 min, switched to apple, no response in 1 minute, session stopped"				1	3	
+George	m	old chimps	15	19/11/2018	2	test	6	3->1								2	2	
+George	m	old chimps	15	19/11/2018	3	test	10	2->3								2	3	
+George	m	old chimps	15	19/11/2018	4	test	12	3->2								4	3	
+George	m	old chimps	15	19/11/2018	5	test	2	2->1								2	1	
+George	m	old chimps	15	19/11/2018	6	test	11	1->3								3	3	
+George	m	old chimps	15	19/11/2018	7	test	5	1->2								1	2	
+George	m	old chimps	15	19/11/2018	8	test	3	3->2								3	1	
+George	m	old chimps	15	19/11/2018	9	test	14	1->3								2	4	
+George	m	old chimps	15	19/11/2018	10	test	8	2->1								4	2	
+George	m	old chimps	15	19/11/2018	11	test	7	3->1								3	2	
+George	m	old chimps	15	19/11/2018	12	test	15	2->3								3	4	
+Ajabu	f	old chimps	10	19/11/2018	1	warm-up	8		1				8	4	2	4	2	0
+Ajabu	f	old chimps	10	19/11/2018	2	warm-up	3		5				10	2	3	3	1	2.236067977
+Ajabu	f	old chimps	10	19/11/2018	1	test	9	1->2	12	1	0		11	3	3	1	3	2
+Ajabu	f	old chimps	10	19/11/2018	2	test	6	3->1	35	1	1		11	3	3	2	2	1.414213562
+Ajabu	f	old chimps	10	19/11/2018	3	test	10	2->3	1	2	0		10	2	3	2	3	0
+Ajabu	f	old chimps	10	19/11/2018	4	test	12	3->2	1	1	0		12	4	3	4	3	0
+Ajabu	f	old chimps	10	19/11/2018	5	test	2	2->1	8	1	1		11	3	3	2	1	2.236067977
+Ajabu	f	old chimps	10	19/11/2018	6	test	11	1->3	2	1	0		10	2	3	3	3	1
+Ajabu	f	old chimps	10	19/11/2018	7	test	5	1->2	5	1	0		10	2	3	1	2	1.414213562
+Ajabu	f	old chimps	10	19/11/2018	8	test	3	3->2	7	1	0		10	2	3	3	1	2.236067977
+Ajabu	f	old chimps	10	19/11/2018	9	test	14	1->3	1	1	0		14	2	4	2	4	0
+Ajabu	f	old chimps	10	19/11/2018	10	test	8	2->1	12	1	1		11	3	3	4	2	1.414213562
+Ajabu	f	old chimps	10	19/11/2018	11	test	7	3->1	3	1	1		10	2	3	3	2	1.414213562
+Ajabu	f	old chimps	10	19/11/2018	12	test	15	2->3	1	1	0		15	3	4	3	4	0
+Saidia	f	old chimps	15	19/11/2018	1	warm-up	8					did not find the food reward 	7	3	2	4	2	1
+Saidia	f	old chimps	15	19/11/2018	1	warm-up	8		2				12	4	3	4	2	1
+Saidia	f	old chimps	15	19/11/2018	2	warm-up	3		5				10	2	3	3	1	2.236067977
+Saidia	f	old chimps	15	19/11/2018	1	test	9	1->2	2	1	0	session stopped after this trial due to interference from other chimps in neighbouring room	10	2	3	1	3	1
+Saidia	f	old chimps	15	19/11/2018	2	test	6	3->1	1							2	2	
+Saidia	f	old chimps	15	19/11/2018	3	test	10	2->3	1							2	3	
+Saidia	f	old chimps	15	19/11/2018	4	test	12	3->2	1							4	3	
+Saidia	f	old chimps	15	19/11/2018	5	test	2	2->1	1							2	1	
+Saidia	f	old chimps	15	19/11/2018	6	test	11	1->3	1							3	3	
+Saidia	f	old chimps	15	19/11/2018	7	test	5	1->2	1							1	2	
+Saidia	f	old chimps	15	19/11/2018	8	test	3	3->2	1							3	1	
+Saidia	f	old chimps	15	19/11/2018	9	test	14	1->3	1							2	4	
+Saidia	f	old chimps	15	19/11/2018	10	test	8	2->1	1							4	2	
+Saidia	f	old chimps	15	19/11/2018	11	test	7	3->1	1							3	2	
+Saidia	f	old chimps	15	19/11/2018	12	test	15	2->3	1							3	4	
+Angela	f	old chimps	7	19/11/2018	1	warm-up	8		6				11	3	3	4	2	1.414213562
+Angela	f	old chimps	7	19/11/2018	2	warm-up	3		9				6	2	2	3	1	1.414213562
+Angela	f	old chimps	7	19/11/2018	1	test	9	1->2	16	1	0		10	2	3	1	3	1
+Angela	f	old chimps	7	19/11/2018	2	test	6	3->1	29	1	1		10	2	3	2	2	1
+Angela	f	old chimps	7	19/11/2018	3	test	10	2->3	1	1	0		10	2	3	2	3	0
+Angela	f	old chimps	7	19/11/2018	4	test	12	3->2	10	1	0		10	2	3	4	3	2
+Angela	f	old chimps	7	19/11/2018	5	test	2	2->1	8	1	1		10	2	3	2	1	2
+Angela	f	old chimps	7	19/11/2018	6	test	11	1->3	60	1	0		10	2	3	3	3	1
+Angela	f	old chimps	7	19/11/2018	7	test	5	1->2	4	1	0		11	3	3	1	2	2.236067977
+Angela	f	old chimps	7	19/11/2018	8	test	3	3->2	5	2	1		7	3	2	3	1	1
+Angela	f	old chimps	7	19/11/2018	9	test	14	1->3	18	1	0		10	2	3	2	4	1
+Angela	f	old chimps	7	19/11/2018	10	test	8	2->1	7	1	1		10	2	3	4	2	2.236067977
+Angela	f	old chimps	7	19/11/2018	11	test	7	3->1	3	3	0		10	2	3	3	2	1.414213562
+Angela	f	old chimps	7	19/11/2018	12	test	15	2->3	11	2	0		7	3	2	3	4	2

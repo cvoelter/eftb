@@ -1,0 +1,255 @@
+---
+title: "Updating_simulation"
+author: "Christoph Voelter"
+date: "November 22, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#simulate trial count to retrieve all food items by random choice
+
+
+```{r }
+#install.packages("gdata")
+
+library(gdata)
+
+n.cups=5 #number of cups on the platform
+n.trials=1 # number of consecutive trials that need to be correct
+memory.size=3 #number of cups remebered that apes chose last
+
+max.trials=1
+
+
+res=0
+n.trials=5
+n.cups=5
+crit.thresh=5
+trial.count=0
+
+
+
+while(length(unique(res))<crit.thresh){
+  for(i in 1:9){
+	  res[i]<-sample(n.cups,size=1, replace=T)
+		trial.count=trial.count+1
+	}
+}
+
+res
+trial.count
+```
+
+
+##simulate number of unique / redundant choices in training trials with 5 cups
+```{r}
+unique_res=c()
+red_choice=c()
+
+
+for(i in 1:1000000){
+  res=0
+  n.cups=5
+  crit.thresh=5
+  trial.count=0
+  res=c()
+  while(trial.count<9 & (length(unique(res))<crit.thresh)){
+
+	  res<-c(res,sample(n.cups,size=1, replace=T))
+		trial.count=trial.count+1
+  }
+  unique_res[i]=length(unique(res))
+  red_choice[i]=trial.count-length(unique(res))
+}
+
+mean(unique_res)
+mean(red_choice)
+
+
+median(unique_res)
+median(red_choice)
+
+
+#[1] 4.329197
+#[1] 3.980601
+#[1] 4
+#[1] 5
+hist(red_choice)
+plot(table(red_choice))
+abline(h=5000, lty=3)
+
+quantile(red_choice, 0.05)
+
+```
+
+
+
+##simulate number of unique / redundant choices in training trials with 4 cups
+```{r}
+unique_res=c()
+red_choice=c()
+
+
+for(i in 1:1000000){
+  res=0
+  n.cups=4
+  crit.thresh=4
+  trial.count=0
+  res=c()
+  while(trial.count<8 & (length(unique(res))<crit.thresh)){
+
+	  res<-c(res,sample(n.cups,size=1, replace=T))
+		trial.count=trial.count+1
+  }
+  unique_res[i]=length(unique(res))
+  red_choice[i]=trial.count-length(unique(res))
+}
+
+mean(unique_res)
+mean(red_choice)
+median(unique_res)
+median(red_choice)
+
+
+#[1] 3.599055
+#[1] 3.182223
+#[1] 4
+#[1] 3
+hist(red_choice)
+plot(table(red_choice))
+abline(h=5000, lty=3)
+
+quantile(red_choice, 0.05)
+
+```
+##simulate number of unique / redundant choices in test trials
+```{r}
+unique_res1=c()
+unique_res2=c()
+red_choice1=c()
+red_choice2=c()
+
+for(i in 1:1000){
+  
+  n.cups=4
+  crit.thresh=4
+  trial.count=0
+  trial.count1=0
+  trial.count2=0
+  res1=c()
+  res2=c()
+  while(trial.count<13 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count<13 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	      res1<-c(res1,sample(n.cups,size=1, replace=T))
+	  		trial.count=trial.count+1 
+	  		trial.count1=trial.count1+1 }
+    if(trial.count<13 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	    res2<-c(res2,sample(n.cups,size=1, replace=T))
+		  trial.count=trial.count+1
+		  trial.count2=trial.count2+1 }
+  }
+
+  unique_res1[i]=length(unique(res1))
+  unique_res2[i]=length(unique(res2))
+  red_choice1[i]=trial.count1-length(unique(res1))
+  red_choice2[i]=trial.count2-length(unique(res2))
+}
+
+mean(unique_res1)
+mean(red_choice1)
+mean(unique_res2)
+mean(red_choice2)
+
+unique_res=unique_res1+unique_res2
+red_choice=red_choice1+red_choice2
+
+mean(unique_res)
+mean(red_choice)
+
+
+hist(red_choice)
+plot(table(red_choice))
+abline(h=5000, lty=3)
+
+quantile(red_choice, 0.05)
+
+diff_score=mean(red_choice)-mean(unique_res)
+diff_score
+
+```
+
+
+
+```{r}
+
+
+
+n.corr.dumb<-function(n.cups){#totally dumb ape
+	return(length(unique(sample(n.cups,size=9, replace=T)))) ##returns number of unique cups
+}
+
+n.corr.smart<-function(n.cups){
+	ires=c(rep(0, memory.size), rep(NA, n.cups))
+	to.chose=1:n.cups
+	lapply(X=(memory.size+1):(memory.size+n.cups), FUN=function(x){
+		ires[x]<<-resample(x=setdiff(to.chose, ires[(x-memory.size):(x-1)]), size=1)
+	})
+	return(length(unique(ires[-(1:memory.size)])))  ##returns number of unique cups
+}
+
+#plot distribution of the choices
+xx=unlist(lapply(X=rep(n.cups, 10000), FUN=n.corr.dumb))
+plot(table(xx))
+abline(h=500, lty=3)
+
+crit.thresh=n.cups #how many of the cups need to be correct
+
+
+##distribution of number of trials until criterion
+n.simus=10000
+all.res=rep(NA, n.simus)
+for(i in 1:n.simus){
+	res=unlist(lapply(X=rep(n.cups, n.trials), FUN=n.corr.smart))
+	trial.count=n.trials ##starting number of trials
+	while(sum(res>=crit.thresh)<n.trials){
+		res=c(res[-1], n.corr.smart(n.cups))
+		trial.count=trial.count+1
+	}
+	all.res[i]=trial.count
+	print(i)
+}
+
+#save.image("X:/R/EF battery/Updating/ape_simu_6cup.RData")
+
+#save.image("X:/R/EF battery/Updating/ape_simu_6cup_ms4.RData")
+#significance threshold: number of trials until criterion
+quantile(all.res, 0.05)
+
+##plotting distribution
+source("W:/Statistics/R scripts/Roger/cum_plot.r")
+xx=all.res
+xx[xx>500]=500
+cum.plot(nvec=xx)
+
+#p for ape achieving goal at trial 100:
+
+func<-function(x){mean(all.res<=x)}
+p.values=unlist(lapply(X=n.trials:max.trials, FUN=func))
+p.values
+
+
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
