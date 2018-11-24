@@ -50,13 +50,13 @@ unique_res=c()
 red_choice=c()
 
 
-for(i in 1:1000000){
+for(i in 1:100000){
   res=0
   n.cups=5
   crit.thresh=5
   trial.count=0
   res=c()
-  while(trial.count<9 & (length(unique(res))<crit.thresh)){
+  while(trial.count<9 & (trial.count-length(unique(res)))<5 & (length(unique(res))<crit.thresh)){
 
 	  res<-c(res,sample(n.cups,size=1, replace=T))
 		trial.count=trial.count+1
@@ -65,26 +65,48 @@ for(i in 1:1000000){
   red_choice[i]=trial.count-length(unique(res))
 }
 
-mean(unique_res)
+#mean(unique_res)
 mean(red_choice)
 
 
-median(unique_res)
-median(red_choice)
-
-
-#[1] 4.329197
-#[1] 3.980601
-#[1] 4
-#[1] 5
-hist(red_choice)
-plot(table(red_choice))
-abline(h=5000, lty=3)
-
-quantile(red_choice, 0.05)
+#hist(red_choice)
+#plot(table(red_choice))
+#abline(h=5000, lty=3)
+#quantile(red_choice, 0.05)
 
 ```
 
+##simulate number of unique / redundant choices in training trials with 5 cups (first 5 choices only)
+```{r}
+unique_res=c()
+red_choice=c()
+
+
+for(i in 1:100000){
+  res=0
+  n.cups=5
+  crit.thresh=5
+  trial.count=0
+  res=c()
+  while(trial.count<5 & (trial.count-length(unique(res)))<5 & (length(unique(res))<crit.thresh)){
+
+	  res<-c(res,sample(n.cups,size=1, replace=T))
+		trial.count=trial.count+1
+  }
+  unique_res[i]=length(unique(res))
+  red_choice[i]=trial.count-length(unique(res))
+}
+
+#mean(unique_res)
+mean(red_choice)
+
+
+#hist(red_choice)
+#plot(table(red_choice))
+#abline(h=5000, lty=3)
+#quantile(red_choice, 0.05)
+
+```
 
 
 ##simulate number of unique / redundant choices in training trials with 4 cups
@@ -93,13 +115,13 @@ unique_res=c()
 red_choice=c()
 
 
-for(i in 1:1000000){
+for(i in 1:100000){
   res=0
   n.cups=4
   crit.thresh=4
   trial.count=0
   res=c()
-  while(trial.count<8 & (length(unique(res))<crit.thresh)){
+  while(trial.count<8 & (trial.count-length(unique(res)))<5 & (length(unique(res))<crit.thresh)){
 
 	  res<-c(res,sample(n.cups,size=1, replace=T))
 		trial.count=trial.count+1
@@ -108,21 +130,51 @@ for(i in 1:1000000){
   red_choice[i]=trial.count-length(unique(res))
 }
 
-mean(unique_res)
-mean(red_choice)
-median(unique_res)
-median(red_choice)
+mean(unique_res)#3.57422
+mean(red_choice)# 3.16133
+#median(unique_res)
+#median(red_choice)
 
 
-#[1] 3.599055
-#[1] 3.182223
-#[1] 4
-#[1] 3
 hist(red_choice)
 plot(table(red_choice))
 abline(h=5000, lty=3)
 
 quantile(red_choice, 0.05)
+
+```
+##simulate number of unique / redundant choices in training trials with 4 cups (first 4 choices only)
+```{r}
+unique_res=c()
+red_choice=c()
+
+
+for(i in 1:100000){
+  res=0
+  n.cups=4
+  crit.thresh=4
+  trial.count=0
+  res=c()
+  while(trial.count<4 & (trial.count-length(unique(res)))<4 & (length(unique(res))<crit.thresh)){
+
+	  res<-c(res,sample(n.cups,size=1, replace=T))
+		trial.count=trial.count+1
+  }
+  unique_res[i]=length(unique(res))
+  red_choice[i]=trial.count-length(unique(res))
+}
+
+#mean(unique_res)#3.57422
+mean(red_choice)# 3.16133
+#median(unique_res)
+#median(red_choice)
+
+
+#hist(red_choice)
+#plot(table(red_choice))
+#abline(h=5000, lty=3)
+
+#quantile(red_choice, 0.05)
 
 ```
 ##simulate number of unique / redundant choices in test trials
@@ -132,7 +184,7 @@ unique_res2=c()
 red_choice1=c()
 red_choice2=c()
 
-for(i in 1:1000){
+for(i in 1:100000){
   
   n.cups=4
   crit.thresh=4
@@ -158,6 +210,126 @@ for(i in 1:1000){
   red_choice2[i]=trial.count2-length(unique(res2))
 }
 
+#mean(unique_res1)
+#mean(red_choice1)
+#mean(unique_res2)
+#mean(red_choice2)
+
+unique_res=unique_res1+unique_res2#6.49431
+red_choice=red_choice1+red_choice2#4.75117
+
+#mean(unique_res)
+#mean(red_choice)
+#median(red_choice)
+
+#hist(red_choice)
+#plot(table(red_choice))
+#abline(h=500, lty=3)
+
+#quantile(red_choice, 0.05)
+
+diff_score=mean(red_choice)-mean(unique_res)
+diff_score
+
+```
+
+quantile(red_choice, 0.05)
+
+
+##simulate number of unique / redundant choices in test trials (only first 4)
+```{r}
+unique_res1=c()
+unique_res2=c()
+red_choice1=c()
+red_choice2=c()
+
+
+
+for(i in 1:100000){
+  
+  n.cups=4
+  crit.thresh=4
+  trial.count=0
+  trial.count1=0
+  trial.count2=0
+  res1=c()
+  res2=c()
+  while(trial.count<8 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count<8 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	      res1<-c(res1,sample(n.cups,size=1, replace=T))
+	  		trial.count=trial.count+1 
+	  		trial.count1=trial.count1+1 }
+    if(trial.count<8 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	    res2<-c(res2,sample(n.cups,size=1, replace=T))
+		  trial.count=trial.count+1
+		  trial.count2=trial.count2+1 }
+  }
+
+  unique_res1[i]=length(unique(res1))
+  unique_res2[i]=length(unique(res2))
+  red_choice1[i]=trial.count1-length(unique(res1))
+  red_choice2[i]=trial.count2-length(unique(res2))
+}
+
+mean(unique_res1)
+mean(red_choice1)
+#mean(unique_res2)
+#mean(red_choice2)
+
+#unique_res=unique_res1+unique_res2
+#red_choice=red_choice1+red_choice2
+
+#mean(unique_res)
+#mean(red_choice)
+
+#hist(unique_res1)
+#plot(table(red_choice))
+#abline(h=500, lty=3)
+
+#quantile(red_choice, 0.05)
+
+diff_score=mean(red_choice)-mean(unique_res)
+diff_score
+
+```
+
+
+
+##simulate number of unique / redundant choices in test trials (only first 4)
+```{r}
+unique_res1=c()
+unique_res2=c()
+red_choice1=c()
+red_choice2=c()
+
+
+
+for(i in 1:10000){
+  
+  n.cups=4
+  crit.thresh=4
+  trial.count=0
+  trial.count1=0
+  trial.count2=0
+  res1=c()
+  res2=c()
+  while(trial.count<4 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count<4 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	      res1<-c(res1,sample(n.cups,size=1, replace=T))
+	  		trial.count=trial.count+1 
+	  		trial.count1=trial.count1+1 }
+    if(trial.count<4 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+	    res2<-c(res2,sample(n.cups,size=1, replace=T))
+		  trial.count=trial.count+1
+		  trial.count2=trial.count2+1 }
+  }
+
+  unique_res1[i]=length(unique(res1))
+  unique_res2[i]=length(unique(res2))
+  red_choice1[i]=trial.count1-length(unique(res1))
+  red_choice2[i]=trial.count2-length(unique(res2))
+}
+
 mean(unique_res1)
 mean(red_choice1)
 mean(unique_res2)
@@ -168,11 +340,11 @@ red_choice=red_choice1+red_choice2
 
 mean(unique_res)
 mean(red_choice)
+median(red_choice)
 
-
-hist(red_choice)
+hist(unique_res1)
 plot(table(red_choice))
-abline(h=5000, lty=3)
+abline(h=500, lty=3)
 
 quantile(red_choice, 0.05)
 
@@ -180,7 +352,6 @@ diff_score=mean(red_choice)-mean(unique_res)
 diff_score
 
 ```
-
 
 
 ```{r}
