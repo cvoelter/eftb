@@ -46,8 +46,8 @@ summary(updating.data)
 
 
 ##Summary
-Chimpanzees (N=28) performed above chance in the the WM grid task (DV: distance between chosen cell location and the hiding location of the food) and the WM Boxes task (DV: count of mistakes on plarform 1) but not in the updating task (DV: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).  
-Correlation coefficients between the updating task and the grid / boxes task are positive (and some are statistically significant) but larger sample sizes are needed.  
+Chimpanzees (N=28) performed above chance in the the WM grid task (DV: distance between chosen cell location and the hiding location of the food) and the WM Boxes task (DV: count of mistakes on platform 1) but not in the updating task (DV: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).  
+Correlation coefficients between the updating task and the grid / boxes task are positive (and some are statistically significant, e.g. between the grid distance DV and updating Platform 1 performance) but larger sample sizes are needed before any conclusions can be drawn.  
 
 
 ```{r preparing data for correlation, include=FALSE}
