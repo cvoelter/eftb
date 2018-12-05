@@ -1,0 +1,621 @@
+---
+title: "Inhibition_tasks_Markdown"
+author: "Christoph Voelter"
+date: "December 04, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(gridExtra)
+library(ggpubr)
+library(corrr)
+library(reshape2)
+library(trimr)
+#library(Hmisc)
+library("PerformanceAnalytics")
+source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+#load(file ="mm1_mult_poss.RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE}
+#Preparing code for mixed modeling. 
+Inh.grid.data <- read.table(file="20181130_Inhibition_grid_data.txt", header=T, sep="\t")
+Inh.cylinders.data <- read.table(file="20181130_Inhibition_cylinders_data.txt", header=T, sep="\t")
+Inh.boxes.data <- read.table(file="20181203_Inhibition_boxes_data.txt", header=T, sep="\t")
+
+```
+
+
+```{r loading stop signal data, include = FALSE}
+
+stop.signal.data <- read.table(file="../StopSignal/20181202StopSignal_final Sweetwaters.txt", header=T, sep="\t") %>%
+  filter(Subject != "Julia") %>% #did not complete test trials
+  filter(condition=="test") %>%
+  filter(firsttest_trial_number != 1) %>%
+  mutate(first_move_correct = recode(first_move_correct, 'c' = 1, 'i' = 0)) %>%
+  filter(Change_latency_value > 100) 
+  
+stop.signal.data2 <- stop.signal.data %>%
+  mutate(participant = Subject) %>%
+  mutate(rt = Change_latency_value) %>%
+  mutate(accuracy = first_move_correct) %>%
+  mutate(accuracy = recode(accuracy, 'c' = 1, 'i' = 0))
+ 
+#remove outliers 
+trimmed.stop.signal.data <- sdTrim(data = stop.signal.data2, minRT = 150, sd = 2, 
+                      perCondition = FALSE, perParticipant = TRUE, 
+                      returnType = "mean", digits = 0)
+
+stop.signal_individual2 <- stop.signal.data %>%
+  filter(!is.na(Change_latency_value)) %>%
+  group_by(Subject) %>% 
+  summarize(StopSignal_change_latency = mean(Change_latency_value))
+
+trimmed.stop.signal.data <- trimmed.stop.signal.data %>%
+  mutate(Subject=stop.signal_individual2$Subject)
+
+ stop.signal_individual3 <- stop.signal.data %>%
+  filter(!is.na(Change_position_value)) %>%
+  group_by(Subject) %>% 
+  summarize(StopSignal_change_position = mean(Change_position_value))
+
+
+stop_signal_data <- stop.signal_individual2 %>% 
+  inner_join(trimmed.stop.signal.data )%>%
+  inner_join(stop.signal_individual3 )%>%  
+  mutate(StopSignal_trimmed_change_latency=test)%>%
+  select(-participant, -test)
+
+
+```
+
+
+
+
+```{r include=FALSE}
+summary(Inh.boxes.data  )
+table(Inh.boxes.data$Subject,Inh.boxes.data$correct)
+```
+
+
+##Summary  
+Evidence for below-chance performance in all three inhibition tasks.Significant improvement in performance between the first and the second session in the Inhibition Boxes and Inhibition Cylinders task but not the Inhibition Grid task. 
+ 
+
+
+```{r preparing data for correlation, include=FALSE}
+
+###boxes
+Inh.boxes_individual <- Inh.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  group_by(Subject) %>% 
+  summarize(Inh.boxes.correct = mean(correct)) 
+
+Inh.boxes_individual1 <- Inh.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Session==1)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.boxes.correct1 = mean(correct)) 
+
+Inh.boxes_individual2 <- Inh.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Session==2)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.boxes.correct2 = mean(correct)) 
+
+
+
+
+###Grid
+Inh.grid_individual <- Inh.grid.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Subject != "Edvard") %>%
+  group_by(Subject) %>% 
+  summarize(Inh.grid.correct = mean(correct)) 
+
+Inh.grid_individual1 <- Inh.grid.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Subject != "Edvard") %>%
+  filter(Session==1)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.grid.correct1 = mean(correct)) 
+
+Inh.grid_individual2 <- Inh.grid.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Subject != "Edvard") %>%
+  filter(Session==2)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.grid.correct2 = mean(correct)) 
+
+###Cylinders
+
+Inh.cylinders_individual <- Inh.cylinders.data %>%
+  filter(!is.na(open_cylinder)) %>%
+  filter(Subject != "George" & Subject != "Jane" & Subject != "Edvard")%>%
+  group_by(Subject) %>% 
+  summarize(Inh.cylinders.correct= mean(open_cylinder)) 
+
+Inh.cylinders_individual_session1 <- Inh.cylinders.data %>%
+  filter(!is.na(open_cylinder)) %>%
+  filter(Subject != "George" & Subject != "Jane" & Subject != "Edvard")%>%
+  filter(Session==1)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.cylinders.correct1= mean(open_cylinder))
+
+Inh.cylinders_individual_session2 <- Inh.cylinders.data %>%
+  filter(!is.na(open_cylinder)) %>%
+  filter(Subject != "George" & Subject != "Jane" & Subject != "Edvard")%>%
+  filter(Session==2)%>%
+  group_by(Subject) %>% 
+  summarize(Inh.cylinders.correct2= mean(open_cylinder))
+
+#######################################################
+#Join DVs together
+
+Inh_task_individual <- Inh.grid_individual  %>% 
+  full_join(Inh.grid_individual1) %>%
+  full_join(Inh.grid_individual2) %>%
+  full_join(stop_signal_data) %>%
+  full_join(Inh.cylinders_individual)%>%
+  full_join(Inh.cylinders_individual_session1)%>%
+  full_join(Inh.cylinders_individual_session2)%>%
+  full_join(Inh.boxes_individual)%>%
+  full_join(Inh.boxes_individual1)%>%
+  full_join(Inh.boxes_individual2)
+
+```
+
+```{r echo=FALSE}
+
+###Inhibition Grid
+
+plot.Inh.grid_individual <- Inh.grid.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Subject != "Edvard") %>%
+  group_by(Session, Subject) %>% 
+  summarize(Inh.grid.correct = mean(correct)) %>%
+  add_count(Inh.grid.correct)
+
+ 
+p1<-  
+  ggplot(
+  data=plot.Inh.grid_individual, aes(x=c(rep(1, 29),rep(2,29)), y=Inh.grid.correct, group=Session)) +
+  geom_boxplot()+
+  ylim(0,1)+
+  #xlim(0,2)+
+  geom_point(size = plot.Inh.grid_individual$n, colour = "purple") +
+#  geom_line(lty=2)+
+  labs(x="",y="Mean number of correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Inhibition Grid")+
+  geom_hline(yintercept=6/13, linetype="dashed", color = "red")
+
+
+
+
+
+###Inhibition Cylinders
+
+plot.Inh.cylinders_individual <- Inh.cylinders.data %>%
+  filter(!is.na(open_cylinder)) %>%
+  filter(Subject != "George" & Subject != "Jane" & Subject != "Edvard")%>%
+  group_by(Session, Subject) %>% 
+  summarize(Inh.cylinders.correct= mean(open_cylinder))  %>%
+  add_count(Inh.cylinders.correct)
+
+ 
+p2<-  
+  ggplot(
+  data=plot.Inh.cylinders_individual, aes(x=c(rep(1, 27),rep(2,27)), y=Inh.cylinders.correct, group=Session)) +
+  geom_boxplot()+
+  ylim(0,1)+
+  #xlim(0,2)+
+  geom_point(size = plot.Inh.cylinders_individual$n, colour = "purple") +
+#  geom_line(lty=2)+
+  labs(x="",y="Mean number of correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Inhibition Cylinders")+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")
+
+
+
+
+###Inhibition Boxes
+
+plot.Inh.boxes_individual <- Inh.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  group_by(Session, Subject) %>% 
+  summarize(Inh.boxes.correct= mean(correct))  %>%
+  add_count(Inh.boxes.correct)
+
+ 
+p3<-  
+  ggplot(
+  data=plot.Inh.boxes_individual, aes(x=c(rep(1, 28),rep(2,28)), y=Inh.boxes.correct, group=Session)) +
+  geom_boxplot()+
+  ylim(0,1)+
+  #xlim(0,2)+
+  geom_point(size = plot.Inh.boxes_individual$n, colour = "purple") +
+#  geom_line(lty=2)+
+  labs(x="",y="Mean number of correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Inhibition Boxes")+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")
+
+
+
+grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
+
+```
+  
+* Dashed line: chance level  
+* Larger values indicate better performance in all three tasks / DVs  
+
+*** 
+\pagebreak  
+
+##Test against chance & comparison between sessions
+
+###Inhibition Grid
+
+* DV: mean correct choices within the first six unique doors that were touched by the subjects (not considering repeated choices)  
+* Comparison to chance: 0.46 (6/13)  
+
+####Session performance
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.grid.correct1 , mu=6/13, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (6/13) in **Session 1**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`  
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.grid.correct2 , mu=6/13, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (6/13) in **Session 2**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`  
+
+####Session 1 vs Session 2
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.grid.correct1, Inh_task_individual$Inh.grid.correct2, paired = TRUE, alternative = "two.sided")
+
+```
+* Mean correct in session 1 vs session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
+
+
+### Inhibition Boxes
+
+* DV: mean performance of correct choices (within 12 trials per session)  
+* Chance value: 0.5  
+
+####Session performance
+
+
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.boxes.correct1 , mu=0.5, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (0.5) in **Session 1**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.boxes.correct2 , mu=0.5, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (0.5) in **Session 2**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+####Session 1 vs Session 2
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.boxes.correct1, Inh_task_individual$Inh.boxes.correct2, paired = TRUE, alternative = "two.sided")
+
+```
+* Mean correct in session 1 vs session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
+
+
+### Inhibition cylinders  
+* DV: mean correct choices (toward opaque cylinders) within the first 12 lifted cylinders (per session) not considering repeated choices  
+* Chance value: 0.5
+
+####Session performance
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.cylinders.correct1 , mu=0.5, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (0.5) in **Session 1**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.cylinders.correct2 , mu=0.5, alternative = "two.sided")
+
+```
+* Mean correct vs chance value (0.5) in **Session 2**: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+####Session 1 vs Session 2
+
+```{r echo=FALSE}
+tt<-t.test(Inh_task_individual$Inh.cylinders.correct1, Inh_task_individual$Inh.cylinders.correct2, paired = TRUE, alternative = "two.sided")
+
+```
+* Mean correct in session 1 vs session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
+
+***
+
+\pagebreak  
+
+###Stop-signal task  
+
+```{r loading stopsignal data, include = FALSE}
+#Preparing code for mixed modeling. 
+all.data <- read.table(file="../StopSignal/20181202StopSignal_final Sweetwaters.txt", header=T, sep="\t") %>%
+  filter(Subject != "Julia") %>% #did not complete test trials
+  mutate(first_move_correct = recode(first_move_correct, 'c' = 1, 'i' = 0))
+
+#filter(Change_latency_value < 3001 & Change_latency_value > 100)%>%
+  #filter(X_firsttest_trial_number != 1)
+
+```
+
+
+####Trial-to-trial effects
+
+* DV: mean proportion of first moves toward correct side  
+
+```{r echo=FALSE}
+
+###Plotting side_changes
+plot_individual_side <- all.data %>%
+  filter(side_change!="") %>%
+  filter(!is.na(first_move_correct)) %>%
+  group_by(condition, side_change, Subject) %>% 
+  summarize(correct_resp = mean(first_move_correct)) 
+
+
+plot_ind_training_side <- plot_individual_side %>% 
+  filter(condition == "training") %>%
+  add_count(correct_resp)
+
+plot_ind_training_side_mean <- plot_ind_training_side %>% 
+  group_by(side_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p1 <- ggplot(
+  data=plot_ind_training_side, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_training_side$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("training")+
+  geom_segment(aes(y = plot_ind_training_side_mean$mean_correct[1], yend = plot_ind_training_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_training_side_mean$mean_correct[2], yend = plot_ind_training_side_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = side_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+
+
+
+plot_ind_test_side <- plot_individual_side %>% 
+  filter(condition == "test") %>%
+  add_count(correct_resp)
+
+plot_ind_test_side_mean <- plot_ind_test_side %>% 
+  group_by(side_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p2 <- ggplot(
+  data=plot_ind_test_side, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_test_side$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("test")+
+  geom_segment(aes(y = plot_ind_test_side_mean$mean_correct[1], yend = plot_ind_test_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_test_side_mean$mean_correct[2], yend = plot_ind_test_side_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = side_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+
+
+grid.arrange(p1, p2, nrow = 1)
+ g <- arrangeGrob(p1, p2, nrow = 1)
+ggsave("stopsignal_trial to trial_correct.jpeg",g, width = 10, height = 6)
+
+
+
+```
+
+
+```{r echo=FALSE}
+tt<-t.test( plot_ind_training_side[plot_ind_training_side$side_change=="no",]$correct_resp, plot_ind_training_side[plot_ind_training_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+
+* Effect of side changes on mean proportion of first moves toward correct side in **training trials**: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<- t.test( plot_ind_test_side[plot_ind_test_side$side_change=="no",]$correct_resp, plot_ind_test_side[plot_ind_test_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Effect of side changes on mean proportion of first moves toward correct side in **test trials**: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+####Comparison against chance
+* Chance value: 0.5
+```{r echo=FALSE}
+tt<- t.test( plot_ind_training_side[plot_ind_training_side$side_change=="no",]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+
+* Comparison of **no side-change** training trials to chance: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+```{r echo=FALSE}
+tt<-t.test( plot_ind_training_side[plot_ind_training_side$side_change=="yes",]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+* Comparison of **side-change** training trials to chance: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
+
+```{r echo=FALSE}
+tt<- t.test( plot_ind_test_side[plot_ind_test_side$side_change=="no",]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+* Comparison of **no side-change** test trials to chance: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`   
+
+```{r echo=FALSE }
+tt<- t.test( plot_ind_test_side[plot_ind_test_side$side_change=="yes",]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+
+* Comparison of **side-change** test trials to chance: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`  
+
+
+###Test trials: change latencies and change positions
+
+```{r loading test data, include = FALSE}
+#Preparing code for mixed modeling. 
+test.data <- read.table(file="../StopSignal/20181202StopSignal_final Sweetwaters.txt", header=T, sep="\t") %>%
+  filter(Subject != "Julia") %>% #did not complete test trials
+  filter(condition=="test") %>%
+  filter(firsttest_trial_number != 1) %>%
+  mutate(first_move_correct = recode(first_move_correct, 'c' = 1, 'i' = 0)) %>%
+  filter(Change_latency_value > 100) 
+  
+```
+
+```{r remove outliers, include=FALSE}
+test.data2 <- test.data %>%
+  mutate(participant = Subject) %>%
+  mutate(rt = Change_latency_value) %>%
+  mutate(accuracy = first_move_correct) %>%
+  mutate(accuracy = recode(accuracy, 'c' = 1, 'i' = 0))
+  
+trimmed.test.data <- sdTrim(data = test.data2, minRT = 150, sd = 2, 
+                      perCondition = FALSE, perParticipant = TRUE, 
+                      returnType = "mean", digits = 0)
+
+plot_individual2 <- test.data %>%
+  filter(!is.na(Change_latency_value)) %>%
+  group_by(Subject) %>% 
+  summarize(change_latency = mean(Change_latency_value))
+
+trimmed.test.data <- trimmed.test.data %>%
+  mutate(Subject=plot_individual2$Subject)
+
+ plot_individual3 <- test.data %>%
+  filter(!is.na(Change_position_value)) %>%
+  group_by(Subject) %>% 
+  summarize(Change_position = mean(Change_position_value))
+
+
+plot_individual_trimmed <- plot_individual2 %>% 
+  inner_join(trimmed.test.data )%>%
+  inner_join(plot_individual3 )%>%  
+  mutate(trimmed_change_latency=test)%>%
+  add_count(trimmed_change_latency) %>%
+  select(-participant, -test)%>%
+  rename(n_lat=n)%>%
+  add_count(Change_position) %>%
+  rename(n_pos=n)
+
+
+
+```
+
+
+
+```{r echo=FALSE}  
+  ###Plotting change latency
+
+
+p1 <- 
+  ggplot(
+  data=plot_individual_trimmed , aes(x=rep(1, 27), y=trimmed_change_latency))+
+  geom_boxplot(outlier.shape = NA)+
+  geom_point(size = plot_individual_trimmed$n_lat, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,5000)+
+  xlim(0,2)+
+  labs(x="",y="Change latency")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("change latency")
+
+p2 <- 
+  ggplot(
+  data=plot_individual_trimmed , aes(x=rep(1, 27), y=Change_position))+
+  geom_boxplot(outlier.shape = NA)+
+  geom_point(size = plot_individual_trimmed$n_pos, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,22)+
+  xlim(0,2)+
+  labs(x="",y="Change position")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("change position")
+
+
+grid.arrange(p1, p2, nrow = 1)
+# g <- arrangeGrob(p1, p2, nrow = 1)
+#ggsave("stopsignal_test trials.jpeg",g, width = 10, height = 6)
+```
+
+
+
+***  
+
+
+```{r include=FALSE}
+###Plotting correlations
+d <- correlate(Inh_task_individual[-1], method="pearson")
+```
+
+```{r include=FALSE}
+#jpeg(file="WM_corrplot.jpeg", width=3800, height=1000, res=300)
+#pdf(file="WM_corrplot.pdf", width=10, height=4)
+d %>%
+  shave(upper = TRUE) %>%
+  rplot(print_cor = TRUE, colors = c("red", "green"), shape = 16) 
+#dev.off()
+#rcorr(as.matrix(WM_task_individual[-1]), type="spearman")
+
+chart.Correlation(Inh_task_individual[-1], histogram=TRUE, pch=19, method = "spearman")
+```
+
+```{r include=FALSE}
+# Get upper triangle of the correlation matrix
+  get_upper_tri <- function(cormat){
+    cormat[lower.tri(cormat)]<- NA
+    return(cormat)
+  }
+cormat <- round(cor(Inh_task_individual[-1], method="spearman", use = "pairwise.complete.obs"),2)
+upper_tri <- get_upper_tri(cormat)
+melted_cormat=melt(cormat, na.rm = TRUE)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()+
+  geom_text(aes(Var2, Var1, label = value), color = "black", size = 2) +
+ scale_fill_gradient2(low = "blue", high = "red", 
+   midpoint = 0, limit = c(-1,1), space = "Lab", 
+   name=" Spearman Correlation") +
+  theme_minimal()+ 
+ theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+    size = 8, hjust = 1))+
+  labs(x="",y="")+
+ coord_fixed()
+
+```
