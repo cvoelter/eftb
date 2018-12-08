@@ -1,0 +1,2195 @@
+Subject	Sex	Group	Age	Date	Day	Session	Condition	trial_number	Side	Distractor_left	Distractor_right	Platform	chosen_level	chose_side	correct	Comment	Level mistakes	Switches	Chosen_distractor	switching_mistakes
+William	m	young chimps	18	25/10/2018	16	1	Training01	1	l			1		l	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	2	r			1		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	3	l			1		l	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	4	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	5	l			2		r	0					
+William	m	young chimps	18	25/10/2018	16	1	Training01	6	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	7	l			2		r	0					
+William	m	young chimps	18	25/10/2018	16	1	Training01	8	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	9	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	10	l			2		r	0					
+William	m	young chimps	18	25/10/2018	16	1	Training01	11	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	12	l			2		r	0					
+William	m	young chimps	18	25/10/2018	16	1	Training01	13	r			2		l	0					
+William	m	young chimps	18	25/10/2018	16	1	Training01	14	r			2		r	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	15	l			2		l	1					
+William	m	young chimps	18	25/10/2018	16	1	Training01	16	l			2		l	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	1	r			1		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	2	l			1		l	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	3	r			1		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	4	r			2		l	0					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	5	l			2		l	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	6	r			2		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	7	l			2		r	0					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	8	r			2		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	9	r			2		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	10	l			2		r	0					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	11	r			2		r	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	12	l			2		l	1					
+Tess	f	young chimps	26	25/10/2018	16	1	Training01	13	r			2		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	1	l			1		r	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	2	r			1		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	3	l			1		r	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	4	r			1		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	5	l			1		l	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	6	r			1		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	7	l			2		l	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	8	r			2		l	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	9	r			2		l	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	10	l			2		l	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	11	r			2		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	12	l			2		r	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	13	r			2		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	14	r			2		l	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	15	l			2		r	0					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	16	l			2		l	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	17	r			2		r	1					
+Amizero	f	young chimps	29	25/10/2018	16	1	Training01	18	l			2		l	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	1	l			1		r	0					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	2	r			1		r	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	3	l			1		r	0					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	4	r			1		r	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	5	l			1		l	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	6	r			1		r	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	7	l			2		l	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	8	r			2		r	1					
+Roy	m	young chimps	11	25/10/2018	16	1	Training01	9	r			2		r	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	1	l			1		l	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	2	r			1		l	0					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	3	l			1		l	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	4	r			1		r	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	5	l			1		l	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	6	r			2		l	0					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	7	l			2		l	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	8	r			2		r	1					
+Manno	m	young chimps	5	25/10/2018	16	1	Training01	9	r			2		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	1	l			1		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	2	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	3	l			1		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	4	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	5	l			1		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	6	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	7	l			1		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	8	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	9	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	10	l			1		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	11	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	12	l			1		l	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	13	r			1		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	14	r			2		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	15	l			2		r	0					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	16	l			2		l	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	17	r			2		r	1					
+Jane	f	young chimps	14	25/10/2018	16	1	Training01	18	l			2		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	1	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	2	r			1		l	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	3	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	4	r			1		l	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	5	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	6	r			1		l	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	7	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	8	r			1		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	9	r			1		l	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	10	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	11	r			1		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	12	l			1		l	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	13	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	14	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	15	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	16	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	17	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	18	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	19	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	20	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	21	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	22	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	23	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	24	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	25	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	26	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	27	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	28	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	29	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	30	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	31	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	32	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	33	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	34	l			2		r	0					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	35	r			2		r	1					
+Chipie	f	young chimps	27	25/10/2018	16	1	Training01	36	l			2		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	1	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	2	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	3	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	4	r			1		l	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	5	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	6	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	7	l			1		l	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	8	r			1		l	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	9	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	10	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	11	r			1		l	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	12	l			1		l	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	13	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	14	r			1		l	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	15	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	16	l			1		l	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	17	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	18	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	19	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	20	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	21	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	22	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	23	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	24	l			1		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	25	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	26	l			1		l	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	27	r			1		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	28	l			2		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	29	r			2		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	30	l			2		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	31	r			2		l	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	32	l			2		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	33	r			2		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	34	l			2		r	0					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	35	r			2		r	1					
+Uruhara	m	young chimps	29	25/10/2018	16	1	Training01	36	l			2		l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	1	r	box	grey	1	upper	r	0					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	2	l	box	grey	1	upper	r	0					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	3	r	grey	box	1	lower	l	0					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	4	l	grey	box	1	lower	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	5	r	box	grey	1	lower	r	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	6	l	box	grey	1	lower	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	7	r	grey	box	2	lower	l	0					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	8	l	grey	box	2	upper	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	9	r	box	grey	2	lower	l	0					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	11	r	grey	box	2	upper	r	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	12	l	box	grey	2	upper	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	13	r	grey	box	1	lower	r	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	14	l	grey	box	1	lower	l	1					
+Amizero	f	young chimps	29	26/10/2018	17	2	Training02	15	r	box	grey	1	lower	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	1	r	box	grey	1	lower	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	4	l	grey	box	2	lower	r	0					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	5	r	box	grey	2	upper	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	6	l	box	grey	2	lower	l	0					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	7	r	grey	box	2	upper	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	8	l	grey	box	2	upper	l	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	10	l	grey	box	1	lower	l	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	11	r	grey	box	1	lower	r	1					
+Tess	f	young chimps	26	26/10/2018	17	2	Training02	12	l	box	grey	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	1	r	box	grey	1	lower	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	3	r	grey	box	1	lower	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	4	l	grey	box	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	5	r	box	grey	1	lower	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	6	l	box	grey	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	7	r	grey	box	1	lower	r	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	8	l	grey	box	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	9	r	box	grey	2	lower	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	11	r	grey	box	2	upper	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	12	l	box	grey	2	lower	r	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	13	r	grey	box	2	upper	r	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	14	l	grey	box	2	upper	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	15	r	box	grey	2	upper	r	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	16	l	box	grey	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	17	r	grey	box	1	lower	l	0					
+William	m	young chimps	18	26/10/2018	17	2	Training02	18	l	grey	box	1	lower	l	1					
+William	m	young chimps	18	26/10/2018	17	2	Training02	19	r	box	grey	1	lower	r	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	1	r	box	grey	1	lower	l	0					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	4	l	grey	box	1	lower	l	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	5	r	box	grey	2	lower	l	0					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	6	l	box	grey	2	upper	l	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	7	r	grey	box	2	lower	l	0					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	8	l	grey	box	2	upper	r	0					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	11	r	grey	box	2	upper	r	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	12	l	box	grey	1	lower	l	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	13	r	grey	box	1	lower	r	1					
+Manno	m	young chimps	5	26/10/2018	17	2	Training02	14	l	grey	box	1	lower	l	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	1	r	box	grey	1	upper	l	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	2	l	box	grey	1	upper	l	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	3	r	grey	box	1	upper	l	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	4	l	grey	box	1	lower	r	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	5	r	box	grey	1	lower	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	6	l	box	grey	1	lower	l	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	7	r	grey	box	1	lower	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	8	l	grey	box	2	lower	r	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	11	r	grey	box	2	upper	l	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	12	l	box	grey	2	lower	r	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	13	r	grey	box	2	upper	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	14	l	grey	box	2	upper	r	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	15	r	box	grey	2	upper	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	16	l	box	grey	2	upper	l	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	17	r	grey	box	2	upper	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	18	l	grey	box	1	lower	l	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	19	l	box	grey	1	lower	r	0					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	20	r	box	grey	1	lower	r	1					
+Jane	f	young chimps	14	26/10/2018	17	2	Training02	21	l	box	grey	1	lower	l	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	1	r	box	grey	1	lower	r	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	4	l	grey	box	2	upper	l	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	5	r	box	grey	2	upper	r	1					
+Roy	m	young chimps	11	26/10/2018	17	2	Training02	6	l	box	grey	2	upper	l	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training01	37	r			2		r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	1	l	grey	box	1	lower	r	0					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	2	r	box	grey	1	lower	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	3	l	box	grey	1	lower	r	0					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	4	r	grey	box	1	lower	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	5	l	grey	box	1	lower	l	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	6	l	box	grey	1	lower	l	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	7	r	box	grey	2	lower	l	0					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	8	l	box	grey	2	lower	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	10	l	grey	box	2	upper	r	0					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	11	r	grey	box	2	upper	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	12	r	box	grey	2	upper	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	13	l	box	grey	2	upper	r	0					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	14	r	grey	box	2	upper	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	15	l	grey	box	2	upper	l	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	16	r	box	grey	2	upper	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	17	l	box	grey	1	lower	l	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	18	r	grey	box	1	lower	r	1					
+Uruhara	m	young chimps	29	26/10/2018	17	2	Training02	19	l	grey	box	1	lower	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	1	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	2	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	3	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	4	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	5	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	6	l			2		l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	7	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	8	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	9	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	10	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	11	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	12	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	13	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	14	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	15	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	16	l			2		r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	17	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	18	l			2		l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training01	19	r			2		r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	20	l	grey	box	1	lower	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	21	r	box	grey	1	lower	r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	22	l	grey	box	1	lower	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	23	r	grey	box	2	upper	r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	24	l	box	grey	2	upper	r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	25	r	grey	box	2	upper	r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	26	l	grey	box	2	upper	r	0					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	27	r	box	grey	2	upper	r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	28	l	box	grey	2	upper	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	29	r	grey	box	2	upper	r	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	30	l	grey	box	1	lower	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	31	l	box	grey	1	lower	l	1					
+Chipie	f	young chimps	27	26/10/2018	17	2	Training02	32	r	box	grey	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	r	0					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	4	l	D2	D1	1	lower	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	5	l	D1	D2	2	lower	r	0		1	1	D2	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	6	r	D2	D1	2	lower	l	0		1		D2	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	7	r	D1	D2	2	lower	r	0		1		D2	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	10	r	D1	D2	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	12	r	D1	D2	1	upper	r	0		1	1	D2	0
+Tess	f	young chimps	26	27/10/2018	18	3	Test	13	l	D1	D2	1	upper	l	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	14	l	D2	D1	1	upper	r	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	15	r	D2	D1	1	upper	r	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	16	l	D1	D2	1	upper	l	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	17	r	D1	D2	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	18	l	D2	D1	1	lower	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	19	r	D2	D1	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	20	l	D1	D2	2	lower	r	0		1	1	D2	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	21	l	D2	D1	2	upper	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	22	r	D1	D2	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	23	r	D2	D1	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	24	l	D1	D2	1	upper	l	0		1	1	D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	25	l	D1	D2	1	upper	l	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	26	r	D2	D1	1	upper	r	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	27	r	D1	D2	1	upper	l	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	28	l	D2	D1	1	upper	r	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	29	r	D1	D2	1	upper	l	0		1		D1	1
+Tess	f	young chimps	26	27/10/2018	18	3	Test	30	l	D2	D1	1	lower	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	31	r	D2	D1	1	lower	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	32	l	D1	D2	1	lower	l	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	33	l	D2	D1	2	upper	l	1			1		
+Tess	f	young chimps	26	27/10/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+Tess	f	young chimps	26	27/10/2018	18	3	Test	36	l	D1	D2	1	upper	l	0		1	1	D1	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	4	l	D2	D1	2	upper	l	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	6	l	D2	D1	2	lower	l	0		1		D2	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	7	r	D2	D1	2	upper	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	8	l	D1	D2	2	upper	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	10	r	D1	D2	1	upper	l	0		1	1	D1	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	11	r	D2	D1	1	upper	r	0		1		D1	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	12	l	D1	D2	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	13	r	D1	D2	1	lower	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	14	l	D2	D1	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	15	r	D2	D1	2	upper	r	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	16	l	D1	D2	2	upper	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	17	r	D1	D2	2	upper	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	18	l	D2	D1	1	lower	l	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	19	r	D2	D1	1	upper	r	0		1		D1	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	20	l	D1	D2	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	21	l	D2	D1	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	22	r	D1	D2	1	upper	l	0		1		D1	1
+Roy	m	young chimps	11	27/10/2018	18	3	Test	23	r	D2	D1	1	lower	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	24	l	D1	D2	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	25	l	D2	D1	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	26	r	D1	D2	2	upper	r	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	27	r	D1	D2	2	upper	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	28	l	D2	D1	2	upper	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	29	r	D1	D2	1	lower	r	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	30	l	D2	D1	1	lower	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	31	r	D2	D1	1	lower	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	32	l	D1	D2	2	upper	l	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	33	l	D2	D1	2	upper	l	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+Roy	m	young chimps	11	27/10/2018	18	3	Test	35	r	D2	D1	1	lower	r	1			1		
+Roy	m	young chimps	11	27/10/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	1	l	D1	D2	1	upper	r	0		1		D2	0
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	2	r	D2	D1	1	upper	r	0		1		D1	1
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	4	l	D2	D1	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	5	r	D1	D2	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	6	l	D2	D1	2	upper	r	0			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	7	r	D2	D1	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	9	l	D2	D1	2	lower	r	0		1		D1	0
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	10	r	D1	D2	2	lower	r	0		1		D2	1
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	12	l	D1	D2	2	upper	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	13	r	D1	D2	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	14	l	D2	D1	1	lower	l	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	15	r	D2	D1	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	16	l	D1	D2	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	17	r	D1	D2	2	upper	l	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	18	l	D2	D1	2	upper	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	19	r	D2	D1	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	20	l	D1	D2	1	lower	l	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	21	l	D2	D1	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	22	r	D1	D2	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	23	r	D2	D1	2	upper	r	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	25	l	D1	D2	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	26	r	D2	D1	1	lower	r	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	28	l	D2	D1	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	29	r	D1	D2	2	upper	r	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	30	l	D2	D1	2	upper	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	31	r	D2	D1	2	upper	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	32	l	D1	D2	1	lower	l	1			1		
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	34	r	D1	D2	1	lower	l	0					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	35	r	D2	D1	1	lower	r	1					
+Chipie	f	young chimps	27	27/10/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	l	0					
+William	m	young chimps	18	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	4	l	D2	D1	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	5	r	D1	D2	1	lower	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	6	l	D2	D1	2	lower	l	0		1	1	D2	1
+William	m	young chimps	18	27/10/2018	18	3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+William	m	young chimps	18	27/10/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+William	m	young chimps	18	27/10/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	10	r	D1	D2	2	lower	l	0		1		D1	0
+William	m	young chimps	18	27/10/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	12	l	D1	D2	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	13	r	D1	D2	2	upper	l	0					
+William	m	young chimps	18	27/10/2018	18	3	Test	14	l	D2	D1	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	15	r	D2	D1	2	upper	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	16	l	D1	D2	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	17	r	D1	D2	1	upper	l	0		1	1	D1	1
+William	m	young chimps	18	27/10/2018	18	3	Test	18	l	D2	D1	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	19	r	D2	D1	1	upper	r	0		1		D1	1
+William	m	young chimps	18	27/10/2018	18	3	Test	20	l	D1	D2	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	21	l	D2	D1	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	22	r	D1	D2	1	lower	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	23	r	D2	D1	2	upper	r	1			1		
+William	m	young chimps	18	27/10/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	25	l	D1	D2	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	26	r	D2	D1	1	lower	r	1			1		
+William	m	young chimps	18	27/10/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	28	l	D2	D1	1	lower	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	29	r	D1	D2	2	upper	l	0			1		
+William	m	young chimps	18	27/10/2018	18	3	Test	30	l	D2	D1	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	31	r	D2	D1	2	upper	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	32	l	D1	D2	2	lower	r	0		1		D2	1
+William	m	young chimps	18	27/10/2018	18	3	Test	33	l	D2	D1	2	upper	l	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+William	m	young chimps	18	27/10/2018	18	3	Test	36	l	D1	D2	1	lower	l	1			1		
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	4	l	D2	D1	2	lower	l	0		1	1	D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	5	r	D1	D2	2	lower	l	0		1		D1	0
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	6	l	D2	D1	2	lower	l	0		1		D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	7	r	D2	D1	2	upper	l	0					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	10	r	D1	D2	2	upper	l	0					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	12	l	D1	D2	2	upper	r	0					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	13	r	D1	D2	2	upper	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	14	l	D2	D1	2	upper	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	15	r	D2	D1	2	upper	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	16	l	D1	D2	1	upper	l	0		1	1	D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	17	r	D1	D2	1	upper	l	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	18	l	D2	D1	1	upper	r	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	19	r	D2	D1	1	upper	r	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	20	l	D1	D2	1	upper	l	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	21	l	D2	D1	1	upper	r	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	22	r	D1	D2	1	upper	l	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	23	r	D2	D1	1	upper	r	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	24	l	D1	D2	1	upper	l	0		1		D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	25	l	D1	D2	1	lower	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	26	r	D2	D1	1	lower	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	28	l	D2	D1	2	upper	l	1			1		
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	29	r	D1	D2	2	lower	r	0		1		D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	30	l	D2	D1	2	lower	l	0		1		D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	31	r	D2	D1	2	lower	l	0		1		D2	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	32	l	D1	D2	2	upper	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	33	l	D2	D1	2	upper	l	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	35	r	D2	D1	1	upper	r	0		1	1	D1	1
+Amizero	f	young chimps	29	27/10/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	4	l	D2	D1	2	upper	r	0			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	6	l	D2	D1	2	upper	r	0					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	8	l	D1	D2	2	upper	r	0					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	10	r	D1	D2	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	12	l	D1	D2	1	lower	l	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	13	r	D1	D2	1	lower	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	14	l	D2	D1	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	15	l	D2	D1	2	upper	r	0			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	16	r	D1	D2	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	17	r	D1	D2	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	18	l	D2	D1	2	upper	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	19	r	D2	D1	1	lower	r	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	20	l	D1	D2	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	21	l	D2	D1	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	22	r	D1	D2	2	upper	r	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	23	r	D2	D1	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	25	l	D1	D2	1	lower	l	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	26	r	D2	D1	1	lower	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	28	l	D2	D1	2	upper	l	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	29	r	D1	D2	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	30	l	D2	D1	2	upper	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	31	r	D2	D1	1	lower	r	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	32	l	D1	D2	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	34	r	D1	D2	2	upper	r	1			1		
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+Uruhara	m	young chimps	29	27/10/2018	18	3	Test	36	l	D1	D2	2	upper	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	1	l	D1	D2	1	upper	l	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	2	r	D2	D1	1	upper	r	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	3	r	D1	D2	1	upper	l	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	4	l	D2	D1	1	lower	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	5	r	D1	D2	1	upper	r	0		1		D2	0
+Jane	f	young chimps	14	27/10/2018	18	3	Test	6	l	D2	D1	1	lower	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	7	r	D2	D1	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	8	l	D1	D2	1	lower	r	0					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	9	l	D2	D1	1	lower	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	10	r	D1	D2	1	upper	l	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	11	r	D2	D1	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	12	l	D1	D2	1	lower	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	13	r	D1	D2	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	14	l	D2	D1	2	lower	l	0		1	1	D2	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	15	l	D2	D1	2	lower	r	0		1		D1	0
+Jane	f	young chimps	14	27/10/2018	18	3	Test	16	r	D1	D2	2	lower	r	0		1		D2	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	17	r	D1	D2	2	lower	r	0		1		D2	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	18	l	D2	D1	2	upper	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	19	r	D2	D1	2	lower	l	0		1		D2	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	20	l	D1	D2	2	upper	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	21	l	D2	D1	2	upper	l	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	22	r	D1	D2	1	upper	l	0		1	1	D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	23	r	D2	D1	1	upper	r	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	24	l	D1	D2	1	upper	l	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	25	l	D1	D2	1	upper	r	0		1		D2	0
+Jane	f	young chimps	14	27/10/2018	18	3	Test	26	r	D2	D1	1	upper	r	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	27	r	D1	D2	1	upper	r	0		1		D2	0
+Jane	f	young chimps	14	27/10/2018	18	3	Test	28	l	D2	D1	1	upper	r	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	29	r	D1	D2	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	30	l	D2	D1	1	upper	l	0		1		D2	0
+Jane	f	young chimps	14	27/10/2018	18	3	Test	31	r	D2	D1	1	upper	r	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	32	l	D1	D2	1	upper	l	0		1		D1	1
+Jane	f	young chimps	14	27/10/2018	18	3	Test	33	l	D2	D1	1	lower	r	0					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	34	r	D1	D2	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	35	r	D2	D1	1	lower	r	1					
+Jane	f	young chimps	14	27/10/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	1	l	D1	D2	1	lower	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	2	r	D2	D1	1	lower	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	3	r	D1	D2	1	lower	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	4	l	D2	D1	2	lower	l	0		1	1	D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	6	l	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	9	l	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	10	r	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	11	r	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	12	l	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	13	r	D1	D2	2	lower	l	0		1		D1	0
+Manno	m	young chimps	5	27/10/2018	18	3	Test	14	l	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	15	r	D2	D1	2	lower	r	0		1		D1	0
+Manno	m	young chimps	5	27/10/2018	18	3	Test	16	l	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	17	r	D1	D2	2	upper	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	18	l	D2	D1	2	upper	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	19	r	D2	D1	2	upper	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	20	l	D1	D2	1	lower	l	1			1		
+Manno	m	young chimps	5	27/10/2018	18	3	Test	21	l	D2	D1	1	lower	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	22	r	D1	D2	1	lower	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	23	r	D2	D1	2	lower	l	0		1	1	D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	24	l	D1	D2	2	lower	r	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	25	l	D1	D2	2	upper	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	26	r	D2	D1	2	upper	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	27	r	D2	D1	2	lower	l	0		1		D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	28	l	D2	D1	2	upper	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	29	r	D1	D2	2	upper	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	30	l	D2	D1	2	upper	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	31	r	D2	D1	1	lower	r	1			1		
+Manno	m	young chimps	5	27/10/2018	18	3	Test	32	l	D1	D2	1	lower	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	34	r	D1	D2	2	lower	r	0		1	1	D2	1
+Manno	m	young chimps	5	27/10/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+Manno	m	young chimps	5	27/10/2018	18	3	Test	36	l	D1	D2	2	upper	l	1					
+Safari	m	old chimps	34	03/12/2018	16	1	Training01	1	l			1		l	1	stopped to approach platform within 5 min				
+Safari	m	old chimps	34	04/12/2018	16	1	Training01	2	r			1		l	0	no response within 3 min; no response within 5 min on the 5th of December either. 				
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	1	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	2	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	3	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	4	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	5	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	6	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	7	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	8	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	9	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	10	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	11	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	12	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	13	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	14	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	15	l			1		r	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	16	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	17	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	18	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	19	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	20	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	21	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	22	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	23	r			1		r	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	24	l			1		r	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	25	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	26	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	27	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	28	l			1		r	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	29	r			1		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	30	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	31	r			1		r	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	32	l			1		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	33	r			2		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	34	l			2		l	1					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	35	r			2		l	0					
+Oscar	m	old chimps	21	02/12/2018	16	1	Training01	36	l			2		l	1					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	37	r			2		l	0					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	38	l			2		r	0					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	39	r			2		r	1					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	40	l			2		r	0					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	41	r			2		r	1					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	42	l			2		l	1					
+Oscar	m	old chimps	21	03/12/2018	16	1	Training01	43	l			2		l	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	1	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	2	r			1		l	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	3	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	4	r			1		l	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	5	l			1		l	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	6	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	7	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	8	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	9	r			1		l	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	10	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	11	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	12	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	13	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	14	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	15	l			1		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	16	l			1		l	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	17	r			1		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	18	l			1		l	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	19	r			2		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	20	l			2		r	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	21	r			2		l	0					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	22	l			2		l	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	23	r			2		r	1					
+Judy	f	old chimps	35	03/12/2018	16	1	Training01	24	l			2		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	1	l			1		r	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	2	r			1		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	3	l			1		l	1	with apple from this trial				
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	4	r			1		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	5	l			1		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	6	r			1		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	7	l			1		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	8	r			1		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	9	r			1		r	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	10	l			1		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	11	r			1		r	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	12	l			2		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	13	r			2		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	14	r			2		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	15	l			2		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	16	l			2		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	17	r			2		l	0					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	18	l			2		l	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	19	r			2		r	1					
+Alley	f	old chimps	31	03/12/2018	16	1	Training01	20	l			2		l	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	1	l			1		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	2	r			1		l	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	3	l			1		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	4	r			1		l	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	5	l			1		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	6	r			1		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	7	l			1		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	8	r			1		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	9	r			1		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	10	l			1		l	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	11	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	12	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	13	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	14	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	15	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	16	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	17	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	18	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	19	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	20	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	21	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	22	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	23	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	24	l			2		r	0					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	25	r			2		r	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	26	l			2		l	1					
+Ajabu	f	old chimps	10	03/12/2018	16	1	Training01	27	r			2		r	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	1	r			1		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	2	l			1		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	3	r			1		r	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	4	l			1		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	5	l			2		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	6	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	7	l			2		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	8	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	9	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	10	l			2		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	11	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	12	l			2		r	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	13	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	14	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	15	l			2		r	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	16	l			2		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	17	r			2		l	0					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	18	l			2		l	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	19	r			2		r	1					
+Angela	f	old chimps	7	03/12/2018	16	1	Training01	20	l			2		l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	1	r	box	grey	1	upper	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	3	r	grey	box	1	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	4	l	grey	box	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	5	r	box	grey	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	6	l	box	grey	1	upper	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	7	r	grey	box	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	8	l	grey	box	1	upper	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	9	r	box	grey	1	upper	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	10	l	grey	box	1	lower	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	11	r	grey	box	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	12	l	box	grey	1	lower	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	13	r	grey	box	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	14	l	grey	box	1	lower	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	15	r	box	grey	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	16	l	box	grey	1	lower	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	17	r	box	grey	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	18	l	grey	box	1	lower	r	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	19	l	box	grey	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	20	r	box	grey	1	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	21	l	box	grey	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	22	r	box	grey	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	23	l	grey	box	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	24	r	grey	box	2	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	25	r	box	grey	2	upper	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	26	l	box	grey	2	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	27	r	grey	box	2	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	28	l	grey	box	2	lower	l	0					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	29	r	box	grey	2	upper	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	30	l	box	grey	2	upper	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	31	r	grey	box	2	upper	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	32	l	grey	box	1	lower	l	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	33	r	box	grey	1	lower	r	1					
+Oscar	m	old chimps	21	03/12/2018	17	2	Training02	34	l	grey	box	1	lower	l	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	1	r	box	grey	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	2	l	box	grey	1	lower	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	4	l	grey	box	1	upper	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	5	r	box	grey	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	6	l	box	grey	1	upper	l	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	7	r	grey	box	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	8	l	grey	box	1	lower	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	9	r	box	grey	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	10	l	grey	box	1	lower	l	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	11	r	grey	box	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	12	l	box	grey	2	upper	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	13	r	grey	box	2	upper	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	14	l	grey	box	2	lower	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	15	r	box	grey	2	upper	l	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	16	l	box	grey	2	lower	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	17	r	grey	box	2	upper	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	18	l	grey	box	2	upper	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	19	l	box	grey	2	upper	l	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	20	r	box	grey	2	upper	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	21	l	box	grey	2	upper	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	22	r	box	grey	2	upper	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	23	l	grey	box	2	upper	l	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	24	r	grey	box	2	upper	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	25	r	box	grey	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	26	l	box	grey	1	lower	r	0					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	27	r	grey	box	1	lower	r	1					
+Judy	f	old chimps	35	04/12/2018	17	2	Training02	28	l	grey	box	1	lower	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	1	r	box	grey	1	lower	r	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	4	l	grey	box	2	lower	l	0					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	5	r	box	grey	2	lower	l	0					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	6	l	box	grey	2	upper	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	7	r	grey	box	2	upper	l	0					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	8	l	grey	box	2	upper	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	11	r	grey	box	1	lower	r	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	12	l	box	grey	1	lower	l	1					
+Alley	f	old chimps	31	04/12/2018	17	2	Training02	13	r	grey	box	1	lower	r	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	1	r	box	grey	1	lower	r	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	2	l	box	grey	1	lower	l	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	3	r	grey	box	1	lower	r	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	4	l	grey	box	2	lower	r	0					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	5	r	box	grey	2	lower	r	0					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	6	l	box	grey	2	lower	l	0					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	7	r	grey	box	2	upper	l	0					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	8	l	grey	box	2	upper	l	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	9	r	box	grey	2	upper	r	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	10	l	grey	box	2	upper	l	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	11	r	grey	box	1	lower	r	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	12	l	box	grey	1	lower	l	1					
+Ajabu	f	old chimps	10	04/12/2018	17	2	Training02	13	r	grey	box	1	lower	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	1	r	box	grey	1	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	2	l	box	grey	1	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	3	r	box	grey	1	lower	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	4	l	box	grey	1	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	5	r	grey	box	1	lower	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	6	l	box	grey	1	lower	l	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	7	r	grey	box	1	lower	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	8	l	grey	box	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	9	r	box	grey	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	10	l	grey	box	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	11	r	grey	box	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	12	l	box	grey	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	13	r	grey	box	2	upper	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	14	l	grey	box	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	15	r	box	grey	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	16	l	box	grey	2	upper	l	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	17	r	grey	box	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	18	l	grey	box	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	19	l	box	grey	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	20	r	box	grey	2	upper	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	21	l	box	grey	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	22	r	box	grey	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	23	l	grey	box	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	24	r	grey	box	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	25	r	box	grey	2	lower	r	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	26	l	box	grey	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	27	r	grey	box	2	upper	r	1					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	28	l	grey	box	2	lower	l	0					
+Angela	f	old chimps	7	04/12/2018	17	2	Training02	29	r	box	grey	2	lower	r	0	30 min session limit reached				
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	30	l	box	grey	2	upper	l	1					
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	31	r	grey	box	2	upper	r	1					
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	32	l	grey	box	2	upper	l	1					
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	33	r	box	grey	1	lower	r	1					
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	34	l	grey	box	1	lower	l	1					
+Angela	f	old chimps	7	05/12/2018	17	3	Training02	35	r	grey	box	1	lower	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	1	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	2	r	D1	D2	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	3	l	D1	D2	2	lower	l	0		1		D1	0
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	4	r	D2	D1	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	5	r	D1	D2	2	upper	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	6	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	8	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	10	r	D1	D2	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	11	r	D2	D1	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	12	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	13	r	D1	D2	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	14	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	15	r	D2	D1	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	16	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	17	r	D1	D2	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	18	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	19	r	D2	D1	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	20	l	D2	D1	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	21	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	22	r	D1	D2	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	23	r	D2	D1	2	upper	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	25	l	D1	D2	2	upper	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	26	r	D2	D1	1	lower	r	1			1		
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	28	l	D2	D1	1	lower	r	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	29	r	D1	D2	1	lower	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	30	l	D2	D1	1	lower	r	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	31	r	D2	D1	1	lower	r	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	32	l	D1	D2	1	lower	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	34	r	D1	D2	2	upper	l	0			1		
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	35	r	D2	D1	2	upper	l	0					
+Oscar	m	old chimps	21	04/12/2018	18	3	Test	36	l	D1	D2	2	upper	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	2	r	D2	D1	2	upper	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	3	r	D1	D2	2	upper	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	4	l	D2	D1	2	upper	r	0					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	5	r	D1	D2	2	upper	l	0					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	6	l	D2	D1	2	upper	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	7	r	D2	D1	2	upper	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	9	l	D2	D1	2	upper	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	10	r	D1	D2	2	upper	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	12	l	D1	D2	1	lower	l	1			1		
+Judy	f	old chimps	35	05/12/2018	18	3	Test	13	r	D1	D2	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	14	l	D2	D1	1	upper	r	0		1		D1	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	15	r	D2	D1	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	16	l	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	17	r	D1	D2	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	18	l	D2	D1	1	lower	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	19	r	D2	D1	1	upper	l	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	20	l	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	21	l	D2	D1	1	upper	r	0		1		D1	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	22	r	D1	D2	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	23	r	D2	D1	1	lower	l	0					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	24	l	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	25	l	D1	D2	1	lower	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	26	r	D2	D1	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	27	r	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	28	l	D2	D1	1	upper	r	0		1		D1	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	29	r	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	30	l	D2	D1	1	lower	r	0					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	31	r	D2	D1	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	32	l	D1	D2	1	upper	r	0		1		D2	0
+Judy	f	old chimps	35	05/12/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	34	r	D1	D2	1	lower	r	1					
+Judy	f	old chimps	35	05/12/2018	18	3	Test	35	r	D2	D1	1	upper	r	0		1		D1	1
+Judy	f	old chimps	35	05/12/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	1	l	D1	D2	2	upper	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	2	r	D2	D1	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	3	r	D1	D2	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	4	l	D2	D1	1	upper	r	0		1	1	D1	1
+Alley	f	old chimps	31	05/12/2018	18	3	Test	5	r	D1	D2	1	upper	l	0		1		D1	1
+Alley	f	old chimps	31	05/12/2018	18	3	Test	6	l	D2	D1	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	7	r	D2	D1	1	lower	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	8	l	D1	D2	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	9	l	D2	D1	2	lower	r	0		1	1	D1	0
+Alley	f	old chimps	31	05/12/2018	18	3	Test	10	r	D1	D2	2	lower	r	1		1		D2	1
+Alley	f	old chimps	31	05/12/2018	18	3	Test	11	r	D2	D1	2	upper	l	0					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	12	l	D1	D2	2	upper	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	13	r	D1	D2	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	14	l	D2	D1	2	upper	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	15	r	D2	D1	1	lower	r	1			1		
+Alley	f	old chimps	31	05/12/2018	18	3	Test	16	l	D1	D2	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	17	r	D1	D2	1	upper	l	0		1		D1	1
+Alley	f	old chimps	31	05/12/2018	18	3	Test	18	l	D2	D1	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	19	r	D2	D1	1	lower	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	20	l	D1	D2	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	21	l	D2	D1	2	lower	l	0		1	1	D2	1
+Alley	f	old chimps	31	05/12/2018	18	3	Test	22	r	D1	D2	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	23	r	D2	D1	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	25	l	D1	D2	1	lower	l	1			1		
+Alley	f	old chimps	31	05/12/2018	18	3	Test	26	r	D2	D1	1	lower	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	27	r	D1	D2	1	lower	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	28	l	D2	D1	2	upper	l	1			1		
+Alley	f	old chimps	31	05/12/2018	18	3	Test	29	r	D1	D2	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	30	l	D2	D1	2	upper	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	31	r	D2	D1	1	lower	r	1			1		
+Alley	f	old chimps	31	05/12/2018	18	3	Test	32	l	D1	D2	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	33	l	D2	D1	1	lower	l	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	34	r	D1	D2	2	upper	r	1			1		
+Alley	f	old chimps	31	05/12/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+Alley	f	old chimps	31	05/12/2018	18	3	Test	36	l	D1	D2	2	upper	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	2	r	D2	D1	2	upper	l	0					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	3	r	D1	D2	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	4	l	D2	D1	2	upper	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	6	l	D2	D1	2	upper	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	7	r	D2	D1	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	8	l	D1	D2	2	lower	l	0		1		D1	0
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	9	l	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	10	r	D1	D2	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	11	r	D2	D1	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	12	l	D1	D2	2	upper	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	13	r	D1	D2	1	upper	l	0		1	1	D1	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	14	l	D2	D1	1	upper	r	0		1		D1	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	15	r	D2	D1	1	lower	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	16	l	D1	D2	1	lower	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	17	r	D1	D2	1	lower	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	18	l	D2	D1	2	lower	l	0		1	1	D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	19	r	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	20	l	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	21	l	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	22	r	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	23	r	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	24	l	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	25	l	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	26	r	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	27	r	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	28	l	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	29	r	D1	D2	2	lower	r	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	30	l	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	31	r	D2	D1	2	lower	l	0		1		D2	1
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	32	l	D1	D2	2	upper	l	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	33	l	D2	D1	2	lower	r	0		1		D1	0
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	35	r	D2	D1	2	upper	r	1					
+Ajabu	f	old chimps	10	05/12/2018	18	3	Test	36	l	D1	D2	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	2	r	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	3	r	D1	D2	2	lower	r	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	4	l	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	5	r	D1	D2	2	upper	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	6	l	D2	D1	2	lower	r	0		1		D1	0
+Angela	f	old chimps	7	06/12/2018	18	3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	8	l	D1	D2	2	upper	r	0					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	9	l	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	10	r	D1	D2	2	lower	r	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	11	r	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	12	l	D1	D2	2	lower	l	0		1		D1	0
+Angela	f	old chimps	7	06/12/2018	18	3	Test	13	r	D1	D2	2	lower	r	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	14	l	D2	D1	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	15	r	D2	D1	2	upper	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	16	l	D1	D2	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	17	r	D1	D2	1	lower	r	1			1		
+Angela	f	old chimps	7	06/12/2018	18	3	Test	18	l	D2	D1	1	lower	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	19	r	D2	D1	1	lower	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	20	l	D1	D2	2	lower	r	0		1	1	D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	21	l	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	22	r	D1	D2	2	upper	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	23	r	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	24	l	D1	D2	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	25	l	D1	D2	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	26	r	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	27	r	D1	D2	2	upper	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	28	l	D2	D1	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	29	r	D1	D2	2	lower	l	0		1		D1	0
+Angela	f	old chimps	7	06/12/2018	18	3	Test	30	l	D2	D1	2	lower	l	0		1		D2	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	31	r	D2	D1	2	upper	l	0					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	32	l	D1	D2	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	33	l	D2	D1	2	upper	l	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	34	r	D1	D2	2	upper	r	1					
+Angela	f	old chimps	7	06/12/2018	18	3	Test	35	r	D2	D1	1	upper	r	0		1	1	D1	1
+Angela	f	old chimps	7	06/12/2018	18	3	Test	36	l	D1	D2	1	lower	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	1	l			1	lower	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	2	r			1	lower	l	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	3	l			1	lower	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	4	r			1	lower	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	5	l			1	lower	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	6	r			1	lower	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	7	l			1	lower	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	8	r			1	lower	l	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	9	r			1	lower	l	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	10	l			1	lower	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	11	r			1	lower	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	12	l			1	lower	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	13	l			1	lower	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	14	r			1	lower	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	15	r			1	lower	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	16	l			2	upper	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	17	r			2	upper	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	18	l			2	upper	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	19	r			2	upper	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	20	l			2	upper	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	21	r			2	upper	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	22	l			2	upper	r	0					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	23	r			2	upper	r	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	24	l			2	upper	l	1					
+Cheetah	f	old chimps	31	30/10/2018		1	Training01	25	r	box	grey	2	upper	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	1	r	box	grey	1	lower	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	2	l	box	grey	1	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	4	l	grey	box	1	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	5	r	box	grey	1	lower	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	6	l	box	grey	1	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	7	r	grey	box	1	lower	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	8	l	grey	box	1	lower	l	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	9	r	box	grey	1	lower	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	10	l	grey	box	2	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	11	r	grey	box	2	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	12	l	box	grey	2	lower	r	0					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	13	r	grey	box	2	upper	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	14	l	grey	box	2	upper	l	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	15	r	box	grey	2	upper	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	16	l	box	grey	1	lower	l	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	17	r	grey	box	1	upper	r	1					
+Cheetah	f	old chimps	31	31-Oct-18		2	Training02	18	l	grey	box	1	upper	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	2	r	D2	D1	2	lower	l	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	3	r	D1	D2	2	lower	r	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	4	l	D2	D1	2	lower	l	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	6	l	D2	D1	2	lower	l	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	9	l	D2	D1	2	lower	l	0		1		D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	10	r	D1	D2	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	11	r	D2	D1	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	12	l	D1	D2	2	upper	r	0					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	13	r	D1	D2	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	14	l	D2	D1	2	upper	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	16	l	D1	D2	1	lower	l	1			1		
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	17	r	D1	D2	1	lower	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	18	l	D2	D1	1	lower	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	19	r	D2	D1	2	lower	l	0		1	1	D2	1
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	20	l	D1	D2	2	upper	r	0					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	21	l	D2	D1	2	upper	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	22	r	D1	D2	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	23	r	D2	D1	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	24	l	D1	D2	1	lower	l	1			1		
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	25	l	D1	D2	1	lower	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	26	r	D2	D1	1	lower	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1			1		
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	28	l	D2	D1	2	upper	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	29	r	D1	D2	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1			1		
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	31	r	D2	D1	1	lower	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	32	l	D1	D2	1	lower	l	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1			1		
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Cheetah	f	old chimps	31	01-Nov-18		3	Test	36	l	D1	D2	1	lower	l	1			1		
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	1	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	2	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	3	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	4	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	5	l			1		l	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	6	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	7	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	8	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	9	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	10	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	11	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	12	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	13	r			1		r	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	14	r			1		r	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	15	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	16	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	17	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	18	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	19	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	20	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	21	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	22	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	23	r			1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	24	l			1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	25	r	box	grey	1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	26	l	box	grey	1		r	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	27	r	grey	box	1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	28	l	grey	box	1		l	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	29	r	box	grey	1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	30	l	box	grey	1		l	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	31	r	grey	box	1		l	0					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	32	l	grey	box	1		l	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	33	r	box	grey	1		r	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	34	l	grey	box	1		l	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	35	r	grey	box	2		r	1					
+Alikaka	m	old chimps	20	30/10/2018		1	Training01	36	l	box	grey	2		r	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	37	r	grey	box	2		r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	38	l	grey	box	2		r	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	39	r	box	grey	2		l	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	40	l	box	grey	2		r	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	41	r	grey	box	2		r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	42	l	grey	box	2		l	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training01	43	l	box	grey	2		l	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	1	r	box	grey	1	lower	r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	2	l	box	grey	1	lower	r	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	4	l	grey	box	1	lower	l	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	5	r	box	grey	1	lower	r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	6	r	box	grey	2	upper	r	1	error in counterbalancing				
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	7	r	grey	box	2	upper	r	1					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	8	l	grey	box	2	upper	r	0					
+Alikaka	m	old chimps	20	31-Oct-18		2	Training02	9	r	box	grey	2	upper	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	1	l	D1	D2	1	upper	r	0		1		D2	0
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	2	r	D2	D1	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	3	r	D1	D2	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	4	l	D2	D1	1	lower	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	5	r	D1	D2	2	lower	r	0		1	1	D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	6	l	D2	D1	2	lower	l	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	7	r	D2	D1	2	lower	r	0		1		D1	0
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	8	l	D1	D2	2	upper	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	9	l	D2	D1	2	upper	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	10	r	D1	D2	2	upper	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	11	r	D2	D1	1	upper	r	0		1	1	D1	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	12	l	D1	D2	1	upper	r	0		1		D2	0
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	13	r	D1	D2	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	14	l	D2	D1	1	lower	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	15	r	D2	D1	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	16	l	D1	D2	2	lower	r	0		1	1	D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	17	r	D1	D2	2	lower	r	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	18	l	D2	D1	2	lower	l	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	19	r	D2	D1	2	upper	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	20	l	D1	D2	2	upper	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	21	l	D2	D1	2	upper	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	22	r	D1	D2	1	lower	r	1			1		
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	23	r	D2	D1	1	upper	r	0		1		D1	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	24	l	D1	D2	1	upper	r	0		1		D2	0
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	25	l	D1	D2	1	lower	r	0					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	26	r	D2	D1	1	upper	r	0		1		D1	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	27	r	D1	D2	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	28	l	D2	D1	1	upper	r	0		1		D1	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	29	r	D1	D2	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	31	r	D2	D1	1	lower	r	1					
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	32	l	D1	D2	2	lower	r	0		1	1	D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	33	l	D2	D1	2	lower	l	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	34	r	D1	D2	2	lower	r	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	35	r	D1	D2	2	lower	r	0		1		D2	1
+Alikaka	m	old chimps	20	01-Nov-18		3	Test	36	l	D2	D1	2	upper	r	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	1	l	1		1		r	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	2	r	1		1		l	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	3	l	1		1		r	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	4	r	1		1		r	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	5	l	1		1		r	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	6	r	1		1		l	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	7	l	1		1		l	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	8	r	1		1		r	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	9	r	1		1		r	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	10	l	2		1		l	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	11	r	2		1		r	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	12	l	2		1		r	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	13	r	2		1		l	0					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	14	r	2		1		r	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	15	l	2		1		l	1					
+Edvard	m	old chimps	18	30/10/2018		1	Training01	16	l	2		1		l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	1	r	box	grey	1	lower	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	2	l	box	grey	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	3	r	grey	box	1	lower	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	4	l	grey	box	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	5	r	box	grey	1	lower	l	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	6	l	box	grey	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	7	r	grey	box	1	upper	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	8	l	grey	box	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	9	r	box	grey	1	lower	l	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	10	l	grey	box	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	11	r	grey	box	1	lower	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	12	l	box	grey	1	lower	l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	13	r	grey	box	1	lower	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	14	l	grey	box	2	upper	l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	15	r	box	grey	2	upper	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	16	l	box	grey	2	upper	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	17	r	grey	box	2	upper	l	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	18	l	grey	box	2	upper	l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	19	l	box	grey	2	upper	l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	20	r	box	grey	2	upper	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	21	l	box	grey	1	lower	r	0					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	22	r	box	grey	1	lower	r	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	23	l	grey	box	1	lower	l	1					
+Edvard	m	old chimps	18	31/10/2018		2	Training02	24	r	grey	box	1	lower	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	2	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	3	r	D1	D2	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	4	l	D2	D1	2	upper	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	5	r	D1	D2	1	upper	l	0		1	1	D1	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	6	l	D2	D1	1	upper	r	0		1		D1	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	7	r	D2	D1	1	lower	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	8	l	D1	D2	1	lower	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	9	l	D2	D1	1	lower	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	10	r	D1	D2	2	lower	r	0		1	1	D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	11	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	12	l	D1	D2	2	lower	r	0		1		D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	13	r	D1	D2	2	lower	r	0		1		D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	14	l	D2	D1	2	upper	r	0					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	16	l	D1	D2	2	upper	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	17	r	D1	D2	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	18	l	D2	D1	1	lower	l	1			1		
+Edvard	m	old chimps	18	01-Nov-18		3	Test	19	r	D2	D1	1	lower	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	20	l	D1	D2	1	lower	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	21	l	D2	D1	2	lower	l	0		1	1	D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	22	r	D1	D2	2	lower	r	0		1		D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	23	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	24	l	D1	D2	2	lower	r	0		1		D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	25	l	D1	D2	2	upper	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	26	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	28	l	D2	D1	1	upper	r	0		1	1	D1	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	29	r	D1	D2	1	upper	l	0		1		D1	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	31	r	D2	D1	1	lower	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	32	l	D1	D2	1	lower	l	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	33	l	D2	D1	2	lower	l	0		1	1	D2	1
+Edvard	m	old chimps	18	01-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Edvard	m	old chimps	18	01-Nov-18		3	Test	36	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	1	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	2	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	3	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	4	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	5	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	6	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	7	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	8	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	9	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	10	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	11	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	12	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	13	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	14	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	15	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	16	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	17	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	18	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	19	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	20	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	21	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	22	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	23	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	24	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	25	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	26	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	27	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	28	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	29	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	30	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	31	r			1		l	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	32	l			1		l	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	33	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	34	l			1		r	0					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	35	r			1		r	1					
+Amahirwe	m	old chimps	20	30/10/2018		1	Training01	36	l			1		r	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	37	r			1		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	38	l			1		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	39	r			1		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	40	l			1		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	41	r			1		r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	42	l			1		r	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	43	l			1		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	44	r			1		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	45	l			1		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	46	r			1		r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	47	l			1		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	48	r			2		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	1	l			2		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	2	r			2		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	3	l			2		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	4	r			2		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	5	l			2		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	6	r			2		l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	7	l			2		l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	8	r			2		r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training01	9	r			2		r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	1	r	box	grey	1	upper	r	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	2	l	box	grey	1	lower	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	3	r	grey	box	1	lower	r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	4	l	grey	box	1	lower	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	5	r	box	grey	2	lower	r	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	6	l	box	grey	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	7	r	grey	box	2	lower	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	8	l	grey	box	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	9	r	box	grey	2	upper	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	10	l	grey	box	2	upper	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	11	r	grey	box	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	12	l	box	grey	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	13	r	grey	box	2	upper	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	14	l	grey	box	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	15	r	box	grey	2	upper	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	16	l	box	grey	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	17	r	grey	box	2	upper	l	0					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	18	l	grey	box	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	19	l	box	grey	2	upper	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	20	r	box	grey	2	upper	r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	21	l	box	grey	1	lower	l	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	22	r	box	grey	1	lower	r	1					
+Amahirwe	m	old chimps	20	31/10/2018		2	Training02	23	l	grey	box	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	1	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	2	r	D2	D1	2	lower	l	0		1		D2	1
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	3	r	D1	D2	2	lower	l	0		1		D1	0
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	4	l	D2	D1	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	5	r	D1	D2	2	upper	l	0					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	6	l	D2	D1	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	8	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	9	l	D2	D1	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	10	r	D1	D2	2	upper	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	11	r	D2	D1	1	upper	r	0		1	1	D1	1
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	12	l	D1	D2	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	13	r	D1	D2	1	lower	l	0					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	14	l	D2	D1	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	15	r	D2	D1	1	lower	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	16	l	D1	D2	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	17	r	D1	D2	2	upper	r	1			1		
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	18	l	D2	D1	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	19	r	D2	D1	2	upper	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	20	l	D1	D2	1	lower	l	1			1		
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	21	l	D2	D1	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	22	r	D1	D2	1	lower	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	23	r	D2	D1	2	lower	l	0		1	1	D2	1
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	24	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	25	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	26	r	D2	D1	2	upper	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	27	r	D1	D2	1	lower	r	1			1		
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	28	l	D2	D1	1	lower	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	29	r	D1	D2	1	lower	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	30	l	D2	D1	2	upper	l	1			1		
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	31	r	D2	D1	2	upper	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	32	l	D1	D2	2	upper	l	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	33	l	D2	D1	1	lower	l	1			1		
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	34	r	D1	D2	1	lower	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	35	r	D2	D1	1	lower	r	1					
+Amahirwe	m	old chimps	20	01-Nov-18		3	Test	36	l	D1	D2	2	upper	l	1			1		
+Zee	m	old chimps	18	30/10/2018		1	Training01	1	l			1		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	2	r			1		l	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	3	l			1		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	4	r			1		l	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	5	l			1		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	6	r			1		l	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	7	l			1		l	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	8	r			1		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	9	r			1		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	10	l			2		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	11	r			2		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	12	l			2		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	13	r			2		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	14	r			2		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	15	l			2		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	16	l			2		r	0					
+Zee	m	old chimps	18	30/10/2018		1	Training01	17	r			2		r	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	18	l			2		l	1					
+Zee	m	old chimps	18	30/10/2018		1	Training01	19	r			2		r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	1	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	2	l	box	grey	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	4	l	grey	box	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	5	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	6	l	box	grey	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	7	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	8	l	grey	box	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	9	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	10	l	grey	box	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	11	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	12	l	box	grey	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	13	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	14	l	grey	box	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	15	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	16	l	box	grey	1	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	17	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	18	l	grey	box	1	lower	l	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	19	l	box	grey	1	lower	l	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	20	r	box	grey	2	lower	l	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	21	l	box	grey	2	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	22	r	box	grey	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	23	l	grey	box	2	upper	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	24	r	grey	box	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	25	r	box	grey	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	26	l	box	grey	2	upper	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	27	r	grey	box	2	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	28	l	grey	box	2	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	29	r	box	grey	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	30	l	box	grey	2	upper	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	31	r	grey	box	2	lower	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	32	l	grey	box	2	upper	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	33	r	box	grey	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	34	l	grey	box	2	upper	r	0					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	35	r	grey	box	2	upper	r	1					
+Zee	m	old chimps	18	31-Oct-18		2	Training02	36	l	box	grey	2	upper	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	1	r	grey	box	2	upper	r	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	2	l	grey	box	1	lower	r	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	3	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	4	l	box	grey	1	lower	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	5	r	grey	box	1	lower	l	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	6	l	grey	box	1	lower	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	7	l	box	grey	1	lower	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	8	r	box	grey	1	lower	l	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	9	l	box	grey	1	lower	r	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	10	r	box	grey	1	lower	l	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	11	l	grey	box	1	lower	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	12	r	grey	box	1	lower	r	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	13	r	box	grey	1	lower	r	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	14	l	box	grey	2	upper	r	0					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	15	r	grey	box	2	upper	r	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	16	l	grey	box	2	upper	l	1					
+Zee	m	old chimps	18	01-Nov-18		3	Training02	17	r	box	grey	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	1	l	D1	D2	1	lower	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	2	r	D2	D1	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	3	r	D1	D2	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	4	l	D2	D1	2	lower	l	0		1	1	D2	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	5	r	D1	D2	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	6	l	D2	D1	2	upper	r	0					
+Zee	m	old chimps	18	02-Nov-18		4	Test	7	r	D2	D1	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	8	l	D1	D2	2	upper	r	0					
+Zee	m	old chimps	18	02-Nov-18		4	Test	9	l	D2	D1	2	upper	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	10	r	D1	D2	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	11	r	D2	D1	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	12	l	D1	D2	1	upper	r	0		1	1	D2	0
+Zee	m	old chimps	18	02-Nov-18		4	Test	13	r	D1	D2	1	lower	l	0					
+Zee	m	old chimps	18	02-Nov-18		4	Test	14	l	D2	D1	1	upper	r	0		1		D1	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	15	r	D2	D1	1	upper	r	0		1		D1	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	16	l	D1	D2	1	lower	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	17	r	D1	D2	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	18	l	D2	D1	1	lower	r	0					
+Zee	m	old chimps	18	02-Nov-18		4	Test	19	r	D2	D1	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	20	l	D1	D2	1	lower	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	21	l	D2	D1	1	lower	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	22	r	D1	D2	2	upper	r	1			1		
+Zee	m	old chimps	18	02-Nov-18		4	Test	23	r	D2	D1	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	24	l	D1	D2	2	lower	r	0		1		D2	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	25	l	D1	D2	2	lower	r	0		1		D2	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	26	r	D2	D1	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	27	r	D1	D2	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	28	l	D2	D1	2	lower	l	0		1		D2	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	29	r	D1	D2	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	30	l	D2	D1	2	upper	l	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	31	r	D2	D1	2	upper	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	32	l	D1	D2	1	lower	l	1			1		
+Zee	m	old chimps	18	02-Nov-18		4	Test	33	l	D2	D1	1	upper	r	0		1		D1	1
+Zee	m	old chimps	18	02-Nov-18		4	Test	34	r	D1	D2	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	35	r	D2	D1	1	lower	r	1					
+Zee	m	old chimps	18	02-Nov-18		4	Test	36	l	D1	D2	1	lower	l	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	1	l			1		l	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	2	r			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	3	l			1		l	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	4	r			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	5	l			1		l	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	6	r			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	7	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	8	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	9	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	10	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	11	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	12	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	13	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	14	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	15	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	16	l			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	17	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	18	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	19	r			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	20	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	21	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	22	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	23	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	24	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	25	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	26	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	27	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	28	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	29	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	30	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	31	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	32	l			1		r	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	33	r			1		r	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	34	l			1		l	1					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	35	r			1		l	0					
+Mwanzo	f	old chimps	22	30/10/2018		1	Training01	36	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	1	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	2	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	3	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	4	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	5	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	6	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	7	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	8	r			1		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	9	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	10	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	11	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	12	r			1		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	13	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	14	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	15	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	16	r			1		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	17	l			1		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	18	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	19	l			1		l	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	20	r			1		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	21	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	22	l			1		l	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	23	r			1		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	24	l			2		l	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	25	r			2		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	26	r			2		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	27	l			2		l	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	28	l			2		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	29	r			2		r	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	30	l			2		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	31	r			2		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	32	l			2		l	1					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	33	r			2		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	34	l			2		r	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	35	r			2		l	0					
+Mwanzo	f	old chimps	22	31-Oct-18		2	Training01	36	l			2		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	1	l			1		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	2	r			1		l	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	3	l			1		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	4	r			1		r	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	5	l			1		r	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	6	r			1		r	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	7	l			1		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	8	r			1		l	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	9	r			1		r	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	10	l			1		r	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	11	r			1		r	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	12	l			1		r	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	13	r			1		l	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	14	r			1		r	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	15	l			1		r	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	16	l			1		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	17	r			1		l	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	18	l			1		l	1					
+Julia	f	old chimps	18	30/10/2018		1	Training01	19	r			1		l	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	20	l			1		r	0					
+Julia	f	old chimps	18	30/10/2018		1	Training01	21	r			1		l	0	"REFUSED TO PARTICIPATE FOR OVER 2MIN, STOPPED SESSION"				
+Julia	f	old chimps	18	31/10/2018		2	Training01	1	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	2	r			1		l	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	3	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	4	r			1		r	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	5	l			1		r	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	6	r			1		r	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	7	l			1		r	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	8	r			1		r	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	9	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	10	r			1		l	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	11	l			1		r	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	12	r			1		l	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	13	l			1		r	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	14	r			1		r	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	15	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	16	r			1		l	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	17	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	18	r			1		r	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	19	l			1		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	20	r			2		l	0					
+Julia	f	old chimps	18	31/10/2018		2	Training01	21	l			2		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	22	l			2		l	1					
+Julia	f	old chimps	18	31/10/2018		2	Training01	23	r			2		r	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	1	r	box	grey	1	lower	r	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	2	l	box	grey	1	lower	l	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	3	r	grey	box	1	lower	r	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	4	l	grey	box	2	lower	r	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	5	r	box	grey	2	lower	r	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	6	l	box	grey	2	lower	l	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	7	r	grey	box	2	lower	l	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	8	l	grey	box	2	lower	l	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	9	r	box	grey	2	upper	r	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	10	l	grey	box	2	upper	r	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	11	r	grey	box	2	lower	r	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	12	l	box	grey	2	upper	l	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	13	r	grey	box	2	upper	r	1					
+Julia	f	old chimps	18	01-Nov		3	Training02	14	l	grey	box	2	lower	l	0					
+Julia	f	old chimps	18	01-Nov		3	Training02	15	r	box	grey	2	lower	l	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	16	l	box	grey	2	lower	l	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	17	r	grey	box	2	upper	l	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	18	l	grey	box	2	lower	r	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	19	l	box	grey	2	lower	r	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	20	r	box	grey	2	upper	r	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	21	l	box	grey	2	lower	l	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	22	r	box	grey	2	upper	r	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	23	l	grey	box	2	upper	l	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	24	r	grey	box	2	upper	l	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	25	r	box	grey	2	lower	r	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	26	l	box	grey	2	upper	r	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	27	r	grey	box	2	upper	r	0					
+Julia	f	old chimps	18	02-Nov		4	Training02	28	l	grey	box	2	upper	l	1					
+Julia	f	old chimps	18	02-Nov		4	Training02	29	r	box	grey	2	upper	r	0					
+Julia	f	old chimps	18				Training02	30	l	box	grey									
+Julia	f	old chimps	18				Training02	31	r	grey	box									
+Julia	f	old chimps	18				Training02	32	l	grey	box									
+Julia	f	old chimps	18				Training02	33	r	box	grey									
+Julia	f	old chimps	18				Training02	34	l	grey	box									
+Julia	f	old chimps	18				Training02	35	r	grey	box									
+Julia	f	old chimps	18				Training02	36	l	box	grey									
+Mary	f	old chimps	15	31/10/2018		1	Training01	1	l			1		r	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	2	r			1		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	3	l			1		r	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	4	r			1		l	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	5	l			1		l	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	6	r			1		l	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	7	l			1		r	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	8	r			1		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	9	r			1		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	10	l			1		l	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	11	r			2		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	12	l			2		r	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	13	l			2		l	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	14	r			2		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	15	r			2		r	0					
+Mary	f	old chimps	15	31/10/2018		1	Training01	16	l			2		l	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	17	r			2		r	1					
+Mary	f	old chimps	15	31/10/2018		1	Training01	18	l			2		l	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	1	r	box	grey	1		l	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	2	l	box	grey	1		r	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	3	r	grey	box	1		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	4	l	grey	box	1		r	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	5	r	box	grey	1		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	6	l	box	grey	1		l	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	7	r	grey	box	1		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	8	l	grey	box	2		r	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	9	r	box	grey	2		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	10	l	grey	box	2		r	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	11	r	grey	box	2		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	12	l	box	grey	2		r	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	13	r	grey	box	2		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	14	l	grey	box	2		l	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	15	r	box	grey	2		r	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	16	l	box	grey	1		l	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	17	r	grey	box	1		l	0					
+Mary	f	old chimps	15	01/11/2018		2	Training02	18	l	grey	box	1		l	1					
+Mary	f	old chimps	15	01/11/2018		2	Training02	19	l	box	grey	1		l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	2	r	D2	D1	2	upper	l	0					
+Mary	f	old chimps	18	02-Nov-18		4	Test	3	r	D1	D2	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	4	l	D2	D1	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	5	r	D1	D2	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	6	l	D2	D1	1	lower	l	1			1		
+Mary	f	old chimps	18	02-Nov-18		4	Test	7	r	D2	D1	1	lower	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	8	l	D1	D2	1	lower	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	9	l	D2	D1	2	lower	l	0		1	1	D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	10	r	D1	D2	2	lower	l	0		1		D1	0
+Mary	f	old chimps	18	02-Nov-18		4	Test	11	r	D2	D1	2	lower	l	0		1		D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	12	l	D1	D2	2	lower	r	0		1		D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	13	r	D1	D2	2	lower	r	0		1		D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	14	l	D2	D1	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	15	r	D2	D1	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	16	l	D1	D2	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	17	r	D1	D2	1	lower	l	0			1		
+Mary	f	old chimps	18	02-Nov-18		4	Test	18	l	D2	D1	1	lower	r	0					
+Mary	f	old chimps	18	02-Nov-18		4	Test	19	r	D2	D1	1	lower	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	20	l	D1	D2	1	lower	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	21	l	D2	D1	1	lower	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	22	r	D1	D2	2	lower	r	0		1	1	D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	23	r	D2	D1	2	lower	l	0		1		D2	1
+Mary	f	old chimps	18	02-Nov-18		4	Test	24	l	D1	D2	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	25	l	D1	D2	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	26	r	D2	D1	2	upper	l	0					
+Mary	f	old chimps	18	02-Nov-18		4	Test	27	r	D1	D2	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	28	l	D2	D1	2	upper	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	29	r	D1	D2	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	30	l	D2	D1	1	lower	l	1			1		
+Mary	f	old chimps	18	02-Nov-18		4	Test	31	r	D2	D1	1	lower	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	32	l	D1	D2	1	lower	l	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	33	l	D2	D1	2	upper	l	1			1		
+Mary	f	old chimps	18	02-Nov-18		4	Test	34	r	D1	D2	2	upper	l	0					
+Mary	f	old chimps	18	02-Nov-18		4	Test	35	r	D2	D1	2	upper	r	1					
+Mary	f	old chimps	18	02-Nov-18		4	Test	36	l	D1	D2	2	upper	r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	1	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	2	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	3	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	4	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	5	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	6	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	7	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	8	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	9	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	10	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	11	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	12	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	13	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	14	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	15	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	16	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	17	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	18	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	19	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	20	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	21	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	22	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	23	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	24	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	25	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	26	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	27	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	28	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	29	r			1		l	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	30	l			1		l	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	31	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	32	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	33	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	34	l			1		r	0					
+Akela	f	young chimps	30	26/11/2018		1	Training01	35	r			1		r	1					
+Akela	f	young chimps	30	26/11/2018		1	Training01	36	l			1		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	1	l			1		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	2	r			1		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	3	l			1		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	4	r			1		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	5	l			1		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	6	r			1		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	7	l			1		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	8	r			1		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	9	r			1		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	10	l			1		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	11	r			1		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	12	l			1		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	13	r			1		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	14	r			1		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	15	l			2		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	16	l			2		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	17	r			2		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	18	l			2		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	19	r			2		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	20	l			2		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	21	r			2		l	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	22	l			2		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	23	r			2		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	24	l			2		r	0					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	25	r			2		r	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	26	l			2		l	1					
+Dufatanya	f	young chimps	27	26/11/2018		1	Training01	27	r			2		r	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	1	l			1		l	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	2	r			1		l	0					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	3	l			1		l	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	4	r			1		l	0					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	5	l			1		l	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	6	r			1		r	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	7	l			1		l	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	8	r			2		l	0					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	9	r			2		l	0					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	10	l			2		r	0					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	11	r			2		r	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	12	l			2		l	1					
+Bahati	f	young chimps	25	26/11/2018		1	Training01	13	r			2		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	1	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	2	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	3	l			1		l	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	4	r			1		l	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	5	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	6	r			1		l	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	7	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	8	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	9	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	10	r			1		l	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	11	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	12	r			1		l	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	13	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	14	r			1		l	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	15	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	16	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	17	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	18	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	19	l			1		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	20	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	21	l			1		l	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	22	r			1		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	23	l			2		l	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	24	r			2		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	25	l			2		r	0					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	26	r			2		r	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	27	l			2		l	1					
+Niyonkuru	f	young chimps	28	26/11/2018		1	Training01	28	r			2		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	1	l			1		l	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	2	r			1		l	0					
+Joy	f	young chimps	14	26/11/2018		1	Training01	3	l			1		l	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	4	r			1		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	5	l			1		l	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	6	r			2		l	0					
+Joy	f	young chimps	14	26/11/2018		1	Training01	7	l			2		r	0					
+Joy	f	young chimps	14	26/11/2018		1	Training01	8	r			2		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	9	l			2		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	10	r			2		r	0					
+Joy	f	young chimps	14	26/11/2018		1	Training01	11	l			2		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	12	r			2		l	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	13	l			2		l	0					
+Joy	f	young chimps	14	26/11/2018		1	Training01	14	r			2		r	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	15	r			2		l	1					
+Joy	f	young chimps	14	26/11/2018		1	Training01	16	l			2		l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	1	r	box	grey	1	lower	l	0					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	2	l	box	grey	1	lower	l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	4	l	grey	box	1	lower	l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	5	r	box	grey	2	lower	l	0					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	6	l	box	grey	2	lower	r	0					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	7	r	grey	box	2	upper	r	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	8	l	grey	box	2	upper	l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	9	r	box	grey	2	upper	l	0					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	10	l	grey	box	2	upper	r	0					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	11	r	grey	box	2	upper	r	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	12	l	box	grey	2	upper	l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	13	r	grey	box	2	upper	r	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	14	l	grey	box	1	lower	l	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	15	r	box	grey	1	lower	r	1					
+Bahati	f	young chimps	25	27-Nov-18		2	Training02	16	l	box	grey	1	lower	l	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	1	l			1		l	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	2	r			1		l	0					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	3	l			1		l	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	4	r			1		r	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	5	l			1		l	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	6	r			1		l	0					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	7	l			2		r	0					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	8	r			2		r	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	9	l			2		r	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	10	r			2		r	0					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	11	l			2		r	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	12	r			2		l	1					
+Kisa	m	young chimps	25	27-Nov-18		1	Training01	13	l			2		l	0					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	1	r	box	grey	1	upper	r	0					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	2	l	box	grey	1	lower	l	1					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	4	l	grey	box	1	lower	l	1					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	5	r	box	grey	2	upper	r	1					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	6	l	box	grey	2	upper	l	1					
+Joy	f	young chimps	14	27-Nov-18		2	Training02	7	r	grey	box	2	upper	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	1	r	box	grey	1	upper	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	2	l	box	grey	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	3	r	grey	box	1	lower	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	4	l	grey	box	1	lower	r	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	5	r	box	grey	1	lower	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	6	l	box	grey	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	7	r	grey	box	1	upper	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	8	l	grey	box	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	9	r	box	grey	1	lower	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	10	l	grey	box	1	lower	r	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	11	r	grey	box	1	upper	r	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	12	l	box	grey	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	13	r	grey	box	1	lower	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	14	l	grey	box	1	lower	r	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	15	r	box	grey	1	lower	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	16	l	box	grey	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	17	r	grey	box	1	lower	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	18	l	grey	box	2	lower	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	19	l	box	grey	2	upper	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	20	r	box	grey	2	upper	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	21	l	box	grey	2	lower	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	22	r	box	grey	2	upper	l	0					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	23	l	grey	box	2	upper	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	24	r	grey	box	2	upper	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	25	r	box	grey	2	upper	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	26	l	box	grey	1	lower	l	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	27	r	grey	box	1	lower	r	1					
+Dufatanya	f	young chimps	27	27-Nov-18		2	Training02	28	l	grey	box	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	1	l	D1	D2	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	2	r	D2	D1	1	upper	l	0		1		D2	0
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	3	l	D1	D2	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	4	l	D2	D1	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	5	r	D1	D2	1	lower	l	0					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	6	l	D2	D1	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	7	r	D2	D1	1	lower	r	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	8	l	D1	D2	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	9	l	D2	D1	2	lower	l	0		1	1	D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	10	r	D1	D2	2	lower	r	0		1		D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	11	r	D2	D1	2	lower	l	0		1		D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	12	l	D1	D2	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	13	r	D1	D2	2	upper	l	0					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	14	l	D2	D1	2	lower	l	0		1		D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	15	r	D2	D1	2	lower	l	0		1		D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	16	l	D1	D2	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	17	r	D1	D2	2	upper	r	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	18	l	D2	D1	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	19	r	D2	D1	1	lower	r	1			1		
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	20	l	D1	D2	1	upper	l	0		1		D1	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	21	l	D2	D1	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	22	r	D1	D2	1	lower	l	0					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	23	r	D2	D1	1	lower	r	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	24	l	D1	D2	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	25	l	D1	D2	1	lower	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	26	r	D2	D1	2	lower	l	0		1	1	D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	28	l	D2	D1	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	29	r	D1	D2	2	lower	l	0		1		D1	0
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	30	l	D2	D1	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	31	r	D2	D1	2	lower	l	0		1		D2	1
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	32	l	D1	D2	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	35	r	D2	D1	1	lower	r	1			1		
+Dufatanya	f	young chimps	27	28-Nov-18		3	Test	36	l	D1	D2	1	lower	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	1	l	D1	D2	1	lower	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	2	r	D2	D1	1	lower	l	0					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	3	l	D1	D2	1	lower	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	4	l	D2	D1	1	upper	r	0		1		D1	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	5	r	D1	D2	1	lower	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	6	l	D2	D1	1	lower	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	7	r	D2	D1	1	lower	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	8	l	D1	D2	2	lower	r	0		1	1	D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	9	l	D2	D1	2	lower	r	0		1		D1	0
+Bahati	f	young chimps	25	28-Nov-18		3	Test	10	r	D1	D2	2	lower	r	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	11	r	D2	D1	2	lower	l	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	12	l	D1	D2	2	lower	l	0		1		D1	0
+Bahati	f	young chimps	25	28-Nov-18		3	Test	13	r	D1	D2	2	lower	r	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	14	l	D2	D1	2	lower	l	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	16	l	D1	D2	2	upper	r	0					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	17	r	D1	D2	2	lower	r	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	18	l	D2	D1	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	19	r	D2	D1	2	upper	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	20	l	D1	D2	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	21	l	D2	D1	1	upper	r	0		1	1	D1	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	22	r	D1	D2	1	lower	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	23	r	D2	D1	1	lower	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	24	l	D1	D2	1	lower	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	25	l	D1	D2	2	lower	r	0		1	1	D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	26	r	D2	D1	2	lower	l	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	28	l	D2	D1	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	29	r	D1	D2	2	lower	r	0		1		D2	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	30	l	D2	D1	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	31	r	D2	D1	2	upper	l	0					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	32	l	D1	D2	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Bahati	f	young chimps	25	28-Nov-18		3	Test	35	r	D2	D1	1	upper	r	0		1	1	D1	1
+Bahati	f	young chimps	25	28-Nov-18		3	Test	36	l	D1	D2	1	upper	r	0		1		D2	0
+Joy	f	young chimps	14	28-Nov-18		3	Test	1	l	D1	D2	1	upper	l	0		1		D1	1
+Joy	f	young chimps	14	28-Nov-18		3	Test	2	r	D2	D1	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	3	l	D1	D2	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	4	l	D2	D1	1	lower	r	0					
+Joy	f	young chimps	14	28-Nov-18		3	Test	5	r	D1	D2	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	6	l	D2	D1	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	7	r	D2	D1	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	8	l	D1	D2	2	lower	r	0		1	1	D2	1
+Joy	f	young chimps	14	28-Nov-18		3	Test	9	l	D2	D1	2	upper	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	10	r	D1	D2	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	11	r	D2	D1	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	12	l	D1	D2	1	lower	r	0			1		
+Joy	f	young chimps	14	28-Nov-18		3	Test	13	r	D1	D2	1	upper	r	0		1		D2	0
+Joy	f	young chimps	14	28-Nov-18		3	Test	14	l	D2	D1	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	15	r	D2	D1	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	16	l	D1	D2	1	upper	l	0		1		D1	1
+Joy	f	young chimps	14	28-Nov-18		3	Test	17	r	D1	D2	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	18	l	D2	D1	1	upper	r	0		1		D1	1
+Joy	f	young chimps	14	28-Nov-18		3	Test	19	r	D2	D1	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	20	l	D1	D2	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	21	l	D2	D1	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	22	r	D1	D2	2	upper	r	1			1		
+Joy	f	young chimps	14	28-Nov-18		3	Test	23	r	D2	D1	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	24	l	D1	D2	2	upper	r	0					
+Joy	f	young chimps	14	28-Nov-18		3	Test	25	l	D1	D2	2	upper	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	26	r	D2	D1	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	28	l	D2	D1	1	lower	l	1			1		
+Joy	f	young chimps	14	28-Nov-18		3	Test	29	r	D1	D2	1	upper	r	0		1		D2	0
+Joy	f	young chimps	14	28-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	31	r	D2	D1	1	lower	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	32	l	D1	D2	1	lower	l	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1			1		
+Joy	f	young chimps	14	28-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Joy	f	young chimps	14	28-Nov-18		3	Test	36	l	D1	D2	1	upper	l	0		1	1	D1	1
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	1	r	box	grey	1	lower	l	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	2	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	4	l	grey	box	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	5	r	box	grey	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	6	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	7	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	8	l	grey	box	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	9	r	box	grey	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	10	l	grey	box	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	11	r	grey	box	1	upper	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	12	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	13	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	14	l	grey	box	1	lower	l	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	15	r	box	grey	1	lower	l	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	16	l	box	grey	1	lower	l	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	17	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	18	l	grey	box	1	lower	l	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	19	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	20	r	box	grey	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	21	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	22	r	box	grey	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	23	l	grey	box	1	lower	l	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	24	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	25	r	box	grey	2	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	26	l	box	grey	2	upper	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	27	r	grey	box	2	upper	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	28	l	grey	box	2	upper	l	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	5	r	box	grey	2	upper	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	6	l	box	grey	1	lower	r	0					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	7	r	grey	box	1	lower	r	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	8	l	grey	box	1	lower	l	1					
+Kisa	m	young chimps	25	29-Nov-18		2	Training02	9	r	box	grey	1	lower	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	1	r	box	grey	1	lower	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	2	l	box	grey	1	lower	l	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	4	l	grey	box	2	lower	l	0					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	5	r	box	grey	2	lower	r	0					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	6	l	box	grey	2	upper	l	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	7	r	grey	box	2	lower	l	0					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	8	l	grey	box	2	upper	l	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	9	r	box	grey	2	upper	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	10	l	grey	box	2	upper	r	0					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	11	r	grey	box	2	upper	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	12	l	box	grey	2	upper	l	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	13	r	grey	box	2	upper	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	14	l	grey	box	1	lower	l	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	15	r	box	grey	1	lower	r	1					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	16	l	box	grey	1	lower	r	0					
+Niyonkuru	m	young chimps	27	29-Nov-18		2	Training02	17	r	grey	box	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	1	r	box	grey	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	2	l	box	grey	1	lower	r	0					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	3	r	grey	box	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	4	l	grey	box	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	5	r	box	grey	1	lower	l	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	6	l	box	grey	2	lower	r	0					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	7	r	grey	box	2	upper	l	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	8	l	grey	box	2	upper	r	0					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	9	r	box	grey	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	10	l	grey	box	2	upper	r	0					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	11	r	grey	box	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	12	l	box	grey	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	13	r	grey	box	2	upper	l	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	14	l	grey	box	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	15	r	box	grey	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		2	Training02	16	l	box	grey	1	lower	l	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	1	r			1		l	0					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	2	l			1		r	0					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	3	r			1		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	4	l			1		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	5	r			1		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	6	l			1		r	0					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	7	l			1		l	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	8	r			1		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	9	l			1		l	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	10	r			2		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	11	l			2		r	0					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	12	r			2		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	13	l			2		r	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	14	r			2		l	1					
+Akela	f	young chimps	30	29-Nov-18		2	Training01	15	l			2		r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	2	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	3	l	D1	D2	2	lower	r	0		1		D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	4	l	D2	D1	2	upper	r	0					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	6	l	D2	D1	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	7	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	8	l	D1	D2	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	9	l	D2	D1	1	upper	r	0		1	1	D1	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	10	r	D1	D2	1	lower	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	11	r	D2	D1	1	lower	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	12	l	D1	D2	1	lower	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	13	r	D1	D2	2	lower	r	0		1	1	D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	14	l	D2	D1	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	16	l	D1	D2	2	upper	r	0					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	17	r	D1	D2	2	lower	r	0		1		D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	18	l	D2	D1	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	19	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	20	l	D1	D2	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	21	l	D2	D1	1	upper	r	0		1	1	D1	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	22	r	D1	D2	1	lower	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	23	r	D2	D1	1	lower	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	24	l	D1	D2	1	lower	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	25	l	D1	D2	2	upper	l	1			1		
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	26	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	28	l	D2	D1	1	lower	l	1			1		
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	29	r	D1	D2	1	lower	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	31	r	D2	D1	2	upper	r	1			1		
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	32	l	D1	D2	2	lower	r	0		1		D2	1
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Niyonkuru	m	young chimps	27	30-Nov-18		3	Test	36	l	D1	D2	1	lower	r	0			1		
+Kisa	m	young chimps	27	30-Nov-18		3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	2	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	3	l	D1	D2	2	lower	r	0		1		D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	4	l	D2	D1	2	upper	r	0					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	5	r	D1	D2	2	lower	r	0		1		D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	6	l	D2	D1	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	7	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	8	l	D1	D2	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	9	l	D2	D1	1	upper	r	0		1	1	D1	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	10	r	D1	D2	1	lower	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	11	r	D2	D1	1	lower	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	12	l	D1	D2	1	lower	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	13	r	D1	D2	2	lower	r	0		1	1	D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	14	l	D2	D1	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	16	l	D1	D2	2	upper	r	0					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	17	r	D1	D2	2	lower	r	0		1		D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	18	l	D2	D1	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	19	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	20	l	D1	D2	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	21	l	D2	D1	1	upper	r	0		1	1	D1	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	22	r	D1	D2	1	lower	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	23	r	D2	D1	1	lower	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	24	l	D1	D2	1	lower	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	25	l	D1	D2	2	upper	l	1			1		
+Kisa	m	young chimps	27	30-Nov-18		3	Test	26	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	28	l	D2	D1	1	lower	l	1			1		
+Kisa	m	young chimps	27	30-Nov-18		3	Test	29	r	D1	D2	1	lower	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	30	l	D2	D1	1	lower	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	31	r	D2	D1	2	upper	r	1			1		
+Kisa	m	young chimps	27	30-Nov-18		3	Test	32	l	D1	D2	2	lower	r	0		1		D2	1
+Kisa	m	young chimps	27	30-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	34	r	D1	D2	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Kisa	m	young chimps	27	30-Nov-18		3	Test	36	l	D1	D2	1	lower	r	0			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	1	l	D1	D2	2	lower	r	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	2	r	D2	D1	2	lower	l	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	3	l	D1	D2	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	4	l	D2	D1	2	upper	r	0					
+Akela	f	young chimps	30	30-Nov-18		3	Test	5	r	D1	D2	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	6	l	D2	D1	2	upper	r	0					
+Akela	f	young chimps	30	30-Nov-18		3	Test	7	r	D2	D1	2	lower	l	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	8	l	D1	D2	2	lower	r	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	9	l	D2	D1	1	lower	l	0			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	10	r	D1	D2	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	11	r	D2	D1	1	upper	r	1		1		D1	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	12	l	D1	D2	1	upper	l	1		1		D1	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	13	r	D1	D2	2	upper	r	1			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	14	l	D2	D1	2	lower	r	0		1		D1	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	15	r	D2	D1	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	16	l	D1	D2	2	lower	r	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	17	r	D1	D2	2	lower	r	1		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	18	l	D2	D1	2	lower	l	1		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	19	r	D2	D1	2	lower	r	1		1		D1	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	20	l	D1	D2	2	lower	r	0		1		D2	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	21	l	D2	D1	1	lower	l	0			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	22	r	D1	D2	1	lower	r	0					
+Akela	f	young chimps	30	30-Nov-18		3	Test	23	r	D2	D1	1	lower	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	24	l	D1	D2	1	upper	r	0		1		D2	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	25	l	D1	D2	2	upper	r	0			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	26	r	D2	D1	2	lower	r	1		1		D1	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	27	r	D1	D2	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	28	l	D2	D1	1	upper	r	0		1	1	D1	1
+Akela	f	young chimps	30	30-Nov-18		3	Test	29	r	D1	D2	1	upper	r	1		1		D2	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	30	l	D2	D1	1	upper	l	1		1		D2	0
+Akela	f	young chimps	30	30-Nov-18		3	Test	31	r	D2	D1	2	upper	l	0			1		
+Akela	f	young chimps	30	30-Nov-18		3	Test	32	l	D1	D2	2	upper	l	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	33	l	D2	D1	2	upper	l	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	34	r	D1	D2	2	upper	l	0					
+Akela	f	young chimps	30	30-Nov-18		3	Test	35	r	D2	D1	2	upper	r	1					
+Akela	f	young chimps	30	30-Nov-18		3	Test	36	l	D1	D2	1	upper	l	1		1	1	D1	1

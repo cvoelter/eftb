@@ -1,0 +1,126 @@
+---
+title: "WM_tasks_Markdown"
+author: "Christoph Voelter"
+date: "November 24, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(gridExtra)
+library(ggpubr)
+library(corrr)
+library(reshape2)
+#library(Hmisc)
+library("PerformanceAnalytics")
+source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+#load(file ="mm1_mult_poss.RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+```{r loading data, include = FALSE}
+WM.data <- read.csv(file="WM_task_individual_corr.csv")
+Inh.data <- read.csv(file="Inh_task_individual_corr.csv")
+Shifting.data <- read.csv(file="Shifting_task_individual_corr.csv")
+
+```
+
+```{r include=FALSE}
+summary(WM.data )
+
+```
+
+
+##Summary
+  
+
+
+```{r preparing data for correlation, include=FALSE}
+
+#Join DVs together
+EF_task_data <- WM.data  %>% 
+  full_join(Inh.data)%>%
+  full_join(Shifting.data)
+
+```
+
+
+
+
+***  
+
+##Plotting correlations
+```{r include=FALSE}
+d <- correlate(EF_task_data [-1], method="spearman")
+```
+
+```{r include=FALSE}
+#jpeg(file="WM_corrplot.jpeg", width=3800, height=1000, res=300)
+#pdf(file="WM_corrplot.pdf", width=10, height=4)
+d %>%
+  shave(upper = TRUE) %>%
+  rplot(print_cor = TRUE, colors = c("red", "green"), shape = 16) 
+#dev.off()
+#rcorr(as.matrix(WM_task_individual[-1]), type="spearman")
+
+#chart.Correlation(WM_task_individual[-1], histogram=TRUE, pch=19, method = "spearman")
+```
+
+```{r echo=FALSE}
+# Get upper triangle of the correlation matrix
+  get_upper_tri <- function(cormat){
+    cormat[lower.tri(cormat)]<- NA
+    return(cormat)
+  }
+
+#EF_task_data_select <- EF_task_data  %>% 
+ # select(-Shifting.tray.correct,-Shifting.tray.correct.S1,#-SD, -SR, -CD, -ID,
+  #       -Shifting.shelf.correct, -shelf_switching_mistakes )
+
+  
+cormat <- round(cor(EF_task_data[-1], method="pearson", use = "pairwise.complete.obs"),2)
+upper_tri <- get_upper_tri(cormat)
+melted_cormat=melt(cormat, na.rm = TRUE)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()+
+  geom_text(aes(Var2, Var1, label = value), color = "black", size = 2) +
+ scale_fill_gradient2(low = "blue", high = "red", 
+   midpoint = 0, limit = c(-1,1), space = "Lab", 
+   name=" Pearson Correlation") +
+  theme_minimal()+ 
+ theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+    size = 8, hjust = 1))+
+  labs(x="",y="")+
+ coord_fixed()
+
+```
+
+
+```{r echo=FALSE}
+library(ggcorrplot)
+corr <- cor(EF_task_data [-1])
+p.mat <- cor_pmat(EF_task_data [-1])
+ggcorrplot(cormat, hc.order = TRUE,
+    type = "lower", p.mat =p.mat, lab=FALSE)
+
+```
+```{r echo=FALSE}
+knitr::knit_exit()
+```
+
+```{r include=FALSE}
+write.csv(EF_task_data , file = "EF_task_individual_corr.csv", row.names=FALSE)
+```

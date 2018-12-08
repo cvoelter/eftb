@@ -1,0 +1,826 @@
+---
+title: "Shiftingn_tasks_Markdown"
+author: "Christoph Voelter"
+date: "December 06, 2018"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+library(lme4)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(gridExtra)
+library(ggpubr)
+library(corrr)
+library(reshape2)
+library(trimr)
+#library(Hmisc)
+library("PerformanceAnalytics")
+source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+#load(file ="mm1_mult_poss.RData")
+#readRDS(file ="multpos_model.rds")
+```
+
+####Notes:  
+* Shifting boxes: Tess did not receive the simple discrimination reversal phase. George and Saidia did not complete the SD phase.
+* Task Switching: Mwanzo failed Training 1 (72 trials), Julia did not finish training 2 (not motivated), Safari did not finish training 1. George and Saidia were not tested.
+* Shifting tray: George did not complete the task.  
+
+
+```{r loading data, include = FALSE}
+#Preparing code for mixed modeling. 
+Shifting.shelf.data <- read.table(file="20181206 TaskSwitching_final Sweetwaters data.txt", header=T, sep="\t") %>%
+  filter(Subject != "Julia" & Subject != "Mwanzo" & Subject != "Safari") #did not complete test trials
+  
+Shifting.boxes.data <- read.table(file="20181206 Shifting boxes_final Sweetwaters data.txt", header=T, sep="\t") %>%
+  filter(Subject != "George" & Subject != "Saidia") #did not complete test trials
+  
+Shifting.tray.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T, sep="\t") %>%
+  filter(Subject != "George")#did not complete test trials
+
+```
+
+```{r eval=FALSE, include=FALSE}
+summary(Shifting.shelf.data )
+```
+
+
+##Summary  
+
+ 
+
+###Shifting Boxes  
+
+```{r shifting boxes plot, echo=FALSE}
+
+###boxes
+Shifting.boxes_individual <- Shifting.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  group_by(Condition, Subject) %>% 
+  summarize(Shifting.boxes.correct = mean(correct)) %>% 
+  add_count(Shifting.boxes.correct)
+
+Shifting.boxes_mean <- Shifting.boxes_individual %>%
+  group_by(Condition) %>% 
+  summarize(mean_val=mean(Shifting.boxes.correct)) 
+
+
+#c(rep(1, 29),rep(2,29))
+#p1<-  
+Shifting.boxes_individual$Condition <- factor(Shifting.boxes_individual$Condition, levels = c("SD", "SR", "CD", "ID", "ED", "EDSD"))
+  ggplot(
+  data=Shifting.boxes_individual, aes(x=Condition, y=Shifting.boxes.correct, group=Condition)) +
+  geom_boxplot()+
+  geom_point(size = Shifting.boxes_individual$n, colour = "purple")+
+  ylim(0,1)+
+  #xlim(0,2)+
+#  geom_line(lty=2)+
+  labs(x="",y="Mean number of correct choices")+
+  theme_few()+
+  #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Shifting Boxes")+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")
+```
+
+ 
+
+####Comparison to chance
+
+* DV: mean performance of correct choices (until criterion or until the maximum number of trials was reached)  
+* Chance value: 0.5 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="SD"] , mu=0.5, alternative = "two.sided")
+
+```
+* **SD**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="SR"] , mu=0.5, alternative = "two.sided")
+
+```
+* **SR**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="CD"] , mu=0.5, alternative = "two.sided")
+
+```
+* **CD**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="ID"] , mu=0.5, alternative = "two.sided")
+
+```
+* **ID**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="ED"] , mu=0.5, alternative = "two.sided")
+
+```
+* **ED** (Box discrimination with different filling materials): Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+Shifting.boxes_individualED <- Shifting.boxes.data %>%
+  filter(!is.na(correct)) %>%
+  filter(Condition == "ED")%>%
+  group_by(SessionED, Subject) %>% 
+  summarize(Shifting.boxes.correct = mean(correct)) %>% 
+  add_count(Shifting.boxes.correct)
+```
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individualED$Shifting.boxes.correct[Shifting.boxes_individualED$SessionED==1] , mu=0.5, alternative = "two.sided")
+
+```
+
+
+* **ED Session 1**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individualED$Shifting.boxes.correct[Shifting.boxes_individualED$SessionED==2] , mu=0.5, alternative = "two.sided")
+
+```
+
+
+* **ED Session 2**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_individual$Condition=="EDSD"] , mu=0.5, alternative = "two.sided")
+
+```
+* **EDSD** (Box discrimination with identical filling materials): Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+***
+
+
+####Trial-to-trial effects
+```{r echo=FALSE}
+
+###Plotting material_changes
+plot_shifting_boxes_material <- Shifting.boxes.data %>%
+  filter(material_changes!="") %>%
+  filter(Condition == "ED")%>%
+  group_by(material_changes, Subject) %>% 
+  summarize(correct_resp = mean(correct)) %>% 
+  add_count(correct_resp)
+
+plot_shifting_boxes_material_mean <- plot_shifting_boxes_material %>% 
+  group_by(material_changes) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p1 <- 
+  ggplot(
+  data=plot_shifting_boxes_material, aes(x=material_changes, y=correct_resp, group = material_changes)) +   
+  geom_boxplot()+
+  geom_point(size = plot_shifting_boxes_material$n, colour = "purple") +
+  ylim(0,1)+
+  labs(x="Material Change",y="Mean correct")+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
+  theme_few()+
+  #scale_y_Shifting Boxes - ED")+
+  stat_compare_means(aes(group = material_changes), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+
+
+
+
+###Plotting side_changes
+
+plot_shifting_boxes_side <- Shifting.boxes.data %>%
+  filter(side_changes!="") %>%
+  filter(Condition == "ED")%>%
+  group_by(side_changes, Subject) %>% 
+  summarize(correct_resp = mean(correct)) %>% 
+  add_count(correct_resp)
+
+plot_shifting_boxes_side_mean <- plot_shifting_boxes_side %>% 
+  group_by(side_changes) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p2 <- 
+  ggplot(
+  data=plot_shifting_boxes_side, aes(x=side_changes, y=correct_resp, group = side_changes)) +   
+  geom_boxplot()+
+  geom_point(size = plot_shifting_boxes_side$n, colour = "purple") +
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
+  #scale_y_Shifting Boxes - ED")+
+  stat_compare_means(aes(group = side_changes), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+
+grid.arrange(p1, p2, nrow = 1, heights=unit(100, "mm"))
+ 
+```
+
+
+####Plotting box preferences  
+
+```{r echo=FALSE, warning=FALSE}
+
+plot_boxes_distractorS1 <- Shifting.boxes.data %>%
+  filter(Condition == "ED")%>%
+  filter(SessionED == 1)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/20)
+  
+
+p1<-
+  ggplot(plot_boxes_distractorS1, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+    scale_color_brewer(palette="Dark2")+
+    scale_fill_brewer(palette="Dark2")+
+    ylim(0,6)+
+    xlim(0,1)+
+    labs(x="",y="Distractor choices")+
+    theme_few()+
+    #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+    theme(legend.position="none")+
+    #scale_y_continuous(breaks=seq(0,1,0.25))+
+    ggtitle("Session 1")
+
+plot_boxes_distractorS2 <- Shifting.boxes.data %>%
+  filter(Condition == "ED")%>%
+  filter(SessionED == 2)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/20)
+
+p2<-ggplot(plot_boxes_distractorS2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+    scale_color_brewer(palette="Dark2")+
+    scale_fill_brewer(palette="Dark2")+
+    ylim(0,6)+
+    xlim(0,1)+
+    labs(x="",y="Distractor choices")+
+    theme_few()+
+    #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+    theme(legend.position="none")+
+    #scale_y_continuous(breaks=seq(0,1,0.25))+
+    ggtitle("Session 2")
+
+grid.arrange(p1, p2, nrow = 1)
+```
+
+***   
+
+### Task-switching  
+
+
+```{r shifting shelf plot, echo=FALSE}
+
+###shelf
+Shifting.shelf_individual <- Shifting.shelf.data %>%
+  filter(!is.na(correct)) %>%
+  group_by(Condition, Subject) %>% 
+  summarize(Shifting.shelf.correct = mean(correct)) %>% 
+  add_count(Shifting.shelf.correct)
+
+Shifting.shelf_mean <- Shifting.shelf_individual %>%
+  group_by(Condition) %>% 
+  summarize(mean_val=mean(Shifting.shelf.correct)) 
+
+
+#c(rep(1, 29),rep(2,29))
+#p1<-  
+Shifting.shelf_individual$Condition <- factor(Shifting.shelf_individual$Condition, levels = c("Training01", "Training02", "Test"))
+  ggplot(
+  data=Shifting.shelf_individual, aes(x=Condition, y=Shifting.shelf.correct, group=Condition)) +
+  geom_boxplot()+
+  geom_point(size = Shifting.shelf_individual$n, colour = "purple")+
+  ylim(0,1)+
+  #xlim(0,2)+
+#  geom_line(lty=2)+
+  labs(x="",y="Mean number of correct choices")+
+  theme_few()+
+  #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Shifting shelf")+
+  geom_hline(yintercept=0.5, linetype="dashed", color = "red")
+```
+
+
+####Comparison to chance
+
+* DV: mean performance of correct choices (until criterion or until the maximum number of trials was reached)  
+* Chance value: 0.5 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.shelf_individual$Shifting.shelf.correct[Shifting.shelf_individual$Condition=="Training01"] , mu=0.5, alternative = "two.sided")
+
+```
+* **First training phase**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.shelf_individual$Shifting.shelf.correct[Shifting.shelf_individual$Condition=="Training02"] , mu=0.5, alternative = "two.sided")
+
+```
+* **Second training phase**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test(Shifting.shelf_individual$Shifting.shelf.correct[Shifting.shelf_individual$Condition=="Test"] , mu=0.5, alternative = "two.sided")
+
+```
+* **Test phase**: Mean correct vs chance value (0.5): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+  
+####Switching mistakes and number of switches between platforms
+
+```{r echo=FALSE}
+
+###Plotting switching mistakes
+plot_shifting_shelf_sm <- Shifting.shelf.data %>%
+  filter(!is.na(switching_mistakes)) %>%
+  group_by(Subject) %>% 
+  summarize(shelf_switching_mistakes = sum(switching_mistakes)) %>% 
+  add_count(shelf_switching_mistakes)
+
+#max(plot_shifting_shelf_sm$shelf_switching_mistakes)
+
+p1 <- 
+  ggplot(
+  data=plot_shifting_shelf_sm , aes(x=c(rep(1, 25)), y=shelf_switching_mistakes)) +   geom_boxplot()+
+  geom_point(size = plot_shifting_shelf_sm$n, colour = "purple") +
+  ylim(0,20)+
+  xlim(0,2)+
+  labs(x="",y="Switching mistakes")+
+  # geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+   ggtitle("Switching mistakes")
+
+
+###Plotting switches between platforms
+plot_shifting_shelf_switches <- Shifting.shelf.data %>%
+  filter(!is.na(Switches)) %>%
+  group_by(Subject) %>% 
+  summarize(shelf_switches = sum(Switches)) %>% 
+  add_count(shelf_switches)
+
+#max(plot_shifting_shelf_switches$shelf_switches)
+
+p2 <- 
+  ggplot(
+  data=plot_shifting_shelf_switches , aes(x=c(rep(1, 25)), y=shelf_switches)) +   geom_boxplot()+
+  geom_point(size = plot_shifting_shelf_switches$n, colour = "purple") +
+  ylim(0,10)+
+  xlim(0,2)+
+  labs(x="",y="Platform switches")+
+  # geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+   ggtitle("Platform switches")
+
+grid.arrange(p1, p2, nrow = 1, heights=unit(100, "mm"))
+ 
+```
+
+
+
+```{r aggregating data for correlation analysis, include=FALSE}
+# Shifting tray
+Shifting.tray_individual_session <- Shifting.tray.data %>%
+  group_by(Session,  Subject) %>% 
+  summarize(Shifting.tray.correct = mean(correct)) %>% 
+  spread( Session, Shifting.tray.correct)%>%
+  rename(Shifting.tray.correct.S1="1")%>%
+  rename(Shifting.tray.correct.S2="2")
+
+Shifting.tray_individual <- Shifting.tray.data %>%
+  group_by(Subject) %>% 
+  summarize(Shifting.tray.correct = mean(correct))
+
+#Shifting boxes
+Shifting.boxes_individual_wide <- Shifting.boxes_individual %>%
+  select(-n) %>%
+  spread( Condition, Shifting.boxes.correct)
+
+#Task switching
+Shifting.shelf_individual_test <- Shifting.shelf_individual %>%
+  filter(Condition=="Test") %>%
+  ungroup() %>% 
+  select(-Condition, -n)
+
+shifting_shelf_sm <- Shifting.shelf.data %>%
+  filter(!is.na(switching_mistakes)) %>%
+  group_by(Subject) %>% 
+  summarize(shelf_switching_mistakes = sum(switching_mistakes))
+
+shifting_shelf_switches <- Shifting.shelf.data %>%
+  filter(!is.na(Switches)) %>%
+  group_by(Subject) %>% 
+  summarize(shelf_switches = sum(Switches))
+
+#######################################################
+#Join DVs together
+
+Shifting_task_individual <- Shifting.tray_individual  %>% 
+  full_join(Shifting.tray_individual_session  ) %>%
+  full_join(Shifting.shelf_individual_test ) %>%
+  full_join(shifting_shelf_sm ) %>%
+  full_join(shifting_shelf_switches) %>%
+  full_join(Shifting.boxes_individual_wide)
+  
+
+```
+
+
+*** 
+
+###Shifting tray task
+
+####Trial-to-trial effects
+```{r echo=FALSE}
+
+###Plotting side_changes
+plot_individual_side <- Shifting.tray.data %>%
+  filter(Subject != "George")%>%
+  group_by(Session, side_change, Subject) %>% 
+  summarize(correct_resp = mean(correct)) 
+
+
+plot_ind_S1_side <- plot_individual_side %>% 
+  filter(Session == 1 & side_change!="")%>%
+  add_count(correct_resp)
+
+plot_ind_S1_side_mean <- plot_ind_S1_side %>% 
+  group_by(side_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p1 <- ggplot(
+  data=plot_ind_S1_side, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_S1_side$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("Session 1")+
+  geom_segment(aes(y = plot_ind_S1_side_mean$mean_correct[1], yend = plot_ind_S1_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_S1_side_mean$mean_correct[2], yend = plot_ind_S1_side_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = side_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+ 
+
+
+plot_ind_S2_side <- plot_individual_side %>% 
+  filter(Session == 2 & side_change!="")%>%
+  add_count(correct_resp)
+
+plot_ind_S2_side_mean <- plot_ind_S2_side %>% 
+  group_by(side_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p2 <- ggplot(
+  data=plot_ind_S2_side, aes(side_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_S2_side$n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Side Change",y="Mean correct")+
+  theme_few()+
+ # scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("Session 2")+
+  geom_segment(aes(y = plot_ind_S2_side_mean$mean_correct[1], yend = plot_ind_S2_side_mean$mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_S2_side_mean$mean_correct[2], yend = plot_ind_S2_side_mean$mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = side_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+ 
+
+###plotting box changes
+plot_individual_box <- Shifting.tray.data %>%
+  filter(Subject != "George")%>%
+  group_by(Session, box_change, Subject) %>% 
+  summarize(correct_resp = mean(correct)) 
+
+plot_ind_S1_box <- plot_individual_box %>% 
+  filter(Session == 1 & box_change!="")%>%
+  add_count(correct_resp)
+
+plot_ind_S1_box_mean <- plot_ind_S1_box %>% 
+  group_by(box_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p3 <- ggplot(
+  data=plot_ind_S1_box , aes(box_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_S1_box $n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Box Change",y="Mean correct")+
+  theme_few()+
+ # scale_y_continuous(breaks=seq(0,1,0.25))+
+  geom_segment(aes(y = plot_ind_S1_box_mean $mean_correct[1], yend = plot_ind_S1_box_mean $mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_S1_box_mean$mean_correct[2], yend = plot_ind_S1_box_mean $mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = box_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+ 
+
+
+
+
+plot_ind_S2_box  <- plot_individual_box %>% 
+  filter(Session == 2 & box_change!="")%>%
+  add_count(correct_resp)
+
+plot_ind_S2_box_mean <- plot_ind_S2_box %>% 
+  group_by(box_change) %>% 
+  summarize(mean_correct = mean(correct_resp)) 
+
+p4 <- ggplot(
+  data=plot_ind_S2_box , aes(box_change, correct_resp, group = Subject)) +   
+  geom_point(size = plot_ind_S2_box $n, colour = "purple") +
+  geom_line(lty=2)+
+  ylim(0,1)+
+  labs(x="Box Change",y="Mean correct")+
+  theme_few()+
+ # scale_y_continuous(breaks=seq(0,1,0.25))+
+  geom_segment(aes(y = plot_ind_S2_box_mean $mean_correct[1], yend = plot_ind_S2_box_mean $mean_correct[1], x = 1 -0.2, xend = 1 + 0.2))+
+  geom_segment(aes(y = plot_ind_S2_box_mean$mean_correct[2], yend = plot_ind_S2_box_mean $mean_correct[2], x = 2 -0.2, xend = 2 + 0.2))+
+  stat_compare_means(aes(group = box_change), paired = TRUE, method="t.test", label.x = 1.3)#, label = "p.signif")
+ 
+
+grid.arrange(p1, p2,p3,p4, nrow = 2)
+ #g <- arrangeGrob(p1, p2,p3,p4, nrow = 2)
+#ggsave("tray_shifting_trial effects.jpeg",g, width = 10, height = 7)
+
+
+
+```
+
+
+####T-tests
+
+#####Side changes  
+
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S1_side[plot_ind_S1_side$side_change=="no",]$correct_resp, plot_ind_S1_side[plot_ind_S1_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 1: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S2_side[plot_ind_S2_side$side_change=="no",]$correct_resp, plot_ind_S2_side[plot_ind_S2_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+#####Box changes 
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S1_box[plot_ind_S1_box$box_change=="no",]$correct_resp, plot_ind_S1_box[plot_ind_S1_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 1: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S2_box[plot_ind_S2_box$box_change=="no",]$correct_resp, plot_ind_S2_box[plot_ind_S2_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+#####Comparison to chance
+* Chance value: 0.5  
+
+```{r echo=FALSE}
+plot_individual <- Shifting.tray.data %>%
+  group_by(Session, Subject) %>% 
+  summarize(correct_resp = mean(correct)) 
+tt<-t.test( plot_individual[plot_individual$Session==1,]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+* Session 1: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+```{r echo=FALSE}
+tt<-t.test( plot_individual[plot_individual$Session==2,]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+* Session 2: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
+
+####Plotting box preferences
+```{r include=FALSE}
+
+
+
+plot_individual_distractor1 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 1)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/24)
+  
+
+p1<-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+   ylim(0,8)+
+   xlim(0,1)+
+   labs(x="",y="Count of distractor choices per subject")+
+   theme_few()+
+   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank(), legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1")
+
+plot_individual_distractor2 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 2)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/24)
+
+p2<-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+   ylim(0,8)+
+   xlim(0,1)+
+   labs(x="",y="Count of distractor choices per subject")+
+   theme_few()+
+   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank(), legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2")
+
+
+grid.arrange(p1, p2, nrow = 1)
+
+
+
+
+```
+
+```{r warning=FALSE, echo=FALSE}
+
+
+
+plot_individual_distractor1 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 1)%>%
+  filter(trial_number < 13)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+  
+
+p1<-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1 - first half")
+
+plot_individual_distractor2 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 1)%>%
+  filter(trial_number > 12)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+
+p2<-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+  scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1 - second half")
+
+plot_individual_distractor3 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 2)%>%
+  filter(trial_number < 13)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+  
+
+p3<-ggplot(plot_individual_distractor3, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+  scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2 - first half")
+
+plot_individual_distractor4 <- Shifting.tray.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 2)%>%
+  filter(trial_number > 12)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+
+p4<-ggplot(plot_individual_distractor4, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+    scale_color_brewer(palette="Dark2")+
+    scale_fill_brewer(palette="Dark2")+
+    ylim(0,11)+
+    xlim(0,1)+
+    labs(x="",y="Distractor choices")+
+    theme_few()+
+    #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+    theme(legend.position="none")+
+    #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2 - second half")
+ 
+
+
+p5<-ggplot(plot_individual_distractor4, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+  theme(legend.position="top")
+
+#grid.arrange(p1, p2,p3,p4, nrow = 2)
+
+
+legend <- get_legend(p5)
+# 3. Remove the legend from the box plot
+grid.arrange(p1, p2,p3,p4,legend, ncol=2, nrow = 3, 
+             layout_matrix = rbind(c(1,2),c(3,4), c(5,5)),
+             widths = c(2.7, 2.7), heights = c(2.5, 2.5,0.2))
+
+
+
+
+```
+
+*** 
+
+###Plotting correlations  
+
+```{r include=FALSE}
+
+d <- correlate(Shifting_task_individual[-1], method="pearson")
+```
+
+```{r include=FALSE}
+#jpeg(file="WM_corrplot.jpeg", width=3800, height=1000, res=300)
+#pdf(file="WM_corrplot.pdf", width=10, height=4)
+d %>%
+  shave(upper = TRUE) %>%
+  rplot(print_cor = TRUE, colors = c("red", "green"), shape = 16) 
+#dev.off()
+#rcorr(as.matrix(WM_task_individual[-1]), type="spearman")
+
+chart.Correlation(Shifting_task_individual[-1], histogram=TRUE, pch=19, method = "spearman")
+```
+
+```{r echo=FALSE}
+# Get upper triangle of the correlation matrix
+  get_upper_tri <- function(cormat){
+    cormat[lower.tri(cormat)]<- NA
+    return(cormat)
+  }
+
+Shifting_task_individual_corr <- Shifting_task_individual  %>% 
+  select(-Shifting.tray.correct,-Shifting.tray.correct.S1,#-SD, -SR, -CD, -ID,
+         -Shifting.shelf.correct, -shelf_switching_mistakes )
+
+  
+cormat <- round(cor(Shifting_task_individual_corr[-1], method="pearson", use = "pairwise.complete.obs"),2)
+upper_tri <- get_upper_tri(cormat)
+melted_cormat=melt(cormat, na.rm = TRUE)
+ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
+  geom_tile()+
+  geom_text(aes(Var2, Var1, label = value), color = "black", size = 2) +
+ scale_fill_gradient2(low = "blue", high = "red", 
+   midpoint = 0, limit = c(-1,1), space = "Lab", 
+   name=" Pearson Correlation") +
+  theme_minimal()+ 
+ theme(axis.text.x = element_text(angle = 45, vjust = 1, 
+    size = 8, hjust = 1))+
+  labs(x="",y="")+
+ coord_fixed()
+
+```
+```{r echo=FALSE}
+knitr::knit_exit()
+```
+
+```{r include=FALSE}
+library(ggcorrplot)
+corr <- cor(Shifting_task_individual_corr[-1])
+p.mat <- cor_pmat(Shifting_task_individual_corr[-1])
+ggcorrplot(cormat, hc.order = TRUE,
+    type = "lower",  lab=TRUE, insig="pch")
+
+```
+
+```{r include=FALSE}
+write.csv(Shifting_task_individual_corr, file = "../EF_tasks/Shifting_task_individual_corr.csv", row.names = FALSE)
+```
+
+

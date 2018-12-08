@@ -185,13 +185,13 @@ WM_task_individual <- updating_individual5  %>%
   #inner_join(updating_individual4)%>% #P1P2_first4
   #inner_join(updating_individual)%>% #P1_first4
   #inner_join(updatingtraining_individual) %>%
-  inner_join(updatingtraining_4boxes)%>%
-  inner_join(updatingtraining_5boxes)%>%
+  full_join(updatingtraining_4boxes)%>%
+  full_join(updatingtraining_5boxes)%>%
   #inner_join(updatingtraining_4boxes_2)%>% #first four choices - redundant search
   #inner_join(updatingtraining_5boxes_2)%>% #first four choices - redundant search
   #inner_join(box_individual) %>% #count_mistakes
-  inner_join(box_individual2) %>% #correct P1
-  inner_join(grid_individual) #%>% #distance
+  full_join(box_individual2) %>% #correct P1
+  full_join(grid_individual) #%>% #distance
   #inner_join(grid_individual2) %>% #NrUntilfindGrid
   #inner_join(grid_individual3)#%>% #choice1_correct
 
@@ -404,4 +404,8 @@ ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) +
   labs(x="",y="")+
  coord_fixed()
 
+```
+
+```{r include=FALSE}
+write.csv(WM_task_individual, file = "../EF_tasks/WM_task_individual_corr.csv", row.names=FALSE)
 ```

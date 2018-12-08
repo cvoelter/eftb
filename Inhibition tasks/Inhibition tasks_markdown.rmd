@@ -79,7 +79,7 @@ stop_signal_data <- stop.signal_individual2 %>%
   inner_join(trimmed.stop.signal.data )%>%
   inner_join(stop.signal_individual3 )%>%  
   mutate(StopSignal_trimmed_change_latency=test)%>%
-  select(-participant, -test)
+  select(-participant, -test, -StopSignal_change_position, -StopSignal_change_latency)
 
 
 ```
@@ -579,9 +579,10 @@ grid.arrange(p1, p2, nrow = 1)
 
 ***  
 
+###Plotting correlations  
 
 ```{r include=FALSE}
-###Plotting correlations
+
 d <- correlate(Inh_task_individual[-1], method="pearson")
 ```
 
@@ -597,13 +598,17 @@ d %>%
 chart.Correlation(Inh_task_individual[-1], histogram=TRUE, pch=19, method = "spearman")
 ```
 
-```{r include=FALSE}
+```{r echo=FALSE}
 # Get upper triangle of the correlation matrix
   get_upper_tri <- function(cormat){
     cormat[lower.tri(cormat)]<- NA
     return(cormat)
   }
-cormat <- round(cor(Inh_task_individual[-1], method="spearman", use = "pairwise.complete.obs"),2)
+
+Inh_task_individual_corr <- Inh_task_individual  %>% 
+  select(-Inh.boxes.correct1, -Inh.boxes.correct2, -Inh.cylinders.correct1, -Inh.cylinders.correct2, -Inh.grid.correct1, -Inh.grid.correct2   )
+  
+cormat <- round(cor(Inh_task_individual_corr[-1], method="pearson", use = "pairwise.complete.obs"),2)
 upper_tri <- get_upper_tri(cormat)
 melted_cormat=melt(cormat, na.rm = TRUE)
 ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
@@ -611,11 +616,14 @@ ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) +
   geom_text(aes(Var2, Var1, label = value), color = "black", size = 2) +
  scale_fill_gradient2(low = "blue", high = "red", 
    midpoint = 0, limit = c(-1,1), space = "Lab", 
-   name=" Spearman Correlation") +
+   name=" Pearson Correlation") +
   theme_minimal()+ 
  theme(axis.text.x = element_text(angle = 45, vjust = 1, 
     size = 8, hjust = 1))+
   labs(x="",y="")+
  coord_fixed()
 
+```
+```{r include=FALSE}
+write.csv(Inh_task_individual_corr, file = "../EF_tasks/Inh_task_individual_corr.csv", row.names=FALSE)
 ```

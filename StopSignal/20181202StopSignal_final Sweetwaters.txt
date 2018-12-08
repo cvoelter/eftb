@@ -239,66 +239,66 @@ Jane	f	young chimps	14	24/10/2018	2	57	training	r	l	i							et	3914		no	0
 Jane	f	young chimps	14	24/10/2018	2	58	training	l	r	i							et	1587		yes	0
 Jane	f	young chimps	14	24/10/2018	2	59	training	r	r	c							et	1400		yes	0
 Jane	f	young chimps	14	24/10/2018	2	60	test	l	l	c	ct	1052	cp	21	st	1347				yes	0
-Roy 	m	young chimps	11	23/10/2018	1	1	training	r	l	i							et	8119			0
-Roy 	m	young chimps	11	23/10/2018	1	2	training	l	l	c							et	1184		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	3	training	r	l	i							et	4229		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	4	training	r	l	i							et	2316		no	0
-Roy 	m	young chimps	11	23/10/2018	1	5	training	l	l	c							et	904		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	6	training	l	l	c							et	306		no	0
-Roy 	m	young chimps	11	23/10/2018	1	7	training	r	l	i							et	3137		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	8	training	l	l	c							et	1108		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	9	training	r	l	i							et	1838		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	10	training	l	l	c							et	521		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	11	test	r	l	i	ct	3660	cp	22	st	4000				yes	1
-Roy 	m	young chimps	11	23/10/2018	1	12	training	l	r	i							et	2321		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	13	test	l	l	c	ct	1203	cp	21	st	1833				no	0
-Roy 	m	young chimps	11	23/10/2018	1	14	training	r	l	i							et	2299		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	15	training	r	l	i										no	0
-Roy 	m	young chimps	11	23/10/2018	1	16	training	l	l	c							et	5358		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	17	test	l	l	c	ct	5363	cp	21	st	5655				no	0
-Roy 	m	young chimps	11	23/10/2018	1	18	training	l	l	i							et	6542		no	0
-Roy 	m	young chimps	11	23/10/2018	1	19	training	l	l	c							et	920		no	0
-Roy 	m	young chimps	11	23/10/2018	1	20	training	r	l	i							et	2389		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	21	training	l	l	c							et	6004		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	22	test	r	r	c	ct	4913	cp	22	st	5253				yes	0
-Roy 	m	young chimps	11	23/10/2018	1	23	training	l	l	c							et	530		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	24	test	r	l	i	ct	2507	cp	16	st	2629				yes	0
-Roy 	m	young chimps	11	23/10/2018	1	25	training	r	l	i							et	1673		no	0
-Roy 	m	young chimps	11	23/10/2018	1	26	training	r	r	c							et	680		no	0
-Roy 	m	young chimps	11	23/10/2018	1	27	training	r	r	c							et	22742		no	0
-Roy 	m	young chimps	11	23/10/2018	1	28	training	l	l	c							et	676		yes	0
-Roy 	m	young chimps	11	23/10/2018	1	29	test	l	l	c	ct	1053	cp	21	st	1262				no	0
-Roy 	m	young chimps	11	23/10/2018	1	30	training	l	l	c							et	508		no	0
-Roy 	m	young chimps	11	24/10/2018	2	31	test	l	l	c	ct	1354	cp	21	st	1653					0
-Roy 	m	young chimps	11	24/10/2018	2	32	training	r	l	i							et	1418		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	33	training	r	r	c							et	689		no	0
-Roy 	m	young chimps	11	24/10/2018	2	34	training	l	r	i							et	3424		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	35	training	l	l	c							et	759		no	0
-Roy 	m	young chimps	11	24/10/2018	2	36	training	r	l	i							et	2352		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	37	training	l	l	c							et	840		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	38	training	r	l	i							et	1422		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	39	training	l	l	c							et	821		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	40	training	r	l	i							et	2853		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	41	test	r	r	c	ct	1354	cp	22	st	2356				no	0
-Roy 	m	young chimps	11	24/10/2018	2	42	training	l	l	c							et	694		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	43	training	l	l	c							et	1029		no	0
-Roy 	m	young chimps	11	24/10/2018	2	44	training	r	r	c							et	581		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	45	training	r	r	c							et	562		no	0
-Roy 	m	young chimps	11	24/10/2018	2	46	training	r	r	c							et	495		no	0
-Roy 	m	young chimps	11	24/10/2018	2	47	test	l	r	i	ct	1102	cp	21	st	1367				yes	0
-Roy 	m	young chimps	11	24/10/2018	2	48	training	l	r	i							et	2851		no	0
-Roy 	m	young chimps	11	24/10/2018	2	49	training	l	l	c							et	907		no	0
-Roy 	m	young chimps	11	24/10/2018	2	50	training	r	l	i							et	4530		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	51	test	r	l	i	ct	2907	cp	22	st	3306				no	0
-Roy 	m	young chimps	11	24/10/2018	2	52	training	l	l	c							et	1033		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	53	training	r	l	i							et	1922		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	54	training	l	l	c							et	17289		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	55	training	l	l	c							et	1688		no	0
-Roy 	m	young chimps	11	24/10/2018	2	56	test	r	l	i	ct	2808	cp	22	st	3106				yes	0
-Roy 	m	young chimps	11	24/10/2018	2	57	training	r	r	c							et	2649		no	0
-Roy 	m	young chimps	11	24/10/2018	2	58	training	l	l	c							et	996		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	59	training	r	l	i							et	1335		yes	0
-Roy 	m	young chimps	11	24/10/2018	2	60	test	l	l	c	ct	1153	cp	21	st	1388				yes	0
+Roy	m	young chimps	11	23/10/2018	1	1	training	r	l	i							et	8119			0
+Roy	m	young chimps	11	23/10/2018	1	2	training	l	l	c							et	1184		yes	0
+Roy	m	young chimps	11	23/10/2018	1	3	training	r	l	i							et	4229		yes	0
+Roy	m	young chimps	11	23/10/2018	1	4	training	r	l	i							et	2316		no	0
+Roy	m	young chimps	11	23/10/2018	1	5	training	l	l	c							et	904		yes	0
+Roy	m	young chimps	11	23/10/2018	1	6	training	l	l	c							et	306		no	0
+Roy	m	young chimps	11	23/10/2018	1	7	training	r	l	i							et	3137		yes	0
+Roy	m	young chimps	11	23/10/2018	1	8	training	l	l	c							et	1108		yes	0
+Roy	m	young chimps	11	23/10/2018	1	9	training	r	l	i							et	1838		yes	0
+Roy	m	young chimps	11	23/10/2018	1	10	training	l	l	c							et	521		yes	0
+Roy	m	young chimps	11	23/10/2018	1	11	test	r	l	i	ct	3660	cp	22	st	4000				yes	1
+Roy	m	young chimps	11	23/10/2018	1	12	training	l	r	i							et	2321		yes	0
+Roy	m	young chimps	11	23/10/2018	1	13	test	l	l	c	ct	1203	cp	21	st	1833				no	0
+Roy	m	young chimps	11	23/10/2018	1	14	training	r	l	i							et	2299		yes	0
+Roy	m	young chimps	11	23/10/2018	1	15	training	r	l	i										no	0
+Roy	m	young chimps	11	23/10/2018	1	16	training	l	l	c							et	5358		yes	0
+Roy	m	young chimps	11	23/10/2018	1	17	test	l	l	c	ct	5363	cp	21	st	5655				no	0
+Roy	m	young chimps	11	23/10/2018	1	18	training	l	l	i							et	6542		no	0
+Roy	m	young chimps	11	23/10/2018	1	19	training	l	l	c							et	920		no	0
+Roy	m	young chimps	11	23/10/2018	1	20	training	r	l	i							et	2389		yes	0
+Roy	m	young chimps	11	23/10/2018	1	21	training	l	l	c							et	6004		yes	0
+Roy	m	young chimps	11	23/10/2018	1	22	test	r	r	c	ct	4913	cp	22	st	5253				yes	0
+Roy	m	young chimps	11	23/10/2018	1	23	training	l	l	c							et	530		yes	0
+Roy	m	young chimps	11	23/10/2018	1	24	test	r	l	i	ct	2507	cp	16	st	2629				yes	0
+Roy	m	young chimps	11	23/10/2018	1	25	training	r	l	i							et	1673		no	0
+Roy	m	young chimps	11	23/10/2018	1	26	training	r	r	c							et	680		no	0
+Roy	m	young chimps	11	23/10/2018	1	27	training	r	r	c							et	22742		no	0
+Roy	m	young chimps	11	23/10/2018	1	28	training	l	l	c							et	676		yes	0
+Roy	m	young chimps	11	23/10/2018	1	29	test	l	l	c	ct	1053	cp	21	st	1262				no	0
+Roy	m	young chimps	11	23/10/2018	1	30	training	l	l	c							et	508		no	0
+Roy	m	young chimps	11	24/10/2018	2	31	test	l	l	c	ct	1354	cp	21	st	1653					0
+Roy	m	young chimps	11	24/10/2018	2	32	training	r	l	i							et	1418		yes	0
+Roy	m	young chimps	11	24/10/2018	2	33	training	r	r	c							et	689		no	0
+Roy	m	young chimps	11	24/10/2018	2	34	training	l	r	i							et	3424		yes	0
+Roy	m	young chimps	11	24/10/2018	2	35	training	l	l	c							et	759		no	0
+Roy	m	young chimps	11	24/10/2018	2	36	training	r	l	i							et	2352		yes	0
+Roy	m	young chimps	11	24/10/2018	2	37	training	l	l	c							et	840		yes	0
+Roy	m	young chimps	11	24/10/2018	2	38	training	r	l	i							et	1422		yes	0
+Roy	m	young chimps	11	24/10/2018	2	39	training	l	l	c							et	821		yes	0
+Roy	m	young chimps	11	24/10/2018	2	40	training	r	l	i							et	2853		yes	0
+Roy	m	young chimps	11	24/10/2018	2	41	test	r	r	c	ct	1354	cp	22	st	2356				no	0
+Roy	m	young chimps	11	24/10/2018	2	42	training	l	l	c							et	694		yes	0
+Roy	m	young chimps	11	24/10/2018	2	43	training	l	l	c							et	1029		no	0
+Roy	m	young chimps	11	24/10/2018	2	44	training	r	r	c							et	581		yes	0
+Roy	m	young chimps	11	24/10/2018	2	45	training	r	r	c							et	562		no	0
+Roy	m	young chimps	11	24/10/2018	2	46	training	r	r	c							et	495		no	0
+Roy	m	young chimps	11	24/10/2018	2	47	test	l	r	i	ct	1102	cp	21	st	1367				yes	0
+Roy	m	young chimps	11	24/10/2018	2	48	training	l	r	i							et	2851		no	0
+Roy	m	young chimps	11	24/10/2018	2	49	training	l	l	c							et	907		no	0
+Roy	m	young chimps	11	24/10/2018	2	50	training	r	l	i							et	4530		yes	0
+Roy	m	young chimps	11	24/10/2018	2	51	test	r	l	i	ct	2907	cp	22	st	3306				no	0
+Roy	m	young chimps	11	24/10/2018	2	52	training	l	l	c							et	1033		yes	0
+Roy	m	young chimps	11	24/10/2018	2	53	training	r	l	i							et	1922		yes	0
+Roy	m	young chimps	11	24/10/2018	2	54	training	l	l	c							et	17289		yes	0
+Roy	m	young chimps	11	24/10/2018	2	55	training	l	l	c							et	1688		no	0
+Roy	m	young chimps	11	24/10/2018	2	56	test	r	l	i	ct	2808	cp	22	st	3106				yes	0
+Roy	m	young chimps	11	24/10/2018	2	57	training	r	r	c							et	2649		no	0
+Roy	m	young chimps	11	24/10/2018	2	58	training	l	l	c							et	996		yes	0
+Roy	m	young chimps	11	24/10/2018	2	59	training	r	l	i							et	1335		yes	0
+Roy	m	young chimps	11	24/10/2018	2	60	test	l	l	c	ct	1153	cp	21	st	1388				yes	0
 Chipie	f	young chimps	27	23/10/2018	1	1	training	r	r	c							et	7750			0
 Chipie	f	young chimps	27	23/10/2018	1	2	training	l	r	i							et	9422		yes	0
 Chipie	f	young chimps	27	23/10/2018	1	3	training	r	r	c							et	966		yes	0

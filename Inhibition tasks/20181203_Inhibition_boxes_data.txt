@@ -35,18 +35,18 @@ Uruhara	m	young chimps	29	24/10/2018	15	1	9	r	l	0
 Uruhara	m	young chimps	29	24/10/2018	15	1	10	l	r	0	
 Uruhara	m	young chimps	29	24/10/2018	15	1	11	l	l	1	
 Uruhara	m	young chimps	29	24/10/2018	15	1	12	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	1	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	2	l	r	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	3	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	4	l	l	1	
-Roy 	m	young chimps	11	24/10/2018	15	1	5	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	6	l	r	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	7	l	r	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	8	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	9	r	l	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	10	l	r	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	11	l	r	0	
-Roy 	m	young chimps	11	24/10/2018	15	1	12	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	1	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	2	l	r	0	
+Roy	m	young chimps	11	24/10/2018	15	1	3	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	4	l	l	1	
+Roy	m	young chimps	11	24/10/2018	15	1	5	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	6	l	r	0	
+Roy	m	young chimps	11	24/10/2018	15	1	7	l	r	0	
+Roy	m	young chimps	11	24/10/2018	15	1	8	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	9	r	l	0	
+Roy	m	young chimps	11	24/10/2018	15	1	10	l	r	0	
+Roy	m	young chimps	11	24/10/2018	15	1	11	l	r	0	
+Roy	m	young chimps	11	24/10/2018	15	1	12	r	l	0	
 Manno	m	young chimps	5	24/10/2018	15	1	1	r	l	0	
 Manno	m	young chimps	5	24/10/2018	15	1	2	l	r	0	
 Manno	m	young chimps	5	24/10/2018	15	1	3	r	l	0	
@@ -132,18 +132,18 @@ Uruhara	m	young chimps	29	25/10/2018	15	2	9	r	l	0
 Uruhara	m	young chimps	29	25/10/2018	15	2	10	l	r	0	
 Uruhara	m	young chimps	29	25/10/2018	15	2	11	l	r	0	
 Uruhara	m	young chimps	29	25/10/2018	15	2	12	r	r	1	
-Roy 	m	young chimps	11	25/10/2018	15	2	1	r	l	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	2	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	3	r	r	1	2 pieces of food in opaque box
-Roy 	m	young chimps	11	25/10/2018	15	2	4	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	5	r	r	1	
-Roy 	m	young chimps	11	25/10/2018	15	2	6	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	7	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	8	r	r	1	
-Roy 	m	young chimps	11	25/10/2018	15	2	9	r	r	1	
-Roy 	m	young chimps	11	25/10/2018	15	2	10	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	11	l	r	0	
-Roy 	m	young chimps	11	25/10/2018	15	2	12	r	r	1	
+Roy	m	young chimps	11	25/10/2018	15	2	1	r	l	0	
+Roy	m	young chimps	11	25/10/2018	15	2	2	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	3	r	r	1	2 pieces of food in opaque box
+Roy	m	young chimps	11	25/10/2018	15	2	4	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	5	r	r	1	
+Roy	m	young chimps	11	25/10/2018	15	2	6	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	7	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	8	r	r	1	
+Roy	m	young chimps	11	25/10/2018	15	2	9	r	r	1	
+Roy	m	young chimps	11	25/10/2018	15	2	10	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	11	l	r	0	
+Roy	m	young chimps	11	25/10/2018	15	2	12	r	r	1	
 Manno	m	young chimps	5	25/10/2018	15	2	1	r	l	0	
 Manno	m	young chimps	5	25/10/2018	15	2	2	l	r	0	
 Manno	m	young chimps	5	25/10/2018	15	2	3	r	r	1	
@@ -352,30 +352,30 @@ Cheetah	f	old chimps	31	29/10/2018		2	9	r	l	0
 Cheetah	f	old chimps	31	29/10/2018		2	10	l	r	0	
 Cheetah	f	old chimps	31	29/10/2018		2	11	l	r	0	
 Cheetah	f	old chimps	31	29/10/2018		2	12	r	r	1	
-AliKaka	m	old chimps	20	28/10/2018		1	1	r	l	0	
-AliKaka	m	old chimps	20	28/10/2018		1	2	l	r	0	
-AliKaka	m	old chimps	20	28/10/2018		1	3	r	l	0	
-AliKaka	m	old chimps	20	28/10/2018		1	4	l	r	0	
-AliKaka	m	old chimps	20	28/10/2018		1	5	r	l	0	
-AliKaka	m	old chimps	20	28/10/2018		1	6	l	r	0	
-AliKaka	m	old chimps	20	28/10/2018		1	7	l	r	0	
-AliKaka	m	old chimps	20	28/10/2018		1	8	r	l	0	
-AliKaka	m	old chimps	20	28/10/2018		1	9	r	l	0	
-AliKaka	m	old chimps	20	28/10/2018		1	10	l	r	0	
-AliKaka	m	old chimps	20	28/10/2018		1	11	l	l	1	
-AliKaka	m	old chimps	20	28/10/2018		1	12	r	l	0	
-AliKaka	m	old chimps	20	29/10/2018		2	1	r	r	1	
-AliKaka	m	old chimps	20	29/10/2018		2	2	l	r	0	
-AliKaka	m	old chimps	20	29/10/2018		2	3	r	r	1	
-AliKaka	m	old chimps	20	29/10/2018		2	4	l	l	1	
-AliKaka	m	old chimps	20	29/10/2018		2	5	r	l	0	
-AliKaka	m	old chimps	20	29/10/2018		2	6	l	r	0	
-AliKaka	m	old chimps	20	29/10/2018		2	7	l	l	1	
-AliKaka	m	old chimps	20	29/10/2018		2	8	r	l	0	
-AliKaka	m	old chimps	20	29/10/2018		2	9	r	l	0	
-AliKaka	m	old chimps	20	29/10/2018		2	10	l	r	0	
-AliKaka	m	old chimps	20	29/10/2018		2	11	l	r	0	
-AliKaka	m	old chimps	20	29/10/2018		2	12	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	1	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	2	l	r	0	
+Alikaka	m	old chimps	20	28/10/2018		1	3	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	4	l	r	0	
+Alikaka	m	old chimps	20	28/10/2018		1	5	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	6	l	r	0	
+Alikaka	m	old chimps	20	28/10/2018		1	7	l	r	0	
+Alikaka	m	old chimps	20	28/10/2018		1	8	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	9	r	l	0	
+Alikaka	m	old chimps	20	28/10/2018		1	10	l	r	0	
+Alikaka	m	old chimps	20	28/10/2018		1	11	l	l	1	
+Alikaka	m	old chimps	20	28/10/2018		1	12	r	l	0	
+Alikaka	m	old chimps	20	29/10/2018		2	1	r	r	1	
+Alikaka	m	old chimps	20	29/10/2018		2	2	l	r	0	
+Alikaka	m	old chimps	20	29/10/2018		2	3	r	r	1	
+Alikaka	m	old chimps	20	29/10/2018		2	4	l	l	1	
+Alikaka	m	old chimps	20	29/10/2018		2	5	r	l	0	
+Alikaka	m	old chimps	20	29/10/2018		2	6	l	r	0	
+Alikaka	m	old chimps	20	29/10/2018		2	7	l	l	1	
+Alikaka	m	old chimps	20	29/10/2018		2	8	r	l	0	
+Alikaka	m	old chimps	20	29/10/2018		2	9	r	l	0	
+Alikaka	m	old chimps	20	29/10/2018		2	10	l	r	0	
+Alikaka	m	old chimps	20	29/10/2018		2	11	l	r	0	
+Alikaka	m	old chimps	20	29/10/2018		2	12	r	l	0	
 Julia	f	old chimps	18	29/10/2018		1	1	r	l	0	
 Julia	f	old chimps	18	29/10/2018		1	2	l	l	1	
 Julia	f	old chimps	18	29/10/2018		1	3	r	l	0	
@@ -400,30 +400,30 @@ Julia	f	old chimps	18	30/10/2018		2	9	r	l	0
 Julia	f	old chimps	18	30/10/2018		2	10	l	r	0	
 Julia	f	old chimps	18	30/10/2018		2	11	l	l	1	
 Julia	f	old chimps	18	30/10/2018		2	12	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	1	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	2	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	3	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	4	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	5	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	6	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	7	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	8	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	9	r	l	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	10	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	11	l	r	0	
-Amihirwe	m	old chimps	20	29/10/2018		1	12	r	l	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	1	r	l	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	2	l	l	1	
-Amihirwe	m	old chimps	20	30/10/2018		2	3	r	r	1	
-Amihirwe	m	old chimps	20	30/10/2018		2	4	l	r	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	5	r	l	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	6	l	r	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	7	l	r	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	8	r	l	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	9	r	l	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	10	l	r	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	11	l	r	0	
-Amihirwe	m	old chimps	20	30/10/2018		2	12	r	r	1	
+Amahirwe	m	old chimps	20	29/10/2018		1	1	r	l	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	2	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	3	r	l	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	4	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	5	r	l	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	6	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	7	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	8	r	l	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	9	r	l	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	10	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	11	l	r	0	
+Amahirwe	m	old chimps	20	29/10/2018		1	12	r	l	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	1	r	l	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	2	l	l	1	
+Amahirwe	m	old chimps	20	30/10/2018		2	3	r	r	1	
+Amahirwe	m	old chimps	20	30/10/2018		2	4	l	r	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	5	r	l	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	6	l	r	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	7	l	r	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	8	r	l	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	9	r	l	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	10	l	r	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	11	l	r	0	
+Amahirwe	m	old chimps	20	30/10/2018		2	12	r	r	1	
 Edvard	m	old chimps	18	29/10/2018		1	1	r	l	0	
 Edvard	m	old chimps	18	29/10/2018		1	2	l	r	0	
 Edvard	m	old chimps	18	29/10/2018		1	3	r	l	0	

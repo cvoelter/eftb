@@ -3,8 +3,8 @@ title: "Shifting_tray_Markdown"
 author: "Christoph Voelter"
 date: "November 18, 2018"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
@@ -30,6 +30,7 @@ source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
 ```{r loading data, include = FALSE}
 #Preparing code for mixed modeling. 
 all.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T, sep="\t")
+summary(all.data)
 
 ```
 
@@ -40,8 +41,8 @@ all.data <- read.table(file="Shifting_tray_Sweetwaters_final data.txt", header=T
 
 ##Plotting data
 
-###Plotting box_changes
-```{r error=FALSE}
+###Plotting trial-to-trial effects
+```{r echo=FALSE}
 
 ###Plotting side_changes
 plot_individual_side <- all.data %>%
@@ -147,54 +148,58 @@ p4 <- ggplot(
  
 
 grid.arrange(p1, p2,p3,p4, nrow = 2)
- g <- arrangeGrob(p1, p2,p3,p4, nrow = 2)
-ggsave("tray_shifting_trial effects.jpeg",g, width = 10, height = 7)
+ #g <- arrangeGrob(p1, p2,p3,p4, nrow = 2)
+#ggsave("tray_shifting_trial effects.jpeg",g, width = 10, height = 7)
 
 
 
 ```
 
 
+##t-tests
 
-\pagebreak  
+###Side changes  
 
-##Paired-sample t-test
-```{r}
-
-
-t.test( plot_ind_S1_side[plot_ind_S1_side$side_change=="no",]$correct_resp, plot_ind_S1_side[plot_ind_S1_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
-
-
-t.test( plot_ind_S2_side[plot_ind_S2_side$side_change=="no",]$correct_resp, plot_ind_S2_side[plot_ind_S2_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S1_side[plot_ind_S1_side$side_change=="no",]$correct_resp, plot_ind_S1_side[plot_ind_S1_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 1: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
 
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S2_side[plot_ind_S2_side$side_change=="no",]$correct_resp, plot_ind_S2_side[plot_ind_S2_side$side_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
-t.test( plot_ind_S1_box[plot_ind_S1_box$box_change=="no",]$correct_resp, plot_ind_S1_box[plot_ind_S1_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+###Box changes 
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S1_box[plot_ind_S1_box$box_change=="no",]$correct_resp, plot_ind_S1_box[plot_ind_S1_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 1: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
+```{r echo=FALSE}
+tt<-t.test( plot_ind_S2_box[plot_ind_S2_box$box_change=="no",]$correct_resp, plot_ind_S2_box[plot_ind_S2_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+```
+* Session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
-t.test( plot_ind_S2_box[plot_ind_S2_box$box_change=="no",]$correct_resp, plot_ind_S2_box[plot_ind_S2_box$box_change=="yes",]$correct_resp, paired = TRUE, alternative = "two.sided")
+###Comparison to chance
+* Chance value: 0.5  
 
-# compare_means(correct_resp ~ side_change, data = plot_ind_S1_side, paired = TRUE, method="t.test")
-
-
+```{r echo=FALSE}
 plot_individual <- all.data %>%
   group_by(Session, Subject) %>% 
   summarize(correct_resp = mean(correct)) 
-
-mean(plot_individual[plot_individual$Session==1,]$correct_resp, na.rm=TRUE)
-mean(plot_individual[plot_individual$Session==2,]$correct_resp, na.rm=TRUE)
-
-t.test( plot_individual[plot_individual$Session==1,]$correct_resp, mu=0.5, alternative = "two.sided")
-t.test( plot_individual[plot_individual$Session==2,]$correct_resp, mu=0.5, alternative = "two.sided")
-
-
-
-
+tt<-t.test( plot_individual[plot_individual$Session==1,]$correct_resp, mu=0.5, alternative = "two.sided")
 ```
+* Session 1: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
+```{r echo=FALSE}
+tt<-t.test( plot_individual[plot_individual$Session==2,]$correct_resp, mu=0.5, alternative = "two.sided")
+```
+* Session 2: Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)` 
 
-###Plotting box_distribution
-```{r error=FALSE}
+###Plotting box preferences
+```{r include=FALSE}
 
 
 
@@ -206,8 +211,15 @@ plot_individual_distractor1 <- all.data %>%
   mutate(n = n/24)
   
 
-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
-    geom_histogram(binwidth=0.05, alpha=.5, position="identity")
+p1<-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+   ylim(0,8)+
+   xlim(0,1)+
+   labs(x="",y="Count of distractor choices per subject")+
+   theme_few()+
+   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank(), legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1")
 
 plot_individual_distractor2 <- all.data %>%
   filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
@@ -216,91 +228,133 @@ plot_individual_distractor2 <- all.data %>%
   count(chosen_distractor) %>%
   mutate(n = n/24)
 
-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
-    geom_histogram(binwidth=0.05, alpha=.5, position="identity")
+p2<-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+   ylim(0,8)+
+   xlim(0,1)+
+   labs(x="",y="Count of distractor choices per subject")+
+   theme_few()+
+   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank(), legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2")
+
+
+grid.arrange(p1, p2, nrow = 1)
+
+
+
 
 ```
 
+```{r warning=FALSE, echo=FALSE}
 
-## GLMM
 
-``` {r mixed modeling, error=TRUE}
 
-# centering variables for modeling
-model.data <- all.data %>% 
-  mutate(z.trial = scale(trial, scale = T, center = T),
-         condition = relevel(condition, ref = "control"))
+plot_individual_distractor1 <- all.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 1)%>%
+  filter(trial_number < 13)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+  
 
-## code to run the model
-mm.1 <- glmer(both_ropes ~ condition + z.trial + 
-               (1 + condition + z.trial |chimp)
-             , data = model.data
-             , family = binomial
-             #, control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
-)
+p1<-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1 - first half")
 
-## save model output
-#saveRDS(mm.1, "multpos_model.rds")
-#save.image("mm1_mult_poss.RData")
+plot_individual_distractor2 <- all.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 1)%>%
+  filter(trial_number > 12)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+
+p2<-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+  scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 1 - second half")
+
+plot_individual_distractor3 <- all.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 2)%>%
+  filter(trial_number < 13)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+  
+
+p3<-ggplot(plot_individual_distractor3, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+  scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+   ylim(0,11)+
+   xlim(0,1)+
+   labs(x="",y="Distractor choices")+
+   theme_few()+
+   #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  theme(legend.position="none")+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2 - first half")
+
+plot_individual_distractor4 <- all.data %>%
+  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
+  filter(Session == 2)%>%
+  filter(trial_number > 12)%>%
+  group_by(chosen_distractor, Subject) %>% 
+  count(chosen_distractor) %>%
+  mutate(n = n/12)
+
+p4<-ggplot(plot_individual_distractor4, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+    scale_color_brewer(palette="Dark2")+
+    scale_fill_brewer(palette="Dark2")+
+    ylim(0,11)+
+    xlim(0,1)+
+    labs(x="",y="Distractor choices")+
+    theme_few()+
+    #theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+    theme(legend.position="none")+
+    #scale_y_continuous(breaks=seq(0,1,0.25))+
+   ggtitle("Session 2 - second half")
+ 
+
+
+p5<-ggplot(plot_individual_distractor4, aes(x=n, fill=chosen_distractor)) +
+    geom_histogram(binwidth=0.05, alpha=.5, position="identity")+
+scale_color_brewer(palette="Dark2")+
+  scale_fill_brewer(palette="Dark2")+
+  theme(legend.position="top")
+
+#grid.arrange(p1, p2,p3,p4, nrow = 2)
+
+
+legend <- get_legend(p5)
+# 3. Remove the legend from the box plot
+grid.arrange(p1, p2,p3,p4,legend, ncol=2, nrow = 3, 
+             layout_matrix = rbind(c(1,2),c(3,4), c(5,5)),
+             widths = c(2.7, 2.7), heights = c(2.5, 2.5,0.2))
+
+
+
+
 ```
-####Confidence intervals
-Confidence intervals for the binomial models were derived using the function bootMer of the R package lme4, using 1,000 parametric bootstraps and bootstrapping over the random effects.
-
-```{R}		
-#boot.res=boot.glmm(model.res=mm.1, excl.warnings=T,nboots=1000, para=F)
-#saveRDS(mm.1, "multpos_model.rds")
-round(boot.res,3)
-```
-
-####Null model	 
-```{r}	 
-mm.1.null <- glmer(both_ropes ~ 1 + 
-               (1 + condition + z.trial |chimp)
-             , data = model.data
-             , family = binomial
-            # , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
-)
-
-```
-####Full-null model comparison
-```{r}	 
-anova(mm.1, mm.1.null, test="Chisq")
-```
-####Model output
-  + Coefficients
-```{r}
-round(summary(mm.1)$coefficients, 3)
-```
-  + Individual predictors: likelihood ratio tests  
-Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
-```{r}
-xdrop1=drop1(mm.1, test="Chisq")
-round(xdrop1,3)
-```
-
-
-#### check for colinearity in the previous model.
-
-```{R echo=FALSE}
-library (car)
-
-col.mm1 <- glm(both_ropes ~ condition + z.trial 
-             , data = model.data
-             , family = binomial
-)
-vif(col.mm1)
-#no problem
-```
--> no collinearity
-
-####Model output
-`````` {r plot mixed modeling, error=TRUE}
-
-plot_model(mm.1, type='est') 
-plot_model(mm.1, type='re') 
-```
-
-
-
-
 
