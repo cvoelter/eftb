@@ -1,10 +1,17 @@
 ---
-title: "Inhibition_tasks_Markdown"
+title: "Inhibition tasks - Markdown"
 author: "Christoph Voelter"
 date: "December 04, 2018"
 output:
-  html_document: default
-  pdf_document: default
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    fig_caption: yes
+    theme: united
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -94,8 +101,12 @@ table(Inh.boxes.data$Subject,Inh.boxes.data$correct)
 
 
 ##Summary  
-Evidence for below-chance performance in all three inhibition tasks.Significant improvement in performance between the first and the second session in the Inhibition Boxes and Inhibition Cylinders task but not the Inhibition Grid task. 
- 
+
+* Evidence for a __prepotent response__: Below-chance performance in all three inhibition tasks at least in session 1. Significant improvement in performance between the first and the second session in the Inhibition Boxes and Inhibition Cylinders task but not the Inhibition Grid task.  
+
+* **Stop-signal task**: Individuals are more likely to move the handle in the correct direction when there is no change in direction from the previous trial. In test trials, we find substantial variation in the latency to change the direction in response to the reversal of the stop-boxes.   
+
+***   
 
 
 ```{r preparing data for correlation, include=FALSE}
@@ -272,9 +283,32 @@ grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
 *** 
 \pagebreak  
 
-##Test against chance & comparison between sessions
 
-###Inhibition Grid
+
+##Inhibition Grid  
+
+###Methods  
+
+####Materials  
+We use a sliding platform attached to the wall of the enclosure and an apparatus (flap-door box) with 16 compartments (4 x 4) with opaque and transparent flap doors. The apparatus will be fixed on top of the sliding platforms. All compartments of the apparatus can be baited via the back of the apparatus.
+In the inhibition task, seven transparent and six opaque doors are arranged on the grid. All of these 13 compartments are baited outside the subject’s view at the beginning of a trial with a quarter piece of banana. The transparent doors (but not the opaque doors) are blocked (by means of a screw) and cannot be opened. Subjects can obtain rewards behind opaque flap-doors.
+
+
+```{r inh_grid_setup, fig.cap="Flap-door apparatus with transparent and opaque doors.", echo=FALSE}
+
+knitr::include_graphics('pictures/inh_grid_setup.png')
+``` 
+
+
+####Procedure  
+At the beginning of each session, the experimenter allocates seven opaque and six transparent flap-doors behind an occluder onto the apparatus (the position of the flap-doors varies in a pseudo-random and prefixed order). The compartments behind the flap-doors are baited with a reward. After the baiting, E pushes the sliding platform forward and subjects are allowed to search for food unrestrictedly (max 10 minutes). Once an individual stops interacting with the apparatus for 1 min E pulls the apparatus back and terminates the session. 
+Subjects will complete two sessions with one trial each. In each quadrant of the grid there will always be at least one transparent and one opaque flap door. The exact location of the opaque and transparent flap doors will be randomized across trials. All subjects will receive the same configurations and the same order of configurations. 
+
+####Scoring
+We code the order of the touched flap doors, whether the flap door is opaque or transparent, and whether the subject has touched the same door before within the same session. 
+We score the number of mistakes within the first six flap doors that subjects touch (not considering repeated choices) within a session (0 – 24).
+
+###Results  
 
 * DV: mean correct choices within the first six unique doors that were touched by the subjects (not considering repeated choices)  
 * Comparison to chance: 0.46 (6/13)  
@@ -301,8 +335,30 @@ tt<-t.test(Inh_task_individual$Inh.grid.correct1, Inh_task_individual$Inh.grid.c
 ```
 * Mean correct in session 1 vs session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
 
+***  
 
-### Inhibition Boxes
+## Inhibition Boxes
+
+###Methods  
+
+####Materials  
+We use a sliding platform on top of a table outside the enclosure and two boxes made of Perspex (15.5 x 10 x 12 cm), one transparent and one opaque.  Besides we use an occluder for the baiting of the boxes. The boxes contain two compartments. In the lower compartment filling material (toilet paper) serves as potential hiding place for the food reward (1/16 apple piece). The filling material can be extracted though an opening in the front side of the boxes. The upper compartment is only visible in the transparent box. There will be a piece of food (1/2 apple) on the intermediate ceiling in the upper compartment lays inaccessible to the subject. The opaque box always contains a reward hidden in the filling material that can be obtained by removing the filling material. 
+
+```{r inh_boxes_setup, fig.cap="Glass-ceiling box setup.", echo=FALSE}
+
+knitr::include_graphics('pictures/inh_boxes_setup.png')
+```
+
+
+####Procedure  
+Subjects can choose between an opaque and a transparent box. The transparent box contains a visible piece of food on top of the transparent intermediate ceiling (i.e., this food item is inaccessible). Subjects need to learn to choose the opaque box in order to retrieve the accessible piece of food inside the opaque box.
+At the beginning of each trial, E baits both boxes behind an occluder. The lower compartment of both boxes is filled with paper. Subsequently, E places a food item inside the paper in the opaque box, as well as on the transparent intermediate ceiling inside of the transparent box. After the baiting, E removes the occluder and pushes the sliding platform forward and the subject is allowed to make a choice. The subject can now remove the paper and the food from the chosen box (if the correct box was chosen). Subjects complete 24 trials within two sessions (12 trials per session). If subjects choose incorrectly the experimenter will not reveal the location of the food reward in the opaque box. The location of the transparent and opaque boxes will be counterbalanced across trials and they will stay on the same side for a maximum of three consecutive trials. All subjects will receive the same order of trials (with respect to the location of the food in each trial).  
+
+####Scoring  
+A choice is coded as soon as the subject touched one of the boxes. We score whether subjects selected (i.e., point toward or touch) the correct (opaque) or incorrect (transparent) box. With 24 trials, the number of mistakes can vary between 0 and 24.
+
+
+###Results  
 
 * DV: mean performance of correct choices (within 12 trials per session)  
 * Chance value: 0.5  
@@ -333,7 +389,31 @@ tt<-t.test(Inh_task_individual$Inh.boxes.correct1, Inh_task_individual$Inh.boxes
 * Mean correct in session 1 vs session 2: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
 
 
-### Inhibition cylinders  
+##Inhibition Cylinders  
+
+###Methods  
+
+####Materials  
+We distribute 24 polycarbonate cylinders on the floor of the enclosure on a 6x8 grid which covers an area of 120 x 150 cm. The distance between adjacent cylinders on the grid is ca 20 cm. There are two types of cylinders: 12 transparent and 12 opaque (green) cylinders. The distribution of the cylinders on the grid is pseudo-random with the restriction that there are two cylinders of each type in any of the eight columns of the grid. 
+The transparent cylinders are sealed and contain visible but inaccessible food rewards (a peanut inside its shell). The opaque cylinders are open (they do not have a bottom) and baited with the same type of food. Two cameras are used to videotape chimpanzees’ search behaviour.
+
+```{r inh_cylinders_setup, fig.cap="Cylinders inhibition task setup.", echo=FALSE}
+
+knitr::include_graphics('pictures/inh_cylinders_setup.png')
+```  
+
+
+####Procedure  
+At the beginning of a session the subject enters the room with the array of 24 cylinders. Subjects can then interact with the cylinders and retrieve the food for a maximum of 10 minutes. If subjects lift at least 12 cylinders the session is stopped after 5 minutes or when the subject do not lift a cylinder for 30 sec (after they have initiated the search) or earlier if a subject throws the cylinders around without looking for the food (e.g. during dominance display). At the end of a session, subjects are moved to the adjacent compartment. 
+Subjects complete two sessions in total and one session per day. If an individual throws the cylinders around the session is repeated on the next day. The cylinders will be distributed pseudo-randomly with the restriction that two opaque and two transparent cylinders will be in each row of the search array. Every individual will receive the same distribution of cylinders.  
+
+####Scoring  
+We code the order of the cylinders lifted by the subject, whether the cylinders are baited and whether the subject has lifted the same cylinder before within the same session. Cylinders that were thrown around and not lifted or turned over one by one are not considered. 
+We score the number of mistakes within the first 12 lifted cylinders (not considering repeated choices) within each session (0 – 12). With two sessions, the number of mistakes can vary between 0 and 24.
+
+
+###Results  
+
 * DV: mean correct choices (toward opaque cylinders) within the first 12 lifted cylinders (per session) not considering repeated choices  
 * Chance value: 0.5
 
@@ -364,7 +444,31 @@ tt<-t.test(Inh_task_individual$Inh.cylinders.correct1, Inh_task_individual$Inh.c
 
 \pagebreak  
 
-###Stop-signal task  
+##Stop-signal Task  
+
+###Methods  
+
+####Materials  
+The apparatus is a polycarbonate enclosure (measures: w x h x d: 68.5 x 47.5 x 7 cm). The upper part of the front side (containing the electronic mechanism) is opaque; the lower part is transparent allowing subjects to see food inside the apparatus. The lower part of the apparatus front contains two circular openings, the reward openings, on both sides and a continuous slot that allows subjects to move a slider along the entire width of the apparatus. The slider is a piece of polycarbonate protruding through the slot in the front side of the apparatus. Inside the apparatus the slider is attached to the reward container. By moving the slider to the left or the right the reward inside the container can be moved to one of the reward openings, where the reward (a peanut) can be extracted from the apparatus. The backside of the apparatus contains a central opening that allows the experimenter to bait the reward container if the container is positioned in the centre of the apparatus. There is a string attached to the reward container that allows the experimenter to re-centre the container by pulling it from the backside of the apparatus. 
+The apparatus contains two servo motors and counter-weighted boxes which are used to open and close the reward openings (stop boxes).  A pressure sensitive linear resistor (SoftPot membrane potentiometer) is used to measure the position of the reward box and a LED strip is used as a visual signal. The LED strip is placed directly above the slider (in the opaque part of the apparatus); when switched on, the LED strip indirectly illuminates the visible interior (from the subject’s perspective) of the apparatus. A microcontroller (Arduino Uno / Adafruit motor shield) has been programed to read the box position and open and close the reward openings accordingly while illuminating the LED strip.  Servo motors are turned to drop the boxes into place, which blocks the slider and the access to the reward openings for the subject.  
+The motor shield / microcontroller is powered with a 12V AC-to-DC adapter. A laptop is connected to the microcontroller via the USB port. A button box connected via a cable to the microcontroller allows E to lift or drop the stop boxes before each trial and to activate the automatic change of the stop-box configuration when the subject is moving the reward container from its initial central location.
+ 
+```{r inh_ss_setup, fig.cap="Stop-box apparatus", echo=FALSE}
+
+knitr::include_graphics('pictures/inh_stopsignal_setup.png')
+``` 
+
+####Procedure  
+In every trial, one of the reward openings is open whereas the other one is blocked by a stop box. E determines the configuration of the stop boxes before the onset of a trial. At the beginning of each trial, E places the reward inside the centred reward container. Subjects need to move the slider in the front of the apparatus to an unblocked opening in the front side of the apparatus to retrieve the reward inside the reward container. In training trials, the subject needs to move the slider to the reward opening that is open at the start of the trial. In test trials, the configuration of the stop boxes changes once the subject starts to move the slider toward the open reward opening. When this happens, one stop box is dropped and blocks the initially open hole whereas the other stop box is lifted to unblock the other reward opening. Once the change in the box configuration is triggered the whole slider area will be illuminated for 2 seconds. To extract the reward the subject needs to correct the initial direction of the slider and move it to the other side of the apparatus. There is only one change in the stop-box configuration per (test) trial.
+Subjects will receive two sessions of 30 trials each. At the beginning of each session there will be six training trials (without a change in the stop-box configuration after the onset of a trial). After the initial training trials, there will be six blocks of four trials each per session. Each block will include three training and one test trial (with a change in box configuration). The correct side where the food can be retrieved is counterbalanced within each block and the correct side will be counterbalanced across training and test trials. All subjects will receive the same order of trials.
+
+####Scoring  
+We record the following variables directly via the serial connection between the Arduino Uno microcontroller and a PC outside the enclosure: in all trials, we record whether the first movement of the slider is to the correct side or incorrect side (based on the configuration at the onset of the trial). Additionally, we record in training trials the latency from the first movement to the endpoint of the SoftPot membrane potentiometer (ca. 22 cm from the starting position) and the latency between baiting the apparatus and the first move of the slider. In the test trials, we record the latency after the stop signal has been triggered to change the direction of the slider, the distance the slider has been moved further in the incorrect direction after the stop signal has been triggered until subjects have changed the direction of the slider, and the latency between the triggering of the stop signal until the slider reached the starting point again. 
+The key variable we will use as a measure of response inhibition is the latency to change direction in test trials.
+
+
+###Results  
+
 
 ```{r loading stopsignal data, include = FALSE}
 #Preparing code for mixed modeling. 
@@ -483,7 +587,7 @@ tt<- t.test( plot_ind_test_side[plot_ind_test_side$side_change=="yes",]$correct_
 * Comparison of **side-change** test trials to chance: Mean difference = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`  
 
 
-###Test trials: change latencies and change positions
+####Test trials: change latencies and change positions
 
 ```{r loading test data, include = FALSE}
 #Preparing code for mixed modeling. 
@@ -579,7 +683,8 @@ grid.arrange(p1, p2, nrow = 1)
 
 ***  
 
-###Plotting correlations  
+##Plotting correlations  
+
 
 ```{r include=FALSE}
 
