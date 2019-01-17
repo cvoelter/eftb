@@ -1,10 +1,17 @@
 ---
-title: "WM_tasks_Markdown"
+title: "WM tasks - Markdown"
 author: "Christoph Voelter"
 date: "November 24, 2018"
 output:
-  html_document: default
-  pdf_document: default
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
+  html_document:
+    fig_caption: yes
+    theme: united
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -40,14 +47,15 @@ grid.data <- read.table(file="20181122 WM grid data.txt", header=T, sep="\t")
 ```
 
 ```{r include=FALSE}
-summary(updating.data)
+summary(grid.data)
 
 ```
 
 
-##Summary
-Chimpanzees (N=28) performed above chance in the the WM grid task (DV: distance between chosen cell location and the hiding location of the food) and the WM Boxes task (DV: count of mistakes on platform 1) but not in the updating task (DV: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).  
-Correlation coefficients between the updating task and the grid / boxes task are positive (and some are statistically significant, e.g. between the grid distance DV and updating Platform 1 performance) but larger sample sizes are needed before any conclusions can be drawn.  
+##Summary  
+* Chimpanzees (N=28) performed above chance in the the __WM Grid task__ (DV: distance between chosen cell location and the hiding location of the food) and the __WM Boxes task__ (DV: count of mistakes on platform 1) but not in the __WM Updating task__ (DV: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).  
+
+* Correlation coefficients between the updating task and the grid / boxes task are positive (and some are statistically significant, e.g. between the grid distance DV and updating Platform 1 performance) but larger sample sizes are needed before any conclusions can be drawn.  
 
 
 ```{r preparing data for correlation, include=FALSE}
@@ -271,15 +279,43 @@ p3<-  ggplot(
 grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
 
 ```
+  
+
 * Dashed line: chance level  
 * Smaller values indicate better performance in all three tasks / DVs
 
 *** 
 \pagebreak  
 
-##Test against chance
+##Updating task
 
-###Updating task
+###Methods 
+
+####Materials: 
+We use two adjacent sliding platforms on top of tables outside the enclosure, opaque boxes (2 sets of 4 visually distinct boxes plus one additional box), and one occluder.
+
+```{r updating_setup, fig.cap="Updating test: identical box condition.", echo=FALSE}
+
+knitr::include_graphics('pictures/wm_updating_setup.png')
+```
+ 
+ 
+####Procedure  
+Subjects watch how a number of opaque boxes are baited (reward: 1/16 piece of apple). Subjects can choose one box after the other with a 10-s retention interval in between each choice (boxes will be occluded during retention interval). To retrieve all of the food items as efficiently as possible subjects need to remember their previous choices (and avoid them).
+
+#####Warm-up (session 1)  
+Subjects are tested individually. The experimenter sits behind a sliding platform facing the subject. Four or five opaque boxes with lids serve as hiding places of food rewards. The boxes differ in colour and shape but are similar in size. The location of each box on the platform remains constant across subjects and trials. 
+A trial starts when the subject approaches the sliding platform and looks toward the experimenter (E). E baits all the boxes on the table in full view of the subject (from left to right). After the baiting, E shows the content of each box to the subject by tilting it toward the subject right before he places the lid on top of the box. Once the boxes are closed the subjects can no longer see the food rewards inside. After the baiting of the boxes, E pushes the sliding platform forward (while looking to the floor to avoid any inadvertent cuing) and allows the subject to choose one of the boxes by reaching toward and touching a box. E opens the indicated box and passes the reward to the subject. Before closing the box again, E shows the empty box to the subject with the open side facing toward the subject. E closes the box and places the now empty box back on the platform in its previous location. E occludes the platform for 10 seconds by holding an opaque PVC board in between the boxes and the ape, to avoid visual tracking of the containers. Importantly, E does not change the locations or the baiting status of the boxes during the delay. E’s hands are visible to the subject during the entire delay to emphasize that the status of boxes remained unchanged. After the delay, E removes the occluder and the subject is allowed to choose again. In case the subject revisits a box, E opens the indicated empty box, shows its content to the subject, closes the box again, and places it back in its previous position. Then E occludes the boxes again, and the next 10-sec delay period starts. 
+This procedure is repeated until subjects have retrieved all food items or until they made five mistakes within the same trial. After the last choice in a trial, E opens all boxes on the platform and discards the remaining food items in a food bucket underneath the platform in full view of the subject.
+All individuals first receive three trials with four boxes and then three trials with five boxes. 
+
+#####Test (session 2)  
+In the test, we use two adjacent platforms (platform 1 and 2). At the beginning of each trial, E places four boxes each on platform 1 and 2. E then baits and closes the boxes on platform 1 and 2 and places a free-standing occluder on platform 2. Subjects can now choose a box on platform 1. E opens the indicated box, passes the food reward from inside the box to the subject, and closes the box again in the same manner as in the training. After the first choice, E moves the occluder from platform 2 to platform 1 and occludes the boxes on platform 1. Subjects can now choose from platform 2. E then transfers the occluder from platform 1 to platform 2 and subjects can choose again from platform 1. This procedure is repeated until subjects have retrieved all food items on one platform or until they made 6 mistakes. In between each choice there is a 10 seconds retention interval. All individuals receive four test trials.  
+
+####Scoring   
+We score the number of mistakes per trial (0 – 6) and also the number of mistakes within the first four choices on platform 1. With 4 test trials, the number of mistakes can vary between 0 and 24.  
+
+###Results  
 
 ```{r include=FALSE}
 #Updating - training - 5 boxes
@@ -333,7 +369,35 @@ tt<-t.test(updating_individual5$Updating_P1.mistakes , mu=1.265, alternative = "
 * Number of redundant searches with test trials (platform 1: first 4 choices) vs chance value (1.265): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
 
 
-### WM Boxes
+##WM Boxes
+
+###Methods  
+
+####Materials  
+We use two adjacent sliding platforms on top of tables outside the enclosure, 8 identical opaque boxes (12.5 x 7.5 x 7.5 cm) filled with toilet paper, and one occluder. All boxes can be baited through a hole in the back.
+
+```{r boxes_setup, fig.cap="Box WM task setup.", echo=FALSE}
+
+knitr::include_graphics('pictures/wm_boxes_setup.png')
+```
+
+####Procedure  
+
+#####Warm-up  
+In the warm-up phase, there is one platform with four identical, opaque boxes and subjects need to remember one food location over a short retention interval (15 seconds).
+At the beginning of each warm-up trial, E shows the subject a reward (1/16 piece of apple) while calling the subject’s name and taps the reward two times on top of the baited box. E then baits one the boxes via the hole in the backside. Following a retention interval (15 seconds), E pushes the sliding platform forward (while looking to the floor to avoid any inadvertent cuing) and allows the subject to choose one of the boxes by reaching toward and touching a box. E allows the subject to remove the toilet paper from the indicated box. Subjects receive only one choice per trial. Subjects receive 2 warm-up trials.
+
+#####Test  
+In the test phase, there are two platforms with four identical, opaque boxes per platform and subjects need to remember two food locations over a short retention interval (15 seconds). We never bait the same box on both platforms (in terms of their relative spatial position on each platform). 
+At the beginning of each test trial, E shows the subject a reward while calling the subject’s name. E then baits a box on platform 1. Following a short delay (5 seconds), E occludes that array on platform 1 shows a second reward, again calls the subject’s name and moves to platform 2. Another 2 seconds later (in second 7), E baits a box on platform 2 and occludes the array on platform 2. After another 8 seconds (second 15), E pushes the sliding platform forward (while looking to the floor to avoid any inadvertent cuing) and allows the subject to choose one of the boxes by reaching toward and touching a box. E allows the subject to remove the toilet paper from the indicated box. Then subjects are allowed to choose one box from platform 2. Subjects receive only one choice per platform in each trial. Subjects receive 8 test trials in one session. Within this session subjects will complete 2 blocks of 4 trials. In every block every box on the platform will be baited once. All subjects will receive the same order of trials.
+
+####Scoring  
+We score the number of mistakes per trial (0 – 2). With 8 test trials, the number of mistakes can vary between 0 and 16.
+
+
+###Results  
+
+
 ####Platform 1 performance
 
 ```{r echo=FALSE}
@@ -341,9 +405,35 @@ tt<-t.test( box_individual2$Boxes_P1.mistakes, mu=0.75, alternative = "two.sided
 ```
 * Mean number of mistakes on platform 1 vs chance value (0.75): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
 
-### WM Grid
-####Distance between chosen cell and baited cell on the grid
-Distance calculation: $\sqrt{(Chosen_X-Food_X)^2+(Chosen_Y-Food_Y)^2}$  
+##WM Grid  
+
+###Methods 
+
+####Materials  
+We use two adjacent sliding platforms on top of two tables outside the enclosure and an apparatus with 16 compartments (4 x 4) with opaque flap doors. All compartments can be baited via the back of the apparatus.
+
+```{r grid_setup, fig.cap="Grid WM task setup.", echo=FALSE}
+
+knitr::include_graphics('pictures/wm_grid_setup.png')
+```
+
+####Procedure  
+
+#####Warm-up  
+At the beginning of each warm-up trial, E calls the subject to draw its attention on the flap-door box on top of the sliding platform. E shows the reward (a quarter banana) to the subject, holds up a flap-door and positions the reward in the respective compartment in full view of the subject. Then, the experimenter releases the flap-door. After the retention interval of 15 sec, E pushes the apparatus to the subject and the subject can search for the food reward.  Subjects receive two warm-up trials.  
+
+#####Test  
+At the beginning of each test trial, E calls the subject to draw its attention on the flap-door box on top of the sliding platform. E shows the reward (a quarter banana) to the subject, holds up a flap-door and positions the reward in the respective compartment in full view of the subject. Then, the experimenter releases the flap-door and occludes the apparatus. In the retention interval of 15 sec, E calls the subject to the adjacent sliding platform. On platform 2, E positions three cups, shows the subject another reward (a peanut) and places the reward under one of the cups. Then, E changes the cup position according to a predetermined order (a single transposition) and the subject is allowed to choose one of the cups. After 15 sec E pushes the apparatus to the subject and the subject can search for the food reward.
+Subjects complete 12 test trials. All compartments except for the four edge compartments will serve as hiding place. The order of baiting of the remaining 12 compartments will be randomized. All individuals will receive the same order of baiting locations across trials.  
+
+####Scoring  
+We score the distance of the first chosen cell from the actual hiding location of the food reward. The distance is calculated as follows:
+$\sqrt{(Chosen_X-Food_X)^2+(Chosen_Y-Food_Y)^2}$.  
+The distance can vary between 0 (food located in first attempt) to 3.6.  
+
+ 
+
+###Results  
 
 #####Test against random choices of all 16 grid cells.  
 
