@@ -1,10 +1,14 @@
 ---
-title: "Shiftingn_tasks_Markdown"
+title: "Shiftingn tasks - Markdown"
 author: "Christoph Voelter"
 date: "December 06, 2018"
 output:
-  html_document: default
-  pdf_document: default
+  html_document: 
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    theme: united
+    fig_caption: yes  
 ---
 
 ```{r setup, include=FALSE}
@@ -60,7 +64,7 @@ summary(Shifting.shelf.data )
 
  
 
-###Shifting Boxes  
+##Shifting Boxes  
 
 ```{r shifting boxes plot, echo=FALSE}
 
@@ -165,7 +169,7 @@ tt<-t.test(Shifting.boxes_individual$Shifting.boxes.correct[Shifting.boxes_indiv
 ***
 
 
-####Trial-to-trial effects
+####Trial-to-trial effects in ED phase
 ```{r echo=FALSE}
 
 ###Plotting material_changes
@@ -225,7 +229,7 @@ grid.arrange(p1, p2, nrow = 1, heights=unit(100, "mm"))
 ```
 
 
-####Plotting box preferences  
+####Plotting box preferences in ED phase
 
 ```{r echo=FALSE, warning=FALSE}
 
@@ -276,7 +280,34 @@ grid.arrange(p1, p2, nrow = 1)
 
 ***   
 
-### Task-switching  
+##Task-switching  (shelf-task)  
+
+In this experiment, chimpanzees need to switch flexibly between two object discrimination tasks. There will be two different shelves that will serve as different contextual cues. On platform 1, chimpanzees will learn one discrimination, on platform 2 they will learn another discrimination. In the test, chimpanzees need to combine the contextual cue (which platform) with the object cue (which box) to find the food reward. We are interested in individual differences in the ability to switch flexibly between the two discrimination tasks.  
+
+###Methods  
+
+####Materials  
+
+We will use two visually distinct shelves (a black and a white monitor stand) on top of two adjacent sliding platforms attached to the wall of the enclosure (see Fig. 8). We will use in total six distinct cups as hiding locations for a food reward (1/12 banana piece). On every shelf, there will be four cups, two cups on the top and lower shelf, respectively. Cups that serve as distractors (i.e. cups that will not be baited) will be closed with a lid (and never be opened in front of the subjects). 
+
+
+```{r shelf_setup, fig.cap="Illustration of the task switching experimental setup.", echo=FALSE}
+
+knitr::include_graphics('pictures/shelf_setup.png')
+```
+
+
+####Procedure
+There are two training steps: in the first training steps there are only two cups on each platform (Platform 1, lower level: A and B; Platform 2, upper level: X and Y). In this training step, subjects will be trained that one of the cups (B; see Fig. 8) on the lower shelf of sliding platform 1 and another cup (X) on the upper shelf of sliding platform 2 predict the presence of food rewards. Subjects will first search on platform 1 until they choose correctly in three consecutive trials. Then they will search on platform 2 until the chose correctly in three consecutive trials. 
+In the second training step, we will add distractor. On the upper shelf of platform 1 and the lower shelf of platform 2, there will be distractor cups (D1 / D2) that will never serve as hiding place for the food. Subject will fist search on the platform they did not finish with in training phase 1. They will search on this platform until they choose correctly in three consecutive trials and then on the other platform until they choose correctly for three consecutive trials. Subjects pass the second training step if they score 6 out of 7 trials in a row correct (with at least three correct trials on both platforms). The food will be hidden out of view and then subjects can search for the food by choosing one of the four cups on each shelf. If they choose correctly, they will receive the food item; otherwise the location of the food reward will be revealed but the food item will be discarded. 
+Subjects will receive a maximum of 72 trials per training step and a maximum of 108 trials to complete both training steps.
+
+In the test phase, the same four cups will be used on both platforms. We will use the training cups from the lower shelf of platform 1 (A and B) and the cups from the upper shelf of platform 2 (X and Y). The combination of location and identity of the cups will predict the presence of the food reward in the same manner as in training: cup B on the lower shelf will indicate the location of the food on platform 1 and cup X on the upper shelf will indicate the location of food on platform 2. Subjects will be tested on one platform until they choose correctly for three consecutive trials. Subjects start on platform 1. Then they can continue on the other platform. In the test phase, subjects will not receive feedback about the location of the food reward if they choose incorrectly. 
+Subjects complete one test session with 36 trials. A session will consist of blocks of 4 trials each. Every block includes all 4 combinations of how the cups on the upper and lower shelf can be distributed. The order of trials in each block will be randomized. We will use the same order of trials across subjects.
+
+####Scoring
+A choice is coded as soon as the subject touches one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or an incorrect (unbaited) cup. Moreover, we score switching mistakes, i.e. whether they chose a cup on the incorrect level of the shelf. With 36 trials, the number of switching mistakes can vary between 0 and 36. We will use the switching mistakes as performance measure.
+
 
 
 ```{r shifting shelf plot, echo=FALSE}
@@ -438,7 +469,28 @@ Shifting_task_individual <- Shifting.tray_individual  %>%
 
 *** 
 
-###Shifting tray task
+##Shifting tray task
+
+###Methods
+
+####Setup  
+We use a sliding platform attached to the wall of the enclosure, two trays filled with two different filling materials (toilet paper vs brown paper), and two distinct boxes. On top of each tray will be a different box from the working memory updating task (i.e., these boxes have been associated with food before). The toilet paper will be the baited stimulus. We use apple pieces (1/16) as rewards.  
+
+```{r shelf_setup, fig.cap="Shifting task with boxes from updating study and filling material as predictive cue.", echo=FALSE}
+
+knitr::include_graphics('pictures/shifting_tray_setup.png')
+```
+
+
+####Procedure
+In the beginning of a trial E will bait one of the boxes on the platform behind an occluder outside the subject’s view. Then E removes the occluder and pushes the platform forward. The subject can now make a choice. If they choose the baited cup /tray they will receive the food reward. If they choose incorrectly the experimenter will show them the content of the chosen (empty) box and then open the baited box and discard the food.
+Subjects will receive two sessions of 24 trials each. A session will consist of 6 blocks of 4 trials each. Every block includes all 4 combinations of filling materials and boxes. The order of trials in each block will be randomized. We will use the same order of trials across subjects.
+Reward: 1/16 apple piece
+
+####Scoring
+A choice is coded as soon as the subject touches or points toward one of the boxes or trays. We score whether subjects select the correct (baited) or the incorrect (unbaited) tray. With 48 trials, the number of ED mistakes can vary between 0 and 48. 
+
+###Results
 
 ####Trial-to-trial effects
 ```{r echo=FALSE}
@@ -759,7 +811,7 @@ grid.arrange(p1, p2,p3,p4,legend, ncol=2, nrow = 3,
 
 *** 
 
-###Plotting correlations  
+##Plotting correlations  
 
 ```{r include=FALSE}
 
