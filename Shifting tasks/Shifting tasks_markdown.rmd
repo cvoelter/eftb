@@ -3,12 +3,15 @@ title: "Shiftingn tasks - Markdown"
 author: "Christoph Voelter"
 date: "December 06, 2018"
 output:
-  html_document: 
-    toc: true
-    toc_float: true
-    toc_depth: 3
+  html_document:
+    fig_caption: yes
     theme: united
-    fig_caption: yes  
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+    toc_depth: '3'
 ---
 
 ```{r setup, include=FALSE}
@@ -39,7 +42,8 @@ source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
 ####Notes:  
 * Shifting boxes: Tess did not receive the simple discrimination reversal phase. George and Saidia did not complete the SD phase.
 * Task Switching: Mwanzo failed Training 1 (72 trials), Julia did not finish training 2 (not motivated), Safari did not finish training 1. George and Saidia were not tested.
-* Shifting tray: George did not complete the task.  
+* Shifting tray: George did not complete the task (he was excluded). Saidia and Safari only completed the first session.  
+
 
 
 ```{r loading data, include = FALSE}
@@ -61,10 +65,41 @@ summary(Shifting.shelf.data )
 
 
 ##Summary  
+* In the __Shifting boxes task__, chimpanzees did not perform above chance in the ED phase. They performed above chance in the subsequent EDSD phase. In ED, chimpanzees seemed to be quite fixated on the now irrelevant filling material.  
 
+* In the __Task-switching (shelf) task__, performance was overall quite good. Towards the end of the test phase some chimpanzees switched between the platforms without making any mistakes. Performance in the test phase was overall above chance. In other words, there is evidence that chimpanzees have learnt the conditional discrimination. Additionally, the number of switches between platforms and the switching mistakes (choosing the platform-1 target on platform 2 and vice versa) yielded both substantial individual variation.  
+
+* In the __Shifting tray task__, there chimpanzees performed better than expected by chance in session 2 (but not in session 1) and the preferences for the distractor boxes (known from the updating task) seem to decrease between the two sessions. 
+
+* Possible __DVs__ for the test battery are proportion correct in the ED (or EDSD) phase of the Shifting boxes task, the number of platform switches (or the number of switching mistakes) in the Task-switching task, and the session-2 performance (proportion correct) in the Shifting tray task.  
  
+***  
 
-##Shifting Boxes  
+##Shifting Boxes 
+
+###Methods  
+
+####Materials  
+
+We use a sliding platform attached to the wall of the enclosure, two identical training boxes plus four visually distinct test boxes. The boxes are opaque except for a transparent lower front panel made of Perspex. We fill the boxes with varying natural materials (e.g. organic cotton, bast fibre, felt and paper) that could be retrieved through small openings in the front (3.5 x 3.5 cm). The food reward (1/16 apple piece) will be hidden inside the filling material of one of the boxes. Additionally, the upper part of the boxes varies in colour, material and shape.
+ 
+```{r boxes_setup, fig.cap="Illustration of procedure. SD: simple discrimination of two filling materials; SR: simple discrimination reversal; CD: compound discrimination in which filling material is the relevant dimension; ID: intradimensional shift: another compound discrimination with novel stimuli in which the filling material is again the relevant dimension ; ED: extradimensional shift: the previously irrelevant dimension “box shape” is now relevant. + denotes baited boxes; - indicates unbaited boxes.", echo=FALSE}
+
+knitr::include_graphics('pictures/boxes_setup.png')
+```
+
+
+####Procedure   
+At the beginning of each trial, E baits the boxes behind an occluder and places them at pre-determined positions on the sliding platform. Then E pushes the platform forward and the subject is allowed to choose by pointing or touching one of the boxes. E then pulls the platform back and allows the subject to extract the filling material from the indicated box. 
+One box is baited per trial with either the identity of the material or the identity of the box indicating the presence of a reward. A pilot study including 8 chimpanzees (6 females, 2 males) at Budongo Trail, Edinburgh Zoo, revealed that subjects required a similar amount of trials to discriminate between both the identity of the boxes and the identity of the materials. For the current study, filling material is the first relevant dimension and predicts the reward in all test phases except for the last extradimensional shift phase. The left/right position of the baited box is pseudo-randomized across trials with the constraint that it appeared an equal number of times on the left and right within a block of four trials. All subjects will be presented with the same order of trials.
+Subjects will be presented with a series of discrimination tasks (max 30 minutes per session). In all discriminations, we use a criterion of 6 consecutive trials correct for subjects to pass this discrimination phase except for the final extradimensional shift in which we use a fixed number of trials. Subjects need to discriminate boxes based on their filling material, first in a simple discrimination (SD; test to criterion: 6 consecutive trials correct or 9 out of 12 in trial 13 to 24 of the first session; toilet paper vs brown paper; toilet paper is the baited stimulus) and a reversal of the SD (SR, max. 24 trials or 6 consecutive trials correct; brown paper is baited) followed by a compound discrimination (CD; 1 session; sawdust vs cotton with sawdust as baited stimulus) with novel stimuli. In the CD stage and all subsequent stages we use distinct boxes; however, the filling material continues to be the relevant dimension (except for the ED stage). After the CD phase, they receive an interdimensional shift, a novel compound discrimination of new materials (ID; leaves vs mud; leaves baited). Finally, they will receive the extradimensional compound discrimination (ED, 2 session with 40 trials in total; cork box baited; distractor: bast vs straw) in which they need to discriminate novel boxes (the filling material is now irrelevant).
+The repeated exposure to material as a reward predictor in the four pre-switch stages (SD, SR, CD, ID) aims at fixating subjects’ attention to this stimulus dimension. Subjects who pass the criterion of 6 consecutive trials correct will continue with the next stage right away (except for the final ED phase in which we administer a fixed number of trials).
+Given the poor performance in the ED phase we added one discrimination phase in the end (EDSD). We used the same boxes as in the ED phase and again the same box was baited. However, we used the same type of filling material (straw) in both boxes in this phase. We administered a maximum of 24 trials (1 session) or until individuals scored 6 consecutive trials correct. 
+
+####Scoring  
+A choice is coded as soon as the subject touches or points toward one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or the incorrect (unbaited) box. With 48 trials in the ED phase, the number of ED mistakes can vary between 0 and 48. We will use the ED mistakes as shifting performance measure.  
+
+###Results  
 
 ```{r shifting boxes plot, echo=FALSE}
 
@@ -229,7 +264,7 @@ grid.arrange(p1, p2, nrow = 1, heights=unit(100, "mm"))
 ```
 
 
-####Plotting box preferences in ED phase
+####Plotting distractor preferences in ED phase
 
 ```{r echo=FALSE, warning=FALSE}
 
@@ -306,8 +341,9 @@ In the test phase, the same four cups will be used on both platforms. We will us
 Subjects complete one test session with 36 trials. A session will consist of blocks of 4 trials each. Every block includes all 4 combinations of how the cups on the upper and lower shelf can be distributed. The order of trials in each block will be randomized. We will use the same order of trials across subjects.
 
 ####Scoring
-A choice is coded as soon as the subject touches one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or an incorrect (unbaited) cup. Moreover, we score switching mistakes, i.e. whether they chose a cup on the incorrect level of the shelf. With 36 trials, the number of switching mistakes can vary between 0 and 36. We will use the switching mistakes as performance measure.
+A choice is coded as soon as the subject touches one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or an incorrect (unbaited) cup. Moreover, we score switching mistakes, i.e. whether they chose a cup on the incorrect level of the shelf. With 36 trials, the number of switching mistakes can vary between 0 and 36. We will use the switching mistakes as performance measure.  
 
+###Results  
 
 
 ```{r shifting shelf plot, echo=FALSE}
@@ -476,7 +512,7 @@ Shifting_task_individual <- Shifting.tray_individual  %>%
 ####Setup  
 We use a sliding platform attached to the wall of the enclosure, two trays filled with two different filling materials (toilet paper vs brown paper), and two distinct boxes. On top of each tray will be a different box from the working memory updating task (i.e., these boxes have been associated with food before). The toilet paper will be the baited stimulus. We use apple pieces (1/16) as rewards.  
 
-```{r shelf_setup, fig.cap="Shifting task with boxes from updating study and filling material as predictive cue.", echo=FALSE}
+```{r tray_setup, fig.cap="Shifting task with boxes from updating study and filling material as predictive cue.", echo=FALSE}
 
 knitr::include_graphics('pictures/shifting_tray_setup.png')
 ```
