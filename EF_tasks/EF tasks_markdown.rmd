@@ -39,8 +39,14 @@ Shifting.data <- read.csv(file="Shifting_task_individual_corr.csv")
 ```
 
 ```{r include=FALSE}
-summary(WM.data )
 
+
+WM.data_pos<-WM.data %>% 
+  mutate(Updating_P1.mistakes=Updating_P1.mistakes*(-1)) %>% 
+  mutate(Updating2_P1.mistakes=Updating2_P1.mistakes*(-1)) %>% 
+  mutate(Boxes_P1.mistakes=Boxes_P1.mistakes*(-1)) %>% 
+  mutate(Grid_Distance=Grid_Distance*(-1))
+summary(WM.data_pos )
 ```
 
 
@@ -113,8 +119,8 @@ ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) +
 library(ggcorrplot)
 corr <- cor(EF_task_data [-1])
 p.mat <- cor_pmat(EF_task_data [-1])
-ggcorrplot(cormat, hc.order = TRUE,
-    type = "lower", p.mat =p.mat, lab=FALSE)
+ggcorrplot(cormat, hc.order = FALSE,
+    type = "lower", p.mat =p.mat, lab=FALSE, sig.level = 0.1)
 
 ```
 ```{r echo=FALSE}
