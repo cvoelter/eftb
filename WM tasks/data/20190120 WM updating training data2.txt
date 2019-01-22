@@ -59,18 +59,18 @@ Amizero	f	young chimps	29	07/12/2018	one_platform	3	3	1	0	3	2	1	1	1
 Amizero	f	young chimps	29	07/12/2018	one_platform	3	4	1	0	3	2	1	1	1	
 Amizero	f	young chimps	29	07/12/2018	one_platform	3	5	0	1	2	3	1	2	0	
 Amizero	f	young chimps	29	07/12/2018	one_platform	3	6	0	1	2	3	1	2	0	
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	1	0	0	1	1	0			
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	2	0	0	1	1	0			
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	3	1	1	1	2	1			
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	4	0	0	1	1	0			
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	5	1	1	1	2	1			
-Roy 	m	young chimps	11	07/12/2018	one_platform	2	6	1	1	1	2	1			
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	1	0	0	1	3	1	2	1	
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	2	1	1	2	1	1	3	0	
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	3	0	0	1	2	1	3	1	
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	4	1	1	2	2	0	1	1	
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	5	1	2	1	1	0	1	0	
-Roy 	m	young chimps	11	07/12/2018	one_platform	3	6	1	1	1	2	1	2	0	
+Roy	m	young chimps	11	07/12/2018	one_platform	2	1	0	0	1	1	0			
+Roy	m	young chimps	11	07/12/2018	one_platform	2	2	0	0	1	1	0			
+Roy	m	young chimps	11	07/12/2018	one_platform	2	3	1	1	1	2	1			
+Roy	m	young chimps	11	07/12/2018	one_platform	2	4	0	0	1	1	0			
+Roy	m	young chimps	11	07/12/2018	one_platform	2	5	1	1	1	2	1			
+Roy	m	young chimps	11	07/12/2018	one_platform	2	6	1	1	1	2	1			
+Roy	m	young chimps	11	07/12/2018	one_platform	3	1	0	0	1	3	1	2	1	
+Roy	m	young chimps	11	07/12/2018	one_platform	3	2	1	1	2	1	1	3	0	
+Roy	m	young chimps	11	07/12/2018	one_platform	3	3	0	0	1	2	1	3	1	
+Roy	m	young chimps	11	07/12/2018	one_platform	3	4	1	1	2	2	0	1	1	
+Roy	m	young chimps	11	07/12/2018	one_platform	3	5	1	2	1	1	0	1	0	
+Roy	m	young chimps	11	07/12/2018	one_platform	3	6	1	1	1	2	1	2	0	
 Jane	f	young chimps	14	07/12/2018	one_platform	2	1	0	1	2	2	0			
 Jane	f	young chimps	14	07/12/2018	one_platform	2	2	0	1	2	2	0			
 Jane	f	young chimps	14	07/12/2018	one_platform	2	3	0	1	2	2	0			

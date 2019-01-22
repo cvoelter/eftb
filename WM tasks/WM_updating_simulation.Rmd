@@ -108,6 +108,37 @@ mean(red_choice)
 
 ```
 
+##simulate number of unique / redundant choices in training trials with 3 cups (first 3 choices only)
+```{r}
+unique_res=c()
+red_choice=c()
+
+
+for(i in 1:1000000){
+  res=0
+  n.cups=3
+  crit.thresh=3
+  trial.count=0
+  res=c()
+  while(trial.count<3) {
+
+	  res<-c(res,sample(n.cups,size=1, replace=T))
+		trial.count=trial.count+1
+  }
+  unique_res[i]=length(unique(res))
+  red_choice[i]=trial.count-length(unique(res))
+}
+
+#mean(unique_res)
+mean(red_choice)
+
+
+#hist(red_choice)
+#plot(table(red_choice))
+#abline(h=5000, lty=3)
+#quantile(red_choice, 0.05)
+
+```
 
 ##simulate number of unique / redundant choices in training trials with 4 cups
 ```{r}
@@ -235,8 +266,8 @@ diff_score
 
 quantile(red_choice, 0.05)
 
-
-##simulate number of unique / redundant choices in test trials (only first 4)
+#Updating 2 - test 
+##simulate number of unique / redundant choices in test trials (only first 3)
 ```{r}
 unique_res1=c()
 unique_res2=c()
@@ -247,19 +278,20 @@ red_choice2=c()
 
 for(i in 1:100000){
   
-  n.cups=4
-  crit.thresh=4
+  n.cups=3
+  crit.thresh=3
   trial.count=0
   trial.count1=0
   trial.count2=0
   res1=c()
   res2=c()
-  while(trial.count<8 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
-    if(trial.count<8 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+  while(trial.count<6 & length(unique(res1))<crit.thresh){ 
+    
+    if(trial.count<6 & length(unique(res1))<crit.thresh ){
 	      res1<-c(res1,sample(n.cups,size=1, replace=T))
 	  		trial.count=trial.count+1 
 	  		trial.count1=trial.count1+1 }
-    if(trial.count<8 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count<6 & length(unique(res2))<crit.thresh){
 	    res2<-c(res2,sample(n.cups,size=1, replace=T))
 		  trial.count=trial.count+1
 		  trial.count2=trial.count2+1 }
@@ -273,14 +305,14 @@ for(i in 1:100000){
 
 mean(unique_res1)
 mean(red_choice1)
-#mean(unique_res2)
-#mean(red_choice2)
+mean(unique_res2)
+mean(red_choice2)
 
-#unique_res=unique_res1+unique_res2
-#red_choice=red_choice1+red_choice2
+unique_res=unique_res1+unique_res2
+red_choice=red_choice1+red_choice2
 
 #mean(unique_res)
-#mean(red_choice)
+mean(red_choice)
 
 #hist(unique_res1)
 #plot(table(red_choice))
@@ -292,6 +324,11 @@ diff_score=mean(red_choice)-mean(unique_res)
 diff_score
 
 ```
+
+
+
+
+
 
 
 
