@@ -373,7 +373,7 @@ grid.arrange(p1, p2,p3,p4, nrow = 1, heights=unit(100, "mm"))
 ###Methods 
 
 ####Materials: 
-We use two adjacent sliding platforms on top of tables outside the enclosure, opaque boxes (2 sets of 4 visually distinct boxes plus one additional box), and one occluder.
+We use two adjacent sliding platforms on top of tables (w x d x h: 76 x 40 x 62) outside the enclosure, opaque boxes (2 sets of 4 visually distinct boxes plus one additional box: brown bottle: 7.5h x 5 x 5; green box: 5.5 x 5.5 x 4.5h; orange heart: 7.5 x 6 x 3.5h, yellow box: 6 x 6 x 4h; additional box: blue box: 5 x 5 x 5), and one occluder warm-up occluder: h x w: 43 x 66; free-standing occluder: h x d x w: 38 x 22 x 64).
 
 ```{r updating_setup, fig.cap="Updating test: identical box condition.", echo=FALSE}
 
@@ -487,7 +487,7 @@ tt<-t.test(updating2_individual4$Updating2_P1.mistakes , mu=8/9, alternative = "
 ###Methods  
 
 ####Materials  
-We use two adjacent sliding platforms on top of tables outside the enclosure, 8 identical opaque boxes (12.5 x 7.5 x 7.5 cm) filled with toilet paper, and one occluder. All boxes can be baited through a hole in the back.
+We use two adjacent sliding platforms on top of tables outside the enclosure, 8 identical opaque boxes (16.5 x 7.5 x 7.5 cm) with an opening in the front side (3.5cm x 3.5 cm) filled with toilet paper, and one occluder (free-standing occluder: h x d x w: 38 cm x 22 cm x 64 cm). All boxes can be baited through a hole (diameter: 3cm)in the back. The boxes were presented on a polycarbonate panel (w x d: 64 cm x 40 cm) including a u-shaped add-on (h x d x w: 10 cm x 10 cm x 8.5 cm) located at the right (left platfomr) or left corner (right platform) of the panel (at the side closest to the subject) that could hold the chosen box in place for the subject to extract its content.
 
 ```{r boxes_setup, fig.cap="Box WM task setup.", echo=FALSE}
 
@@ -523,7 +523,7 @@ tt<-t.test( box_individual2$Boxes_P1.mistakes, mu=0.75, alternative = "two.sided
 ###Methods 
 
 ####Materials  
-We use two adjacent sliding platforms on top of two tables outside the enclosure and an apparatus with 16 compartments (4 x 4) with opaque flap doors. All compartments can be baited via the back of the apparatus.
+We use two adjacent sliding platforms on top of two tables outside the enclosure and an apparatus (h x w x d: 48 cm x 45 cm x 16 cm ) with 16 compartments (4 x 4) with opaque flap doors (10 cm x 7 cm). All compartments can be baited via the back of the apparatus. For the secondary task, we used three identical blue, opaque cups (height: 10.5 cm, diameter: 7 cm). 
 
 ```{r grid_setup, fig.cap="Grid WM task setup.", echo=FALSE}
 

@@ -39,6 +39,13 @@ source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
 #readRDS(file ="multpos_model.rds")
 ```
 
+
+```{r}
+#sdkjsdkjsd
+```
+khfwkfkdshfkjdshfkj
+
+
 ```{r loading data, include = FALSE}
 #Preparing code for mixed modeling. 
 Inh.grid.data <- read.table(file="20181130_Inhibition_grid_data.txt", header=T, sep="\t")
@@ -290,7 +297,7 @@ grid.arrange(p1, p2,p3, nrow = 1, heights=unit(100, "mm"))
 ###Methods  
 
 ####Materials  
-We use a sliding platform attached to the wall of the enclosure and an apparatus (flap-door box) with 16 compartments (4 x 4) with opaque and transparent flap doors. The apparatus will be fixed on top of the sliding platforms. All compartments of the apparatus can be baited via the back of the apparatus.
+We use a sliding platform attached to the wall of the enclosure and an apparatus (flap-door box; h x w x d: 48 cm x 45 cm x 16 xm) with 16 compartments (4 x 4) with opaque and transparent flap doors (10 cm x 7 cm). The apparatus will be fixed on top of the sliding platforms. All compartments of the apparatus can be baited via the back of the apparatus.
 In the inhibition task, seven transparent and six opaque doors are arranged on the grid. All of these 13 compartments are baited outside the subject’s view at the beginning of a trial with a quarter piece of banana. The transparent doors (but not the opaque doors) are blocked (by means of a screw) and cannot be opened. Subjects can obtain rewards behind opaque flap-doors.
 
 
@@ -342,7 +349,7 @@ tt<-t.test(Inh_task_individual$Inh.grid.correct1, Inh_task_individual$Inh.grid.c
 ###Methods  
 
 ####Materials  
-We use a sliding platform on top of a table outside the enclosure and two boxes made of Perspex (15.5 x 10 x 12 cm), one transparent and one opaque.  Besides we use an occluder for the baiting of the boxes. The boxes contain two compartments. In the lower compartment filling material (toilet paper) serves as potential hiding place for the food reward (1/16 apple piece). The filling material can be extracted though an opening in the front side of the boxes. The upper compartment is only visible in the transparent box. There will be a piece of food (1/2 apple) on the intermediate ceiling in the upper compartment lays inaccessible to the subject. The opaque box always contains a reward hidden in the filling material that can be obtained by removing the filling material. 
+We use a sliding platform on top of a table outside the enclosure and two boxes made of Perspex (h x w x d: 21 cm x 16 cm x 10 cm), one transparent and one opaque. Each box is fixated to top of a small plastic tray (d x w: 35 cm x 27 cm).  Besides we use an occluder for the baiting of the boxes. The boxes contain two compartments. In the lower compartment (h x w x d: 11 cm x 16 cm x 10 cm) filling material (toilet paper) serves as potential hiding place for the food reward (1/16 apple piece). The filling material can be extracted though an opening in the front side of the boxes (3 x 3 cm). The upper compartment (h x w x d: 10 cm x 10 cm x 6.5 cm) is only visible in the transparent box. There will be a piece of food (1/2 apple) on the intermediate ceiling in the upper compartment lays inaccessible to the subject. The opaque box always contains a reward hidden in the filling material that can be obtained by removing the filling material. 
 
 ```{r inh_boxes_setup, fig.cap="Glass-ceiling box setup.", echo=FALSE}
 
@@ -394,7 +401,7 @@ tt<-t.test(Inh_task_individual$Inh.boxes.correct1, Inh_task_individual$Inh.boxes
 ###Methods  
 
 ####Materials  
-We distribute 24 polycarbonate cylinders on the floor of the enclosure on a 6x8 grid which covers an area of 120 x 150 cm. The distance between adjacent cylinders on the grid is ca 20 cm. There are two types of cylinders: 12 transparent and 12 opaque (green) cylinders. The distribution of the cylinders on the grid is pseudo-random with the restriction that there are two cylinders of each type in any of the eight columns of the grid. 
+We distribute 24 polycarbonate cylinders (height x diameter: 4 cm x 6 cm) on the floor of the enclosure on a 6x8 grid which covers an area of 120 x 150 cm. The distance between adjacent cylinders on the grid is ca 20 cm. There are two types of cylinders: 12 transparent and 12 opaque (green) cylinders. The distribution of the cylinders on the grid is pseudo-random with the restriction that there are two cylinders of each type in any of the eight columns of the grid. 
 The transparent cylinders are sealed and contain visible but inaccessible food rewards (a peanut inside its shell). The opaque cylinders are open (they do not have a bottom) and baited with the same type of food. Two cameras are used to videotape chimpanzees’ search behaviour.
 
 ```{r inh_cylinders_setup, fig.cap="Cylinders inhibition task setup.", echo=FALSE}

@@ -1,0 +1,65 @@
+General:
+platform: w x d x h: 76 x 40 x 62
+occluder: h x w: 43 x 66
+freestanding occluder: h x d x w: 38 x 22 x 64
+
+Grid: h x w x d: 48 cm x 45 cm x 16 xm
+Grid door: w x h: 10 cm x 7 cm
+
+WM Boxes: panel: w x d: 64 x 40
+	panel boxholder: h x d x w: 10 x 10 x 8.5
+	boxes h x w x d: 16.5 x 9.5 front  / 7.5 back x 6.5; hole in back: 3cm, 8.5 high; front opening: 3.5  x 3.5
+	
+WM Updating: 
+bottle: 7.5h x 5 x 5
+green 5.5 x 5.5 x 4.5h
+blue: 5 x 5 x 5
+orange heart: 7.5 x 6 x 3.5h
+yellow: 6 x 6 x 4
+
+WM Grid: secondary task cups: h: 10.5 cm, diameter: 7 cm
+
+Inhibition boxes:
+front opening: 3 x3 cm
+tray: d x w: 35 cm x 27 cm
+upper part of box: h x w x d: 10 cm x 10cm x 6.5 cm 
+lower part of box: h x w x d: 11 cm x 16 cm x 10 cm
+box total: h x w x d: 21 cm x 16 cm x 10 cm
+
+
+Inhibition cylinder: height x diameter: 4 cm x 6 cm
+
+Stop-signal: 
+front holes: 5cm
+food container: h x w x d: 10 cm x 7cm x 5 cm
+blocking boxes: h x w x d: 15 x 10 x 5
+string drums: 10 cm diameter
+handle: h x w x d: 1 x 2 x 2 c,
+apparatus: h x w x d: 47.5 x 69 x 7
+slot in front: 10cm from bottom, h: 1.5 cm; 61 cm 
+baiting hole: 5cm
+
+Shifting tray
+tray: h x w x d: 5 cm x 30 cm x 20 cm
+green box 5.5 x 5.5 x 4.5h
+orange heart: 7.5 x 6 x 3.5h
+materials: brown paper vs toilet paper
+
+Shifting boxes
+panel: w x d: 64 x 40
+shifting boxes: front opening: 3.5 x 3.5 cm, height: 18 - 20 cm, width: 15 - 17 cm, depth: 7.5, back opening: 6 x 4 cm; foot with 1 cm wider baseplate on each side 
+SD/SR boxes: 	boxes h x w x d: 16.5 x 9.5 front  / 7.5 back x 6.5; hole in back: 3cm, 8.5 high; front opening: 3.5  x 3.5; toilet paper (SD baited) / brown paper (SD distractor; SR baited)
+CD: boxes: hexagon (1) vs triangle (2) box; materials: saw dust (baited) vs cotton
+ID: boxes: blue-yellow stripes (3) vs green box (4) ; materials: leaves (baited) vs mud
+ED: boxes: cork (baited) vs star box; materials: straw (s7) vs palm fibre / bast (s8)
+
+Shelf task
+Shelf: h x w x d: 18 x 50 x 33; p1 left: black, p2 right: white
+Target boxes: 
+	top level: brown (X; baited on platform 2; height: 7 cm; 8 x 8 cm) vs blue cylinder (Y; height: 7; diameter: 8)
+	lower level: green mug (A; 11 x 7;  height: 8) vs chrome (B; baited on platform 1; height: 7 cm; diameter: 9 cm) 
+Distractor boxes: 
+	yellow cylinder (D1; diameter: 10 cm; height: 6 cm) vs grey box (D2; 11.5 x 8 x 7 high) 
+
+	
+	
