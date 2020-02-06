@@ -1,0 +1,661 @@
+Subject	site	Sex	Group	Age	Date	Day	Session	trial_number	correct	food_obtained	food_retrieved in the end	Comment
+William	kenya	m	young chimps	18	10/10/2018	5	1	1	0			
+William	kenya	m	young chimps	18	10/10/2018	5	1	2	0			
+William	kenya	m	young chimps	18	10/10/2018	5	1	3	0			
+William	kenya	m	young chimps	18	10/10/2018	5	1	4	1	0		
+William	kenya	m	young chimps	18	10/10/2018	5	1	5	0			
+William	kenya	m	young chimps	18	10/10/2018	5	1	6	0		4	
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	1	0			
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	2	0			
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	3	1	1		
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	4	0			
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	5	1	1		
+Roy	kenya	m	young chimps	11	10/10/2018	5	1	6	1	1	7	
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	1	1	1		
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	2	1	1		
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	3	0			
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	4	0			
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	5	0			
+Tess	kenya	f	young chimps	26	10/10/2018	5	1	6	1	1	4	
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	1	0			
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	2	0			
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	3	0			
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	4	1	1		
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	5	0			
+Uruhara	kenya	m	young chimps	29	11/10/2018	5	1	6	0		6	
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	1	0			
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	2	1	1		
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	3	0			
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	4	1	1		
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	5	1	1		
+Manno	kenya	m	young chimps	5	11/10/2018	5	1	6	0		7	
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	1	0			
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	2	1	0		
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	3	0			
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	4	0			
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	5	1			
+Jane	kenya	f	young chimps	14	11/10/2018	5	1	6	0		7	
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	1	0			
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	2	0			
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	3	0			
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	4	1	1		
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	5	1	1		
+Safari	kenya	m	old chimps	34	16/11/2018	5	1	6	1	1	5	
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	1	0			
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	2	0			
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	3	1	1		
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	4	0			
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	5	0			
+Angela	kenya	f	old chimps	7	16/11/2018	5	1	6	0		6	
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	1	0			
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	2	0			
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	3	0			
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	4	0			
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	5	0			
+Oscar	kenya	m	old chimps	21	16/11/2018	5	1	6	0		6	
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	1	1	1		
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	2	0			
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	3	0			
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	4	1	1		
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	5	1	1		
+Judy	kenya	f	old chimps	35	16/11/2018	5	1	6	1	1	5	
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	1	0			
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	2	1			
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	3	1			
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	4	0			
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	5	1	1		
+Alley	kenya	f	old chimps	31	16/11/2018	5	1	6	0		6	
+George	kenya	m	old chimps	15	16/11/2018	5	1	1	0			
+George	kenya	m	old chimps	15	16/11/2018	5	1	2	0			
+George	kenya	m	old chimps	15	16/11/2018	5	1	3	1	1		
+George	kenya	m	old chimps	15	16/11/2018	5	1	4	0			
+George	kenya	m	old chimps	15	16/11/2018	5	1	5	1			
+George	kenya	m	old chimps	15	16/11/2018	5	1	6	1	1	3	
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	1	1	1		
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	2	1	1		
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	3	0			
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	4	0			
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	5	1	1		
+Ajabu	kenya	f	old chimps	10	16/11/2018	5	1	6	1	1	8	
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	1	1	1		
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	2	0			
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	3	1	1		
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	4	0			
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	5	0			
+Saidia	kenya	f	old chimps	15	16/11/2018	5	1	6	0		3	
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	1	0			
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	2	0			
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	3	1	1		
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	4	0			
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	5	1	1		
+Safari	kenya	m	old chimps	34	17/11/2018	6	2	6	1	1	7	
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	1	1	1		
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	2	0			
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	3	0			
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	4	0			
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	5	1	1		
+Angela	kenya	f	old chimps	7	17/11/2018	6	2	6	1	1	7	
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	1	0			
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	2	0			
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	3	0			
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	4	1	1		
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	5	1	1		
+Oscar	kenya	m	old chimps	21	17/11/2018	6	2	6	0		7	
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	1	0			
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	2	1	1		
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	3	0			
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	4	0			
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	5	1	1		
+Judy	kenya	f	old chimps	35	17/11/2018	6	2	6	1	1	7	
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	1	0			
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	2	1	1		
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	3	0			
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	4	0			
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	5	0			
+Alley	kenya	f	old chimps	31	17/11/2018	6	2	6	1	1	4	
+George	kenya	m	old chimps	15	17/11/2018	6	2	1	0			
+George	kenya	m	old chimps	15	17/11/2018	6	2	2	0			
+George	kenya	m	old chimps	15	17/11/2018	6	2	3	1	1		
+George	kenya	m	old chimps	15	17/11/2018	6	2	4	0			
+George	kenya	m	old chimps	15	17/11/2018	6	2	5	0		1	session stopped after 10 min
+George	kenya	m	old chimps	15	17/11/2018	6	2	6				
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	1	0			
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	2	1	1		
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	3	0			
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	4	1	1		
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	5	1			
+Ajabu	kenya	f	old chimps	10	17/11/2018	6	2	6	0		7	
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	1	1	1		
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	2	0			
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	3	0			
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	4	0			
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	5	0		1	session stopped after 10 min
+Saidia	kenya	f	old chimps	15	17/11/2018	6	2	6				
+William	kenya	m	young chimps	18	14/10/2018	5	2	1	0			
+William	kenya	m	young chimps	18	14/10/2018	5	2	2	1	1		
+William	kenya	m	young chimps	18	14/10/2018	5	2	3	0			
+William	kenya	m	young chimps	18	14/10/2018	5	2	4	1	1		
+William	kenya	m	young chimps	18	14/10/2018	5	2	5	0			
+William	kenya	m	young chimps	18	14/10/2018	5	2	6	0			
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	1	0			
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	2	0			
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	3	0			
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	4	1	0		
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	5	1	0		
+Roy	kenya	m	young chimps	11	14/10/2018	5	2	6	1	1		
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	1	0			
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	2	0			
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	3	0			
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	4	1	1		
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	5	0			
+Tess	kenya	f	young chimps	26	14/10/2018	5	2	6	1	1		
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	1	0			
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	2	0			
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	3	1	1		
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	4	0			
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	5	1	1		
+Uruhara	kenya	m	young chimps	29	14/10/2018	5	2	6	1	1		
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	1	1	1		
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	2	0			
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	3	1	1		
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	4	1	0		
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	5	0			
+Manno	kenya	m	young chimps	5	14/10/2018	5	2	6	1	1		
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	1	0			
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	2	0			
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	3	1			
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	4	1			
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	5	0			
+Jane	kenya	f	young chimps	14	14/10/2018	5	2	6	1			
+Amizero	kenya	f	young chimps		13/10/2018	5	1	1	0			
+Amizero	kenya	f	young chimps		13/10/2018	5	1	2	1	1		
+Amizero	kenya	f	young chimps		13/10/2018	5	1	3	0			
+Amizero	kenya	f	young chimps		13/10/2018	5	1	4	0			
+Amizero	kenya	f	young chimps		13/10/2018	5	1	5	1	1		
+Amizero	kenya	f	young chimps		13/10/2018	5	1	6	1	1		
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	1	0			
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	2	0			
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	3	0			
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	4	0			
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	5	0			
+Amizero	kenya	f	young chimps	11	14/10/2018	5	2	6	0			
+Chipie	kenya	f	young chimps		13/10/2018	5	1	1	0			
+Chipie	kenya	f	young chimps		13/10/2018	5	1	2	0			
+Chipie	kenya	f	young chimps		13/10/2018	5	1	3	1	1		
+Chipie	kenya	f	young chimps		13/10/2018	5	1	4	1	0		
+Chipie	kenya	f	young chimps		13/10/2018	5	1	5	1			
+Chipie	kenya	f	young chimps		13/10/2018	5	1	6	0			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	1	1			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	2	0			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	3	0			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	4	1			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	5	0			
+Chipie	kenya	f	young chimps	11	14/10/2018	5	2	6	1			
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	1	0			
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	2	0			
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	3	0			
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	4	1	1		
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	5	1	1		
+Amahirwe	kenya	m	old chimps	5	17/10/2018	5	1	6	1	1		
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	1	0			
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	2	1	1		
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	3	0			
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	4	1	1		
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	5	0			
+Amahirwe	kenya	m	old chimps	14	18/10/2018	5	2	6	0			
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	1	1	0		
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	2	0			
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	3	0			
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	4	0			
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	5	0			
+Alikaka	kenya	m	old chimps	5	17/10/2018	5	1	6	1	1		
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	1	1	1		
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	2	0			
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	3	1	1		
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	4	0			
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	5	1	0		
+Alikaka	kenya	m	old chimps	14	18/10/2018	5	2	6	0			
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	1	0			
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	2	1	1		
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	3	0			
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	4	0			
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	5	1	1		
+Zee	kenya	m	old chimps	5	17/10/2018	5	1	6	0			
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	1	0			
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	2	0			
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	3	0			
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	4	0			
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	5	1	1		
+Zee	kenya	m	old chimps	14	18/10/2018	5	2	6	1	1		
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	1				
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	2				
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	3				
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	4				
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	5				
+Edvard	kenya	m	old chimps	5	17/10/2018	5	1	6				
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	1	0			
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	2	0			
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	3	1	1		
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	4	0			
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	5	0			
+Edvard	kenya	m	old chimps	14	18/10/2018	5	2	6	0			
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	1	1	1		
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	2	0			
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	3	1	1		
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	4	0			
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	5	0			
+Mwanzo	kenya	f	old chimps	5	17/10/2018	5	1	6	0			
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	1	0			
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	2	1	1		
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	3	1	0		
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	4	1	1		
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	5	1	0		
+Mwanzo	kenya	f	old chimps	14	18/10/2018	5	2	6	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	1	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	2	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	3	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	4	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	5	0			
+Mary	kenya	f	old chimps	5	17/10/2018	5	1	6	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	1	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	2	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	3	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	4	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	5	0			
+Mary	kenya	f	old chimps	14	18/10/2018	5	2	6	1	1		
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	1	0			
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	2	0			
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	3	1	1		
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	4	1	1		
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	5	0			
+Julia	kenya	f	old chimps	5	17/10/2018	5	1	6	1	1		
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	1	0			
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	2	0			
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	3	0			
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	4	1	1		
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	5	0			
+Julia	kenya	f	old chimps	14	18/10/2018	5	2	6	0			
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	1	0			
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	2	0			
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	3	0			
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	4	1	1		
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	5	0			
+Cheetah	kenya	f	old chimps	5	17/10/2018	5	1	6	1	1		
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	1	0			
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	2	0			
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	3	1	1		
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	4	0			
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	5	0			
+Cheetah	kenya	f	old chimps	14	18/10/2018	5	2	6	1	1		
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	1	0			
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	2	0			
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	3	0			
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	4	0			
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	5	1			
+Kisa	kenya	m	young chimps	25	10/11/2018	5	1	6	1			
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	1	0			
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	2	1	1		
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	3	0			
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	4	0			stopped interacting for 1min
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	5				
+Kisa	kenya	m	young chimps	25	12/11/2018	5	2	6				
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	1	0			
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	2	0			
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	3	0			
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	4	0			
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	5	1	0		
+Niyonkuru	kenya	m	young chimps	28	10/11/2018	5	1	6	1	0		
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	1	0			
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	2	0			
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	3	1	1		
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	4	0			
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	5	0			
+Niyonkuru	kenya	m	young chimps	28	12/11/2018	5	2	6	0			
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	1	0			
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	2	0			
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	3	0			
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	4	1	1		
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	5	1	1		
+Joy	kenya	f	young chimps	14	10/11/2018	5	1	6	0			
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	1	0			
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	2	0			
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	3	0			
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	4	1	1		
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	5	0			
+Joy	kenya	f	young chimps	14	12/11/2018	5	2	6	1	1		
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	1	0			
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	2	1	1		
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	3	0			
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	4	0			
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	5	0			
+Akela	kenya	f	young chimps	30	10/11/2018	5	1	6	0			
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	1	0			
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	2	1	1		
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	3	1	1		
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	4	0			
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	5	1	1		
+Akela	kenya	f	young chimps	30	14/11/2018	5	2	6	1	1		
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	1	0			
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	2	1	1		
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	3	1	0		
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	4	0			
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	5	0			
+Dufatanya	kenya	f	young chimps	27	10/11/2018	5	1	6	0			
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	1	0			
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	2	0			
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	3	1	1		
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	4	0			
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	5	0			
+Dufatanya	kenya	f	young chimps	27	12/11/2018	5	2	6	1	1		
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	1	0			
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	2	0			
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	3	0			
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	4	1	1		
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	5	0			
+Bahati	kenya	f	young chimps	25	10/11/2018	5	1	6	1	1		
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	1	0			
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	2	1	1		
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	3	1	1		
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	4	1	1		
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	5	1	1		
+Bahati	kenya	f	young chimps	25	12/11/2018	5	2	6	0			
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	1	1	0		
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	2	1	0		
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	3	0			
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	4	1	1		
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	5	0			
+Asega	uganda	m	Uganda	21	16/10/2019	5	1	6	1	1	7	
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	1	0		 	
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	2	1	1		
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	3	1	1		
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	4	1	0		
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	5	1	1		
+Asega	uganda	m	Uganda	21	17/10/2019	6	2	6	1	1		
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	1	0			
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	2	1	1		
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	3	1	1		
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	4	0			
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	5	1	1		
+Baluku	uganda	m	Uganda	21	18/10/2019	5	1	6	1	1	7	
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	1	1	1		
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	2	1	1		
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	3	0			
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	4	1	1		
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	5	0			
+Kidogo	uganda	f	Uganda	35	18/10/2019	5	1	6	0		7	
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	1	0			
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	2	0			
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	3	1	0		
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	4	1	0		
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	5	0			
+Kisembo	uganda	m	Uganda	20	18/10/2019	5	1	6	1	1	5	
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	1	1	1		
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	2	1	1		
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	3	1	1		
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	4	0			
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	5	1	1		
+Medina	uganda	f	Uganda	12	18/10/2019	5	1	6	0		7	
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	1	1	1		
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	2	1	1		
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	3	0			
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	4	1	1		
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	5	0			
+Nakuu	uganda	f	Uganda	18	18/10/2019	5	1	6	1	1	7	
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	1	0			
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	2	0			
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	3	1	1		
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	4	1	1		
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	5	0			
+Indi	uganda	m	Uganda	19	18/10/2019	5	1	6	1	1	6	
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	1	0			
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	2	0			
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	3	0			
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	4	1	1		
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	5	0			
+Pasa	uganda	f	Uganda	19	18/10/2019	5	1	6	1	1	7	
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	1	0			"opened one opaque before, but this one was already slightly open"
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	2	0			
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	3	0			
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	4	1	1		
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	5	1	1		
+Baluku	uganda	m	Uganda	21	19/10/2019	5	2	6	0		7	
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	1	1	1		
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	2	0			
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	3	1	1		
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	4	1	1		
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	5	1	1		
+Kidogo	uganda	f	Uganda	35	19/10/2019	5	2	6	1	1	7	
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	1	1	0		
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	2	0			
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	3	0			
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	4	1	1		
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	5	1	1		
+Kisembo	uganda	m	Uganda	20	19/10/2019	5	2	6	1	1	7	
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	1	1	1		
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	2	0			
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	3	0			
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	4	1	1		
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	5	0			
+Medina	uganda	f	Uganda	12	19/10/2019	5	2	6	1	1	7	
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	1	1	1		
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	2	1	1		
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	3	0			
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	4	1	1		
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	5	0			
+Nakuu	uganda	f	Uganda	18	19/10/2019	5	2	6	1	1	7	
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	1	1	1		
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	2	1	1		
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	3	0			
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	4	0			
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	5	1	1		
+Indi	uganda	m	Uganda	19	19/10/2019	5	2	6	0		6	
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	1	1	1		
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	2	1	1		
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	3	0			
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	4	0			
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	5	1	1		
+Pasa	uganda	f	Uganda	19	19/10/2019	5	2	6	0		7	
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	1	1	1		
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	2	0			
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	3	1	1		
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	4	0			
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	5	1	1		
+Cocoa	uganda	f	Uganda	12	09/11/2019	4	1	6	1	1	7	
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	1	1	1		
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	2	1	1		
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	3	1	1		
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	4	0			
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	5	1	1		
+Namukisa	uganda	f	Uganda	21	09/11/2019	4	1	6	1	1	7	
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	1	1	1		
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	2	1	1		
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	3	1	1		
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	4	0			
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	5	1	1		
+Becky	uganda	f	Uganda	28	09/11/2019	4	1	6	1	1	7	
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	1	0			
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	2	1	1		was a little bit open as banana stuck out
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	3	1	1		
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	4	0			
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	5	1	1		
+Sally	uganda	f	Uganda	28	09/11/2019	4	1	6	0		7	
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	1	0			
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	2	1	1		
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	3	0			
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	4	0			
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	5	1	1		
+Tumbo	uganda	m	Uganda	30	09/11/2019	4	1	6	0		7	
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	1	1	1		
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	2	0			
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	3	0			
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	4	1	0		
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	5	0			
+Rambo	uganda	m	Uganda	15	09/11/2019	4	1	6	1	1	2	
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	1	1	1		
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	2	1	1		
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	3	0			
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	4	1	1		
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	5	0			
+Kalema	uganda	m	Uganda	23	09/11/2019	4	1	6	0		6	
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	1	1	1		
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	2	0			
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	3	1	1		
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	4	1	1		
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	5	1	1		
+Nkuumwa	uganda	f	Uganda	23	12/11/2019	4	1	6	1	1	7	
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	1	0			
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	2	1	1		
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	3	0			
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	4	0			
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	5	1	1		
+Kalema	uganda	m	Uganda	23	10/11/2019	4	2	6	0		7	
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	1	0			
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	2	1	1		
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	3	1	1		
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	4	0			
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	5	1	1		
+Tumbo	uganda	m	Uganda	30	10/11/2019	4	2	6	1	1	7	
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	1	0			
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	2	0			
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	3	1	1		
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	4	1	0		
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	5	1	1		
+Rambo	uganda	m	Uganda	15	10/11/2019	4	2	6	1	1	5	
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	1	0			
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	2	1	1		
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	3	1	1		
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	4	1	1		
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	5	0			
+Cocoa	uganda	f	Uganda	12	10/11/2019	4	2	6	1	1	7	
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	1	0			
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	2	0			
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	3	1	1		
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	4	1	1		
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	5	0			
+Namukisa	uganda	f	Uganda	21	10/11/2019	4	2	6	1	1	7	
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	1	0			
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	2	1	1		"door was a bit open before - however, if we were to delete this trial, 7th choice was also opaque and thus 1"
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	3	1	1		
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	4	0			
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	5	0			
+Becky	uganda	f	Uganda	28	10/11/2019	4	2	6	1	1	7	
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	1	1	1		
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	2	0			
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	3	1	1		
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	4	0			
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	5	1	1		
+Sally	uganda	f	Uganda	28	10/11/2019	4	2	6	1	1	7	
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	1	1	1		
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	2	0			
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	3	1	1		
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	4	1	1		
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	5	0			
+Nkuumwa	uganda	f	Uganda	23	10/11/2019	4	2	6	0		7	
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	1	0			
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	2	1	0		
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	3	0			
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	4	0			
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	5	1	1		
+Bwambale	uganda	m	Uganda	19	28/11/2019	5	1	6	0		7	
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	1	0			
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	2	1	1		
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	3	0			
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	4	1	1		
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	5	0			
+Bwambale	uganda	m	Uganda	19	29/11/2019	6	2	6	1	1	7	
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	1	1	1		
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	2	0			
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	3	1	1		
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	4	1	1		
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	5	1	1		
+Nani	uganda	f	Uganda	18	30/11/2019	5	1	6	1	1	7	
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	1	0			
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	2	0			
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	3	0			
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	4	1	1		
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	5	1	1		
+Nani	uganda	f	Uganda	18	01/12/2019	6	2	6	1	1	7	
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	1	0			
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	2	0			
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	3	1	0		
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	4	1	1		
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	5	1	1		
+Yoyo	uganda	f	Uganda	20	30/11/2019	5	1	6	1	1	7	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	1	1	1		
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	2	0			
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	3	1	1		
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	4	0			
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	5	1	1		
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	2	6	0		7	
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	1	0			
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	2	0			
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	3	0			
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	4	1	1		
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	5	1	1		
+Sara	uganda	f	Uganda	9	01/12/2019	5	1	6	1	1	7	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	1	0			
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	2	0			
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	3	0			
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	4	1	1		
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	5	1	1		
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	6	1	1	7	
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	1	0			
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	2	0			
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	3	1	1		
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	4	0			
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	5	1	1		
+Umutama	uganda	m	Uganda	23	01/12/2019	5	1	6	1	1	7	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	1	1	1		
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	2	0			
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	3	0			
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	4	1	1		
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	5	1	1		
+Umutama	uganda	m	Uganda	23	02/12/2019	6	2	6	0		7	
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	1	0			
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	2	0			
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	3	1	0		
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	4	1	1		
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	5	1	1		
+Umugenzi	uganda	m	Uganda	22	01/12/2019	5	1	6	0		6	stopped for 1min
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	1	0			
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	2	0			
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	3	1	1		
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	4	0			
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	5	1	1		
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	2	6	0		5	stopped for 1min
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	1	0			
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	2	1	1		
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	3	1	1		
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	4	1	1		
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	5	1	1		
+Okech	uganda	m	Uganda	20	01/12/2019	5	1	6	0		6	
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	1	1	1		
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	2	0			
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	3	1	1		
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	4	0			
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	5	1	1		
+Okech	uganda	m	Uganda	20	02/12/2019	6	2	6	1	1	7	
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	1	1	1		
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	2	0			
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	3	1	1		
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	4	0			
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	5	1	1		
+Mawa	uganda	m	Uganda	23	02/12/2019	5	1	6	0		5	stopped for 1min
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	1	1	0		
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	2	1	0		
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	3	0			
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	4	1	1		
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	5	0			
+Mawa	uganda	m	Uganda	23	04-Dec-19	6	2	6	0			
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	1	1	1		
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	2	0			
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	3	0			
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	4	1	1		
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	5	1	1		
+Bili	uganda	f	Uganda	21	03/12/2019	5	1	6	1	1	7	
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	1	1	1		
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	2	1	1		
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	3	0			
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	4	1	1		
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	5	0			
+Bili	uganda	f	Uganda	21	04-Dec-19	6	2	6	1	1	7	

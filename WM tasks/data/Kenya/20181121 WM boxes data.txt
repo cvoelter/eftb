@@ -1,0 +1,553 @@
+Subject	Site	Sex	Species	Age	Date	Day	Session	trial_number	Condition	P1_baited	P2_baited	Choice_P1	Correct_P1	Choice_P2	Correct_P2	count_mistakes	Comment
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	1	warm-up	2		2	1				
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	2	warm-up	4		3	0				
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	1	test	3	2	3	1	4	0	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	2	test	4	3	4	1	4	0	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	3	test	1	4	4	0	4	1	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	4	test	2	1	3	0	2	0	2	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	5	test	4	2	3	0	2	1	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	6	test	1	1	4	0	1	1	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	7	test	3	4	3	1	2	0	1	
+Safari	kenya	m	old chimps	34	18/11/2018	6	1	8	test	2	3	4	0	3	1	1	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	1	warm-up	2		3	0				
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	2	warm-up	4		4	1				
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	1	test	3	2	4	0	1	0	2	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	2	test	4	3	3	0	2	0	2	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	3	test	1	4	3	0	2	0	2	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	4	test	2	1	4	0	3	0	2	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	5	test	4	2	3	0	4	0	2	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	6	test	1	1	4	0	-			no second response within 1 min
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	7	test	3	4	3	1	3	0	1	
+Angela	kenya	f	old chimps	7	18/11/2018	6	1	8	test	2	3	3	0	4	0	2	
+Saidia	kenya	f	old chimps	15	18/11/2018	6	1	1	warm-up	2		2	1				
+Saidia	kenya	f	old chimps	15	18/11/2018	6	1	2	warm-up	4		2	0				
+Saidia	kenya	f	old chimps	15	18/11/2018	6	1	1	test	3	2	2	0				
+Saidia	kenya	f	old chimps	15	18/11/2018	6	1	2	test	4	3	2	0	1	0	2	
+Saidia	kenya	f	old chimps	15	18/11/2018	6	1	3	test	1	4	2	0	1	0	2	"did not approach platform within 5 min after this trial, session stopped"
+Saidia	kenya	f	old chimps	15		6	1	4	test	2	1						
+Saidia	kenya	f	old chimps	15		6	1	5	test	4	2						
+Saidia	kenya	f	old chimps	15		6	1	6	test	1	1						
+Saidia	kenya	f	old chimps	15		6	1	7	test	3	4						
+Saidia	kenya	f	old chimps	15		6	1	8	test	2	3						
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	1	warm-up	2		2	1				
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	2	warm-up	4		1	0				
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	1	test	3	2	3	1	2	1	0	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	2	test	4	3	2	0	2	0	2	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	3	test	1	4	4	0	3	0	2	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	4	test	2	1	4	0	1	1	1	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	5	test	1	2	3	0	1	0	2	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	6	test	1	1	4	0	2	0	2	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	7	test	3	4	3	1	1	0	1	
+Ajabu	kenya	f	old chimps	10	18/11/2018	6	1	8	test	2	3	3	0	1	0	2	
+George	kenya	m	old chimps	15	18/11/2018	6	1	1	warm-up	2		1	0				"food left in box 1, which he received. Did not approach the platform within 5 min after this trial"
+George	kenya	m	old chimps	15		6	1	2	warm-up	4							
+George	kenya	m	old chimps	15		6	1	1	test	3	2						
+George	kenya	m	old chimps	15		6	1	2	test	4	3						
+George	kenya	m	old chimps	15		6	1	3	test	1	4						
+George	kenya	m	old chimps	15		6	1	4	test	2	1						
+George	kenya	m	old chimps	15		6	1	5	test	4	2						
+George	kenya	m	old chimps	15		6	1	6	test	1	1						
+George	kenya	m	old chimps	15		6	1	7	test	3	4						
+George	kenya	m	old chimps	15		6	1	8	test	2	3						
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	1	warm-up	2		1	0				
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	2	warm-up	4		2	0				
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	1	test	3	2	2	0	1	0	2	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	2	test	4	3	2	0	1	0	2	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	3	test	1	4	1	1	1	0	1	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	4	test	2	2	1	0	2	1	1	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	5	test	4	2	2	0	1	0	2	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	6	test	1	1	2	0	1	1	1	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	7	test	3	4	3	1	1	0	1	
+Alley	kenya	f	old chimps	31	18/11/2018	6	1	8	test	2	3	4	0	1	0	2	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	1	warm-up	2		2	1				box 3 without toilet paper
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	2	warm-up	4		4	1				box 3 without toilet paper
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	1	test	3	2	3	1	3	0	1	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	2	test	4	3	4	1	3	1	0	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	3	test	1	4	3	0	3	0	2	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	4	test	2	1	4	0	3	0	2	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	5	test	4	2	3	0	2	1	1	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	6	test	1	1	2	0	4	0	2	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	7	test	3	4	4	0	3	0	2	
+Judy	kenya	f	old chimps	35	18/11/2018	6	1	8	test	2	3	3	0	3	1	1	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	1	warm-up	2		3	0				
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	2	warm-up	4		4	1				
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	1	test	3	2	4	0	1	0	2	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	2	test	4	3	4	1	1	0	1	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	3	test	1	4	4	0	1	0	2	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	4	test	2	1	2	1	1	1	0	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	5	test	4	2	4	1	1	0	1	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	6	test	1	1	1	0	1	1	1	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	7	test	3	4	4	0	1	0	2	
+Oscar	kenya	m	old chimps	21	18/11/2018	6	1	8	test	2	3	4	0	2	0	2	
+William	kenya	m	young chimps	18	13/10/2018		1	1	warm-up	2		4	0				
+William	kenya	m	young chimps	18	13/10/2018		1	2	warm-up	4		4	1				
+William	kenya	m	young chimps	18	13/10/2018		1	1	test	3	2	1	0	1	0	2	
+William	kenya	m	young chimps	18	13/10/2018		1	2	test	4	3	2	0	3	1	1	
+William	kenya	m	young chimps	18	13/10/2018		1	3	test	1	4	1	1	1	0	1	
+William	kenya	m	young chimps	18	13/10/2018		1	4	test	2	1	4	0	4	0	2	
+William	kenya	m	young chimps	18	13/10/2018		1	5	test	4	2	4	1	1	0	1	
+William	kenya	m	young chimps	18	13/10/2018		1	6	test	1	1	4	0	1	1	1	
+William	kenya	m	young chimps	18	13/10/2018		1	7	test	3	4	3	1	4	1	0	
+William	kenya	m	young chimps	18	13/10/2018		1	8	test	2	3	3	0	4	0	2	
+Roy	kenya	m	young chimps	11	14/10/2018		1	1	warm-up	2		2	1				
+Roy	kenya	m	young chimps	11	14/10/2018		1	2	warm-up	4		4	0				
+Roy	kenya	m	young chimps	11	14/10/2018		1	1	test	3	2	3	1	2	1	0	
+Roy	kenya	m	young chimps	11	14/10/2018		1	2	test	4	3	4	1	2	0	1	
+Roy	kenya	m	young chimps	11	14/10/2018		1	3	test	1	4	2	0	4	1	1	
+Roy	kenya	m	young chimps	11	14/10/2018		1	4	test	2	1	2	1	1	1	0	
+Roy	kenya	m	young chimps	11	14/10/2018		1	5	test	4	2	3	0	2	1	1	
+Roy	kenya	m	young chimps	11	14/10/2018		1	6	test	1	1	3	0	1	1	1	
+Roy	kenya	m	young chimps	11	14/10/2018		1	7	test	3	4	3	1	1	0	1	
+Roy	kenya	m	young chimps	11	14/10/2018		1	8	test	2	3	2	1	2	0	1	
+Tess	kenya	f	young chimps	26	13/10/2018		0	1	warm-up	2		1	0				Peanut
+Tess	kenya	f	young chimps	26	13/10/2018		0	2	warm-up	4		3	0				Peanut
+Tess	kenya	f	young chimps	26	13/10/2018		1	1	warm-up	2		2	1				Apple
+Tess	kenya	f	young chimps	26	13/10/2018		1	2	warm-up	4		4	1				Apple
+Tess	kenya	f	young chimps	26	13/10/2018		1	1	test	3	2	4	0	3	0	2	
+Tess	kenya	f	young chimps	26	13/10/2018		1	2	test	4	3	4	1	2	0	1	
+Tess	kenya	f	young chimps	26	13/10/2018		1	3	test	1	4	4	0	3	0	2	
+Tess	kenya	f	young chimps	26	13/10/2018		1	4	test	2	1	4	0	2	0	2	
+Tess	kenya	f	young chimps	26	13/10/2018		1	5	test	4	2	3	0	2	1	1	
+Tess	kenya	f	young chimps	26	13/10/2018		1	6	test	1	1	1	1	3	0	1	
+Tess	kenya	f	young chimps	26	13/10/2018		1	7	test	3	4	4	0	4	1	1	
+Tess	kenya	f	young chimps	26	13/10/2018		1	8	test	2	3	4	0	2	0	2	
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	1	warm-up	2		1	0				
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	2	warm-up	4		4	1				
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	1	test	3	2	3	1	2	1	0	
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	2	test	4	3	4	1	3	1	0	
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	3	test	1	4	3	0	4	1	1	got reward on pltform 1 falsely
+Uruhara	kenya	m	young chimps	29	13/10/2018		1	4	test	2	1	4	0	4	0	2	ended session because of distraction by other chimps
+Uruhara	kenya	m	young chimps	29	14/10/2018		1	5	test	4	2	4	1	4	0	1	
+Uruhara	kenya	m	young chimps	29	14/10/2018		1	6	test	1	1	2	0	3	0	2	
+Uruhara	kenya	m	young chimps	29	14/10/2018		1	7	test	3	4	3	1	4	1	0	
+Uruhara	kenya	m	young chimps	29	14/10/2018		1	8	test	2	3	3	0	4	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	1	warm-up	2		1	0				
+Manno	kenya	m	young chimps	5	14/10/2018		1	2	warm-up	4		3	0				
+Manno	kenya	m	young chimps	5	14/10/2018		1	1	test	3	2	1	0	4	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	2	test	4	3	3	0	4	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	3	test	1	4	1	1	4	1	0	could see reward on first platform
+Manno	kenya	m	young chimps	5	14/10/2018		1	4	test	2	1	1	0	2	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	5	test	4	2	2	0	3	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	6	test	1	1	1	1	1	1	0	
+Manno	kenya	m	young chimps	5	14/10/2018		1	7	test	3	4	1	0	1	0	2	
+Manno	kenya	m	young chimps	5	14/10/2018		1	8	test	2	3	2	1	3	1	0	
+Jane	kenya	f	young chimps	14	14/10/2018		1	1	warm-up	2		3	0				
+Jane	kenya	f	young chimps	14	14/10/2018		1	2	warm-up	4		3	0				
+Jane	kenya	f	young chimps	14	14/10/2018		1	1	test	3	2	4	0	3	0	2	
+Jane	kenya	f	young chimps	14	14/10/2018		1	2	test	4	3	2	0	3	0	2	
+Jane	kenya	f	young chimps	14	14/10/2018		1	3	test	1	4	3	0	3	0	2	
+Jane	kenya	f	young chimps	14	14/10/2018		1	4	test	2	1	3	0	1	1	1	
+Jane	kenya	f	young chimps	14	14/10/2018		1	5	test	4	2	3	0	2	1	1	
+Jane	kenya	f	young chimps	14	14/10/2018		1	6	test	1	1	2	0	1	1	1	"on platform one, immediately after choosing 2, she did not search in it but picked 1"
+Jane	kenya	f	young chimps	14	14/10/2018		1	7	test	3	4	1	0	2	0	2	
+Jane	kenya	f	young chimps	14	14/10/2018		1	8	test	2	3	2	1	1	0	1	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	1	warm-up	2		3	0				
+Chipie	kenya	f	young chimps	27	14/10/2018		1	2	warm-up	4		4	1				
+Chipie	kenya	f	young chimps	27	14/10/2018		1	1	test	3	2	4	0	3	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	2	test	4	3	3	0	1	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	3	test	1	4	4	0	2	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	4	test	2	1	3	0	2	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	5	test	4	2	3	0	3	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	6	test	1	1	3	0	3	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	7	test	3	4	4	0	3	0	2	
+Chipie	kenya	f	young chimps	27	14/10/2018		1	8	test	2	3	2	1	1	0	1	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	1	warm-up	2		1	0				
+Amizero	kenya	f	young chimps	29	14/10/2018		1	2	warm-up	4		4	1				
+Amizero	kenya	f	young chimps	29	14/10/2018		1	1	test	3	2	2	0	1	0	2	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	2	test	4	3	4	1	1	0	1	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	3	test	1	4	3	0	2	0	2	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	4	test	2	1	2	1	2	0	1	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	5	test	4	2	1	0	1	0	2	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	6	test	1	1	2	0	1	1	1	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	7	test	3	4	3	1	1	0	1	
+Amizero	kenya	f	young chimps	29	14/10/2018		1	8	test	2	3	3	0	3	1	1	
+Julia	kenya	f	old chimps	18	18/10/2018		1	1	warm-up	2		1	0				
+Julia	kenya	f	old chimps	18	18/10/2018		1	2	warm-up	4		4	1				
+Julia	kenya	f	old chimps	18	18/10/2018		1	1	test	3	2	3	1	1	0	1	
+Julia	kenya	f	old chimps	18	18/10/2018		1	2	test	4	3	4	1	1	0	1	
+Julia	kenya	f	old chimps	18	18/10/2018		1	3	test	1	4	4	0	3	0	2	
+Julia	kenya	f	old chimps	18	18/10/2018		1	4	test	2	1	4	0	3	0	2	
+Julia	kenya	f	old chimps	18	18/10/2018		1	5	test	4	2	4	1	1	0	1	
+Julia	kenya	f	old chimps	18	18/10/2018		1	6	test	1	1	4	0	1	1	1	
+Julia	kenya	f	old chimps	18	18/10/2018		1	7	test	3	4	4	0	1	0	2	
+Julia	kenya	f	old chimps	18	18/10/2018		1	8	test	2	3	2	0	1	0	2	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	1	warm-up	2		2	1				
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	2	warm-up	4		4	1				
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	1	test	3	2	3	1	2	1	0	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	2	test	4	3	3	0	1	0	2	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	3	test	1	4	3	0	1	0	2	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	4	test	2	1	3	0	1	1	1	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	5	test	4	2	3	0	2	1	1	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	6	test	1	1	1	1	1	1	0	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	7	test	3	4	2	0	1	0	2	
+Amahirwe	kenya	m	old chimps	20	14/10/2018		1	8	test	2	3	3	0	2	0	2	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	1	warm-up	2		3	0				
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	2	warm-up	4		4	1				
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	1	test	3	2	4	0	3	0	2	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	2	test	4	3	4	1	2	0	1	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	3	test	1	4	4	0	2	0	2	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	4	test	2	1	4	0	1	1	1	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	5	test	4	2	4	1	2	1	0	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	6	test	1	1	3	0	1	1	1	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	7	test	3	4	2	0	2	0	2	
+Mwanzo	kenya	f	old chimps	22	18/10/2018		1	8	test	2	3	4	0	2	0	2	
+Mary	kenya	f	old chimps	15	18/10/2018		1	1	warm-up	2		2	1				
+Mary	kenya	f	old chimps	15	18/10/2018		1	2	warm-up	4		3	0				
+Mary	kenya	f	old chimps	15	18/10/2018		1	1	test	3	2	3	1	2	1	0	Apple visible in platform 2
+Mary	kenya	f	old chimps	15	18/10/2018		1	2	test	4	3	4	1	4	0	1	
+Mary	kenya	f	old chimps	15	18/10/2018		1	3	test	1	4	4	0	1	0	2	
+Mary	kenya	f	old chimps	15	18/10/2018		1	4	test	2	1	4	0	1	1	1	
+Mary	kenya	f	old chimps	15	14/10/2018		1	5	test	4	2	4	1	2	1	0	
+Mary	kenya	f	old chimps	15	14/10/2018		1	6	test	1	1	4	0	1	1	1	
+Mary	kenya	f	old chimps	15	14/10/2018		1	7	test	3	4	4	0	1	0	2	
+Mary	kenya	f	old chimps	15	14/10/2018		1	8	test	2	3	3	0	1	0	2	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	1	warm-up	2		2	1				
+Edvard	kenya	m	old chimps	18	14/10/2018		1	2	warm-up	4		4	1				
+Edvard	kenya	m	old chimps	18	14/10/2018		1	1	test	3	2	3	1	4	0	1	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	2	test	4	3	3	0	3	1	1	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	3	test	1	4	4	0	3	0	2	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	4	test	2	1	4	0	1	1	1	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	5	test	4	2	3	0	2	1	1	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	6	test	1	1	3	0	1	1	1	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	7	test	3	4	4	0	2	0	2	
+Edvard	kenya	m	old chimps	18	14/10/2018		1	8	test	2	3	3	0	1	0	2	
+Zee	kenya	m	old chimps	18	14/10/2018		1	1	warm-up	2		2	1				
+Zee	kenya	m	old chimps	18	14/10/2018		1	2	warm-up	4		4	1				
+Zee	kenya	m	old chimps	18	14/10/2018		1	1	test	3	2	4	0	4	0	2	
+Zee	kenya	m	old chimps	18	14/10/2018		1	2	test	4	3	4	1	4	0	1	
+Zee	kenya	m	old chimps	18	14/10/2018		1	3	test	1	4	4	0	4	1	1	
+Zee	kenya	m	old chimps	18	14/10/2018		1	4	test	2	1	4	0	1	1	1	
+Zee	kenya	m	old chimps	18	14/10/2018		1	5	test	4	2	4	1	3	0	1	
+Zee	kenya	m	old chimps	18	14/10/2018		1	6	test	1	1	4	0	1	1	1	
+Zee	kenya	m	old chimps	18	14/10/2018		1	7	test	3	4	4	0	1	0	2	
+Zee	kenya	m	old chimps	18	14/10/2018		1	8	test	2	3	3	0	3	1	1	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	1	warm-up	2		3	0				
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	2	warm-up	4		4	1				
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	1	test	3	2	2	0	3	0	2	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	2	test	4	3	2	0	3	1	1	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	3	test	1	4	4	0	3	0	2	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	4	test	2	1	2	1	3	0	1	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	5	test	4	2	2	0	2	1	1	saw apple on platform 2
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	6	test	1	1	2	0	2	0	2	
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	7	test	3	4	3	1	4	0	1	saw apple on platform 1
+Cheetah	kenya	f	old chimps	31	14/10/2018		1	8	test	2	3	2	1	3	1	0	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	1	warm-up	2		1	0				
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	2	warm-up	4		4	1				
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	1	test	3	2	3	1	3	0	1	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	2	test	4	3	3	0	2	0	2	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	3	test	1	4	3	0	3	0	2	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	4	test	2	1	2	1	3	0	1	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	5	test	4	2	4	1	1	0	1	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	6	test	1	1	4	0	2	0	2	4 on platform 1 had apple
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	7	test	3	4	3	1	4	1	0	
+Alikaka	kenya	m	old chimps	16	14/10/2018		1	8	test	2	3	4	0	1	0	2	1 on platform 2 had apple
+Kisa	kenya	m	young chimps	25	12/11/2018		1	1	warm-up	2		4	0				
+Kisa	kenya	m	young chimps	25	12/11/2018		1	2	warm-up	4		4	1				
+Kisa	kenya	m	young chimps	25	12/11/2018		1	1	test	3	2	3	1	4	0	1	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	2	test	4	3	3	0	2	0	2	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	3	test	1	4	1	1	3	0	1	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	4	test	2	1	2	1	2	0	1	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	5	test	4	2	2	0	2	1	1	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	6	test	1	1	3	0	3	0	2	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	7	test	3	4	3	1	3	0	1	
+Kisa	kenya	m	young chimps	25	12/11/2018		1	8	test	2	3	2	1	1	0	1	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	1	warm-up	2		3	0				
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	2	warm-up	4		4	1				
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	1	test	3	2	4	0	2	1	1	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	2	test	4	3	4	1	2	0	1	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	3	test	1	4	1	1	2	0	1	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	4	test	2	1	1	0	3	0	2	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	5	test	4	2	2	0	2	1	1	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	6	test	1	1	1	1	1	1	0	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	7	test	3	4	1	0	2	0	2	
+Niyonkuru	kenya	m	young chimps	28	12/11/2018		1	8	test	2	3	2	1	2	0	1	
+Joy	kenya	f	young chimps	14	12/11/2018		0	1	warm-up	2		2	1				
+Joy	kenya	f	young chimps	14	12/11/2018		0	2	warm-up	4		4	1				
+Joy	kenya	f	young chimps	14	12/11/2018		1	1	test	3	2	4	0	2	1	1	grabbed box 3 on platform 1 just after choice
+Joy	kenya	f	young chimps	14	12/11/2018		1	2	test	4	3	4	1	3	1	0	
+Joy	kenya	f	young chimps	14	12/11/2018		1	3	test	1	4	4	0	4	1	1	
+Joy	kenya	f	young chimps	14	12/11/2018		1	4	test	2	1	3	0	3	0	2	
+Joy	kenya	f	young chimps	14	12/11/2018		1	5	test	4	2	4	1	2	1	0	
+Joy	kenya	f	young chimps	14	12/11/2018		1	6	test	1	1	4	0	2	0	2	
+Joy	kenya	f	young chimps	14	12/11/2018		1	7	test	3	4	3	1	2	0	1	
+Joy	kenya	f	young chimps	14	12/11/2018		1	8	test	2	3	4	0	4	0	2	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	1	warm-up	2		2	1				
+Bahati	kenya	f	young chimps	25	12/11/2018		1	2	warm-up	4		2	0				
+Bahati	kenya	f	young chimps	25	12/11/2018		1	1	test	3	2	2	0	2	1	1	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	2	test	4	3	1	0	2	0	2	"falslely there was still an apple in the box she chose on platform 1, so she got rewarded for the wrong choice"
+Bahati	kenya	f	young chimps	25	12/11/2018		1	3	test	1	4	1	1	3	0	1	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	4	test	2	1	2	1	2	0	1	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	5	test	4	2	1	0	3	0	2	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	6	test	1	1	1	1	2	0	1	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	7	test	3	4	1	0	2	0	2	
+Bahati	kenya	f	young chimps	25	12/11/2018		1	8	test	2	3	2	1	2	0	1	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	1	warm-up	2		2	1				
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	2	warm-up	4		1	0				
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	1	test	3	2	3	1	1	0	1	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	2	test	4	3	2	0	1	0	2	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	3	test	1	4	2	0	2	0	2	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	4	test	2	1	2	1	3	0	1	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	5	test	4	2	1	0	1	0	2	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	6	test	1	1	2	0	1	1	1	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	7	test	3	4	2	0	2	0	2	
+Dufatanya	kenya	f	young chimps	27	12/11/2018		1	8	test	2	3	2	1	1	0	1	
+Akela	kenya	f	young chimps	30	14/11/2018		1	1	warm-up	2		4	0				
+Akela	kenya	f	young chimps	30	14/11/2018		1	2	warm-up	4		4	1				
+Akela	kenya	f	young chimps	30	14/11/2018		1	1	test	3	2	4	0	4	0	2	
+Akela	kenya	f	young chimps	30	14/11/2018		1	2	test	4	3	4	1	2	0	1	
+Akela	kenya	f	young chimps	30	14/11/2018		1	3	test	1	4	4	0	2	0	2	
+Akela	kenya	f	young chimps	30	14/11/2018		1	4	test	2	1	4	0	3	0	2	
+Akela	kenya	f	young chimps	30	14/11/2018		1	5	test	4	2	4	1	3	0	1	
+Akela	kenya	f	young chimps	30	14/11/2018		1	6	test	1	1	4	0	2	0	2	
+Akela	kenya	f	young chimps	30	14/11/2018		1	7	test	3	4	4	0	4	1	1	
+Akela	kenya	f	young chimps	30	14/11/2018		1	8	test	2	3	2	1	2	0	1	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	1	warm-up	2		4	0				
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	2	warm-up	4		4	1				
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	1	test	3	2	1	0	3	0	2	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	2	test	4	3	4	1	3	1	0	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	3	test	1	4	1	1	1	0	1	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	4	test	2	1	1	0	1	1	1	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	5	test	4	2	1	0	1	0	2	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	6	test	1	1	1	1	3	0	1	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	7	test	3	4	1	0	1	0	2	
+Asega	uganda	m	Uganda	21	18/10/2019	6	1	8	test	2	3	1	0	1	0	2	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	1	warm-up	2		3	0				
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	2	warm-up	4		4	1				
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	1	test	3	2	4	0	2	1	1	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	2	test	4	3	4	1	3	1	0	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	3	test	1	4	4	0	4	1	1	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	4	test	2	1	2	1	4	0	1	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	5	test	4	2	4	1	2	1	0	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	6	test	1	1	2	0	4	0	2	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	7	test	3	4	3	1	4	1	0	
+Baluku	uganda	m	Uganda	21	18/10/2019	6	1	8	test	2	3	4	0	4	0	2	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	1	warm-up	2		3	0				
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	2	warm-up	4		4	1				
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	1	test	3	2	2	0	2	1	1	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	2	test	4	3	3	0	1	0	2	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	3	test	1	4	4	0	1	0	2	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	4	test	2	1	4	0	2	0	2	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	5	test	4	2	4	1	2	1	0	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	6	test	1	1	1	1	2	0	1	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	7	test	3	4	4	0	2	0	2	
+Kidogo	uganda	f	Uganda	35	18/10/2019	6	1	8	test	2	3	4	0	3	1	1	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	1	warm-up	2		2	1				
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	2	warm-up	4		4	1				
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	1	test	3	2	3	1	2	1	0	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	2	test	4	3	3	0	1	0	2	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	3	test	1	4	4	0	2	0	2	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	4	test	2	1	3	0	1	1	1	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	5	test	4	2	3	0	1	0	2	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	6	test	1	1	1	1	1	1	0	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	7	test	3	4	2	0	1	0	2	
+Kisembo	uganda	m	Uganda	20	18/10/2019	6	1	8	test	2	3	1	0	1	0	2	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	1	warm-up	2		2	1				
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	2	warm-up	4		4	1				
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	1	test	3	2	2	0	3	0	2	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	2	test	4	3	4	1	4	0	1	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	3	test	1	4	4	0	3	0	2	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	4	test	2	1	4	0	3	0	2	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	5	test	4	2	4	1	2	1	0	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	6	test	1	1	2	0	3	0	2	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	7	test	3	4	3	1	2	0	1	
+Medina	uganda	f	Uganda	12	18/10/2019	6	1	8	test	2	3	3	0	2	0	2	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	1	warm-up	2		2	1				
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	2	warm-up	4		4	1				
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	1	test	3	2	4	0	2	1	1	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	2	test	4	3	4	1	2	0	1	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	3	test	1	4	4	0	4	1	1	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	4	test	2	1	2	1	2	0	1	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	5	test	4	2	4	1	2	1	0	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	6	test	1	1	3	0	2	0	2	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	7	test	3	4	3	1	1	0	1	
+Nakuu	uganda	f	Uganda	18	19/10/2019	6	1	8	test	2	3	2	1	1	0	1	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	1	warm-up	2		2	1				
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	2	warm-up	4		4	1				
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	1	test	3	2	3	1	4	0	1	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	2	test	4	3	4	1	4	0	1	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	3	test	1	4	1	1	4	1	0	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	4	test	2	1	4	0	1	1	1	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	5	test	4	2	4	1	3	0	1	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	6	test	1	1	4	0	4	0	2	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	7	test	3	4	3	1	4	1	0	
+Indi	uganda	m	Uganda	19	19/10/2019	6	1	8	test	2	3	1	0	4	0	2	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	1	warm-up	2		4	0				
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	2	warm-up	4		4	1				
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	1	test	3	2	2	0	1	0	2	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	2	test	4	3	3	0	3	1	1	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	3	test	1	4	1	1	4	1	0	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	4	test	2	1	1	0	4	0	2	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	5	test	4	2	3	0	4	0	2	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	6	test	1	1	1	1	2	0	1	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	7	test	3	4	2	0	4	1	1	
+Pasa	uganda	f	Uganda	19	19/10/2019	6	1	8	test	2	3	2	1	4	0	1	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	1	warm-up	2		1	0				
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	2	warm-up	4		3	0				
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	1	test	3	2	4	0	2	1	1	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	2	test	4	3	4	1	3	1	0	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	3	test	1	4	2	0	4	1	1	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	4	test	2	1	3	0	1	1	1	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	5	test	4	2	3	0	1	0	2	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	6	test	1	1	3	0	2	0	2	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	7	test	3	4	1	0	2	0	2	
+Sally	uganda	f	Uganda	28	09/11/2019	6	1	8	test	2	3	2	1	3	1	0	no toilet paper in box 1 on table 1
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	1	warm-up	2		2	1				
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	2	warm-up	4		4	1				
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	1	test	3	2	3	1	4	0	1	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	2	test	4	3	1	0	3	1	1	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	3	test	1	4	2	0	4	1	1	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	4	test	2	1	3	0	4	0	2	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	5	test	4	2	4	1	4	0	1	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	6	test	1	1	2	0	4	0	2	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	7	test	3	4	2	0	4	1	1	
+Becky	uganda	f	Uganda	28	09/11/2019	6	1	8	test	2	3	2	1	4	0	1	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	1	warm-up	2		3	0				
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	2	warm-up	4		4	1				
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	1	test	3	2	3	1	2	1	0	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	2	test	4	3	4	1	3	1	0	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	3	test	1	4	2	0	3	0	2	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	4	test	2	1	4	0	2	0	2	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	5	test	4	2	3	0	2	1	1	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	6	test	1	1	1	1	3	0	1	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	7	test	3	4	3	1	3	0	1	
+Namukisa	uganda	f	Uganda	21	09/11/2019	6	1	8	test	2	3	2	1	3	1	0	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	1	warm-up	2		2	1				
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	2	warm-up	4		4	1				
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	1	test	3	2	4	0	2	1	1	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	2	test	4	3	4	1	1	0	1	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	3	test	1	4	4	0	1	0	2	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	4	test	2	1	4	0	1	1	1	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	5	test	4	2	4	1	4	0	1	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	6	test	1	1	4	0	1	1	1	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	7	test	3	4	4	0	3	0	2	
+Tumbo	uganda	m	Uganda	30	10/11/2019	6	1	8	test	2	3	4	0	2	0	2	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	1	warm-up	2		4	0				
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	2	warm-up	4		4	1				
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	1	test	3	2	3	1	1	0	1	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	2	test	4	3	4	1	4	0	1	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	3	test	1	4	4	0	4	1	1	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	4	test	2	1	4	0	3	0	2	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	5	test	4	2	4	1	3	0	1	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	6	test	1	1	3	0	3	0	2	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	7	test	3	4	3	1	3	0	1	
+Kalema	uganda	m	Uganda	23	10/11/2019	6	1	8	test	2	3	3	0	3	1	1	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	1	warm-up	2		3	0				
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	2	warm-up	4		4	1				
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	1	test	3	2	4	0	4	0	2	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	2	test	4	3	4	1	3	1	0	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	3	test	1	4	4	0	3	0	2	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	4	test	2	1	2	1	2	0	1	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	5	test	4	2	4	1	2	1	0	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	6	test	1	1	1	1	2	0	1	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	7	test	3	4	3	1	4	1	0	
+Rambo	uganda	m	Uganda	15	10/11/2019	6	1	8	test	2	3	2	1	2	0	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	1	warm-up	2		2	1				
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	2	warm-up	4		4	1				
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	1	test	3	2	4	0	4	0	2	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	2	test	4	3	4	1	4	0	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	3	test	1	4	4	0	4	1	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	4	test	2	1	3	0	4	0	2	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	5	test	4	2	3	0	2	1	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	6	test	1	1	1	1	2	0	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	7	test	3	4	4	0	4	1	1	
+Cocoa	uganda	f	Uganda	12	10/11/2019	6	1	8	test	2	3	4	0	3	1	1	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	1	warm-up	2		4	0				
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	2	warm-up	4		4	1				
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	1	test	3	2	4	0	3	0	2	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	2	test	4	3	4	1	2	0	1	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	3	test	1	4	1	1	3	0	1	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	4	test	2	1	1	0	1	1	1	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	5	test	4	2	4	1	2	1	0	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	6	test	1	1	1	1	1	1	0	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	7	test	3	4	4	0	4	1	1	
+Nkuumwa	uganda	f	Uganda	23	14/11/2019	6	1	8	test	2	3	1	0	4	0	2	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	1	warm-up	2		2	1				
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	2	warm-up	4		4	1				
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	1	test	3	2	4	0	2	1	1	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	2	test	4	3	4	1	3	1	0	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	3	test	1	4	1	1	4	1	0	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	4	test	2	1	2	1	1	1	0	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	5	test	4	2	4	1	1	0	1	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	6	test	1	1	1	1	2	0	1	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	7	test	3	4	1	0	4	1	1	
+Bwambale	uganda	m	Uganda	23	29/11/2019	6	1	8	test	2	3	1	0	4	0	2	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	1	warm-up	2		4	0				
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	2	warm-up	4		4	1				
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	1	test	3	2	3	1	4	0	1	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	2	test	4	3	2	0	4	0	2	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	3	test	1	4	3	0	1	0	2	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	4	test	2	1	3	0	4	0	2	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	5	test	4	2	4	1	1	0	1	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	6	test	1	1	1	1	4	0	1	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	7	test	3	4	3	1	4	1	0	
+Nani	uganda	f	Uganda	18	01/12/2019	6	1	8	test	2	3	2	1	3	1	0	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	1	warm-up	2		2	1				
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	2	warm-up	4		4	1				
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	1	test	3	2	2	0	2	1	1	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	2	test	4	3	4	1	3	1	0	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	3	test	1	4	3	0	3	0	2	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	4	test	2	1	3	0	3	0	2	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	5	test	4	2	2	0	2	1	1	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	6	test	1	1	3	0	2	0	2	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	7	test	3	4	3	1	1	0	1	
+Yoyo	uganda	f	Uganda	20	01/12/2019	6	1	8	test	2	3	4	0	1	0	2	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	1	warm-up	2		4	0				
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	2	warm-up	4		4	1				
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	1	test	3	2	4	0	1	0	2	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	2	test	4	3	4	1	1	0	1	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	3	test	1	4	4	0	1	0	2	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	4	test	2	1	2	1	4	0	1	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	5	test	4	2	4	1	1	0	1	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	6	test	1	1	4	0	1	1	1	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	7	test	3	4	4	0	1	0	2	
+Mawa	uganda	m	Uganda	23	02/12/2019	6	1	8	test	2	3	4	0	2	0	2	
+Sara	uganda	f	Uganda	9	01/12/2019	6	1	1	warm-up	2		3	0				
+Sara	uganda	f	Uganda	9	01/12/2019	6	1	2	warm-up	4		4	1				
+Sara	uganda	f	Uganda	9	01/12/2019	6	1	1	test	3	2	4	0	2	1	1	
+Sara	uganda	f	Uganda	9	01/12/2019	6	1	2	test	4	3	3	0	2	0	2	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	3	test	1	4	4	0	1	0	2	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	4	test	2	1	2	1	2	0	1	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	5	test	4	2	4	1	1	0	1	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	6	test	1	1	3	0	1	1	1	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	7	test	3	4	4	0	1	0	2	
+Sara	uganda	f	Uganda	9	02/12/2019	6	2	8	test	2	3	4	0	3	1	1	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	1	warm-up	2		2	1				
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	2	warm-up	4		4	1				
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	1	test	3	2	2	0	1	0	2	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	2	test	4	3	3	0	2	0	2	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	3	test	1	4	1	1	4	1	0	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	4	test	2	1	1	0	1	1	1	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	5	test	4	2	4	1	2	1	0	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	6	test	1	1	1	1	1	1	0	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	7	test	3	4	2	0	1	0	2	
+Umugenzi	uganda	m	Uganda	22	02/12/2019	6	1	8	test	2	3	2	1	2	0	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	1	warm-up	2		1	0				
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	2	warm-up	4		3	0				repeated as toilet paper fell out of 3 
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	1	test	3	2	3	1	1	0	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	2	test	4	3	4	1	1	0	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	3	test	1	4	3	0	2	0	2	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	4	test	2	1	3	0	1	1	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	5	test	4	2	4	1	1	0	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	6	test	1	1	3	0	1	1	1	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	7	test	3	4	2	0	1	0	2	
+Umutama	uganda	m	Uganda	23	02/12/2019	6	1	8	test	2	3	2	1	1	0	1	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	1	warm-up	2		2	1				
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	2	warm-up	4		4	1				
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	1	test	3	2	3	1	2	1	0	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	2	test	4	3	3	0	2	0	2	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	3	test	1	4	1	1	4	1	0	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	4	test	2	1	3	0	4	0	2	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	5	test	4	2	3	0	4	0	2	there was apple in the 4th box on platform 2
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	6	test	1	1	1	1	1	1	0	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	7	test	3	4	3	1	4	1	0	
+Okech	uganda	m	Uganda	20	02/12/2019	6	1	8	test	2	3	1	0	1	0	2	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	1	warm-up	2		2	1				
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	2	warm-up	4		3	0				
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	1	test	3	2	3	1	4	0	1	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	2	test	4	3	2	0	4	0	2	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	3	test	1	4	2	0	4	1	1	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	4	test	2	1	3	0	1	1	1	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	5	test	4	2	3	0	4	0	2	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	6	test	1	1	2	0	1	1	1	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	7	test	3	4	3	1	4	1	0	
+Bili	uganda	f	Uganda	21	04/12/2019	6	1	8	test	2	3	2	1	2	0	1	

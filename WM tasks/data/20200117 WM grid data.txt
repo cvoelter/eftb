@@ -1,0 +1,773 @@
+Subject	Site	Gender	Group	Age	Date	Trial	Type	Grid	2ndtask_initial	2ndtask_end	NrUntilfindGrid	choice P2	corr P2	choice01	choice01_x	choice01_y	food_x	food_y	distance_c01	choice1_correct	choice02	choice03	choice04	choice05	choice06	choice07	choice08	choice09	choice10	choice11	choice12	choice13	choice14	choice15	choice16	choice17	choice18	choice19	choice20	choice21	choice22	choice23	choice24	choice25	choice26	choice27	choice28	choice29	choice30	choice31	choice32	choice33	choice34	choice35	choice36	choice37	choice38	choice39	choice40	choice41	choice42	choice43	choice44	choice45	choice46	choice47	choice48	choice49	choice50	choice51	choice52	choice53	choice54	choice55	choice56	choice57	choice58	choice59	choice60
+William	kenya	m	young chimps	18		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+William	kenya	m	young chimps	18		2	warm-up	3			9			8	4	2	3	1	1.414213562	0	7	6	5	16	12	8	4	3																																																			
+William	kenya	m	young chimps	18		1	test	9	1	2	4	2	1	6	2	2	1	3	1.414213562	0	7	8	9																																																								
+William	kenya	m	young chimps	18		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+William	kenya	m	young chimps	18		3	test	10	2	3	6	3	1	5	1	2	2	3	1.414213562	0	6	7	8	11	10																																																						
+William	kenya	m	young chimps	18		4	test	12	3	2	13	2	1	10	2	3	4	3	2	0	11	6	5	3	4	15	14	13	9	10	11	12																																															
+William	kenya	m	young chimps	18		5	test	2	2	1	4	2	0	6	2	2	2	1	1	0	7	5	2																																																								
+William	kenya	m	young chimps	18		6	test	11	1	3	11	3	1	10	2	3	3	3	1	0	9	5	3	4	2	1	7	8	12	11																																																	
+William	kenya	m	young chimps	18		7	test	5	1	2	1	2	1	6	2	2	1	2	1	0	5																																																										
+William	kenya	m	young chimps	18		8	test	3	3	2	3	3	0	6	2	2	3	1	1.414213562	0	7	3																																																									
+William	kenya	m	young chimps	18		9	test	14	1	3	36	3	1	2	2	1	2	4	3	0	3	4	8	7	6	5	1	2	3	4	16	15	10	13	9	10	11	12	16	15	8	4	2	1	2	3	4	7	10	5	9	10	9	13	14																								
+William	kenya	m	young chimps	18		10	test	8	2	1	9	1	1	6	2	2	4	2	2	0	3	2	1	9	10	11	7	8																																																			
+William	kenya	m	young chimps	18		11	test	7	3	1	6	1	1	6	2	2	3	2	1	0	2	1	5	6	7																																																						
+William	kenya	m	young chimps	18		12	test	15	2	3	19	2	0	7	3	2	3	4	2	0	6	2	3	4	8	7	12	10	9	5	6	1	2	3	12	16	15																																										
+Roy	kenya	m	young chimps	11		1	warm-up	8			6			9	1	3	4	2	3.16227766	0	14	15	16	12	8																																																						
+Roy	kenya	m	young chimps	11		2	warm-up	3			1			3	3	1	3	1	0	1																																																											
+Roy	kenya	m	young chimps	11		1	test	9	1	2	2	1	0	10	2	3	1	3	1	0	9																																																										
+Roy	kenya	m	young chimps	11		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+Roy	kenya	m	young chimps	11		3	test	10	2	3	6	3	1	6	2	2	2	3	1	0	7	8	15	11	10																																																						
+Roy	kenya	m	young chimps	11		4	test	12	3	2	10	2	1	6	2	2	4	3	2.236067977	0	7	8	3	2	1	6	10	11	12																																																		
+Roy	kenya	m	young chimps	11		5	test	2	2	1	10	1	1	6	2	2	2	1	1	0	7	8	12	11	10	14	9	5	2																																																		
+Roy	kenya	m	young chimps	11		6	test	11	1	3	2	1	0	10	2	3	3	3	1	0	11																																																										
+Roy	kenya	m	young chimps	11		7	test	5	1	2	14	2	1	11	3	3	1	2	2.236067977	0	15	10	6	1	3	4	8	12	16	15	13	9	5																																														
+Roy	kenya	m	young chimps	11		8	test	3	3	2	4	2	1	6	2	2	3	1	1.414213562	0	7	8	3																																																								
+Roy	kenya	m	young chimps	11		9	test	14	1	3	13	3	1	10	2	3	2	4	1	0	13	9	5	6	7	3	2	1	4	8	11	14																																															
+Roy	kenya	m	young chimps	11		10	test	8	2	1	5	1	1	10	2	3	4	2	2.236067977	0	6	3	4	8																																																							
+Roy	kenya	m	young chimps	11		11	test	7	3	1	4	1	1	14	2	4	3	2	2.236067977	0	10	6	7																																																								
+Roy	kenya	m	young chimps	11		12	test	15	2	3	2	3	1	11	3	3	3	4	1	0	15																																																										
+Tess	kenya	f	young chimps	26		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Tess	kenya	f	young chimps	26		2	warm-up	3			5			14	2	4	3	1	3.16227766	0	15	12	8	3																																																							
+Tess	kenya	f	young chimps	26		1	test	9	1	2	12	1	0	4	4	1	1	3	3.605551275	0	8	3	2	6	5	12	16	15	14	10	9																																																
+Tess	kenya	f	young chimps	26		2	test	6	3	1	3	1	1	8	4	2	2	2	2	0	7	6																																																									
+Tess	kenya	f	young chimps	26		3	test	10	2	3	5	3	1	6	2	2	2	3	1	0	5	9	13	10																																																							
+Tess	kenya	f	young chimps	26		4	test	12	3	2	1	3	0	12	4	3	4	3	0	1																																																											
+Tess	kenya	f	young chimps	26		5	test	2	2	1	8	1	1	6	2	2	2	1	1	0	7	8	12	16	15	6	2																																																				
+Tess	kenya	f	young chimps	26		6	test	11	1	3	41	1	1	5	1	2	3	3	2.236067977	0	6	2	1	3	7	8	12	16	15	14	10	6	5	1	2	3	5	9	10	9	13	9	13	14	15	16	12	7	3	2	6	4	3	4	8	7	8	12	16	11																			
+Tess	kenya	f	young chimps	26		7	test	5	1	2	6	2	1	8	4	2	1	2	3	0	7	6	2	1	5																																																						
+Tess	kenya	f	young chimps	26		8	test	3	3	2	9	2	1	7	3	2	3	1	1	0	2	1	5	1	7	8	4	3																																																			
+Tess	kenya	f	young chimps	26		9	test	14	1	3	11	3	1	2	2	1	2	4	3	0	5	1	3	2	7	8	12	11	10	14																																																	
+Tess	kenya	f	young chimps	26		10	test	8	2	1	7	2	0	6	2	2	4	2	2	0	2	5	6	7	3	8																																																					
+Tess	kenya	f	young chimps	26		11	test	7	3	1	5	1	1	6	2	2	3	2	1	0	5	1	3	7																																																							
+Tess	kenya	f	young chimps	26		12	test	15	2	3	10	3	1	6	2	2	3	4	2.236067977	0	2	1	5	10	9	13	10	11	15																																																		
+Uruhara	kenya	m	young chimps	29		1	warm-up	8			9			15	3	4	4	2	2.236067977	0	16	14	13	5	6	1	4	8																																																			
+Uruhara	kenya	m	young chimps	29		2	warm-up	3			9			16	4	4	3	1	3.16227766	0	15	14	13	5	7	16	8	3																																																			
+Uruhara	kenya	m	young chimps	29		1	test	9	1	2	2	2	1	13	1	4	1	3	1	0	9																																																										
+Uruhara	kenya	m	young chimps	29		2	test	6	3	1	7	1	1	13	1	4	2	2	2.236067977	0	9	12	16	14	15	5																																																					
+Uruhara	kenya	m	young chimps	29		3	test	10	2	3	48	2	0	14	2	4	2	3	1	0	13	9	5	8	7	3	4	8	12	15	5	1	2	3	8	3	6	5	13	15	12	16	15	7	8	7	1	5	13	6	7	8	16	6	13	4	7	3	6	1	5	13	9	14	13	9	10												
+Uruhara	kenya	m	young chimps	29		4	test	12	3	2	1	3	0	12	4	3	4	3	0	1																																																											
+Uruhara	kenya	m	young chimps	29		5	test	2	2	1	27	1	1	7	3	2	2	1	1.414213562	0	6	10	11	15	16	14	13	5	6	7	5	8	12	11	16	15	14	13	5	6	7	15	16	8	3	2																																	
+Uruhara	kenya	m	young chimps	29		6	test	11	1	3	32	3	1	13	1	4	3	3	2.236067977	0	16	12	8	7	6	5	7	8	16	15	13	9	5	1	2	3	7	3	4	8	7	6	14	15	16	5	14	13	15	11																													
+Uruhara	kenya	m	young chimps	29		7	test	5	1	2	1	2	1	5	1	2	1	2	0	1																																																											
+Uruhara	kenya	m	young chimps	29		8	test	3	3	2	16	2	1	16	4	4	3	1	3.16227766	0	12	14	15	6	5	2	8	12	16	14	13	5	1	2	3																																												
+Uruhara	kenya	m	young chimps	29		9	test	14	1	3	1	3	1	14	2	4	2	4	0	1																																																											
+Uruhara	kenya	m	young chimps	29		10	test	8	2	1	21	2	0	14	2	4	4	2	2.828427125	0	11	16	7	8	6	5	1	3	8	11	16	15	11	7	5	13	14	15	11	12																																							
+Uruhara	kenya	m	young chimps	29		11	test	7	3	1	10	1	1	2	2	1	3	2	1.414213562	0	6	11	12	16	15	13	9	5	7																																																		
+Uruhara	kenya	m	young chimps	29		12	test	15	2	3	3	3	1	10	2	3	3	4	1.414213562	0	14	15																																																									
+Manno	kenya	m	young chimps	5		1	warm-up	8			6			15	3	4	4	2	2.236067977	0	11	15	16	14	8																																																						
+Manno	kenya	m	young chimps	5		2	warm-up	3			13			11	3	3	3	1	2	0	8	4	7	14	13	15	16	11	8	6	2	3																																															
+Manno	kenya	m	young chimps	5		1	test	9	1	2	2	2	1	14	2	4	1	3	1.414213562	0	9																																																										
+Manno	kenya	m	young chimps	5		2	test	6	3	1	4	2	0	14	2	4	2	2	2	0	10	13	6																																																								
+Manno	kenya	m	young chimps	5		3	test	10	2	3	5	2	0	6	2	2	2	3	1	0	7	6	9	10																																																							
+Manno	kenya	m	young chimps	5		4	test	12	3	2	2	3	0	6	2	2	4	3	2.236067977	0	12																																																										
+Manno	kenya	m	young chimps	5		5	test	2	2	1	3	1	1	6	2	2	2	1	1	0	10	2																																																									
+Manno	kenya	m	young chimps	5		6	test	11	1	3	1	2	0	11	3	3	3	3	0	1																																																											
+Manno	kenya	m	young chimps	5		7	test	5	1	2	6	2	1	10	2	3	1	2	1.414213562	0	9	6	7	2	5																																																						
+Manno	kenya	m	young chimps	5		8	test	3	3	2	7	2	1	6	2	2	3	1	1.414213562	0	5	9	14	10	11	3																																																					
+Manno	kenya	m	young chimps	5		9	test	14	1	3	2	1	0	15	3	4	2	4	1	0	14																																																										
+Manno	kenya	m	young chimps	5		10	test	8	2	1	11	2	0	14	2	4	4	2	2.828427125	0	10	9	11	10	14	15	16	11	3	8																																																	
+Manno	kenya	m	young chimps	5		11	test	7	3	1	7	3	0	6	2	2	3	2	1	0	10	14	9	15	10	7																																																					
+Manno	kenya	m	young chimps	5		12	test	15	2	3	1	3	1	15	3	4	3	4	0	1																																																											
+Jane	kenya	f	young chimps	14		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Jane	kenya	f	young chimps	14		2	warm-up	3			6			14	2	4	3	1	3.16227766	0	9	5	1	2	3																																																						
+Jane	kenya	f	young chimps	14		1	test	9	1	2	3	3	0	15	3	4	1	3	2.236067977	0	11	9																																																									
+Jane	kenya	f	young chimps	14		2	test	6	3	1	4	3	0	16	4	4	2	2	2.828427125	0	15	11	6																																																								
+Jane	kenya	f	young chimps	14		3	test	10	2	3	18	3	1	15	3	4	2	3	1.414213562	0	14	13	9	5	6	1	2	3	7	4	8	7	11	12	15	14	10																																										
+Jane	kenya	f	young chimps	14		4	test	12	3	2	32	3	0	11	3	3	4	3	1	0	10	9	6	3	2	1	5	9	…	13	15	14	16	15	11	7	8	7	3	2	6	5	4	12																																			
+Jane	kenya	f	young chimps	14		5	test	2	2	1	4	2	0	5	1	2	2	1	1.414213562	0	6	1	2																																																								
+Jane	kenya	f	young chimps	14		6	test	11	1	3	7	3	1	6	2	2	3	3	1.414213562	0	5	1	2	3	7	11																																																					
+Jane	kenya	f	young chimps	14		7	test	5	1	2	2	1	0	6	2	2	1	2	1	0	5																																																										
+Jane	kenya	f	young chimps	14		8	test	3	3	2	12	2	1	5	1	2	3	1	2.236067977	0	9	13	10	14	11	6	7	1	2	4	3																																																
+Jane	kenya	f	young chimps	14		9	test	14	1	3	6	3	1	10	2	3	2	4	1	0	11	5	9	13	14																																																						
+Jane	kenya	f	young chimps	14		10	test	8	2	1	14	1	1	14	2	4	4	2	2.828427125	0	5	9	13	14	15	10	11	6	1	2	3	4	8																																														
+Jane	kenya	f	young chimps	14		11	test	7	3	1	10	1	1	10	2	3	3	2	1.414213562	0	5	9	13	14	15	16	15	11	7																																																		
+Jane	kenya	f	young chimps	14		12	test	15	2	3	13	1	1	10	2	3	3	4	1.414213562	0	14	5	6	1	2	3	4	8	7	12	16	15																																															
+Chipie	kenya	f	young chimps	27		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Chipie	kenya	f	young chimps	27		2	warm-up	3			8			6	2	2	3	1	1.414213562	0	7	14	10	6	2	1	3																																																				
+Chipie	kenya	f	young chimps	27		1	test	9	1	2	27	2	1	6	2	2	1	3	1.414213562	0	12	6	5	1	2	3	4	8	6	10	14	13	1	3	4	15	5	6	5	3	6	5	15	11	4	1																																	
+Chipie	kenya	f	young chimps	27		2	test	6	3	1	1	3	0	6	2	2	2	2	0	1																																																											
+Chipie	kenya	f	young chimps	27		3	test	10	2	3	12	2	0	6	2	2	2	3	1	0	2	3	4	9	7	2	3	4	13	11	10																																																
+Chipie	kenya	f	young chimps	27		4	test	12	3	2		3	0	6	2	2	4	3	2.236067977	0	8	6	14	2	1	5	3	4	9	1	2	3	14	13	9	5	6	7	8	14	10																																						
+Chipie	kenya	f	young chimps	27		5	test	2	2	1	2	2	0	6	2	2	2	1	1	0	2																																																										
+Chipie	kenya	f	young chimps	27		6	test	11	1	3	13	2	0	10	2	3	3	3	1	0	2	1	5	6	3	2	13	6	2	3	4	11																																															
+Chipie	kenya	f	young chimps	27		7	test	5	1	2	6	2	1	6	2	2	1	2	1	0	2	3	11	13	5																																																						
+Chipie	kenya	f	young chimps	27		8	test	3	3	2	4	2	1	6	2	2	3	1	1.414213562	0	5	2	3																																																								
+Chipie	kenya	f	young chimps	27		9	test	14	1	3	18	2	0	6	2	2	2	4	2	0	3	2	6	9	10	15	16	6	2	1	3	4	8	6	5	1	14(	10	6	10)																																							
+Chipie	kenya	f	young chimps	27		10	test	8	2	1		2	0	6	2	2	4	2	2	0	3	4	9	1	2	1	3	4	14	13	9	5																																															
+Chipie	kenya	f	young chimps	27		11	test	7	3	1		3	0	2	2	1	3	2	1.414213562	0	5	3	4	2	1	11	12	6																																																			
+Chipie	kenya	f	young chimps	27		12	test	15	2	3		2	0	6	2	2	3	4	2.236067977	0	3	4	6	1	9	6	10	9	13	14																																																	
+Amizero	kenya	f	young chimps	29		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Amizero	kenya	f	young chimps	29		2	warm-up	3			10			8	4	2	3	1	1.414213562	0	7	6	5	15	16	12	8	4	3																																																		
+Amizero	kenya	f	young chimps	29		1	test	9	1	2	21	2	1	7	3	2	1	3	2.236067977	0	16	15	6	5	1	3	2	6	8	7	4	3	2	1	2	6	11	15	14	9																																							
+Amizero	kenya	f	young chimps	29		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+Amizero	kenya	f	young chimps	29		3	test	10	2	3	25	3	1	6	2	2	2	3	1	0	7	3	2	1	5	7	8	4	3	12	16	12	15	14	13	9	5	1	2	3	7	6	5	10																																			
+Amizero	kenya	f	young chimps	29		4	test	12	3	2	1	2	1	9	1	3	4	3	3	0																																																											
+Amizero	kenya	f	young chimps	29		5	test	2	2	1	4	1	1	3	3	1	2	1	1	0	6	3	2(	10	12	11	15	16	8	4	3	2)																																															
+Amizero	kenya	f	young chimps	29		6	test	11	1	3	9	3	1	7	3	2	3	3	1	0	8	3	2	6	8	7	12	11																																																			
+Amizero	kenya	f	young chimps	29		7	test	5	1	2	5	2	1	6	2	2	1	2	1	0	7	2	1	5																																																							
+Amizero	kenya	f	young chimps	29		8	test	3	3	2	5	2	1	6	2	2	3	1	1.414213562	0	7	8	7	3																																																							
+Amizero	kenya	f	young chimps	29		9	test	14	1	2	13	2	1	16	4	4	2	4	2	0	15	7	6	2	3	7	8	6	2	1	5	14																																															
+Amizero	kenya	f	young chimps	29		10	test	8	2	1	8	1	1	16	4	4	4	2	2	0	15	14	6	7	3	7	8																																																				
+Amizero	kenya	f	young chimps	29		11	test	7	3	1	1	1	1	7	3	2	3	2	0	1																																																											
+Amizero	kenya	f	young chimps	29		12	test	15	2	3	4	3	1	7	3	2	3	4	2	0	6	11	15																																																								
+Julia	kenya	f	old chimps	18		1	warm-up	8			14			6	2	2	4	2	2	0	3	4	12	13	9	13	4	15	16	12	3	4	8																																														
+Julia	kenya	f	old chimps	18		2	warm-up	3			17			4	4	1	3	1	1	0	8	11	10	6	2	5	9	13	15	16	8	4	10	6	2	3																																											
+Julia	kenya	f	old chimps	18		1	test	9	1	2	6	1	0	6	2	2	1	3	1.414213562	0	8	12	14	1	9																																																						
+Julia	kenya	f	old chimps	18		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+Julia	kenya	f	old chimps	18		3	test	10	2	3	2	1	0	7	3	2	2	3	1.414213562	0	10																																																										
+Julia	kenya	f	old chimps	18		4	test	12	3	2	5	1	0	6	2	2	4	3	2.236067977	0	10	9	5	12																																																							
+Julia	kenya	f	old chimps	18		5	test	2	2	1	15	1	1	6	2	2	2	1	1	0	7	11	12	8	9	13	10	14	16	12	8	5	1	2																																													
+Julia	kenya	f	old chimps	18		6	test	11	1	3	2	1	0	7	3	2	3	3	1	0	11																																																										
+Julia	kenya	f	old chimps	18		7	test	5	1	2		1	0	10	2	3	1	2	1.414213562	0	6	7	8	6	8	4																																																					
+Julia	kenya	f	old chimps	18		8	test	3	3	2	2	1	0	2	2	1	3	1	1	0	3																																																										
+Julia	kenya	f	old chimps	18		9	test	14	1	3	2	1	0	10	2	3	2	4	1	0	14																																																										
+Julia	kenya	f	old chimps	18		10	test	8	2	1	13	1	1	7	3	2	4	2	1	0	11	15	14	9	1	13	4	11	5	1	3	8																																															
+Julia	kenya	f	old chimps	18		11	test	7	3	1	1	1	1	7	3	2	3	2	0	1																																																											
+Julia	kenya	f	old chimps	18		12	test	15	2	3	31	3	1	11	3	3	3	4	1	0	10	6	7	2	1	4	14	10	16	5	6	11	14	13	8	4	2	1	9	10	9	5	6	7	9	5	7	11	12	15																													
+Amahirwe	kenya	m	old chimps	20		1	warm-up	8			2						4	2			8																																																										
+Amahirwe	kenya	m	old chimps	20		2	warm-up	3			14			7	3	2	3	1	1	0	8	12	11	15	16	14	13	9	10	6	5	2	3																																														
+Amahirwe	kenya	m	old chimps	20		1	test	9	1	2	1	2	1	9	1	3	1	3	0	1																																																											
+Amahirwe	kenya	m	old chimps	20		2	test	6	3	1	2	1	1	9	1	3	2	2	1.414213562	0	6																																																										
+Amahirwe	kenya	m	old chimps	20		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Amahirwe	kenya	m	old chimps	20		4	test	12	3	2	2	2	1	11	3	3	4	3	1	0	12																																																										
+Amahirwe	kenya	m	old chimps	20		5	test	2	2	1	6	1	1	11	3	3	2	1	2.236067977	0	12	8	4	3	2																																																						
+Amahirwe	kenya	m	old chimps	20		6	test	11	1	3	1	1	0	11	3	3	3	3	0	1																																																											
+Amahirwe	kenya	m	old chimps	20		7	test	5	1	2	3	2	1	11	3	3	1	2	2.236067977	0	9	5																																																									
+Amahirwe	kenya	m	old chimps	20		8	test	3	3	2	8	2	1	11	3	3	3	1	2	0	12	8	7	6	5	2	3																																																				
+Amahirwe	kenya	m	old chimps	20		9	test	14	1	3	1	3	1	14	2	4	2	4	0	1																																																											
+Amahirwe	kenya	m	old chimps	20		10	test	8	2	1	10	1	1	5	1	2	4	2	3	0	14	10	9	6	5	2	3	7	8																																																		
+Amahirwe	kenya	m	old chimps	20		11	test	7	3	1	6	1	1	10	2	3	3	2	1.414213562	0	11	12	8	6	7																																																						
+Amahirwe	kenya	m	old chimps	20		12	test	15	2	3	12	2	0	11	3	3	3	4	1	0	12	8	7	4	3	2	5	9	13	14	15																																																
+Mwanzo	kenya	f	old chimps	22		1	warm-up	8			7			11	3	3	4	2	1.414213562	0	7	4	12	16	12	8																																																					
+Mwanzo	kenya	f	old chimps	22		2	warm-up	3			9			7	3	2	3	1	1	0	8	4	12	16	12	8	4	3																																																			
+Mwanzo	kenya	f	old chimps	22		1	test	9	1	2	6	1	0	10	2	3	1	3	1	0	6	7	8	4	9																																																						
+Mwanzo	kenya	f	old chimps	22		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+Mwanzo	kenya	f	old chimps	22		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Mwanzo	kenya	f	old chimps	22		4	test	12	3	2	1	2	1	12	4	3	4	3	0	1																																																											
+Mwanzo	kenya	f	old chimps	22		5	test	2	2	1	2	1	1	6	2	2	2	1	1	0	2																																																										
+Mwanzo	kenya	f	old chimps	22		6	test	11	1	3	8	1	0	6	2	2	3	3	1.414213562	0	2	3	8	12	16	15	11																																																				
+Mwanzo	kenya	f	old chimps	22		7	test	5	1	2	11	2	1	10	2	3	1	2	1.414213562	0	6	2	6	10	6	7	3	10	9	5																																																	
+Mwanzo	kenya	f	old chimps	22		8	test	3	3	2	3	2	1	1	1	1	3	1	2	0	2	3																																																									
+Mwanzo	kenya	f	old chimps	22		9	test	14	1	3	1	1	0	14	2	4	2	4	0	1																																																											
+Mwanzo	kenya	f	old chimps	22		10	test	8	2	1	6	1	1	10	2	3	4	2	2.236067977	0	6	2	3	4	8																																																						
+Mwanzo	kenya	f	old chimps	22		11	test	7	3	1	1	2	1	7	3	2	3	2	0	1																																																											
+Mwanzo	kenya	f	old chimps	22		12	test	15	2	3	7	2	0	6	2	2	3	4	2.236067977	0	7	3	4	8	12	15																																																					
+Mary	kenya	f	old chimps	15		1	warm-up	8			6			12	4	3	4	2	1	0	15	12	11	10	8																																																						
+Mary	kenya	f	old chimps	15		2	warm-up	3			21			8	4	2	3	1	1.414213562	0	12	11	10	6	7	6	9	14	15	16	12	8	7	11	7	10	6	9	2	3																																							
+Mary	kenya	f	old chimps	15		1	test	9	1	2	1	1	0	9	1	3	1	3	0	1																																																											
+Mary	kenya	f	old chimps	15		2	test	6	3	1	4	1	1	10	2	3	2	2	1	0	7	11	6																																																								
+Mary	kenya	f	old chimps	15		3	test	10	2	3	1	2	0	10	2	3	2	3	0	1																																																											
+Mary	kenya	f	old chimps	15		4	test	12	3	2	5	2	1	10	2	3	4	3	2	0	6	11	7	12																																																							
+Mary	kenya	f	old chimps	15		5	test	2	2	1	30	1	1	10	2	3	2	1	2	0	11	7	10	6	5	9	14	11	8	7	6	10	9	12	16	15	14	10	9	10	11	12	11	10	9	12	16	3	2																														
+Mary	kenya	f	old chimps	15		6	test	11	1	3	1	3	1	11	3	3	3	3	0	1																																																											
+Mary	kenya	f	old chimps	15		7	test	5	1	2		2	1	10	2	3	1	2	1.414213562	0	6	7	12	16	11	10	9	13	14	15	10	6	7	8	12	16	10	6	11	12	14																																						
+Mary	kenya	f	old chimps	15		8	test	3	3	2	11	2	1	11	3	3	3	1	2	0	10	6	8	12	16	15	14	10	6	3																																																	
+Mary	kenya	f	old chimps	15		9	test	14	1	3	8	3	1	11	3	3	2	4	1.414213562	0	10	6	8	12	16	15	14																																																				
+Mary	kenya	f	old chimps	15		10	test	8	2	1	10	1	1	11	3	3	4	2	1.414213562	0	10	6	7	3	novideo																																																						
+Mary	kenya	f	old chimps	15		11	test	7	3	1	2	1	1				3	2																																																													
+Mary	kenya	f	old chimps	15		12	test	15	2	3	5	3	1	6	2	2	3	4	2.236067977	0	11	12	16	15																																																							
+Edvard	kenya	m	old chimps	18		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Edvard	kenya	m	old chimps	18		2	warm-up	3			3			4	4	1	3	1	1	0	8	3	11	7	4	3																																																					
+Edvard	kenya	m	old chimps	18		1	test	9	1	2	3	2	1	7	3	2	1	3	2.236067977	0	6	9																																																									
+Edvard	kenya	m	old chimps	18		2	test	6	3	1	2	1	1	11	3	3	2	2	1.414213562	0	6																																																										
+Edvard	kenya	m	old chimps	18		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Edvard	kenya	m	old chimps	18		4	test	12	3	2	6	2	1				4	3																																																													
+Edvard	kenya	m	old chimps	18		5	test	2	2	1	5	2	0				2	1																																																													
+Edvard	kenya	m	old chimps	18		6	test	11	1	3	8	3	1				3	3																																																													
+Edvard	kenya	m	old chimps	18		7	test	5	1	2	4	2	1				1	2																																																													
+Edvard	kenya	m	old chimps	18		8	test	3	3	2	2	3	0				3	1																																																													
+Edvard	kenya	m	old chimps	18		9	test	14	1	3	16	2	0				2	4																																																													
+Edvard	kenya	m	old chimps	18		10	test	8	2	1	8	2	0				4	2																																																													
+Edvard	kenya	m	old chimps	18		11	test	7	3	1	7	2	0				3	2																																																													
+Edvard	kenya	m	old chimps	18		12	test	15	2	3	12	2	0				3	4																																																													
+Zee	kenya	m	old chimps	18		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Zee	kenya	m	old chimps	18		2	warm-up	3			8			4	4	1	3	1	1	0	6	1	12	16	9	7	3																																																				
+Zee	kenya	m	old chimps	18		1	test	9	1	2	6	2	1	7	3	2	1	3	2.236067977	0	6	1	8	4	9																																																						
+Zee	kenya	m	old chimps	18		2	test	6	3	1	1	3	0	6	2	2	2	2	0	1																																																											
+Zee	kenya	m	old chimps	18		3	test	10	2	3	13	2	0	6	2	2	2	3	1	0	5	9	11	12	4	1	12	16	15	16	14	10																																															
+Zee	kenya	m	old chimps	18		4	test	12	3	2	10	2	1	7	3	2	4	3	1.414213562	0	6	10	11	5	1	3	2	4	12																																																		
+Zee	kenya	m	old chimps	18		5	test	2	2	1	4	2	0	3	3	1	2	1	1	0	7	6	2																																																								
+Zee	kenya	m	old chimps	18		6	test	11	1	3	2	3	1	6	2	2	3	3	1.414213562	0	11																																																										
+Zee	kenya	m	old chimps	18		7	test	5	1	2	2	2	1	7	3	2	1	2	2	0	5																																																										
+Zee	kenya	m	old chimps	18		8	test	3	3	2	6	2	1	7	3	2	3	1	1	0	6	5	1	4	3																																																						
+Zee	kenya	m	old chimps	18		9	test	14	1	3	18	3	1	6	2	2	2	4	2	0	5	1	8	7	11	10	9	13	15	11	5	4	3	2	6	10	14																																										
+Zee	kenya	m	old chimps	18		10	test	8	2	1	15	2	0	7	3	2	4	2	1	0	6	11	10	5	1	11	14	10	13	15	16	12	4	8																																													
+Zee	kenya	m	old chimps	18		11	test	7	3	1	1	3	0	7	3	2	3	2	0	1																																																											
+Zee	kenya	m	old chimps	18		12	test	15	2	3	11	3	1	10	2	3	3	4	1.414213562	0	6	7	11	10	5	1	3	8	12	15																																																	
+Cheetah	kenya	f	old chimps	31		1	warm-up	8			2			12	4	3	4	2	1	0	8																																																										
+Cheetah	kenya	f	old chimps	31		2	warm-up	3			1			3	3	1	3	1	0	1																																																											
+Cheetah	kenya	f	old chimps	31		1	test	9	1	2	6	2	1	6	2	2	1	3	1.414213562	0	7	3	8	12	9																																																						
+Cheetah	kenya	f	old chimps	31		2	test	6	3	1	4	3	0	9	1	3	2	2	1.414213562	0	13	10	6																																																								
+Cheetah	kenya	f	old chimps	31		3	test	10	2	3	3	3	1	6	2	2	2	3	1	0	9	10																																																									
+Cheetah	kenya	f	old chimps	31		4	test	12	3	2	1	3	0	12	4	3	4	3	0	1																																																											
+Cheetah	kenya	f	old chimps	31		5	test	2	2	1	7	2	0	3	3	1	2	1	1	0	6	7	8	9	5	2																																																					
+Cheetah	kenya	f	old chimps	31		6	test	11	1	3	1	3	1	11	3	3	3	3	0	1																																																											
+Cheetah	kenya	f	old chimps	31		7	test	5	1	2	6	2	1	6	2	2	1	2	1	0	7	8	2	1	5																																																						
+Cheetah	kenya	f	old chimps	31		8	test	3	3	2	18	2	1	6	2	2	3	1	1.414213562	0	5	6	7	11	9	10	1	2	4	8	12	9	13	14	15	16	3																																										
+Cheetah	kenya	f	old chimps	31		9	test	14	1	3	4	3	1	10	2	3	2	4	1	0	6	10	14																																																								
+Cheetah	kenya	f	old chimps	31		10	test	8	2	1	9	1	1	10	2	3	4	2	2.236067977	0	6	7	3	5	1	2	4	8																																																			
+Cheetah	kenya	f	old chimps	31		11	test	7	3	1	14	2	0	10	2	3	3	2	1.414213562	0	11	8	12	3	1	2	6	13	14	16	15	11	7																																														
+Cheetah	kenya	f	old chimps	31		12	test	15	2	3	6	3	1	7	3	2	3	4	2	0	8	11	12	14	15																																																						
+Alikaka	kenya	m	old chimps	16		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Alikaka	kenya	m	old chimps	16		2	warm-up	3			21			12	4	3	3	1	2.236067977	0	7	6	5	10	15	13	9	7	2	4	12	16	15	14	9	5	1	6	8	3																																							
+Alikaka	kenya	m	old chimps	16		1	test	9	1	2	4	2	1	6	2	2	1	3	1.414213562	0	7	11	9																																																								
+Alikaka	kenya	m	old chimps	16		2	test	6	3	1	2	3	0	5	1	2	2	2	1	0	6																																																										
+Alikaka	kenya	m	old chimps	16		3	test	10	2	3	11	3	1	11	3	3	2	3	1	0	7	5	6	9	5	9	1	3	2	10																																																	
+Alikaka	kenya	m	old chimps	16		4	test	12	3	2	5	3	0	10	2	3	4	3	2	0	5	6	7	12																																																							
+Alikaka	kenya	m	old chimps	16		5	test	2	2	1	12	3	0	8	4	2	2	1	2.236067977	0	6	11	10	9	12	16	15	14	13	9	2																																																
+Alikaka	kenya	m	old chimps	16		6	test	11	1	3	26	3	1	7	3	2	3	3	1	0	8	12	16	10	9	5	1	3	2	4	8	9	10	6	14	13	9	5	1	2	3	8	12	11																																			
+Alikaka	kenya	m	old chimps	16		7	test	5	1	2	3	2	1	10	2	3	1	2	1.414213562	0	6	5																																																									
+Alikaka	kenya	m	old chimps	16		8	test	3	3	2	1	2	1	3	3	1	3	1	0	1																																																											
+Alikaka	kenya	m	old chimps	16		9	test	14	1	3	9	3	1	12	4	3	2	4	2.236067977	0	8	4	2	1	9	11	15	14																																																			
+Alikaka	kenya	m	old chimps	16		10	test	8	2	1	5	1	1	10	2	3	4	2	2.236067977	0	6	3	4	8																																																							
+Alikaka	kenya	m	old chimps	16		11	test	7	3	1	2	1	1	8	4	2	3	2	1	0	7																																																										
+Alikaka	kenya	m	old chimps	16		12	test	15	2	3	10	3	1	10	2	3	3	4	1.414213562	0	9	5	2	1	7	8	4	3	15																																																		
+Niyonkuru	kenya	m	young chimps	28		1	warm-up	8			14			14	2	4	4	2	2.828427125	0	15	14	13	9	10	11	6	5	1	2	3	4	8																																														
+Niyonkuru	kenya	m	young chimps	28		2	warm-up	3			2			4	4	1	3	1	1	0	3																																																										
+Niyonkuru	kenya	m	young chimps	28		1	test	9	1	2	3	2	1	5	1	2	1	3	1	0	2	9																																																									
+Niyonkuru	kenya	m	young chimps	28		2	test	6	3	1	60	1	1	2	2	1	2	2	1	0	1	5	9	13	14	15	11	7	8	4	3	2	1	5	9	13	14	10	11	15	16	12	8	4	3	2	1	5	9	13	14	15	16	12	5	14	15	16	11	7	2	3	9	13	14	15	13	1	7	8	7	8	12	16	15	14	10	6	
+Niyonkuru	kenya	m	young chimps	28		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Niyonkuru	kenya	m	young chimps	28		4	test	12	3	2	14	2	1	11	3	3	4	3	1	0	7	6	2	5	9	14	10	11	15	16	8	4	12																																														
+Niyonkuru	kenya	m	young chimps	28		5	test	2	2	1	30	3	0	6	2	2	2	1	1	0	7	3	5	13	9	10	11	7	8	4	3	7	6	5	13	14	15	16	12	10	13	9	14	15	16	7	3	4	2																														
+Niyonkuru	kenya	m	young chimps	28		6	test	11	1	3	2	3	1	6	2	2	3	3	1.414213562	0	11																																																										
+Niyonkuru	kenya	m	young chimps	28		7	test	5	1	2	2	2	1	6	2	2	1	2	1	0	5																																																										
+Niyonkuru	kenya	m	young chimps	28		8	test	3	3	2	12	2	1	7	3	2	3	1	1	0	6	5	10	13	14	15	11	7	8	4	3																																																
+Niyonkuru	kenya	m	young chimps	28		9	test	14	1	3	5	2	0	7	3	2	2	4	2.236067977	0	6	10	13	14																																																							
+Niyonkuru	kenya	m	young chimps	28		10	test	8	2	1	13	2	0	11	3	3	4	2	1.414213562	0	15	14	13	9	5	1	2	3	4	3	7	8																																															
+Niyonkuru	kenya	m	young chimps	28		11	test	7	3	1	6	3	0	11	3	3	3	2	1	0	3	4	2	6	7																																																						
+Niyonkuru	kenya	m	young chimps	28		12	test	15	2	3	11	3	1	7	3	2	3	4	2	0	6	3	4	8	11	10	6	5	14	15																																																	
+Kisa	kenya	m	young chimps	25		1	warm-up	8			6			15	3	4	4	2	2.236067977	0	14	10	6	7	8																																																						
+Kisa	kenya	m	young chimps	25		2	warm-up	3			4			4	4	1	3	1	1	0	8	4	3																																																								
+Kisa	kenya	m	young chimps	25		1	test	9	1	2	3	2	1	11	3	3	1	3	2	0	10	9																																																									
+Kisa	kenya	m	young chimps	25		2	test	6	3	1	17	1	1	11	3	3	2	2	1.414213562	0	10	9	5	1	5	9	13	14	10	11	12	16	15	14	13	6																																											
+Kisa	kenya	m	young chimps	25		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Kisa	kenya	m	young chimps	25		4	test	12	3	2	8	3	0	11	3	3	4	3	1	0	3	2	1	6	10	11	12																																																				
+Kisa	kenya	m	young chimps	25		5	test	2	2	1	18	1	1	3	3	1	2	1	1	0	7	12	16	15	14	13	9	13	14	15	12	16	8	4	3	2																																											
+Kisa	kenya	m	young chimps	25		6	test	11	1	3	1	1	0	11	3	3	3	3	0	1																																																											
+Kisa	kenya	m	young chimps	25		7	test	5	1	2	6	3	0	11	3	3	1	2	2.236067977	0	6	3	2	1	4																																																						
+Kisa	kenya	m	young chimps	25		8	test	3	3	2	19	1	0	10	2	3	3	1	2.236067977	0	14	15	11	12	16	15	14	13	9	5	6	1	13	14	15	8	3																																										
+Kisa	kenya	m	young chimps	25		9	test	14	1	3	2	2	0	15	3	4	2	4	1	0	14																																																										
+Kisa	kenya	m	young chimps	25		10	test	8	2	1	10	2	0	15	3	4	4	2	2.236067977	0	14	10	13	9	6	5	2	3	8																																																		
+Kisa	kenya	m	young chimps	25		11	test	7	3	1	2	1	1	8	4	2	3	2	1	0	7																																																										
+Kisa	kenya	m	young chimps	25		12	test	15	2	3	10	3	1	11	3	3	3	4	1	0	10	8	7	3	2	6	10	13	15																																																		
+Joy	kenya	f	young chimps	14		1	warm-up	8						3	3	1	4	2	1.414213562	0	15	3	16	15	14	16	7	5	13	15	16	7	3	2	1	10	14	16	6	2	7	6	11	3	2	14	13	5	8																														
+Joy	kenya	f	young chimps	14		2	warm-up	3			2			6	2	2	3	1	1.414213562	0	3																																																										
+Joy	kenya	f	young chimps	14		1	test	9	1	2	10	2	1	2	2	1	1	3	2.236067977	0	1	15	14	16	8	3	1	5	9																																																		
+Joy	kenya	f	young chimps	14		2	test	6	3	1	1	3	0	6	2	2	2	2	0	1																																																											
+Joy	kenya	f	young chimps	14		3	test	10	2	3	6	3	1	6	2	2	2	3	1	0	7	11	15	14	10																																																						
+Joy	kenya	f	young chimps	14		4	test	12	3	2	12	2	1	11	3	3	4	3	1	0	15	7	6	10	14	13	9	5	7	8	12																																																
+Joy	kenya	f	young chimps	14		5	test	2	2	1	7	1	1	7	3	2	2	1	1.414213562	0	11	15	14	10	6	2																																																					
+Joy	kenya	f	young chimps	14		6	test	11	1	3	7	3	1	6	2	2	3	3	1.414213562	0	10	14	13	5	7	11																																																					
+Joy	kenya	f	young chimps	14		7	test	5	1	2	10	2	1	11	3	3	1	2	2.236067977	0	7	6	10	15	16	14	13	9	5																																																		
+Joy	kenya	f	young chimps	14		8	test	3	3	2	20	2	1	11	3	3	3	1	2	0	6	1	2	5	10	14	13	9	8	12	16	15	11	7	6	1	5	3																																									
+Joy	kenya	f	young chimps	14		9	test	14	1	3	5	3	1	7	3	2	2	4	2.236067977	0	12	11	15	14																																																							
+Joy	kenya	f	young chimps	14		10	test	8	2	1	11	1	1	10	2	3	4	2	2.236067977	0	11	15	14	9	5	9	13	15	12	8																																																	
+Joy	kenya	f	young chimps	14		11	test	11	3	1	3	1	1	7	3	2	3	3	1	0	6	11																																																									
+Joy	kenya	f	young chimps	14		12	test	15	2	3	2	3	1	11	3	3	3	4	1	0	15																																																										
+Bahati	kenya	m	young chimps	25		1	warm-up	8			4			15	3	4	4	2	2.236067977	0	16	12	8																																																								
+Bahati	kenya	m	young chimps	25		2	warm-up	3			17			8	4	2	3	1	1.414213562	0	7	6	13	15	16	12	8	7	6	5	11	9	13	5	2	3																																											
+Bahati	kenya	m	young chimps	25		1	test	9	1	2	12	3	0	6	2	2	1	3	1.414213562	0	7	5	13	12	8	16	15	11	10	13	9																																																
+Bahati	kenya	m	young chimps	25		2	test	6	3	1	1	2	0	6	2	2	2	2	0	1																																																											
+Bahati	kenya	m	young chimps	25		3	test	10	2	3	13	1	0	6	2	2	2	3	1	0	4	8	7	6	5	9	13	14	15	16	12	10																																															
+Bahati	kenya	m	young chimps	25		4	test	12	3	2	7	1	0	10	2	3	4	3	2	0	9	13	14	15	16	12																																																					
+Bahati	kenya	m	young chimps	25		5	test	2	2	1	22	1	1	5	1	2	2	1	1.414213562	0	6	7	9	13	14	10	11	7	6	5	1	4	3	7	8	16	11	6	9	5	2																																						
+Bahati	kenya	m	young chimps	25		6	test	11	1	3	31	1	0	6	2	2	3	3	1.414213562	0	5	9	13	10	6	7	3	4	1	5	6	7	2	4	8	7	6	2	5	9	13	10	9	5	1	2	7	6	7	11																													
+Bahati	kenya	m	young chimps	25		7	test	5	1	2	1	2	1	5	1	2	1	2	0	1																																																											
+Bahati	kenya	m	young chimps	25		8	test	3	3	2	4	2	1	2	2	1	3	1	1	0	1	5	3																																																								
+Bahati	kenya	m	young chimps	25		9	test	14	1	3	3	1	0	9	1	3	2	4	1.414213562	0	13	14																																																									
+Bahati	kenya	m	young chimps	25		10	test	8	2	1	11	2	0	15	3	4	4	2	2.236067977	0	14	13	5	9	10	6	1	2	7	8																																																	
+Bahati	kenya	m	young chimps	25		11	test	7	3	1	8	1	1	13	1	4	3	2	2.828427125	0	10	14	11	16	12	8	7																																																				
+Bahati	kenya	m	young chimps	25		12	test	15	2	3	4	2	0	8	4	2	3	4	2.236067977	0	12	16	15																																																								
+Dufatanya	kenya	m	young chimps	27		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Dufatanya	kenya	m	young chimps	27		2	warm-up	3			11			6	2	2	3	1	1.414213562	0	7	6	5	9	14	15	8	2	4	3																																																	
+Dufatanya	kenya	m	young chimps	27		1	test	9	1	2	7	1	0	7	3	2	1	3	2.236067977	0	8	6	14	10	5	9																																																					
+Dufatanya	kenya	m	young chimps	27		2	test	6	3	1	1	1	1	6	2	2	2	2	0	1																																																											
+Dufatanya	kenya	m	young chimps	27		3	test	10	2	3	1	2	0	10	2	3	2	3	0	1																																																											
+Dufatanya	kenya	m	young chimps	27		4	test	12	3	2	3	2	1	10	2	3	4	3	2	0	11	12																																																									
+Dufatanya	kenya	m	young chimps	27		5	test	2	2	1	6	1	1	10	2	3	2	1	2	0	8	12	16	3	2																																																						
+Dufatanya	kenya	m	young chimps	27		6	test	11	1	3	32	2	0	10	2	3	3	3	1	0	6	10	14	12	6	7	2	3	4	2	1	6	8	12	16	15	14	10	9	14	10	6	2	1	5	3	4	8	12	11																													
+Dufatanya	kenya	m	young chimps	27		7	test	5	1	2	6	2	1	6	2	2	1	2	1	0	7	8	11	10	5																																																						
+Dufatanya	kenya	m	young chimps	27		8	test	3	3	2	6	2	1	7	3	2	3	1	1	0	6	5	2	4	3																																																						
+Dufatanya	kenya	m	young chimps	27		9	test	14	1	3	3	1	0	11	3	3	2	4	1.414213562	0	10	14																																																									
+Dufatanya	kenya	m	young chimps	27		10	test	8	2	1	7	1	1	6	2	2	4	2	2	0	10	14	7	3	4	8																																																					
+Dufatanya	kenya	m	young chimps	27		11	test	7	3	1	2	2	0	11	3	3	3	2	1	0	7																																																										
+Dufatanya	kenya	m	young chimps	27		12	test	15	2	3	7	2	0	11	3	3	3	4	1	0	7	3	6	5	10	15																																																					
+Akela	kenya	f	young chimps	30		1	warm-up	8			13			6	2	2	4	2	2	0	7	11	15	14	13	5	6	7	3	7	4	8																																															
+Akela	kenya	f	young chimps	30		2	warm-up	3			5			7	3	2	3	1	1	0	8	7	6	3																																																							
+Akela	kenya	f	young chimps	30		1	test	9	1	2	11	2	1	11	3	3	1	3	2	0	7	6	3	8	12	16	14	15	13	9																																																	
+Akela	kenya	f	young chimps	30		2	test	6	3	1	2	1	1	14	2	4	2	2	2	0	6																																																										
+Akela	kenya	f	young chimps	30		3	test	10	2	3	8	3	1	7	3	2	2	3	1.414213562	0	6	8	3	2	16	14	10																																																				
+Akela	kenya	f	young chimps	30		4	test	12	3	2	14	2	1	7	3	2	4	3	1.414213562	0	6	3	2	5	16	14	13	10	6	2	4	8	12																																														
+Akela	kenya	f	young chimps	30		5	test	2	2	1	7	1	1	15	3	4	2	1	3.16227766	0	6	3	7	8	4	2																																																					
+Akela	kenya	f	young chimps	30		6	test	11	1	3	26	3	1	7	3	2	3	3	1	0	3	7	5	6	14	15	16	12	8	4	2	6	5	1	2	3	4	15	14	13	16	15	14	10	11																																		
+Akela	kenya	f	young chimps	30		7	test	5	1	2	4	2	1	8	4	2	1	2	3	0	7	6	5																																																								
+Akela	kenya	f	young chimps	30		8	test	3	3	2	4	2	1	7	3	2	3	1	1	0	6	5	3																																																								
+Akela	kenya	f	young chimps	30		9	test	14	1	3	2	3	1	7	3	2	2	4	2.236067977	0	14																																																										
+Akela	kenya	f	young chimps	30		10	test	8	2	1	8	1	1	7	3	2	4	2	1	0	6	5	2	1	3	4	8																																																				
+Akela	kenya	f	young chimps	30		11	test	7	3	1	1	1	1	7	3	2	3	2	0	1																																																											
+Akela	kenya	f	young chimps	30		12	test	15	2	3	10	3	1	16	4	4	3	4	1	0	14	7	5	2	8	12	16	14	15																																																		
+Safari	kenya	m	old chimps	34		1	warm-up	8			2			16	4	4	4	2	2	0	8																																																										
+Safari	kenya	m	old chimps	34		2	warm-up	3			2			8	4	2	3	1	1.414213562	0	3																																																										
+Safari	kenya	m	old chimps	34		1	test	9	1	2		2	1	5	1	2	1	3	1	0	1	2	3	4	3	5	10	11	12	8	7	16	12	16	15																																												
+Safari	kenya	m	old chimps	34		2	test	6	3	1	1	2	0	6	2	2	2	2	0	1																																																											
+Safari	kenya	m	old chimps	34		3	test	10	2	3	1	3	1	10	2	3	2	3	0	1																																																											
+Safari	kenya	m	old chimps	34		4	test	12	3	2	1	3	0	12	4	3	4	3	0	1																																																											
+Safari	kenya	m	old chimps	34		5	test	2	2	1	10	1	1	12	4	3	2	1	2.828427125	0	11	10	9	5	6	7	8	3	2																																																		
+Safari	kenya	m	old chimps	34		6	test	11	1	3	1	2	0	11	3	3	3	3	0	1																																																											
+Safari	kenya	m	old chimps	34		7	test	5	1	2	5	2	1	12	4	3	1	2	3.16227766	0	10	11	6	5																																																							
+Safari	kenya	m	old chimps	34		8	test	3	3	2	6	3	0	6	2	2	3	1	1.414213562	0	5	7	2	1	3																																																						
+Safari	kenya	m	old chimps	34		9	test	14	1	3	1	3	1	14	2	4	2	4	0	1																																																											
+Safari	kenya	m	old chimps	34		10	test	8	2	1	7	2	0	10	2	3	4	2	2.236067977	0	9	5	1	3	4	8																																																					
+Safari	kenya	m	old chimps	34		11	test	7	3	1	3	2	0	12	4	3	3	2	1.414213562	0	11	7																																																									
+Safari	kenya	m	old chimps	34		12	test	15	2	3	15	2	0	11	3	3	3	4	1	0	10	6	8	7	3	2	1	5	9	6	4	12	16	15																																													
+Oscar	kenya	m	old chimps	21		1	warm-up	8			4			4	4	1	4	2	1	0	1	3	8																																																								
+Oscar	kenya	m	old chimps	21		2	warm-up	3			1			3	3	1	3	1	0	1																																																											
+Oscar	kenya	m	old chimps	21		1	test	9	1	2	1	1	0	9	1	3	1	3	0	1																																																											
+Oscar	kenya	m	old chimps	21		2	test	6	3	1	2	1	1	8	4	2	2	2	2	0	6																																																										
+Oscar	kenya	m	old chimps	21		3	test	10	2	3	5	1	0	8	4	2	2	3	2.236067977	0	1	6	5	10																																																							
+Oscar	kenya	m	old chimps	21		4	test	12	3	2	9	1	0	4	4	1	4	3	2	0	7	6	1	2	3	4	8	12																																																			
+Oscar	kenya	m	old chimps	21		5	test	2	2	1	7	2	0	12	4	3	2	1	2.828427125	0	8	6	3	4	1	2																																																					
+Oscar	kenya	m	old chimps	21		6	test	11	1	3	1	1	0	11	3	3	3	3	0	1																																																											
+Oscar	kenya	m	old chimps	21		7	test	5	1	2	6	1	0	10	2	3	1	2	1.414213562	0	11	8	7	6	5																																																						
+Oscar	kenya	m	old chimps	21		8	test	3	3	2	8	3	0	11	3	3	3	1	2	0	10	9	5	6	7	8	3																																																				
+Oscar	kenya	m	old chimps	21		9	test	14	1	3	15	1	0	10	2	3	2	4	1	0	5	6	7	8	3	2	1	5	9	10	11	12	15	14																																													
+Oscar	kenya	m	old chimps	21		10	test	8	2	1	5	1	1	6	2	2	4	2	2	0	1	2	7	8																																																							
+Oscar	kenya	m	old chimps	21		11	test	7	3	1	33	1	1	10	2	3	3	2	1.414213562	0	11	8	12	16	15	14	9	10	6	1	2	3	4	8	12	11	10	13	14	13	9	10	11	15	16	15	14	13	9	10	11	7																											
+Oscar	kenya	m	old chimps	21		12	test	15	2	3	4	2	0	11	3	3	3	4	1	0	8	12	15																																																								
+Judy	kenya	f	old chimps	35		1	warm-up	8			3			3	3	1	4	2	1.414213562	0	4	8																																																									
+Judy	kenya	f	old chimps	35		2	warm-up	3			4			5	1	2	3	1	2.236067977	0	1	4	3																																																								
+Judy	kenya	f	old chimps	35		1	test	9	1	2	9	1	0	10	2	3	1	3	1	0	11	8	12	4	3	2	1	9																																																			
+Judy	kenya	f	old chimps	35		2	test	6	3	1	13	3	0	11	3	3	2	2	1.414213562	0	10	9	5	1	3	2	1	3	4	8	7	6																																															
+Judy	kenya	f	old chimps	35		3	test	10	2	3	6	1	0	9	1	3	2	3	1	0	5	1	2	6	10																																																						
+Judy	kenya	f	old chimps	35		4	test	12	3	2	3	3	0	11	3	3	4	3	1	0	10	12																																																									
+Judy	kenya	f	old chimps	35		5	test	2	2	1	8	1	1	11	3	3	2	1	2.236067977	0	12	7	14	9	5	1	2																																																				
+Judy	kenya	f	old chimps	35		6	test	11	1	3	1	3	1	11	3	3	3	3	0	1																																																											
+Judy	kenya	f	old chimps	35		7	test	5	1	2	2	2	1	6	2	2	1	2	1	0	5																																																										
+Judy	kenya	f	old chimps	35		8	test	3	3	2	3	2	1	6	2	2	3	1	1.414213562	0	2	3																																																									
+Judy	kenya	f	old chimps	35		9	test	14	1	3	4	3	1	11	3	3	2	4	1.414213562	0	10	13	14																																																								
+Judy	kenya	f	old chimps	35		10	test	8	2	1	6	1	1	11	3	3	4	2	1.414213562	0	10	9	6	7	8																																																						
+Judy	kenya	f	old chimps	35		11	test	7	3	1	1	1	1	7	3	2	3	2	0	1																																																											
+Judy	kenya	f	old chimps	35		12	test	15	2	3	24	3	1	12	4	3	3	4	1.414213562	0	11	10	8	7	6	5	1	2	3	4	8	12	14	13	9	5	1	2	3	4	12	16	15																																				
+Alley	kenya	f	old chimps	31		1	warm-up	8			7			7	3	2	4	2	1	0	6	11	10	5	15	8																																																					
+Alley	kenya	f	old chimps	31		2	warm-up	3			2			7	3	2	3	1	1	0	3																																																										
+Alley	kenya	f	old chimps	31		1	test	9	1	2	4	1	0	10	2	3	1	3	1	0	11	10	9																																																								
+Alley	kenya	f	old chimps	31		2	test	6	3	1	4	1	1	10	2	3	2	2	1	0	11	9	6																																																								
+Alley	kenya	f	old chimps	31		3	test	10	2	3	1	2	0	10	2	3	2	3	0	1																																																											
+Alley	kenya	f	old chimps	31		4	test	12	3	2	9	2	1	10	2	3	4	3	2	0	11	7	6	8	4	3	10	12																																																			
+Alley	kenya	f	old chimps	31		5	test	2	2	1	8	1	1	6	2	2	2	1	1	0	10	11	12	7	6	10	2																																																				
+Alley	kenya	f	old chimps	31		6	test	11	1	3	19	2	0	10	2	3	3	3	1	0	6	12	8	4	12	4	10	6	10	7	2	1	3	10	13	12	10	11																																									
+Alley	kenya	f	old chimps	31		7	test	5	1	2		2	1	10	2	3	1	2	1.414213562	0	11	6	7	4	3	2	16	10	11	12	1	2																																															
+Alley	kenya	f	old chimps	31		8	test	3	3	2		2	1	11	3	3	3	1	2	0	10	15	12	8	13	14	9	5	1	9																																																	
+Alley	kenya	f	old chimps	31		9	test	14	1	3	6	1	0	15	3	4	2	4	1	0	11	7	10	11	14																																																						
+Alley	kenya	f	old chimps	31		10	test	8	2	1		1	1	14	2	4	4	2	2.828427125	0	16	2	10	11																																																							
+Alley	kenya	f	old chimps	31		11	test	7	3	1	2	1	1	11	3	3	3	2	1	0	7																																																										
+Alley	kenya	f	old chimps	31		12	test	15	2	3	1	1	0	15	3	4	3	4	0	1																																																											
+George	kenya	m	old chimps	15		1	warm-up	8			2			6	2	2	4	2	2	0	8																																																										
+George	kenya	m	old chimps	15		2	warm-up	3						7	3	2	3	1	1	0	6	2	6	8	12	14	9	5	1	2	4	12	16	15	11	7																																											
+George	kenya	m	old chimps	15		2	warm-up	3			8			7	3	2	3	1	1	0	8	11	10	14	9	6	3																																																				
+George	kenya	m	old chimps	15		1	test	9	1	2							1	3																																																													
+George	kenya	m	old chimps	15		2	test	6	3	1							2	2																																																													
+George	kenya	m	old chimps	15		3	test	10	2	3							2	3																																																													
+George	kenya	m	old chimps	15		4	test	12	3	2							4	3																																																													
+George	kenya	m	old chimps	15		5	test	2	2	1							2	1																																																													
+George	kenya	m	old chimps	15		6	test	11	1	3							3	3																																																													
+George	kenya	m	old chimps	15		7	test	5	1	2							1	2																																																													
+George	kenya	m	old chimps	15		8	test	3	3	2							3	1																																																													
+George	kenya	m	old chimps	15		9	test	14	1	3							2	4																																																													
+George	kenya	m	old chimps	15		10	test	8	2	1							4	2																																																													
+George	kenya	m	old chimps	15		11	test	7	3	1							3	2																																																													
+George	kenya	m	old chimps	15		12	test	15	2	3							3	4																																																													
+Ajabu	kenya	f	old chimps	10		1	warm-up	8			1			8	4	2	4	2	0	1																																																											
+Ajabu	kenya	f	old chimps	10		2	warm-up	3			5			10	2	3	3	1	2.236067977	0	11	8	4	3																																																							
+Ajabu	kenya	f	old chimps	10		1	test	9	1	2	12	1	0	11	3	3	1	3	2	0	12	8	7	3	5	1	6	10	14	13	9																																																
+Ajabu	kenya	f	old chimps	10		2	test	6	3	1	35	1	1	11	3	3	2	2	1.414213562	0	12	7	8	12	10	9	5	1	2	3	7	13	14	10	9	13	14	10	7	16	8	7	11	15	14	13	9	5	10	13	14	15	10	6																									
+Ajabu	kenya	f	old chimps	10		3	test	10	2	3	1	2	0	10	2	3	2	3	0	1																																																											
+Ajabu	kenya	f	old chimps	10		4	test	12	3	2	1	1	0	12	4	3	4	3	0	1																																																											
+Ajabu	kenya	f	old chimps	10		5	test	2	2	1	8	1	1	11	3	3	2	1	2.236067977	0	10	6	7	12	8	4	2																																																				
+Ajabu	kenya	f	old chimps	10		6	test	11	1	3	2	1	0	10	2	3	3	3	1	0	11																																																										
+Ajabu	kenya	f	old chimps	10		7	test	5	1	2	5	1	0	10	2	3	1	2	1.414213562	0	11	6	7	5																																																							
+Ajabu	kenya	f	old chimps	10		8	test	3	3	2	7	1	0	10	2	3	3	1	2.236067977	0	11	7	5	1	2	3																																																					
+Ajabu	kenya	f	old chimps	10		9	test	14	1	3	1	1	0	14	2	4	2	4	0	1																																																											
+Ajabu	kenya	f	old chimps	10		10	test	8	2	1	12	1	1	11	3	3	4	2	1.414213562	0	12	16	15	14	9	5	1	2	3	4	8																																																
+Ajabu	kenya	f	old chimps	10		11	test	7	3	1	3	1	1	10	2	3	3	2	1.414213562	0	11	7																																																									
+Ajabu	kenya	f	old chimps	10		12	test	15	2	3	1	1	0	15	3	4	3	4	0	1																																																											
+Saidia	kenya	f	old chimps	15		1	warm-up	8						7	3	2	4	2	1	0	10	9	7	11	14	2	5	9	11	16																																																	
+Saidia	kenya	f	old chimps	15		1	warm-up	8			2			12	4	3	4	2	1	0	8																																																										
+Saidia	kenya	f	old chimps	15		2	warm-up	3			5			10	2	3	3	1	2.236067977	0	11	7	8	3																																																							
+Saidia	kenya	f	old chimps	15		1	test	9	1	2	2	1	0	10	2	3	1	3	1	0	9																																																										
+Saidia	kenya	f	old chimps	15		2	test	6	3	1	1						2	2																																																													
+Saidia	kenya	f	old chimps	15		3	test	10	2	3	1						2	3																																																													
+Saidia	kenya	f	old chimps	15		4	test	12	3	2	1						4	3																																																													
+Saidia	kenya	f	old chimps	15		5	test	2	2	1	1						2	1																																																													
+Saidia	kenya	f	old chimps	15		6	test	11	1	3	1						3	3																																																													
+Saidia	kenya	f	old chimps	15		7	test	5	1	2	1						1	2																																																													
+Saidia	kenya	f	old chimps	15		8	test	3	3	2	1						3	1																																																													
+Saidia	kenya	f	old chimps	15		9	test	14	1	3	1						2	4																																																													
+Saidia	kenya	f	old chimps	15		10	test	8	2	1	1						4	2																																																													
+Saidia	kenya	f	old chimps	15		11	test	7	3	1	1						3	2																																																													
+Saidia	kenya	f	old chimps	15		12	test	15	2	3	1						3	4																																																													
+Angela	kenya	f	old chimps	7		1	warm-up	8			6			11	3	3	4	2	1.414213562	0	9	5	10	11	8																																																						
+Angela	kenya	f	old chimps	7		2	warm-up	3			9			6	2	2	3	1	1.414213562	0	8	12	6	7	5	1	2	3																																																			
+Angela	kenya	f	old chimps	7		1	test	9	1	2	16	1	0	10	2	3	1	3	1	0	5	6	1	2	3	4	8	12	8	10	5	6	2	1	9																																												
+Angela	kenya	f	old chimps	7		2	test	6	3	1	29	1	1	10	2	3	2	2	1	0	9	5	1	2	3	4	12	8	16	15	14	10	9	5	1	13	14	15	16	7	8	4	15	14	10	9	5	6																															
+Angela	kenya	f	old chimps	7		3	test	10	2	3	1	1	0	10	2	3	2	3	0	1																																																											
+Angela	kenya	f	old chimps	7		4	test	12	3	2	10	1	0	10	2	3	4	3	2	0	6	5	2	1	2	3	4	11	12																																																		
+Angela	kenya	f	old chimps	7		5	test	2	2	1	8	1	1	10	2	3	2	1	2	0	11	6	7	3	4	1	2																																																				
+Angela	kenya	f	old chimps	7		6	test	11	1	3	60	1	0	10	2	3	3	3	1	0	6	5	1	2	1	3	4	12	8	10	6	9	14	15	12	16	15	14	13	9	5	6	7	4	6	2	1	4	1	3	4	8	12	10	9	15	14	15	13	15	16	12	8	4	16	12	8	7	4	3	2	1	5	6	10	13	14	10	11
+Angela	kenya	f	old chimps	7		7	test	5	1	2	4	1	0	11	3	3	1	2	2.236067977	0	12	8	5																																																								
+Angela	kenya	f	old chimps	7		8	test	3	3	2	5	2	1	7	3	2	3	1	1	0	6	1	2	3																																																							
+Angela	kenya	f	old chimps	7		9	test	14	1	3	18	1	0	10	2	3	2	4	1	0	6	3	4	8	12	11	10	9	5	1	2	3	4	12	11	10	14																																										
+Angela	kenya	f	old chimps	7		10	test	8	2	1	7	1	1	10	2	3	4	2	2.236067977	0	6	5	2	3	4	8																																																					
+Angela	kenya	f	old chimps	7		11	test	7	3	1	3	3	0	10	2	3	3	2	1.414213562	0	11	7																																																									
+Angela	kenya	f	old chimps	7		12	test	15	2	3	11	2	0	7	3	2	3	4	2	0	11	12	3	4	2	1	5	13	14	15																																																	
+Asega	uganda	m	Uganda	21	19/10/2019	1	warm-up	8			14			14	2	4	4	2	2.828427125																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	2	warm-up	3			5			4	4	1	3	1	1																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	1	test	9	1	2	8	2	1	10	2	3	1	3	1																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	2	test	6	3	1	8	1	1	5	1	2	2	2	1																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	4	test	12	3	2	2	2	1	16	4	4	4	3	1																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	5	test	2	2	1	4	1	1	16	4	4	2	1	3.605551275																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	6	test	11	1	3	31	3	1	8	4	2	3	3	1.414213562																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	7	test	5	1	2	10	2	1	7	3	2	1	2	2																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	8	test	3	3	2	3	2	1	8	4	2	3	1	1.414213562																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	9	test	14	1	3	11	3	1	8	4	2	2	4	2.828427125																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	10	test	8	2	1	17	1	1	15	3	4	4	2	2.236067977																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	11	test	7	3	1	2	1	1	11	3	3	3	2	1																																																												
+Asega	uganda	m	Uganda	21	19/10/2019	12	test	15	2	3	1	3	1	15	3	4	3	4	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	1	warm-up	8			2			12	4	3	4	2	1																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	2	warm-up	3			2			4	4	1	3	1	1																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	1	test	9	1	2	13	1	0	1	1	1	1	3	2																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	2	test	6	3	1	1	1	1	6	2	2	2	2	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	5	test	2	2	1	2	1	1	6	2	2	2	1	1																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	6	test	11	1	3	15	2	0	6	2	2	3	3	1.414213562																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	7	test	5	1	2	8	2	1	6	2	2	1	2	1																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	8	test	3	3	2	2	2	1	7	3	2	3	1	1																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	9	test	14	1	3	1	3	1	14	2	4	2	4	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	10	test	8	2	1	1	1	1	8	4	2	4	2	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	11	test	7	3	1	1	1	1	7	3	2	3	2	0																																																												
+Kisembo	uganda	m	Uganda	20	20/10/2019	12	test	15	2	3	7	3	1	10	2	3	3	4	1.414213562																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	1	warm-up	8			1			1	1	1	4	2	3.16227766																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	2	warm-up	3			2			7	3	2	3	1	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	1	test	9	1	2	5	2	1	14	2	4	1	3	1.414213562																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	2	test	6	3	1	2	1	1	10	2	3	2	2	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	5	test	2	2	1	19	1	1	7	3	2	2	1	1.414213562																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	6	test	11	1	3	5	3	1	12	4	3	3	3	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	7	test	5	1	2	9	2	1	7	3	2	1	2	2																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	8	test	3	3	2	3	2	1	11	3	3	3	1	2																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	9	test	14	1	3	7	3	1	10	2	3	2	4	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	10	test	8	2	1	2	1	1	12	4	3	4	2	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	11	test	7	3	1	2	1	1	11	3	3	3	2	1																																																												
+Kidogo	uganda	m	Uganda	35	20/10/2019	12	test	15	2	3	5	3	1	11	3	3	3	4	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	2	warm-up	3			1			3	3	1	3	1	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	1	test	9	1	2	4	2	1	10	2	3	1	3	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	2	test	6	3	1	2	1	1	10	2	3	2	2	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	5	test	2	2	1	2	1	1	6	2	2	2	1	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	6	test	11	1	3	1	3	1	11	3	3	3	3	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	7	test	5	1	2	11	2	1	10	2	3	1	2	1.414213562																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	8	test	3	3	2	2	2	1	2	2	1	3	1	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	9	test	14	1	3	2	3	1	10	2	3	2	4	1																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	10	test	8	2	1	1	1	1	8	4	2	4	2	0																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	11	test	7	3	1	2	1	1	12	4	3	3	2	1.414213562																																																												
+Baluku	uganda	m	Uganda	21	20/10/2019	12	test	15	2	3	4	3	1	11	3	3	3	4	1																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	2	warm-up	3			4			12	4	3	3	1	2.236067977																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	2	test	6	3	1	2	1	1	10	2	3	2	2	1																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	4	test	12	3	2	2	2	1	16	4	4	4	3	1																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	5	test	2	2	1	7	1	1	16	4	4	2	1	3.605551275																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	6	test	11	1	3	2	3	1	12	4	3	3	3	1																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	7	test	5	1	2	4	2	1	11	3	3	1	2	2.236067977																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	8	test	3	3	2	2	2	1	7	3	2	3	1	1																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	9	test	14	1	3	1	3	1	14	2	4	2	4	0																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	10	test	8	2	1	3	1	1	16	4	4	4	2	2																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	11	test	7	3	1	6	1	1	16	4	4	3	2	2.236067977																																																												
+Indi	uganda	m	Uganda	19	20/10/2019	12	test	15	2	3	2	3	1	16	4	4	3	4	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	1	warm-up	8			2			12	4	3	4	2	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	2	warm-up	3			3			6	2	2	3	1	1.414213562																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	1	test	9	1	2	2	2	1	13	1	4	1	3	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	2	test	6	3	1	2	1	1	10	2	3	2	2	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	3	test	10	2	3	5	2	0	11	3	3	2	3	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	4	test	12	3	2	14	2	1	7	3	2	4	3	1.414213562																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	5	test	2	2	1	13	1	1	6	2	2	2	1	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	6	test	11	1	3	2	3	1	15	3	4	3	3	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	7	test	5	1	2	2	1	0	6	2	2	1	2	1																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	8	test	3	3	2	8	2	1	6	2	2	3	1	1.414213562																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	9	test	14	1	3	2	3	1	11	3	3	2	4	1.414213562																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	10	test	8	2	1	17	1	1	10	2	3	4	2	2.236067977																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	11	test	7	3	1	24	1	1	16	4	4	3	2	2.236067977																																																												
+Nakuu	uganda	f	Uganda	18	20/10/2019	12	test	15	2	3	2	3	1	11	3	3	3	4	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	1	warm-up	8			2			12	4	3	4	2	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	2	warm-up	3			2			8	4	2	3	1	1.414213562																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	1	test	9	1	2	4	2	1	10	2	3	1	3	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	2	test	6	3	1	1	1	1	6	2	2	2	2	0																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	5	test	2	2	1	18	1	1	12	4	3	2	1	2.828427125																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	6	test	11	1	3	13	3	1	6	2	2	3	3	1.414213562																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	7	test	5	1	2	2	2	1	6	2	2	1	2	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	8	test	3	3	2	2	2	1	7	3	2	3	1	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	9	test	14	1	3	17	3	1	7	3	2	2	4	2.236067977																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	10	test	8	2	1	2	1	1	7	3	2	4	2	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	11	test	7	3	1	2	1	1	8	4	2	3	2	1																																																												
+Pasa	uganda	f	Uganda	19	20/10/2019	12	test	15	2	3	1	3	1	15	3	4	3	4	0																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	1	warm-up	8			2			6	2	2	4	2	2																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	2	warm-up	3			4			10	2	3	3	1	2.236067977																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	2	test	6	3	1	21	1	1	10	2	3	2	2	1																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	3	test	10	2	3	2	3	1	14	2	4	2	3	1																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	4	test	12	3	2	18	2	1	15	3	4	4	3	1.414213562																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	5	test	2	2	1	4	2	0	10	2	3	2	1	2																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	6	test	11	1	3	23	2	0	14	2	4	3	3	1.414213562																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	7	test	5	1	2	3	2	1	13	1	4	1	2	2																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	8	test	3	3	2	4	2	1	10	2	3	3	1	2.236067977																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	9	test	14	1	3	1	3	1	14	2	4	2	4	0																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	10	test	8	2	1	13	2	0	10	2	3	4	2	2.236067977																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	11	test	7	3	1	18	1	1	12	4	3	3	2	1.414213562																																																												
+Medina	uganda	f	Uganda	12	20/10/2019	12	test	15	2	3	4	3	1	11	3	3	3	4	1																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	1	warm-up	8			12			10	2	3	4	2	2.236067977																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	2	warm-up	3			9			7	3	2	3	1	1																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	1	test	9	1	2	13	2	1	14	2	4	1	3	1.414213562																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	2	test	6	3	1	9	1	1	11	3	3	2	2	1.414213562																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	3	test	10	2	3	4	2	0	13	1	4	2	3	1.414213562																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	4	test	12	3	2	18	2	1	10	2	3	4	3	2																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	5	test	2	2	1	18	1	1	10	2	3	2	1	2																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	6	test	11	1	3	6	1	0	9	1	3	3	3	2																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	7	test	5	1	2	13	1	0	11	3	3	1	2	2.236067977																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	8	test	3	3	2	11	2	1	10	2	3	3	1	2.236067977																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	9	test	14	1	3	10	1	0	11	3	3	2	4	1.414213562																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	10	test	8	2	1	4	1	1	16	4	4	4	2	2																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	11	test	7	3	1	8	1	1	10	2	3	3	2	1.414213562																																																												
+Tumbo	uganda	m	Uganda	30	11/11/2019	12	test	15	2	3	6	2	0	7	3	2	3	4	2																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	2	warm-up	3			5			8	4	2	3	1	1.414213562																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	2	test	6	3	1	19	1	1	5	1	2	2	2	1																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	4	test	12	3	2	6	3	0	6	2	2	4	3	2.236067977																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	5	test	2	2	1	3	1	1	10	2	3	2	1	2																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	6	test	11	1	3	16	3	1	12	4	3	3	3	1																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	7	test	5	1	2	9	1	0	6	2	2	1	2	1																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	8	test	3	3	2	3	3	0	6	2	2	3	1	1.414213562																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	9	test	14	1	3	9	3	1	10	2	3	2	4	1																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	10	test	8	2	1	5	1	1	10	2	3	4	2	2.236067977																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	11	test	11	3	1	24	1	1	6	2	2	3	3	1.414213562																																																												
+Kalema	uganda	m	Uganda	23	11/11/2019	12	test	15	2	3	7	3	1	11	3	3	3	4	1																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	2	warm-up	3			3			8	4	2	3	1	1.414213562																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	1	test	9	1	2	2	2	1	10	2	3	1	3	1																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	2	test	6	3	1	1	1	1	6	2	2	2	2	0																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	4	test	12	3	2	9	2	1	7	3	2	4	3	1.414213562																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	5	test	2	2	1	3	1	1	6	2	2	2	1	1																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	6	test	11	1	3	42	3	1	6	2	2	3	3	1.414213562																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	7	test	5	1	2	7	2	1	10	2	3	1	2	1.414213562																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	8	test	3	3	2	4	2	1	10	2	3	3	1	2.236067977																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	9	test	14	1	3	17	3	1	10	2	3	2	4	1																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	10	test	8	2	1	26	1	1	10	2	3	4	2	2.236067977																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	11	test	7	3	1	5	1	1	10	2	3	3	2	1.414213562																																																												
+Becky	uganda	f	Uganda	28	11/11/2019	12	test	15	2	3	8	3	1	10	2	3	3	4	1.414213562																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	1	warm-up	8			4			15	3	4	4	2	2.236067977																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	2	warm-up	3			31			16	4	4	3	1	3.16227766																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	1	test	9	1	2	5	2	1	16	4	4	1	3	3.16227766																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	2	test	6	3	1	14	2	0	11	3	3	2	2	1.414213562																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	3	test	10	2	3	1	2	0	10	2	3	2	3	0																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	4	test	12	3	2	3	3	0	10	2	3	4	3	2																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	5	test	2	2	1	19	1	1	11	3	3	2	1	2.236067977																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	6	test	11	1	3	31	2	0	12	4	3	3	3	1																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	7	test	5	1	2	9	2	1	10	2	3	1	2	1.414213562																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	8	test	3	3	2	12	2	1	11	3	3	3	1	2																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	9	test	14	1	3	6	1	0	10	2	3	2	4	1																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	10	test	8	2	1	6	1	1	10	2	3	4	2	2.236067977																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	11	test	7	3	1	4	1	1	10	2	3	3	2	1.414213562																																																												
+Rambo	uganda	m	Uganda	15	11/11/2019	12	test	15	2	3	16	3	1	10	2	3	3	4	1.414213562																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	1	warm-up	8			2			7	3	2	4	2	1																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	2	warm-up	3			4			8	4	2	3	1	1.414213562																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	1	test	9	1	2	8	3	0	11	3	3	1	3	2																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	2	test	6	3	1	9	3	0	11	3	3	2	2	1.414213562																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	5	test	2	2	1	12	2	0	7	3	2	2	1	1.414213562																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	6	test	11	1	3	7	3	1	10	2	3	3	3	1																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	7	test	5	1	2	1	2	1	5	1	2	1	2	0																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	8	test	3	3	2	2	3	0	7	3	2	3	1	1																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	9	test	14	1	3	5	3	1	10	2	3	2	4	1																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	10	test	8	2	1	5	2	0	11	3	3	4	2	1.414213562																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	11	test	7	3	1	2	2	0	11	3	3	3	2	1																																																												
+Cocoa	uganda	f	Uganda	12	11/11/2019	12	test	15	2	3	13	3	1	7	3	2	3	4	2																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	1	warm-up	8			5			10	2	3	4	2	2.236067977																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	2	warm-up	3			16			7	3	2	3	1	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	1	test	9	1	2	7	1	0	10	2	3	1	3	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	2	test	6	3	1	5	1	1	10	2	3	2	2	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	3	test	10	2	3	1	1	0	10	2	3	2	3	0																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	4	test	12	3	2	22	2	1	10	2	3	4	3	2																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	5	test	2	2	1	3	1	1	10	2	3	2	1	2																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	6	test	11	1	3	4	1	0	10	2	3	3	3	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	7	test	5	1	2	20	1	0	9	1	3	1	2	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	8	test	3	3	2	4	2	1	10	2	3	3	1	2.236067977																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	9	test	14	1	3	14	1	0	10	2	3	2	4	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	10	test	8	2	1	34	1	1	10	2	3	4	2	2.236067977																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	11	test	7	3	1	2	1	1	11	3	3	3	2	1																																																												
+Sally	uganda	f	Uganda	28	11/11/2019	12	test	15	2	3	16	3	1	10	2	3	3	4	1.414213562																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	1	warm-up	8			2			7	3	2	4	2	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	2	warm-up	3			17			8	4	2	3	1	1.414213562																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	1	test	9	1	2	14	1	0	10	2	3	1	3	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	2	test	6	3	1	10	1	1	14	2	4	2	2	2																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	3	test	10	2	3	2	3	1	14	2	4	2	3	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	4	test	12	3	2	54	2	1	6	2	2	4	3	2.236067977																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	5	test	2	2	1	14	1	1	6	2	2	2	1	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	6	test	11	1	3	6	3	1	7	3	2	3	3	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	7	test	5	1	2	19	2	1	7	3	2	1	2	2																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	8	test	3	3	2	2	2	1	7	3	2	3	1	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	9	test	14	1	3	8	3	1	10	2	3	2	4	1																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	10	test	8	2	1	1	2	0	8	4	2	4	2	0																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	11	test	7	3	1	1	2	0	7	3	2	3	2	0																																																												
+Namukisa	uganda	f	Uganda	21	11/11/2019	12	test	15	2	3	1	3	1	15	3	4	3	4	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	2	warm-up	3			4			8	4	2	3	1	1.414213562																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	2	test	6	3	1	1	1	1	6	2	2	2	2	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	5	test	2	2	1	17	1	1	10	2	3	2	1	2																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	6	test	11	1	3	3	3	1	16	4	4	3	3	1.414213562																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	7	test	5	1	2	2	2	1	9	1	3	1	2	1																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	8	test	3	3	1	2	1	1	7	3	2	3	1	1																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	9	test	14	1	3	1	3	1	14	2	4	2	4	0																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	10	test	8	2	1	2	1	1	12	4	3	4	2	1																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	11	test	7	3	1	10	1	1	8	4	2	3	2	1																																																												
+Nkuumwa	uganda	f	Uganda	23	15/11/2019	12	test	15	2	3	2	3	1	14	2	4	3	4	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	1	warm-up	8			6			12	4	3	4	2	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	2	warm-up	3			5			12	4	3	3	1	2.236067977																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	2	test	6	3	1	19	1	1	9	1	3	2	2	1.414213562																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	3	test	10	2	3	1	3	1	10	1	3	2	3	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	4	test	12	3	2	2	2	1	16	2	3	4	3	2																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	5	test	2	2	1	4	1	1	8	4	4	2	1	3.605551275																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	6	test	11	1	3	11	1	0	12	4	3	3	3	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	7	test	5	1	2	26	2	1	9	1	3	1	2	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	8	test	3	3	2	6	2	1	9	1	3	3	1	2.828427125																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	9	test	14	1	3	19	3	1	10	2	3	2	4	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	10	test	8	2	1	4	1	1	7	3	2	4	2	1																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	11	test	7	3	1	10	1	1	9	1	3	3	2	2.236067977																																																												
+Yoyo	uganda	f	Uganda	20	03/12/2019	12	test	15	2	3	26	3	1	4	4	1	3	4	3.16227766																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	1	warm-up	8			7			8	4	2	4	2	0																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	2	warm-up	3			1	2	1	9	1	3	3	1	2.828427125																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	1	test	9	1	2	29	1	1	9	1	3	1	3	0																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	2	test	6	3	1	1	3	1	10	2	3	2	2	1																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	3	test	10	2	3	2	2	1	11	3	3	2	3	1																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	4	test	12	3	2	4	1	1	11	3	3	4	3	1																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	5	test	2	2	1	4	2	0	10	2	3	2	1	2																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	6	test	11	1	3	2	2	1	9	1	3	3	3	2																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	7	test	5	1	2	5	2	1	15	3	4	1	2	2.828427125																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	8	test	3	3	2	1	2	0	14	2	4	3	1	3.16227766																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	9	test	14	1	3	22	1	1	14	2	4	2	4	0																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	10	test	8	2	1	3	1	1	10	2	3	4	2	2.236067977																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	11	test	7	3	1	2	3	1	14	2	4	3	2	2.236067977																																																												
+Umutama	uganda	m	Uganda	23	03/12/2019	12	test	15	2	3							3	4																																																													
+Umugenzi	uganda	m	Uganda	22	03/12/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	2	warm-up	3			16			14	2	4	3	1	3.16227766																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	2	test	6	3	1	21	1	1	9	1	3	2	2	1.414213562																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	5	test	2	2	1	12	1	1	7	3	2	2	1	1.414213562																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	6	test	11	1	3	3	3	1	12	4	3	3	3	1																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	7	test	5	1	2	65	2	1	10	2	3	1	2	1.414213562																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	8	test	3	3	2	4	2	1	8	4	2	3	1	1.414213562																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	9	test	14	1	3	10	3	1	10	2	3	2	4	1																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	10	test	8	2	1	2	1	1	12	4	3	4	2	1																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	11	test	7	3	1	3	1	1	12	4	3	3	2	1.414213562																																																												
+Umugenzi	uganda	m	Uganda	22	03/12/2019	12	test	15	2	3	9	3	1	16	4	4	3	4	1																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	1	warm-up	8			3			11	3	3	4	2	1.414213562																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	2	warm-up	3			2			4	4	1	3	1	1																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	1	test	9	1	2	1	1	0	9	1	3	1	3	0																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	2	test	6	3	1	24	1	1	5	1	2	2	2	1																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	3	test	10	2	3	1	2	0	10	2	3	2	3	0																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	4	test	12	3	2	7	2	1	10	2	3	4	3	2																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	5	test	2	2	1	1	1	1	2	2	1	2	1	0																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	6	test	11	1	3	4	2	0	6	2	2	3	3	1.414213562																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	7	test	5	1	2	12	2	1	10	2	3	1	2	1.414213562																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	8	test	3	3	2	8	2	1	6	2	2	3	1	1.414213562																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	9	test	14	1	3	12	2	0	10	2	3	2	4	1																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	10	test	8	2	1	23	1	1	6	2	2	4	2	2																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	11	test	7	3	1	7	1	1	10	2	3	3	2	1.414213562																																																												
+Nani	uganda	f	Uganda	18	03/12/2019	12	test	15	2	3	11	3	1	10	2	3	3	4	1.414213562																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	2	warm-up	3			5			8	4	2	3	1	1.414213562																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	2	test	6	3	1	2	1	1	9	1	3	2	2	1.414213562																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	3	test	10	2	3	14	3	1	5	1	2	2	3	1.414213562																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	4	test	12	3	2	1	2	1	12	4	3	4	3	0																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	5	test	2	2	1	11	1	1	12	4	3	2	1	2.828427125																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	6	test	11	1	3	4	1	0	12	4	3	3	3	1																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	7	test	5	1	2	18	2	1	11	3	3	1	2	2.236067977																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	8	test	3	3	2	12	2	1	8	4	2	3	1	1.414213562																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	9	test	14	1	3	11	3	1	12	4	3	2	4	2.236067977																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	10	test	8	2	1	1	1	1	8	4	2	4	2	0																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	11	test	7	3	1	31	1	1	8	4	2	3	2	1																																																												
+Okech	uganda	m	Uganda	20	03/12/2019	12	test	15	2	3	14	3	1	7	3	2	3	4	2																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	1	warm-up	8			3			10	2	3	4	2	2.236067977																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	2	warm-up	3			5			10	2	3	3	1	2.236067977																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	1	test	9	1	2	4	2	1	10	2	3	1	3	1																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	2	test	6	3	1	11	2	0	10	2	3	2	2	1																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	4	test	12	3	2	3	2	1	10	2	3	4	3	2																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	5	test	2	2	1	15	1	1	10	2	3	2	1	2																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	6	test	11	1	3	2	3	1	10	2	3	3	3	1																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	7	test	5	1	2	10	2	1	10	2	3	1	2	1.414213562																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	8	test	3	3	2	12	2	1	10	2	3	3	1	2.236067977																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	9	test	14	1	3	2	3	1	10	2	3	2	4	1																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	10	test	8	2	1	10	1	1	11	3	3	4	2	1.414213562																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	11	test	7	3	1	5	1	1	10	2	3	3	2	1.414213562																																																												
+Sara	uganda	f	Uganda	9	04/12/2019	12	test	15	2	3	5	3	1	10	2	3	3	4	1.414213562																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	1	warm-up	8			7			9	1	3	4	2	3.16227766																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	2	warm-up	3			3			11	3	3	3	1	2																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	1	test	9	1	2	4	2	1	10	2	3	1	3	1																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	2	test	6	3	1	5	1	1	9	1	3	2	2	1.414213562																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	3	test	10	2	3	10	3	1	9	1	3	2	3	1																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	4	test	12	3	2	2	2	1	16	4	4	4	3	1																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	5	test	2	2	1	8	1	1	12	4	3	2	1	2.828427125																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	6	test	11	1	3	21	3	1	14	2	4	3	3	1.414213562																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	7	test	5	1	2	4	2	1	10	2	3	1	2	1.414213562																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	8	test	3	3	2	3	2	1	11	3	3	3	1	2																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	9	test	14	1	3	8	3	1	8	4	2	2	4	2.828427125																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	10	test	8	2	1	1	1	1	8	4	2	4	2	0																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	11	test	7	3	1	4	1	1	8	4	2	3	2	1																																																												
+Bili	uganda	f	Uganda	21	05/12/2019	12	test	15	2	3	8	3	1	12	4	3	3	4	1.414213562																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	1	warm-up	8			1			8	4	2	4	2	0																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	2	warm-up	3			6			8	4	2	3	1	1.414213562																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	1	test	9	1	2	3	2	1	9	1	3	1	3	0																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	2	test	6	3	1	39	1	1	10	2	3	2	2	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	3	test	10	2	3	1	3	1	10	2	3	2	3	0																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	4	test	12	3	2	30	3	0	11	3	3	4	3	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	5	test	2	2	1	17	1	1	7	3	2	2	1	1.414213562																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	6	test	11	1	3	3	1	0	10	2	3	3	3	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	7	test	5	1	2	15	2	1	10	2	3	1	2	1.414213562																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	8	test	3	3	2	6	2	1	7	3	2	3	1	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	9	test	14	1	3	15	1	0	10	2	3	2	4	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	10	test	8	2	1	2	1	1	7	3	2	4	2	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	11	test	7	3	1	2	3	0	8	4	2	3	2	1																																																												
+Bwambale	uganda	m	Uganda	19	03/12/2019	12	test	15	2	3	28	2	0	12	4	3	3	4	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	1	warm-up	8			3			16	4	4	4	2	2																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	2	warm-up	3			3			8	4	2	3	1	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	1	test	9	1	2	1	2	1	9	1	3	1	3	0																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	2	test	6	3	1	3	1	1	9	1	3	2	2	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	3	test	10	2	3	4	1	0	9	1	3	2	3	1																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	4	test	12	3	2	1	1	0	12	4	3	4	3	0																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	5	test	2	2	1	6	2	0	10	2	3	2	1	2																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	6	test	11	1	3	12	1	0	10	2	3	3	3	1																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	7	test	5	1	2	2	2	1	9	1	3	1	2	1																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	8	test	3	3	2	3	2	1	6	2	2	3	1	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	9	test	14	1	3	15	3	1	9	1	3	2	4	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	10	test	8	2	1	12	3	0	13	1	4	4	2	3.605551275																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	11	test	7	3	1	7	1	1	10	2	3	3	2	1.414213562																																																												
+Mawa	uganda	m	Uganda	23	05/12/2019	12	test	15	2	3	6	2	0	7	3	2	3	4	2																																																												

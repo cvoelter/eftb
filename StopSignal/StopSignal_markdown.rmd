@@ -19,18 +19,18 @@ library(ggthemes)
 library(gridExtra)
 library(ggpubr)
 library(trimr)
-source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
-source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
-source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
-source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
-source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+source("C:/Users/voelterc/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/voelterc/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/voelterc/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/voelterc/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/voelterc/R/R scripts/Roger/corr_exact.r")
 #load(file ="mm1_mult_poss.RData")
 #readRDS(file ="multpos_model.rds")
 ```
 
 ```{r loading data, include = FALSE}
 #Preparing code for mixed modeling. 
-all.data <- read.table(file="20181202StopSignal_final Sweetwaters.txt", header=T, sep="\t") %>%
+all.data <- read.table(file="data/20200126_StopSignal_final.txt", header=T, sep="\t") %>%
   filter(Subject != "Julia") %>% #did not complete test trials
   mutate(first_move_correct = recode(first_move_correct, 'c' = 1, 'i' = 0))
 
@@ -39,6 +39,20 @@ all.data <- read.table(file="20181202StopSignal_final Sweetwaters.txt", header=T
 
 ```
 
+
+## Notes
+### Uganda: 
+* One trial excluded due to apparatus malfunction (Sarah, test trial). 
+* Start position latency: Ten further test trials excluded due to data recording errors. In total, 11/ 305 test trials were removed (3.6%). 
+* Change latency: One further test trial excluded due to data recording errors. In total, 2 /305 test trials were removed(0.7%).
+* Change position: Ten further test trials excluded due to data recording errors. In total, 11/ 305 test trials were removed (3.6%).
+* Training trials: 8 / 1183 (0.7 %) excluded duto data recording errors
+
+### Kenya 
+* Start position latency: Five test trials excluded due to data recording errors. In total, 5/ 322 test trials were removed (1.6%). 
+* Change latency: Two test trial excluded due to data recording errors. In total, 2 /322 test trials were removed(0.6%).
+* Change position: Zero test trials excluded due to data recording errors. 
+* Training trials: 11 / 1306 (0.8 %) excluded duto data recording errors
 
 
 ##Summary
@@ -68,7 +82,7 @@ plot_ind_training_side_mean <- plot_ind_training_side %>%
 
 p1 <- ggplot(
   data=plot_ind_training_side, aes(side_change, correct_resp, group = Subject)) +   
-  geom_point(size = plot_ind_training_side$n, colour = "purple") +
+  geom_point(size = plot_ind_training_side$n, colour = "blue", alpha=0.1 ) +
   geom_line(lty=2)+
   ylim(0,1)+
   labs(x="Side Change",y="Mean correct")+
@@ -91,7 +105,7 @@ plot_ind_test_side_mean <- plot_ind_test_side %>%
 
 p2 <- ggplot(
   data=plot_ind_test_side, aes(side_change, correct_resp, group = Subject)) +   
-  geom_point(size = plot_ind_test_side$n, colour = "purple") +
+  geom_point(size = plot_ind_test_side$n, colour = "blue", alpha=0.05 ) +
   geom_line(lty=2)+
   ylim(0,1)+
   labs(x="Side Change",y="Mean correct")+
@@ -141,7 +155,7 @@ t.test( plot_ind_test_side[plot_ind_test_side$side_change=="yes",]$correct_resp,
 
 ```{r loading data, include = FALSE}
 #Preparing code for mixed modeling. 
-test.data <- read.table(file="20181202StopSignal_final Sweetwaters.txt", header=T, sep="\t") %>%
+test.data <- read.table(file="data/20200126_StopSignal_final.txt", header=T, sep="\t") %>%
   filter(Subject != "Julia") %>% #did not complete test trials
   filter(condition=="test") %>%
   filter(firsttest_trial_number != 1) %>%
@@ -198,9 +212,9 @@ plot_individual_trimmed <- plot_individual2 %>%
 
 p1 <- 
   ggplot(
-  data=plot_individual_trimmed , aes(x=rep(1, 27), y=trimmed_change_latency))+
+  data=plot_individual_trimmed , aes(x=rep(1, 52), y=trimmed_change_latency))+
   geom_boxplot(outlier.shape = NA)+
-  geom_point(size = plot_individual_trimmed$n_lat, colour = "purple") +
+  geom_point(size = plot_individual_trimmed$n_lat, colour = "blue", alpha=0.1 ) +
   geom_line(lty=2)+
   ylim(0,5000)+
   xlim(0,2)+
@@ -212,9 +226,9 @@ p1 <-
 
 p2 <- 
   ggplot(
-  data=plot_individual_trimmed , aes(x=rep(1, 27), y=Change_position))+
+  data=plot_individual_trimmed , aes(x=rep(1, 52), y=Change_position))+
   geom_boxplot(outlier.shape = NA)+
-  geom_point(size = plot_individual_trimmed$n_pos, colour = "purple") +
+  geom_point(size = plot_individual_trimmed$n_pos, colour = "blue", alpha=0.1 ) +
   geom_line(lty=2)+
   ylim(0,22)+
   xlim(0,2)+
@@ -227,124 +241,26 @@ p2 <-
 
 grid.arrange(p1, p2, nrow = 1)
  g <- arrangeGrob(p1, p2, nrow = 1)
-ggsave("stopsignal_test trials.jpeg",g, width = 10, height = 6)
+ggsave("graphics/stopsignal_test trials.jpeg",g, width = 10, height = 6)
 ```
 
 
 
-
-
-
-
-
-
-
-
-###Plotting box_distribution
-```{r error=FALSE}
-
-
-
-plot_individual_distractor1 <- all.data %>%
-  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
-  filter(Session == 1)%>%
-  group_by(chosen_distractor, Subject) %>% 
-  count(chosen_distractor) %>%
-  mutate(n = n/24)
-  
-
-ggplot(plot_individual_distractor1, aes(x=n, fill=chosen_distractor)) +
-    geom_histogram(binwidth=0.05, alpha=.5, position="identity")
-
-plot_individual_distractor2 <- all.data %>%
-  filter(Subject != "George" & Subject != "Saidia" & Subject != "Safari" )%>%
-  filter(Session == 2)%>%
-  group_by(chosen_distractor, Subject) %>% 
-  count(chosen_distractor) %>%
-  mutate(n = n/24)
-
-ggplot(plot_individual_distractor2, aes(x=n, fill=chosen_distractor)) +
-    geom_histogram(binwidth=0.05, alpha=.5, position="identity")
-
-```
-
-
-## GLMM
-
-``` {r mixed modeling, error=TRUE}
-
-# centering variables for modeling
-model.data <- all.data %>% 
-  mutate(z.trial = scale(trial, scale = T, center = T),
-         condition = relevel(condition, ref = "control"))
-
-## code to run the model
-mm.1 <- glmer(both_ropes ~ condition + z.trial + 
-               (1 + condition + z.trial |chimp)
-             , data = model.data
-             , family = binomial
-             #, control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
-)
-
-## save model output
-#saveRDS(mm.1, "multpos_model.rds")
-#save.image("mm1_mult_poss.RData")
-```
-####Confidence intervals
-Confidence intervals for the binomial models were derived using the function bootMer of the R package lme4, using 1,000 parametric bootstraps and bootstrapping over the random effects.
-
-```{R}		
-#boot.res=boot.glmm(model.res=mm.1, excl.warnings=T,nboots=1000, para=F)
-#saveRDS(mm.1, "multpos_model.rds")
-round(boot.res,3)
-```
-
-####Null model	 
-```{r}	 
-mm.1.null <- glmer(both_ropes ~ 1 + 
-               (1 + condition + z.trial |chimp)
-             , data = model.data
-             , family = binomial
-            # , control=glmerControl(optimizer="bobyqa",optCtrl=list(maxfun=2e5))
-)
-
-```
-####Full-null model comparison
-```{r}	 
-anova(mm.1, mm.1.null, test="Chisq")
-```
-####Model output
-  + Coefficients
 ```{r}
-round(summary(mm.1)$coefficients, 3)
-```
-  + Individual predictors: likelihood ratio tests  
-Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
-```{r}
-xdrop1=drop1(mm.1, test="Chisq")
-round(xdrop1,3)
-```
+  ggplot(
+  data=plot_individual_trimmed , aes(x=age, y=trimmed_change_latency))+
+  geom_boxplot(outlier.shape = NA)+
+  geom_point(size = plot_individual_trimmed$n_lat, colour = "blue", alpha=0.1 ) +
+  geom_line(lty=2)+
+  ylim(0,5000)+
+  xlim(0,2)+
+  labs(x="",y="Change latency")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  #scale_y_continuous(breaks=seq(0,1,0.25))+
+  ggtitle("change latency")
 
 
-#### check for colinearity in the previous model.
-
-```{R echo=FALSE}
-library (car)
-
-col.mm1 <- glm(both_ropes ~ condition + z.trial 
-             , data = model.data
-             , family = binomial
-)
-vif(col.mm1)
-#no problem
-```
--> no collinearity
-
-####Model output
-`````` {r plot mixed modeling, error=TRUE}
-
-plot_model(mm.1, type='est') 
-plot_model(mm.1, type='re') 
 ```
 
 

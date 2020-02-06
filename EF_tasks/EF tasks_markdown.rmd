@@ -1,16 +1,16 @@
 ---
-title: "WM_tasks_Markdown"
+title: "EF tasks markdown 2020"
 author: "Christoph Voelter"
-date: "November 24, 2018"
+date: "January 26, 2020"
 output:
-  html_document: default
   pdf_document: default
+  html_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
-
+rm(list=ls())
 library(lme4)
 library(readr)
 library(tidyverse)
@@ -21,36 +21,44 @@ library(ggpubr)
 library(corrr)
 library(reshape2)
 #library(Hmisc)
-library("PerformanceAnalytics")
-source("C:/Users/cjv3/R/R scripts/Roger/diagnostic_fcns.r")
-source("C:/Users/cjv3/R/R scripts/Roger/glmm_stability.r")
-source("C:/Users/cjv3/R/R scripts/Roger/boxplotteR.r")
-source("C:/Users/cjv3/R/R scripts/Roger/boot_glmm.r")
-source("C:/Users/cjv3/R/R scripts/Roger/corr_exact.r")
+#library("PerformanceAnalytics")
+source("C:/Users/voelterc/R/R scripts/Roger/diagnostic_fcns.r")
+source("C:/Users/voelterc/R/R scripts/Roger/glmm_stability.r")
+source("C:/Users/voelterc/R/R scripts/Roger/boxplotteR.r")
+source("C:/Users/voelterc/R/R scripts/Roger/boot_glmm.r")
+source("C:/Users/voelterc/R/R scripts/Roger/corr_exact.r")
 #load(file ="mm1_mult_poss.RData")
 #readRDS(file ="multpos_model.rds")
 ```
 
 ```{r loading data, include = FALSE}
-WM.data <- read.csv(file="WM_task_individual_corr.csv")
-Inh.data <- read.csv(file="Inh_task_individual_corr.csv")
-Shifting.data <- read.csv(file="Shifting_task_individual_corr.csv")
+WM.data <- read.csv(file="WM_task_individual_corr2020.csv")
+Inh.data <- read.csv(file="Inh_task_individual_corr2020.csv")
+Shifting.data <- read.csv(file="Shifting_task_individual_corr2020.csv")
 
 ```
 
 ```{r include=FALSE}
-
+str(WM.data)
 
 WM.data_pos<-WM.data %>% 
+  select(-grid_numberAttempts, -Updating2_P1.mistakes)%>%
   mutate(Updating_P1.mistakes=Updating_P1.mistakes*(-1)) %>% 
-  mutate(Updating2_P1.mistakes=Updating2_P1.mistakes*(-1)) %>% 
+  mutate(Updating_4Boxes.Mistakes=Updating_4Boxes.Mistakes*(-1)) %>% 
+  mutate(Updating_5Boxes.Mistakes=Updating_5Boxes.Mistakes *(-1)) %>%
+  mutate(updatingTraining4_first4=updatingTraining4_first4 *(-1)) %>%
+  mutate(updatingTraining5_first5_2=updatingTraining5_first5_2*(-1)) %>%
+  mutate(updating_P1P2_first4=updating_P1P2_first4*(-1)) %>%
+  #mutate(Updating2_P1.mistakes=Updating2_P1.mistakes*(-1)) %>% 
   mutate(Boxes_P1.mistakes=Boxes_P1.mistakes*(-1)) %>% 
+  mutate(boxes_mistakes=boxes_mistakes *(-1)) %>% 
   mutate(Grid_Distance=Grid_Distance*(-1))
+  
 summary(WM.data_pos )
 ```
 
 
-##Summary
+## Summary
   
 
 
@@ -61,6 +69,8 @@ EF_task_data <- WM.data  %>%
   full_join(Inh.data)%>%
   full_join(Shifting.data)
 
+summary(EF_task_data)
+
 ```
 
 
@@ -68,7 +78,7 @@ EF_task_data <- WM.data  %>%
 
 ***  
 
-##Plotting correlations
+## Plotting correlations
 ```{r include=FALSE}
 d <- correlate(EF_task_data [-1], method="spearman")
 ```
@@ -92,12 +102,16 @@ d %>%
     return(cormat)
   }
 
+EF_task_data2<-EF_task_data %>%
+  select(ED, CD,  shelf_switches, Shifting.tray.correct.S2,Inh.grid.correct1, Inh.cylinders.correct1, Inh.boxes.correct1, Grid_Distance,boxes_mistakes,Updating_P1.mistakes )
+#str(EF_task_data2)
+
 #EF_task_data_select <- EF_task_data  %>% 
  # select(-Shifting.tray.correct,-Shifting.tray.correct.S1,#-SD, -SR, -CD, -ID,
   #       -Shifting.shelf.correct, -shelf_switching_mistakes )
 
   
-cormat <- round(cor(EF_task_data[-1], method="pearson", use = "pairwise.complete.obs"),2)
+cormat <- round(cor(EF_task_data2[-1], method="pearson", use = "pairwise.complete.obs"),2)
 upper_tri <- get_upper_tri(cormat)
 melted_cormat=melt(cormat, na.rm = TRUE)
 ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) + 
@@ -115,11 +129,15 @@ ggplot(data = melted_cormat, aes(x=Var1, y=Var2, fill=value)) +
 ```
 
 
-```{r echo=FALSE}
+```{r echo=FALSE, warning=FALSE}
+
+
+
+
 library(ggcorrplot)
-corr <- cor(EF_task_data [-1])
-p.mat <- cor_pmat(EF_task_data [-1])
-ggcorrplot(cormat, hc.order = FALSE,
+corr <- cor(EF_task_data2 [-1])
+p.mat <- cor_pmat(EF_task_data2 [-1])
+ggcorrplot(cormat, hc.order = TRUE,
     type = "lower", p.mat =p.mat, lab=FALSE, sig.level = 0.1)
 
 ```
