@@ -20,6 +20,8 @@ library(gridExtra)
 library(ggpubr)
 library(corrr)
 library(reshape2)
+library(psych)
+library(summarytools)
 #library(Hmisc)
 #library("PerformanceAnalytics")
 source("C:/Users/voelterc/R/R scripts/Roger/diagnostic_fcns.r")
@@ -67,9 +69,17 @@ summary(WM.data_pos )
 #Join DVs together
 EF_task_data <- WM.data  %>% 
   full_join(Inh.data)%>%
-  full_join(Shifting.data)
+  full_join(Shifting.data)%>%
+ # select(-Updating2_P1.mistakes, -StopSignal_trimmed_change_latency)
+  filter(Subject!="George", Subject!="Saidia")
+  
+complete.cases(EF_task_data)
 
-summary(EF_task_data)
+na_df <- EF_task_data[rowSums(is.na(EF_task_data)) > 0,]
+
+#describeBy(EF_task_data)
+view(dfSummary(EF_task_data))
+#summary(EF_task_data)
 
 ```
 
