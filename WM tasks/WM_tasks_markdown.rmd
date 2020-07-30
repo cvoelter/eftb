@@ -1,7 +1,7 @@
 ---
 title: "WM tasks - Markdown - 2020"
 author: "Christoph Voelter"
-date: "January 21, 2020"
+date: "January 21, 2020 (updated: 21/07/2020)"
 output:
   html_document:
     fig_caption: yes
@@ -28,6 +28,7 @@ library(ggpubr)
 library(corrr)
 library(reshape2)
 library(summarytools)
+library(scales)
 #library(Hmisc)
 #library("PerformanceAnalytics")
 source("C:/Users/voelterc/R/R scripts/Roger/diagnostic_fcns.r")
@@ -79,7 +80,7 @@ view(dfSummary(grid.data ))
 
 
 ## Summary  
-* Chimpanzees (N=53) performed above chance in the the __WM Grid task__ (DV: distance between chosen cell location and the hiding location of the food) and the __WM Boxes task__ (DV: count of mistakes on both platforms) but not in the __WM Updating task__ (DV: with 4 boxes: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).In the Updating task, chimpanzees only performed above chance in the one-platform training with 5 boxes.  
+* Chimpanzees (N=53) performed above chance in the the __WM Grid task__ (DV: scaled and inverted distance between chosen cell location and the hiding location of the food) and the __WM Boxes task__ (DV: proportion of correct choices on both platforms) but not in the __WM Updating task__ (DV: with 4 boxes: count of mistakes on platform 1 within the first 4 attempts; this is also the case for other DVs).In the Updating task, chimpanzees only performed above chance in the one-platform training with 5 boxes.  
 
 * Correlation coefficients between the original updating task and the grid / boxes task are positive (and some are statistically significant, e.g. between the boxes task and updating Platform 1 performance with 4 boxes).  
 
@@ -98,8 +99,9 @@ grid_individual <- grid.data %>%
   filter(!is.na(distance_c01)) %>%
   filter(Subject != "George" & Subject != "Saidia")%>%
   filter(Type == "test")%>%
+  mutate(grid_newrange = rescale(distance_c01, to=c(0, 1), from=c(3.605551, 0)))%>%
   group_by(Subject) %>% 
-  summarize(Grid_Distance = mean(distance_c01)) 
+  summarize(Grid_Distance = mean(distance_c01),Grid_Distance_newrange = mean(grid_newrange)) 
 
 grid_individual3 <- grid.data %>%
   filter(!is.na(choice1_correct)) %>%
@@ -116,8 +118,9 @@ box_individual <- boxes.data %>%
   filter(!is.na(count_mistakes)) %>%
   filter(Subject != "George" & Subject != "Saidia")%>%
   filter(Condition == "test")%>%
+  mutate(correct_newrange = (Correct_P1+Correct_P2)/2)%>%
   group_by(Subject) %>% 
-  summarize(boxes_mistakes = mean(count_mistakes)) 
+  summarize(boxes_mistakes = mean(count_mistakes), boxes_correct_newrange = mean(correct_newrange)) 
 
 box_individual2 <- boxes.data %>%
   filter(!is.na(Correct_P1)) %>%
@@ -125,7 +128,7 @@ box_individual2 <- boxes.data %>%
   filter(Condition == "test")%>%
   mutate(P1_mistakes = 1 - Correct_P1)%>%
   group_by(Subject) %>% 
-  summarize(Boxes_P1.mistakes = mean(P1_mistakes)) 
+  summarize(Boxes_P1.mistakes = mean(P1_mistakes),Boxes_P1.correct = mean(Correct_P1) ) 
 
 ##########################################################
 #Updating Test
@@ -153,16 +156,22 @@ updating_individual3 <- updating.data %>%
 updating_individual4 <- updating.data %>%
   filter(!is.na(P1P2_first4)) %>%
   filter(Subject != "George" & Subject != "Saidia")%>%
+  mutate(P1P2_redSearch = 8 - P1P2_first4)%>%
+  mutate(P1P2_first4_newrange = (P1P2_first4-2)/6)%>%
   group_by(Subject) %>% 
-  summarize(updating_P1P2_first4 = mean(P1P2_first4))
+  summarize(updating_P1P2_redSearch= mean(P1P2_redSearch),  Updating_P1P2.correct = mean(P1P2_first4_newrange))
 
 ##First 4 choices on platform 1
 updating_individual5 <- updating.data %>%
   filter(!is.na(P1_first4)) %>%
   filter(Subject != "George" & Subject != "Saidia")%>%
   mutate(P1_redSearch = 4 - P1_first4)%>%
+  mutate(P1_first4_newrange = (P1_first4-1)/3)%>%
+  mutate(P2_first4 = 1+P2_2nd_c +P2_3rd_c+P2_4th_c)%>%
+  mutate(P2_redSearch = 4 - P2_first4)%>%
+  mutate(P2_first4_newrange = (P2_first4-1)/3)%>%
   group_by(Subject) %>% 
-  summarize(Updating_P1.mistakes = mean(P1_redSearch))
+  summarize(Updating_P1.mistakes = mean(P1_redSearch), Updating_P1.correct = mean(P1_first4_newrange), Updating_P2.mistakes = mean(P2_redSearch), Updating_P2.correct = mean(P2_first4_newrange))
 
 #Updating Training
 
@@ -290,23 +299,23 @@ WM_task_individual <- updating_individual5  %>%
 
 ##First 4 choices on platform 1
 
-Updating_plot<-WM_task_individual %>%  add_count(Updating_P1.mistakes)
+Updating_plot<-WM_task_individual %>%  add_count(Updating_P1.correct)
 
 #max(WM_task_individual$Updating_P1.mistakes) 
-
- 
+mean_unique_p1<-2.7371
+chance_p1<-(mean(mean_unique_p1)-1)/3
 p1<-  ggplot(
-  data=Updating_plot, aes(x=rep(1, 53), y=Updating_P1.mistakes)) +
+  data=Updating_plot, aes(x=rep(1, 53), y=Updating_P1.correct)) +
   geom_boxplot(outlier.colour = "white")+
-  ylim(0,3)+
+  ylim(0,1)+
   xlim(0,2)+
   geom_point(size = Updating_plot$n, colour = "blue", alpha=0.1) +
 #  geom_line(lty=2)+
-  labs(x="",y="Mean number of redundant choices")+
+  labs(x="",y="Proportion correct choices")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
   ggtitle("Updating (platform 1)")+
-  geom_hline(yintercept=1.265, linetype="dashed", color = "red")
+  geom_hline(yintercept=chance_p1, linetype="dashed", color = "red")
 
 
 ###Updating task 2
@@ -328,7 +337,7 @@ p2<-  ggplot(
   xlim(0,2)+
   geom_point(size = Updating_plot2$n, colour = "blue", alpha=0.1) +
 #  geom_line(lty=2)+
-  labs(x="",y="Mean number of redundant choices")+
+  labs(x="",y="Proportion correct choices")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
   ggtitle("Updating 2")+
@@ -339,23 +348,23 @@ p2<-  ggplot(
 
 ##platform 1 - count mistakes
 
-Boxes_plotting<-WM_task_individual %>%  add_count(Boxes_P1.mistakes)
+Boxes_plotting<-WM_task_individual %>%  add_count(boxes_correct_newrange)
 
 #max(Boxes_plotting$Boxes_P1.mistakes) 
 
  
 p3<-  ggplot(
-  data=Boxes_plotting, aes(x=rep(1, 53), y=boxes_mistakes)) +
+  data=Boxes_plotting, aes(x=rep(1, 53), y=boxes_correct_newrange)) +
   geom_boxplot(outlier.colour = "white")+
-  ylim(0,2)+
+  ylim(0,1)+
   xlim(0,2)+
   geom_point(size = Boxes_plotting$n, colour = "blue", alpha=0.08) +
 #  geom_line(lty=2)+
-  labs(x="",y="Mean number of mistakes")+
+  labs(x="",y="Proportion correct choices")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
   ggtitle("WM Boxes")+
-  geom_hline(yintercept=1.5, linetype="dashed", color = "red")
+  geom_hline(yintercept=0.25, linetype="dashed", color = "red")
   
 
 ###Grid task
@@ -363,27 +372,29 @@ p3<-  ggplot(
 ##platform 1 - count mistakes
 
 Grid_plotting<-WM_task_individual %>%
-  mutate(Grid_Distance = round(Grid_Distance,2)) %>%
-  add_count(Grid_Distance)
+  mutate(Grid_Distance_newrange = round(Grid_Distance_newrange,2)) %>%
+  add_count(Grid_Distance_newrange)
 
 #max(Grid_plotting$Grid_Distance) 
 
- 
+chance_grid <- rescale(1.667, to=c(0, 1), from=c(3.605551, 0))
+
 p4<-  ggplot(
-  data=Grid_plotting, aes(x=rep(1, 53), y=Grid_Distance)) +
+  data=Grid_plotting, aes(x=rep(1, 53), y=Grid_Distance_newrange)) +
   geom_boxplot(outlier.colour = "white")+
-  ylim(0,2)+
+  ylim(0,1)+
   xlim(0,2)+
   geom_point(size = Grid_plotting$n, colour = "blue", alpha=0.2) +
 #  geom_line(lty=2)+
-  labs(x="",y="Mean distance from food reward")+
+  labs(x="",y="Proximity to baited compartment")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
   ggtitle("WM Grid")+
-  geom_hline(yintercept=1.667, linetype="dashed", color = "red")
+  geom_hline(yintercept=chance_grid, linetype="dashed", color = "red")
 
 
 grid.arrange(p1,p3,p4, nrow = 1, heights=unit(100, "mm"))
+
 
 ```
   
@@ -474,6 +485,64 @@ tt<-t.test(updating_individual5$Updating_P1.mistakes , mu=1.265, alternative = "
 ```
 * Number of redundant searches with test trials (platform 1: first 4 choices) vs chance value (1.265): Mean = `r round(tt$estimate, 2)`, 95% CI [`r round(tt$conf.int[1],2)`, `r round(tt$conf.int[2],2)`], *t*(`r tt$parameter`)=`r round(tt$statistic,2)`, *p*=`r round(tt$p.value,3)`
 
+
+```{r echo=FALSE, warning=FALSE}
+##First 4 choices on platform 1
+
+Updating_plot.P1<-WM_task_individual %>%  add_count(Updating_P1.correct)
+
+#max(WM_task_individual$Updating_P1.mistakes) 
+mean_unique_p1<-2.7371
+chance_p1<-(mean(mean_unique_p1)-1)/3
+p1<-  ggplot(
+  data=Updating_plot.P1, aes(x=rep(1, 53), y=Updating_P1.correct)) +
+  geom_boxplot(outlier.colour = "white")+
+  ylim(0,1)+
+  xlim(0,2)+
+  geom_point(size = Updating_plot.P1$n, colour = "blue", alpha=0.1) +
+#  geom_line(lty=2)+
+  labs(x="",y="Proportion correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("platform 1")+
+  geom_hline(yintercept=chance_p1, linetype="dashed", color = "red")
+
+Updating_plot.P2<-WM_task_individual %>%  add_count(Updating_P2.correct)
+
+p2<-  ggplot(
+  data=Updating_plot.P2, aes(x=rep(1, 53), y=Updating_P2.correct)) +
+  geom_boxplot(outlier.colour = "white")+
+  ylim(0,1)+
+  xlim(0,2)+
+  geom_point(size = Updating_plot.P2$n, colour = "blue", alpha=0.1) +
+#  geom_line(lty=2)+
+  labs(x="",y="Proportion correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("platform 2")+
+  geom_hline(yintercept=chance_p1, linetype="dashed", color = "red")
+
+Updating_plot.P1P2<-WM_task_individual %>%  add_count(Updating_P1P2.correct)
+p3<-  ggplot(
+  data=Updating_plot.P1P2, aes(x=rep(1, 53), y=Updating_P1P2.correct)) +
+  geom_boxplot(outlier.colour = "white")+
+  ylim(0,1)+
+  xlim(0,2)+
+  geom_point(size = Updating_plot.P1P2$n, colour = "blue", alpha=0.1) +
+#  geom_line(lty=2)+
+  labs(x="",y="Proportion correct choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("platform 1+2")+
+  geom_hline(yintercept=chance_p1, linetype="dashed", color = "red")
+
+
+grid.arrange(p1,p2,p3, nrow = 1, heights=unit(100, "mm"))
+
+```
+
+
+
 ***  
 
 ## Updating task 2 (2 x 3 boxes in test; only Kenya chimpanzees)  
@@ -512,7 +581,7 @@ tt<-t.test(updating2_individual4$Updating2_P1.mistakes , mu=8/9, alternative = "
 ### Methods  
 
 #### Materials  
-We use two adjacent sliding platforms on top of tables outside the enclosure, 8 identical opaque boxes (16.5 x 7.5 x 7.5 cm) with an opening in the front side (3.5cm x 3.5 cm) filled with toilet paper, and one occluder (free-standing occluder: h x d x w: 38 cm x 22 cm x 64 cm). All boxes can be baited through a hole (diameter: 3cm)in the back. The boxes were presented on a polycarbonate panel (w x d: 64 cm x 40 cm) including a u-shaped add-on (h x d x w: 10 cm x 10 cm x 8.5 cm) located at the right (left platfomr) or left corner (right platform) of the panel (at the side closest to the subject) that could hold the chosen box in place for the subject to extract its content.
+We use two adjacent sliding platforms on top of tables outside the enclosure, 8 identical opaque boxes (16.5 x 7.5 x 7.5 cm) with an opening in the front side (3.5cm x 3.5 cm) filled with toilet paper, and one occluder (free-standing occluder: h x d x w: 38 cm x 22 cm x 64 cm). All boxes can be baited through a hole (diameter: 3cm)in the back. The boxes were presented on a polycarbonate panel (w x d: 64 cm x 40 cm) including a u-shaped add-on (h x d x w: 10 cm x 10 cm x 8.5 cm) located at the right (left platform) or left corner (right platform) of the panel (at the side closest to the subject) that could hold the chosen box in place for the subject to extract its content.
 
 ```{r boxes_setup, fig.cap="Box WM task setup.", echo=FALSE}
 
@@ -531,7 +600,7 @@ In the test phase, there are two platforms with four identical, opaque boxes per
 At the beginning of each test trial, E shows the subject a reward while calling the subject’s name. E then baits a box on platform 1. Following a short delay (5 seconds), E occludes that array on platform 1 shows a second reward, again calls the subject’s name and moves to platform 2. Another 2 seconds later (in second 7), E baits a box on platform 2 and occludes the array on platform 2. After another 8 seconds (second 15), E pushes the sliding platform forward (while looking to the floor to avoid any inadvertent cuing) and allows the subject to choose one of the boxes by reaching toward and touching a box. E allows the subject to remove the toilet paper from the indicated box. Then subjects are allowed to choose one box from platform 2. Subjects receive only one choice per platform in each trial. Subjects receive 8 test trials in one session. Within this session subjects will complete 2 blocks of 4 trials. In every block every box on the platform will be baited once. All subjects will receive the same order of trials.
 
 #### Scoring  
-We score the number of mistakes per trial (0 – 2). With 8 test trials, the number of mistakes can vary between 0 and 16.
+We score the number of correct choices per trial (0 – 2). With 8 test trials, the number of correct choices can vary between 0 and 16.
 
 
 ### Results  
@@ -577,7 +646,7 @@ Subjects complete 12 test trials. All compartments except for the four edge comp
 
 We score the distance of the first chosen cell from the actual hiding location of the food reward. The distance is calculated as follows:
 $\sqrt{(Chosen_X-Food_X)^2+(Chosen_Y-Food_Y)^2}$.  
-The distance can vary between 0 (food located in first attempt) to 3.6.  
+The distance can vary between 0 (food located in first attempt) to 3.6. To facilitate the comparison across tasks we calculated a proximity variable from the distance variable ranging between 0 and 1 with larger values indicating a higher proximity to the baited compartment (0: maximal distance from the baited compartment, 1: baited compartment was chosen).
 
  
 
@@ -625,8 +694,12 @@ d %>%
 ```{r echo=FALSE, fig.height=5, fig.width=6}
 # Get upper triangle of the correlation matrix
 
+#WM_task_corr_data<-WM_task_individual[-1]%>%
+ # select(Updating_P1.mistakes, boxes_mistakes, Grid_Distance)
+
 WM_task_corr_data<-WM_task_individual[-1]%>%
-  select(Updating_P1.mistakes, boxes_mistakes, Grid_Distance)
+  select(Updating_P1.correct, Updating_P1P2.correct  ,boxes_correct_newrange, Grid_Distance_newrange)
+
 
   get_upper_tri <- function(cormat){
     cormat[lower.tri(cormat)]<- NA

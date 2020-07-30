@@ -1,7 +1,7 @@
 ---
 title: "Inhibition tasks - Markdown 2020"
 author: "Christoph Voelter"
-date: "January 21, 2020"
+date: "January 21, 2020 (updated: 21/07/2020)"
 output:
   html_document:
     fig_caption: yes
@@ -145,7 +145,7 @@ view(dfSummary(orig.stop.signal.data ))
 
 * **Stop-signal task**: Individuals are more likely to move the handle in the correct direction when there is no change in direction from the previous trial. In test trials, we find substantial variation in the latency to change the direction in response to the reversal of the stop-boxes.   
 
-* **Candidate DVs**: Session 1 performance
+* **Candidate DVs**: Session 1 performance (proportion correct)
 
 ***   
 
@@ -460,6 +460,32 @@ tt<-t.test(Inh_task_individual$Inh.boxes.correct1, Inh_task_individual$Inh.boxes
 corre<-cor.test(Inh_task_individual$Inh.boxes.correct1, Inh_task_individual$Inh.boxes.correct2)
 ```
 * Test-retest reliability: Pearson correlation between session 1 and session 2 performance: Correlation coefficient = `r round(corre$estimate, 2)`, 95% CI [`r round(corre$conf.int[1],2)`, `r round(corre$conf.int[2],2)`], *t*(`r corre$parameter`)=`r round(corre$statistic,2)`, *p*=`r round(corre$p.value,3)`
+
+###### Side biases in Session 1 and 2  
+
+```{r echo=FALSE}
+plot.Inh.boxes_individual_side <- Inh.boxes.data %>%
+  filter(!is.na(same_side_as_before)) %>%
+  group_by(Session, Subject) %>% 
+  summarize(Inh.boxes.side= mean(same_side_as_before))  %>%
+  add_count(Inh.boxes.side)
+
+ 
+p.boxes.side<-  
+  ggplot(
+  data=plot.Inh.boxes_individual_side, aes(x=c(rep(1, 53),rep(2,53)), y=Inh.boxes.side, group=Session)) +
+  geom_boxplot()+
+  ylim(0,1)+
+  geom_point(size = plot.Inh.boxes_individual_side$n, colour = "blue", alpha=0.1) +
+  geom_line(aes(group=Subject),lty=2, alpha=0.4, colour="darkgrey")+
+  labs(x="",y="Proportion of same side choices")+
+  theme_few()+
+  theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
+  ggtitle("Inhibition Boxes: side biases")
+
+p.boxes.side
+```
+
 
 
 ## Inhibition Cylinders  

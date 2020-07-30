@@ -1,0 +1,536 @@
+---
+title: "Stop-Signal task - GLMM Analysis - March 2020"
+output:
+  pdf_document: default
+  html_notebook: default
+  word_document: default
+  pdf_notebook: default
+  html_document:
+    df_print: paged
+---
+```{r include=FALSE}
+#Source functions and load packages
+library(lme4)
+library(multcomp)
+library(car)
+library(readr)
+library(tidyverse)
+library(sjPlot)
+library(ggthemes)
+library(gridExtra)
+library(ggpubr)
+library(trimr)
+library(scales)
+library(gridExtra)
+library(psych)
+library(cowplot)
+library(glmmTMB)
+library(ggsignif)
+library(summarytools)
+source("../../../../R scripts/Roger/diagnostic_fcns.r")
+#source("../../../../R scripts/Roger/glmm_stability.r")
+source("../../../../R scripts/Roger/glmmTMB_stability.r")
+source("../../../../R scripts/Roger/boxplotteR.r")
+#source("../../../../R scripts/Roger/boot_glmm.r")
+source("../../../../R scripts/Roger/boot_glmmTMB.r")
+source("../../../../R scripts/Roger/corr_exact.r")
+source("../../../../R scripts/Roger/drop1_para_glmmtmb.r")
+#source("../../../../R scripts/Roger/drop1_para.r")
+```
+
+```{r include=FALSE}
+#Load and inspect data file.
+sanctuary.data <- read.table(file="data/20200126_StopSignal_final.txt", header=T, sep="\t") %>%
+  filter(Subject != "Julia") %>% #did not complete test trials
+  filter(first_move_LR != "")%>%
+  filter(firsttest_trial_number==0)%>%
+  mutate(first_move_correct = recode(first_move_correct, 'c' = 1, 'i' = 0))%>%
+  mutate(condition = recode(condition, 'test ' = "test", 'training ' = "training"))%>%
+  #filter(first_move_correct==1)%>%
+ # filter(side_change==1)%>%
+  droplevels()
+view(dfSummary(sanctuary.data))
+
+head(sanctuary.data, 20)
+
+
+leipzig.data<- read.table(file="data/180131_StopSignal_2017_Leipzig_data.txt", header=T, sep="\t") %>%
+  filter(phase=="p_test")%>%
+  filter(first_move_LR != "")%>%
+  filter(Trial_test!=1)#%>%
+  #filter(first_move_correct==1)
+
+
+view(dfSummary(leipzig.data))
+
+
+sanctuary.training.data<-sanctuary.data%>%
+  filter(condition=="training")%>%
+  filter(!is.na(food_retrieved_latency))%>%
+  group_by(Subject)%>%
+  summarise(mean_food_latency=mean(food_retrieved_latency))
+
+leipzig.training.data<-leipzig.data%>%
+  filter(condition=="training")%>%
+  filter(!is.na(food_retrieved_latency))%>%
+  group_by(Subject)%>%
+  summarise(mean_food_latency=mean(food_retrieved_latency))
+
+view(dfSummary(leipzig.training.data))
+
+sactuary.change.latency.data<-sanctuary.data%>%
+  left_join(sanctuary.training.data)
+
+leipzig.change.latency.data<-leipzig.data%>%
+  left_join(leipzig.training.data)
+
+view(dfSummary(leipzig.change.latency.data))
+
+combined.latency.data<-sactuary.change.latency.data%>%
+  full_join(leipzig.change.latency.data)%>%
+ # filter(Change_latency_value>100 & Change_latency_value<5000)%>% #upper limit median + 3xIQR =4963
+  mutate(site=ifelse(Species=="chimpanzee","leipzig", ifelse(Species=="Uganda", "uganda", ifelse(Species=="old chimps" | Species=="young chimps", "kenya",""))))%>%
+  mutate(group=ifelse(Species=="chimpanzee","Leipzig", ifelse(Species=="Uganda", "Uganda", ifelse(Species=="old chimps", "Kenya1", ifelse(Species=="young chimps", "Kenya2","")))))
+
+view(dfSummary(combined.latency.data))
+boxplot(combined.latency.data$Change_latency_value)
+
+change.position.data<-sanctuary.data %>%
+  full_join(leipzig.data)%>%
+  mutate(site=ifelse(Species=="chimpanzee","leipzig", ifelse(Species=="Uganda", "uganda", ifelse(Species=="old chimps" | Species=="young chimps", "kenya",""))))%>%
+  mutate(group=ifelse(Species=="chimpanzee","Leipzig", ifelse(Species=="Uganda", "Uganda", ifelse(Species=="old chimps", "Kenya1", ifelse(Species=="young chimps", "Kenya2","")))))%>%
+  filter(Change_position_value<25)
+
+view(dfSummary(change.position.data))
+
+
+start.latency.data<-sactuary.change.latency.data%>%
+  full_join(leipzig.change.latency.data)%>%
+  filter(StartPos_latency_value>100 & StartPos_latency_value<6610)%>%
+  mutate(site=ifelse(Species=="chimpanzee","leipzig", ifelse(Species=="Uganda", "uganda", ifelse(Species=="old chimps" | Species=="young chimps", "kenya",""))))%>%
+  mutate(group=ifelse(Species=="chimpanzee","Leipzig", ifelse(Species=="Uganda", "Uganda", ifelse(Species=="old chimps", "Kenya1", ifelse(Species=="young chimps", "Kenya2","")))))
+```
+##Dependent variables
+
+  + **Change latency**: latency (in msec) after the stop signal was triggered to change the direction of the slider.  
+  + **Change position**: distance (in cm) the slider is moved toward the incorrect side after the stop signal was triggered.     
+Both DVs were recorded automatically.  
+
+##Spearman correlations between age and change latency / change position
+**Change latency**  
+```{R echo=FALSE}
+agg.test<-combined.latency.data%>%
+  filter(condition=="test")%>%
+#  filter(Species=="old chimps" )%>%#| Species=="old chimps")%>%
+  group_by(Subject,group,site, Age)%>%
+  summarise(mean_change_latency=mean(Change_latency_value),median_change_latency=median(Change_latency_value))%>%
+  add_count(mean_change_latency)
+  
+  
+corr.exact(agg.test$mean_change_latency , agg.test$Age, corr.method="spearman")
+```
+
+**Change position**  
+```{R echo=FALSE}
+agg.test2<-change.position.data%>%
+  filter(condition=="test")%>%
+  group_by(Subject,group, Age)%>%
+  summarise(median_change_position=median(Change_position_value),mean_change_position=mean(Change_position_value))%>%
+  add_count(mean_change_position)
+   
+corr.exact(agg.test2$mean_change_position , agg.test2$Age, corr.method="spearman")
+
+	
+```
+
+**Start position latency**
+```{R echo=FALSE}
+agg.test3<-start.latency.data%>%
+  filter(condition=="test")%>%
+#  filter(Species=="old chimps" )%>%#| Species=="old chimps")%>%
+  group_by(Subject,group,site, Age)%>%
+  summarise(mean_start_latency=mean(StartPos_latency_value),median_start_latency=median(StartPos_latency_value))%>%
+  add_count(mean_start_latency)
+  
+  
+corr.exact(agg.test3$mean_start_latency , agg.test3$Age, corr.method="spearman")
+```
+--> Change latency but not the change position is negatively correlated with age.  
+
+
+```{R include=FALSE}
+
+p1<-  ggplot(
+  data=agg.test, aes(x=Age, y=mean_change_latency))+
+  geom_point(aes(size = 1, colour = group), alpha=0.3 )+
+  #ylim(0,5000)+
+  labs(x="",y="Change latency")+
+  theme_few()+
+  facet_wrap(~ site)
+
+p1
+
+
+p1c<-  ggplot(
+  data=agg.test, aes(x=Age, y=mean_change_latency))+
+  geom_point(aes(size = 1, colour = group), alpha=0.3 )+
+  #ylim(0,5000)+
+  labs(x="",y="Change latency")+
+  theme_few()
+
+p1c
+
+```
+ 
+```{R include=FALSE}
+
+p2<-  ggplot(
+  data=agg.test2, aes(x=Age, y=median_change_position))+
+  geom_point(aes(size = 1, colour = group), alpha=0.3 )+
+  ylim(0,24)+
+  labs(x="",y="Change position")+
+  theme_few()+
+  facet_wrap(~ group)
+
+p2
+
+```
+
+```{R include=FALSE}
+
+p3<-  ggplot(
+  data=agg.test3, aes(x=Age, y=median_start_latency))+
+  geom_point(aes(size = 1, colour = group), alpha=0.3 )+
+  labs(x="",y="Start position latency")+
+  theme_few()+
+  facet_wrap(~ site)
+
+p3
+
+```
+
+***
+
+##GLMM with latency to change the direction of the slider as DV 
+###Summary
+Younger individuals tended to be faster to change the direction of the slider than older individuals. Individuals average latency in training trials to move the slider to the opening, in contrast, was not correlated with the change latency. That is, age was correlated with the change latency (measured only in test trials) also when controlling for individual differences in how fast they generally moved the slider (in training trials).  
+When the slider needed to be moved to the right, the change latency was slower compare to the other side. Finally, individuals got faster to change the direction of the slider across trials.  
+
+***  
+
+\pagebreak  
+
+
+###Plotting
+####Change latency across trials
+```{R echo=FALSE}
+agg.data2<- aggregate(Change_latency_value ~(Trial_test) ,xdata,median)
+plot(Change_latency_value~Trial_test, agg.data2)
+```
+Figure: Change latency across test trials (median values are depicted).    
+```{R include=FALSE}
+#tiff("C:/Users/cjv3/R/R data analysis/StopSignal2018/Stopsignal_change latency_w model.tif", 
+ #    width = 30, height = 14, units = 'cm', res = 1200, compression = 'lzw')
+
+#jpeg("C:/Users/cjv3/R/R data analysis/StopSignal2018/Stopsignal_change latency_w model.jpeg", 
+ #    width = 30, height = 14, units = 'cm', res = 600)
+#Save as tiff or jpeg
+```
+
+```{R include=FALSE}
+#par(mfrow=c(1,2), mar=c(2,3.5,1.5,1.5), mgp=c(2.5,0.5,0), tcl=-0.25)
+#Set the margins
+```
+
+```{R echo=FALSE}
+medians=tapply(X=xx$x, INDEX=xx$Trial_test, FUN=median, na.rm=TRUE)
+ql=tapply(X=xx$x,INDEX=xx$Trial_test,FUN=quantile, probs=0.25, na.rm=TRUE)
+qu=tapply(X=xx$x,INDEX=xx$Trial_test,FUN=quantile, probs=0.75, na.rm=TRUE)
+
+```
+
+
+```{R echo=FALSE}
+#par(mar=c(3.2, 3.2, 0.5, 0.5), mgp=c(2, 0.8, 0))
+plot(x=as.numeric(xx$Trial_test), y=xx$x, las=1,xlim=c(1, 24),ylim=c(0, 3500), 
+     xlab="", ylab="Change Latency (in msec)", #xaxt='n',# ann=FALSE,
+     main="", cex=1)
+
+mtext(text=c("Trial number"), at=12.5, 
+      line=2, side=1)
+hll=0.25 #Create scalar indicating half the line length
+#add median values:
+segments(x0=c(1:24)-hll, x1=c(1:24)+hll, y0=medians, y1=medians, lwd=2)
+#Add the boxes:
+rect(xleft=c(1:24)-hll, xright=c(1:24)+hll,ybottom=ql, ytop=qu)
+
+```
+Figure: Change latency across trials. Average individual latencies are depicted together with overall median values.  
+\pagebreak  
+
+
+####Change latency as a function of age
+
+```{R echo=FALSE}
+agg.data3<- aggregate(Change_latency_value~(Subject+condition+Age) ,all.data,mean)
+yrange<- aggregate(Change_latency_value~(Subject+condition+Age),all.data,sd)
+yrange$Age.j=jitter(yrange$Age, 2)
+
+
+#tiff("C:/Users/cjv3/R/R data analysis/StopSignal2018/StopSignal_change latency_vs_age.tif", width = 15, height = 15, units = 'cm', res = 600, compression = 'lzw')
+#par(mar=c(3, 3, 1.5, 0.5), mgp=c(2, 0.2, 0))
+
+plot(x=agg.data3$Age, y=agg.data3$Change_latency_value, xlim=c(8, 42),
+     ylim=c(200, 4000),las=1, pch=19, tcl=-0.2,
+     xlab="Age (in years)", cex=0, 
+     ylab="Latency to change direction (in ms)", col=grey(level=0.25,
+    alpha=0.5))#, main="Space only condition")
+
+abline(lm(agg.data3$Change_latency_value ~agg.data3$Age), col="black")
+	
+segments(x0=yrange$Age.j, x1=yrange$Age.j, y0=agg.data3$Change_latency_value-yrange$Change_latency_value, y1=agg.data3$Change_latency_value+yrange$Change_latency_value, lwd=1, col="darkgrey")
+		
+hll=0.5#create scalar indicating half the line length	
+segments(x0=yrange$Age.j-hll, x1=yrange$Age.j+hll, y0=agg.data3$Change_latency_value, y1=agg.data3$Change_latency_value, lwd=2)
+	
+
+```
+Figure: Change latencies as a function of the subject's age (mean values and SD per individual are depicted).  
+
+```{R eval=FALSE, include=FALSE}
+#par(mar=c(3.2, 3.2, 0.5, 0.5), mgp=c(2, 0.8, 0))
+plot(x=as.numeric(xx$Age), y=xx$x, las=1,xlim=c(8, 42),ylim=c(0, 5000), 
+     xlab="", ylab="Change Latency (in msec)", #xaxt='n',# ann=FALSE,
+     main="", cex=1, pch=as.numeric(xx$Subject))
+
+mtext(text=c("Age (in years)"), at=21.5, 
+      line=2, side=1)
+
+medians=tapply(X=xx$x, INDEX=xx$Subject, FUN=median, na.rm=TRUE)
+
+Age2=tapply(X=xx$Age, INDEX=xx$Subject, FUN=median, na.rm=TRUE)
+hll=1 #Create scalar indicating half the line length
+#add median values:
+segments(x0=Age2-hll, x1=Age2+hll, y0=medians, y1=medians, lwd=3)
+#Figure: Change latency as a function of subjects' age. Distribution of the latencies is depicted together with the median value per subjects (horizontal lines).
+```
+  
+
+***  
+\pagebreak  
+
+
+###Preprocessing of the data  
+  + Add the average latency to move the slider to the opening per individual to the dataset  
+
+```{R eval=FALSE, include=FALSE}
+hist(log(combined.latency.data$Change_latency_value))
+hist(combined.latency.data$Change_latency_value)
+hist(combined.latency.data$Age)
+```
+
+
+```{R include=FALSE}
+combined.latency.data<-combined.latency.data%>% 
+  filter(site!="leipzig")%>%
+  mutate(z.Trial = scale(Trial_test))%>%
+  mutate(z.Age = scale(Age))%>%
+  mutate(z.food_retrieved_latency=scale(mean_food_latency))
+
+head(combined.latency.data)
+
+#combined.latency.data$first_move_correct=as.factor(combined.latency.data$first_move_correct)
+
+
+str(combined.latency.data)
+xx.fe.re=fe.re.tab(fe.model="Change_latency_value~Age+Sex+side+z.food_retrieved_latency+z.Trial",
+                   re="(1|Subject)+(1|Species)+(1|site)", data=combined.latency.data)
+ydata=xx.fe.re$data
+xx.fe.re$summary
+str(ydata)
+ydata$side.c=ydata$side.r -mean(ydata$side.r )
+ydata$Sex.c=ydata$Sex.m -mean(ydata$Sex.m)
+#ydata$first_move_correct.c=ydata$first_move_correct.1 -mean(ydata$first_move_correct.1)
+ydata<-ydata%>%mutate(z.Age = scale(Age))
+```
+***
+### Run specification
+
+####Full model
+```{r}
+
+
+mm1.gamma=glmmTMB(Change_latency_value ~z.Age + z.Trial +z.food_retrieved_latency+
+            (1+z.Trial||Subject)+ (1+z.Age+z.Trial+z.food_retrieved_latency||Species)
+            , data=ydata,family=Gamma(link="log"), control=glmmTMBControl(optCtrl=list(iter.max=1000000000, eval.max=1000000000)))
+summary(mm1.gamma)
+
+overdisp.test(mm1.gamma)
+```
+
+
+
+
+
+
+```{R include=FALSE}
+ranef.diagn.plot(full) #Diagnostics
+```
+
+
+####Null model	 
+```{r}	 
+
+mm1.gamma.null=glmmTMB(Change_latency_value ~1+
+            (1+z.Trial||Subject)+ (1+z.Age+z.food_retrieved_latency + z.Trial||Species)
+            , data=ydata,family=Gamma(link="log"), control=glmmTMBControl(optCtrl=list(iter.max=1000000000, eval.max=1000000000)))
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm1.gamma.null, mm1.gamma, test="Chisq")
+```
+
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop1=drop1(mm1.gamma, test="Chisq")
+round(xdrop1,3)
+```
+
+####Confidence intervals
+Confidence intervals for the binomial models were derived using the function bootMer of the R package lme4, using 1,000 parametric bootstraps and bootstrapping over the random effects.
+
+```{R}		
+boot.res=boot.glmm(model.res=full, excl.warnings=T,nboots=1000, para=T)
+round(boot.res,3)
+```
+
+```{R include=FALSE} 
+save.image("stop signal_model.RData")
+
+```
+***  
+\pagebreak  
+
+###Model assumptions  
+
+####SJ Plot  
+
+```{R}
+sjp.glmer(full, type="ma")
+```
+
+####Check for model stability 
+Check for model stability by removing levels of the random effects on by one and visualising the resulting variance of each variable
+```{R}
+m.stab=glmm.model.stab(model.res=full, contr=contr)
+m.stab.plot(m.stab$summary[,-1])
+```
+####Check for multicollinearity
+```{R}
+xres=lm(log.Change_latency ~z.Age+z.food_latency+Sex+side+z.Trial, data=ydata)
+round(vif(xres),3)
+```
+  
+```{R echo = FALSE}
+#Add the confidence intervals
+
+#ydata$Sex_center=ydata$Sex.m-mean(ydata$Sex.m)
+#full.CI.phase=glmer(choice_correct ~ phase + distractor_homogeneity_center +                          baited_dimension_center+ z.Age+#Sex+z.Session+z.Trial+                         (1|Subject)+(0+z.Session|Subject) +(0+z.Trial|Subject)+                          (0+phase.ED+phase.reversal + distractor_homogeneity_center +                     baited_dimension_center|Subject), data=ydata,                                    family = binomial, control=contr)
+  
+#boot.res.plot.phase=boot.glmm.pred(model.res=full.CI.phase, excl.warnings=F, nboots=1000, para=T, resol=3, level=0.95, use="phase")
+
+
+```
+
+```{R echo = FALSE}
+#arrows(x0=1:3, x1=1:3,
+#y0=boot.full.plot$ci.predicted[, "lower.cl"],
+#y1=boot.full.plot$ci.predicted[, "upper.cl"],
+#code=3, col=rangi2	, lwd=2, angle=90, length=0.1)
+```
+
+####Plot estimates
+```{R echo = FALSE}
+plot_model(full, "est")	
+```
+```{R}
+plot_model(full, "re")	
+```
+
+
+##Start position latency
+
+
+
+```{R eval=FALSE, include=FALSE}
+hist(start.latency.data$StartPos_latency_value)
+
+hist(start.latency.data$Age)
+```
+
+
+```{R include=FALSE}
+start.latency.data<-start.latency.data%>% 
+  mutate(z.Trial = scale(Trial_test))%>%
+  mutate(z.Age = scale(Age))%>%
+  mutate(z.food_retrieved_latency=scale(mean_food_latency))
+
+head(start.latency.data)
+
+
+str(start.latency.data)
+xx.fe.re=fe.re.tab(fe.model="StartPos_latency_value~                   z.Age+Sex+side+z.food_retrieved_latency+z.Trial",
+                   re="(1|Subject)+(1|Species)+(1|site)", data=start.latency.data)
+xdata=xx.fe.re$data
+xx.fe.re$summary
+str(xdata)
+xdata$side.c=xdata$side.r -mean(xdata$side.r )
+xdata$Sex.c=xdata$Sex.m -mean(xdata$Sex.m)
+
+
+```
+***
+### Run specification
+
+####Full model
+```{r}
+
+
+mm2.gamma=glmmTMB(StartPos_latency_value ~z.Age + z.food_retrieved_latency + side + z.Trial +
+            (1+side.c+z.Trial||Subject)+ (1+z.Age+z.food_retrieved_latency +side.c+z.Trial||Species)
+            , data=xdata,family=Gamma(link="log"), control=glmmTMBControl(optCtrl=list(iter.max=1000000000, eval.max=1000000000)))
+summary(mm2.gamma)
+
+overdisp.test(mm2.gamma)
+```
+
+
+
+
+
+```{R include=FALSE}
+ranef.diagn.plot(full) #Diagnostics
+```
+
+
+####Null model	 
+```{r}	 
+
+mm1.gamma.null=glmmTMB(StartPos_latency_value ~1+
+            (1+side.c+z.Trial||Subject)+ (1+z.Age+z.food_retrieved_latency +side.c+z.Trial||Species)
+            , data=xdata,family=Gamma(link="log"), control=glmmTMBControl(optCtrl=list(iter.max=1000000000, eval.max=1000000000)))
+
+```
+####Full-null model comparison
+```{r}	 
+anova(mm1.gamma.null, mm1.gamma, test="Chisq")
+```
+
+  + Individual predictors: likelihood ratio tests  
+Drop1: P values for the individual effects were based on likelihood ratio tests comparing the full with respective reduced models (Barr et al., 2013; R function drop1 with argument 'test' set to "Chisq"). 
+```{r}
+xdrop1_mm2=drop1(mm2.gamma, test="Chisq")
+round(xdrop1_mm2,3)
+```

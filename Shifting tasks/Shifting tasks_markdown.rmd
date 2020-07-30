@@ -1,7 +1,7 @@
 ---
-title: "Shiftingn tasks - Markdown 2020"
+title: "Shifting tasks - Markdown 2020"
 author: "Christoph Voelter"
-date: "January 26, 2020"
+date: "January 26, 2020 (updated: 21/07/2020)"
 output:
   html_document:
     fig_caption: yes
@@ -86,7 +86,7 @@ view(dfSummary(Shifting.tray.data))
 
 * In the __Shifting tray task__, there chimpanzees performed better than expected by chance in session 2 (but not in session 1).  
 
-* Possible __DVs__ for the test battery are proportion correct in the CD phase of the Shifting boxes task, the number of platform switches (or the number of switching mistakes) in the Task-switching task, and the session-2 performance (proportion correct) in the Shifting tray task.  
+* Possible __DVs__ for the test battery are proportion correct in the CD phase of the Shifting boxes task, the proportion of platform switches in the Task-switching task, and the session-2 performance (proportion correct) in the Shifting tray task.  
  
 ***  
 
@@ -112,7 +112,7 @@ The repeated exposure to material as a reward predictor in the four pre-switch s
 Given the poor performance in the ED phase we added one discrimination phase in the end (EDSD). We used the same boxes as in the ED phase and again the same box was baited. However, we used the same type of filling material (straw) in both boxes in this phase. We administered a maximum of 24 trials (1 session) or until individuals scored 6 consecutive trials correct. 
 
 #### Scoring  
-A choice is coded as soon as the subject touches or points toward one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or the incorrect (unbaited) box. With 48 trials in the ED phase, the number of ED mistakes can vary between 0 and 48. We will use the ED mistakes as shifting performance measure.  
+A choice is coded as soon as the subject touches or points toward one of the boxes. We score whether subjects select (i.e., point toward or touch) the correct (baited) or the incorrect (unbaited) box. With 40 trials in the ED phase, the number of ED mistakes can vary between 0 and 40. We will use the ED mistakes as shifting performance measure.  
 
 ### Results  
 
@@ -475,20 +475,21 @@ tt
 ###Plotting switching mistakes
 plot_shifting_shelf_sm <- Shifting.shelf.data %>%
   filter(!is.na(switching_mistakes)) %>%
+  filter(Condition=="Test")%>%
   group_by(Subject) %>% 
-  summarize(shelf_switching_mistakes = sum(switching_mistakes)) %>% 
-  add_count(shelf_switching_mistakes)
+  summarize(shelf_switching_mistakes = sum(switching_mistakes), proportion_switching_mistakes = sum(switching_mistakes)/36) %>% 
+  add_count(proportion_switching_mistakes)
 
 #max(plot_shifting_shelf_sm$shelf_switching_mistakes)
 
 
 p1 <- 
   ggplot(
-  data=plot_shifting_shelf_sm , aes(x=c(rep(1, length(plot_shifting_shelf_sm$Subject))), y=shelf_switching_mistakes)) +   geom_boxplot()+
+  data=plot_shifting_shelf_sm , aes(x=c(rep(1, length(Subject))), y=proportion_switching_mistakes)) +   geom_boxplot()+
   geom_point(size = plot_shifting_shelf_sm$n, colour = "blue", alpha=0.1) +
-  ylim(0,21)+
+  ylim(0,1)+
   xlim(0,2)+
-  labs(x="",y="Switching mistakes")+
+  labs(x="",y="Proportion switching mistakes")+
   # geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
@@ -499,18 +500,19 @@ p1 <-
 plot_shifting_shelf_switches <- Shifting.shelf.data %>%
   filter(!is.na(Switches)) %>%
   group_by(Subject) %>% 
-  summarize(shelf_switches = sum(Switches)) %>% 
-  add_count(shelf_switches)
+  summarize(shelf_switches = sum(Switches), proportion_switches = sum(Switches)/11) %>% 
+  add_count(proportion_switches)
 
 #max(plot_shifting_shelf_switches$shelf_switches)
 
 p2 <- 
   ggplot(
-  data=plot_shifting_shelf_switches , aes(x=c(rep(1, length(plot_shifting_shelf_switches$Subject))), y=shelf_switches)) +   geom_boxplot()+
+  data=plot_shifting_shelf_switches , aes(x=c(rep(1, length(Subject))), y=proportion_switches)) +   geom_boxplot()+
   geom_point(size = plot_shifting_shelf_switches$n, colour = "blue", alpha=0.1) +
-  ylim(0,10)+
+  geom_hline(yintercept = 0.2242245, lty=2,  col="red")+
+  ylim(0,1)+
   xlim(0,2)+
-  labs(x="",y="Platform switches")+
+  labs(x="",y="Proportion platform switches")+
   # geom_hline(yintercept=0.5, linetype="dashed", color = "red")+
   theme_few()+
   theme(axis.text.x=element_blank(), axis.ticks.x=element_blank())+
@@ -549,12 +551,12 @@ Shifting.shelf_individual_test <- Shifting.shelf_individual %>%
 shifting_shelf_sm <- Shifting.shelf.data %>%
   filter(!is.na(switching_mistakes)) %>%
   group_by(Subject) %>% 
-  summarize(shelf_switching_mistakes = sum(switching_mistakes))
+  summarize(shelf_switching_mistakes = sum(switching_mistakes), proportion_switching_mistakes = sum(switching_mistakes)/36)
 
 shifting_shelf_switches <- Shifting.shelf.data %>%
   filter(!is.na(Switches)) %>%
   group_by(Subject) %>% 
-  summarize(shelf_switches = sum(Switches))
+  summarize(shelf_switches = sum(Switches), proportion_switches = sum(Switches)/11)
 
 #######################################################
 #Join DVs together
@@ -597,7 +599,7 @@ Subjects will receive two sessions of 24 trials each. A session will consist of 
 Reward: 1/16 apple piece
 
 #### Scoring
-A choice is coded as soon as the subject touches or points toward one of the boxes or trays. We score whether subjects select the correct (baited) or the incorrect (unbaited) tray. With 48 trials, the number of ED mistakes can vary between 0 and 48. 
+A choice is coded as soon as the subject touches or points toward one of the boxes or trays. We score whether subjects select the correct (baited) or the incorrect (unbaited) tray. With 48 trials, the number of mistakes can vary between 0 and 48. 
 
 ### Results
 
@@ -958,6 +960,8 @@ grid.arrange(p1, p2,p3,p4,legend, ncol=2, nrow = 3,
 ```{r include=FALSE}
 
 d <- correlate(Shifting_task_individual[-1], method="pearson")
+d
+
 ```
 
 ```{r include=FALSE}
@@ -979,9 +983,9 @@ d %>%
     return(cormat)
   }
 
-Shifting_task_individual_corr <- Shifting_task_individual # %>% 
- # select(-Shifting.tray.correct,-Shifting.tray.correct.S1,#-SD, -SR, -CD, -ID,
-  #       -Shifting.shelf.correct, -shelf_switching_mistakes )
+Shifting_task_individual_corr <- Shifting_task_individual  %>% 
+  select(-Shifting.tray.correct,-Shifting.tray.correct.S1,#-SD, -SR, -CD, -ID,
+         -Shifting.shelf.correct, -shelf_switching_mistakes, -shelf_switches)
 
   
 cormat <- round(cor(Shifting_task_individual_corr[-1], method="pearson", use = "pairwise.complete.obs"),2)

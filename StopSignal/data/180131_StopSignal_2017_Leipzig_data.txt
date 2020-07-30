@@ -1,0 +1,1440 @@
+Subject	Sex	Species	Age	Breeding	Session	Block	Trial	Trial_con	Trial_test	phase	condition	side	date	first_move_LR	first_move_correct	Change_latency_code	Change_latency_value	Change_position_code	Change_position_value	StartPos_latency_code	StartPos_latency_value	food_retrieved_code	food_retrieved_latency	initial_time_code	initial_time	comment
+Bangolo	m	chimpanzee	8	parent	1	1	1	1		p_training	training	r	43092.50359	l	0							et	28140			
+Bangolo	m	chimpanzee	8	parent	1	1	2	2		p_training	training	r	43092.50383	r	1							et	488			
+Bangolo	m	chimpanzee	8	parent	1	1	3	3		p_training	training	r	43092.50402	r	1							et	667			
+Bangolo	m	chimpanzee	8	parent	1	1	4	4		p_training	training	l	43092.50479	r	0							et				got food on incorrect side by flipping the box up
+Bangolo	m	chimpanzee	8	parent	1	1	5	5		p_training	training	l	43092.50591	r	0							et	2319			
+Bangolo	m	chimpanzee	8	parent	1	1	6	6		p_training	training	l	43092.50623	r	0							et	2348			
+Bangolo	m	chimpanzee	8	parent	1	1	7	7		p_training	training	r	43092.50639	r	1							et	479			
+Bangolo	m	chimpanzee	8	parent	1	1	8	8		p_training	training	l	43092.50656	r	0							et	2280			
+Bangolo	m	chimpanzee	8	parent	1	1	9	9		p_training	training	l	43092.50669	r	0							et	1279			
+Bangolo	m	chimpanzee	8	parent	1	1	10	10		p_training	training	r	43092.50683	r	1							et	375			
+Bangolo	m	chimpanzee	8	parent	1	1	11	11		p_training	training	l	43092.50698	r	0							et	2421			
+Bangolo	m	chimpanzee	8	parent	1	1	12	12		p_training	training	r	43092.50733	r	1							et	682			
+Bangolo	m	chimpanzee	8	parent	1	2	13	13		p_training	training	l	43092.5076	r	0							et	2079			
+Bangolo	m	chimpanzee	8	parent	1	2	14	14		p_training	training	l	43092.50774	l	1							et	368			
+Bangolo	m	chimpanzee	8	parent	1	2	15	15		p_training	training	r	43092.50787	l	0							et	2510			
+Bangolo	m	chimpanzee	8	parent	1	2	16	16		p_training	training	r	43092.50807	r	1							et	388			
+Bangolo	m	chimpanzee	8	parent	1	2	17	17		p_training	training	l	43092.50838	r	0							et	14614			
+Bangolo	m	chimpanzee	8	parent	1	2	18	18		p_training	training	l	43092.50863	l	1							et	623			
+Bangolo	m	chimpanzee	8	parent	1	2	19	19		p_training	training	l	43092.50903	l	1							et	13969			"latency incorrect, food was not in the food container when he started to move the box"
+Bangolo	m	chimpanzee	8	parent	1	2	20	20		p_training	training	r	43092.50949	l	0							et	2110			
+Bangolo	m	chimpanzee	8	parent	1	2	21	21		p_training	training	r	43092.50962	r	1							et	698			
+Bangolo	m	chimpanzee	8	parent	1	2	22	22		p_training	training	r	43092.50976	r	1							et	570			
+Bangolo	m	chimpanzee	8	parent	1	2	23	23		p_training	training	r	43092.50986	r	1							et	663			
+Bangolo	m	chimpanzee	8	parent	1	2	24	24		p_training	training	l	43092.51005	r	0							et	5166			
+Bangolo	m	chimpanzee	8	parent	2	1	1	25		p_training	training	l	43096.48185	r	0							et	3690			
+Bangolo	m	chimpanzee	8	parent	2	1	2	26		p_training	training	r	43096.48238	l	0							et	2680			
+Bangolo	m	chimpanzee	8	parent	2	1	3	27		p_training	training	r	43096.48253	r	1							et	593			
+Bangolo	m	chimpanzee	8	parent	2	1	4	28		p_training	training	l	43096.48272	r	0							et	2826			
+Bangolo	m	chimpanzee	8	parent	2	1	5	29		p_training	training	l	43096.48287	l	1							et	557			
+Bangolo	m	chimpanzee	8	parent	2	1	6	30		p_training	training	l	43096.48307	l	1							et	721			
+Bangolo	m	chimpanzee	8	parent	2	1	7	31		p_training	training	r	43096.48324	l	0							et	2644			
+Bangolo	m	chimpanzee	8	parent	2	1	8	32		p_training	training	r	43096.48343	r	1							et	676			
+Bangolo	m	chimpanzee	8	parent	2	1	9	33		p_training	training	r	43096.48356	r	1							et	717			
+Bangolo	m	chimpanzee	8	parent	2	1	10	34		p_training	training	l	43096.48372	l	1							et	1091			
+Bangolo	m	chimpanzee	8	parent	2	1	11	35		p_training	training	r	43096.4839	l	0							et	1875			
+Bangolo	m	chimpanzee	8	parent	2	1	12	36		p_training	training	l	43096.48406	l	1							et	516			
+Bangolo	m	chimpanzee	8	parent	2	2	13	37		p_training	training	r	43096.48428	r	1							et	795			
+Bangolo	m	chimpanzee	8	parent	2	2	14	38		p_training	training	l	43096.48468	l	1							et	689			
+Bangolo	m	chimpanzee	8	parent	2	2	15	39		p_training	training	r	43096.48483	r	1							et	578			
+Bangolo	m	chimpanzee	8	parent	2	2	16	40		p_training	training	l	43096.48501	r	0							et	1652			
+Bangolo	m	chimpanzee	8	parent	2	2	17	41		p_training	training	r	43096.48519	l	0							et	887			
+Bangolo	m	chimpanzee	8	parent	2	2	18	42		p_training	training	r	43096.48537	r	1							et	643			
+Bangolo	m	chimpanzee	8	parent	2	2	19	43		p_training	training	r	43096.48572	r	1							et	795			
+Bangolo	m	chimpanzee	8	parent	2	2	20	44		p_training	training	l	43096.48595	r	0							et	1082			
+Bangolo	m	chimpanzee	8	parent	2	2	21	45		p_training	training	l	43096.48616	l	1							et	701			
+Bangolo	m	chimpanzee	8	parent	2	2	22	46		p_training	training	r	43096.48637	r	1							et	453			
+Bangolo	m	chimpanzee	8	parent	2	2	23	47		p_training	training	l	43096.4866	l	1							et	641			
+Bangolo	m	chimpanzee	8	parent	2	2	24	48		p_training	training	l	43096.48679	l	1							et	579			
+Bangolo	m	chimpanzee	8	parent	3	1	1	49		p_training	training	l	43097.45032	r	0							et	653	it	1524	
+Bangolo	m	chimpanzee	8	parent	3	1	2	50		p_training	training	l	43097.45054	l	1							et	535	it	967	
+Bangolo	m	chimpanzee	8	parent	3	1	3	51		p_training	training	r	43097.45076	l	0							et	774	it	1279	
+Bangolo	m	chimpanzee	8	parent	3	1	4	52		p_training	training	r	43097.4509	r	1							et	570	it	1828	
+Bangolo	m	chimpanzee	8	parent	3	1	5	53		p_training	training	l	43097.45106	l	1							et	566	it	1564	
+Bangolo	m	chimpanzee	8	parent	3	1	6	54		p_training	training	l	43097.45128	l	1							et	1082	it	1745	
+Bangolo	m	chimpanzee	8	parent	3	1	7	55		p_training	training	r	43097.45144	r	1							et	614	it	1233	
+Bangolo	m	chimpanzee	8	parent	3	1	8	56		p_training	training	r	43097.45164	r	1							et	590	it	2420	
+Bangolo	m	chimpanzee	8	parent	3	1	9	57		p_training	training	l	43097.45183	l	1							et	517	it	2329	
+Bangolo	m	chimpanzee	8	parent	3	1	10	58		p_training	training	l	43097.45205	r	0							et	988	it	1269	
+Bangolo	m	chimpanzee	8	parent	3	1	11	59		p_training	training	r	43097.45226	r	1							et	586	it	1138	
+Bangolo	m	chimpanzee	8	parent	3	1	12	60		p_training	training	r	43097.45247	r	1							et	639	it	1028	
+Bangolo	m	chimpanzee	8	parent	3	2	13	61		p_training	training	r	43097.4528	r	1							et	609	it	1436	
+Bangolo	m	chimpanzee	8	parent	3	2	14	62		p_training	training	r	43097.45296	r	1							et	510	it	1050	
+Bangolo	m	chimpanzee	8	parent	3	2	15	63		p_training	training	l	43097.4531	r	0							et	900	it	1058	
+Bangolo	m	chimpanzee	8	parent	3	2	16	64		p_training	training	l	43097.45325	l	1							et	585	it	1004	
+Bangolo	m	chimpanzee	8	parent	3	2	17	65		p_training	training	r	43097.4534	r	1							et	453	it	1439	
+Bangolo	m	chimpanzee	8	parent	3	2	18	66		p_training	training	l	43097.45358	l	1							et	439	it	1519	
+Bangolo	m	chimpanzee	8	parent	3	2	19	67		p_training	training	r	43097.45384	r	1							et	451	it	2060	
+Bangolo	m	chimpanzee	8	parent	3	2	20	68		p_training	training	l	43097.45402	l	1							et	596	it	1544	
+Bangolo	m	chimpanzee	8	parent	3	2	21	69		p_training	training	r	43097.4542	r	1							et	433	it	2472	
+Bangolo	m	chimpanzee	8	parent	3	2	22	70		p_training	training	l	43097.45438	l	1							et	553	it	1099	
+Bangolo	m	chimpanzee	8	parent	3	2	23	71		p_training	training	r	43097.45464	r	1							et	423	it	1377	
+Bangolo	m	chimpanzee	8	parent	3	2	24	72		p_training	training	l	43097.45508	l	1							et	363	it	2661	
+Bangolo	m	chimpanzee	8	parent	4	1	1	73		p_test	training	l	43098.47801	r	0							et	586	it	809	
+Bangolo	m	chimpanzee	8	parent	4	1	2	74	1	p_test	test	l	43098.47836	l	1	ct	452	cp	9	st	2143					
+Bangolo	m	chimpanzee	8	parent	4	1	3	75		p_test	training	r	43098.47867	r	1							et	644	it	1611	
+Bangolo	m	chimpanzee	8	parent	4	1	4	76		p_test	training	l	43098.47895	l	1							et	1570	it	1709	
+Bangolo	m	chimpanzee	8	parent	4	1	5	77		p_test	training	l	43098.47917	l	1							et	534	it	772	
+Bangolo	m	chimpanzee	8	parent	4	1	6	78		p_test	training	r	43098.47946	l	0							et	3318	it	1969	
+Bangolo	m	chimpanzee	8	parent	4	1	7	79	2	p_test	test	r	43098.47983	r	1	ct		cp	21	st	1524					"did not record cp and ct, coded from video"
+Bangolo	m	chimpanzee	8	parent	4	1	8	80		p_test	training	r	43098.48014	r	1							et	574	it	1519	
+Bangolo	m	chimpanzee	8	parent	4	1	9	81		p_test	training	r	43098.48038	r	1							et	590	it	1015	
+Bangolo	m	chimpanzee	8	parent	4	1	10	82		p_test	training	l	43098.48059	l	1							et	397	it	1386	
+Bangolo	m	chimpanzee	8	parent	4	1	11	83	3	p_test	test	r	43098.48083	r	1	ct	651	cp	22	st	1309					
+Bangolo	m	chimpanzee	8	parent	4	1	12	84		p_test	training	l	43098.4811	l	1							et	508	it	629	
+Bangolo	m	chimpanzee	8	parent	4	2	13	85		p_test	training	r	43098.48142	r	1							et	373	it	1342	
+Bangolo	m	chimpanzee	8	parent	4	2	14	86		p_test	training	l	43098.48163	l	1							et	931	it	974	
+Bangolo	m	chimpanzee	8	parent	4	2	15	87		p_test	training	r	43098.48196	r	1							et	400	it	961	
+Bangolo	m	chimpanzee	8	parent	4	2	16	88	4	p_test	test	l	43098.48216	l	1	ct	1153	cp	22	st	2308					
+Bangolo	m	chimpanzee	8	parent	4	2	17	89		p_test	training	r	43098.48258	r	1							et	540	it	2917	
+Bangolo	m	chimpanzee	8	parent	4	2	18	90		p_test	training	r	43098.48278	r	1							et	507	it	1022	
+Bangolo	m	chimpanzee	8	parent	4	2	19	91		p_test	training	l	43098.48295	l	1							et	429	it	928	
+Bangolo	m	chimpanzee	8	parent	4	2	20	92		p_test	training	r	43098.48313	r	1							et	512	it	963	
+Bangolo	m	chimpanzee	8	parent	4	2	21	93		p_test	training	l	43098.48328	l	1							et	458	it	1120	
+Bangolo	m	chimpanzee	8	parent	4	2	22	94	5	p_test	test	r	43098.48348	r	1	ct	752	cp	16	st	1207					
+Bangolo	m	chimpanzee	8	parent	4	2	23	95		p_test	training	l	43098.48369	r	0							et	1862	it	1218	
+Bangolo	m	chimpanzee	8	parent	4	2	24	96	6	p_test	test	l	43098.48396	l	1	ct	1153	cp	21	st	1443					
+Bangolo	m	chimpanzee	8	parent	5	1	1	97		p_test	training	l	43099.4744	l	1							et	360	it	1473	
+Bangolo	m	chimpanzee	8	parent	5	1	2	98		p_test	training	r	43099.47457	r	1							et	1780	it	1672	
+Bangolo	m	chimpanzee	8	parent	5	1	3	99		p_test	training	l	43099.47481	l	1							et	431	it	1326	
+Bangolo	m	chimpanzee	8	parent	5	1	4	100	7	p_test	test	l	43099.47501	l	1	ct	752	cp	15	st	1570					
+Bangolo	m	chimpanzee	8	parent	5	1	5	101		p_test	training	r	43099.47525	r	1							et	1598	it	2507	
+Bangolo	m	chimpanzee	8	parent	5	1	6	102	8	p_test	test	r	43099.47549	r	1	ct	1754	cp	22	st	2044					
+Bangolo	m	chimpanzee	8	parent	5	1	7	103		p_test	training	l	43099.47569	l	1							et	1211	it	3015	
+Bangolo	m	chimpanzee	8	parent	5	1	8	104		p_test	training	r	43099.47615	r	1							et	988	it	1423	first move corrected from video
+Bangolo	m	chimpanzee	8	parent	5	1	9	105		p_test	training	r	43099.47647	r	1							et	645	it	1199	
+Bangolo	m	chimpanzee	8	parent	5	1	10	106	9	p_test	test	r	43099.47668	r	1	ct	1304	cp	22	st	1547					
+Bangolo	m	chimpanzee	8	parent	5	1	11	107		p_test	training	l	43099.47688	l	1							et	603	it	1626	
+Bangolo	m	chimpanzee	8	parent	5	1	12	108		p_test	training	l	43099.47707	l	1							et	530	it	1881	
+Bangolo	m	chimpanzee	8	parent	5	2	13	109		p_test	training	r	43099.47728	r	1							et	327	it	1883	
+Bangolo	m	chimpanzee	8	parent	5	2	14	110		p_test	training	l	43099.47748	l	1							et	3353	it	947	
+Bangolo	m	chimpanzee	8	parent	5	2	15	111		p_test	training	r	43099.47765	r	1							et	344	it	1242	
+Bangolo	m	chimpanzee	8	parent	5	2	16	112	10	p_test	test	l	43099.47787	l	1	ct		cp	20	st	1272					"ct and cp were not recorded, coded from video"
+Bangolo	m	chimpanzee	8	parent	5	2	17	113		p_test	training	l	43099.47819	l	1							et	510	it	759	
+Bangolo	m	chimpanzee	8	parent	5	2	18	114		p_test	training	l	43099.47839	l	1							et	589	it	3701	
+Bangolo	m	chimpanzee	8	parent	5	2	19	115		p_test	training	r	43099.47862	l	0							et	592	it	1108	
+Bangolo	m	chimpanzee	8	parent	5	2	20	116	11	p_test	test	r	43099.47882	r	1	ct	1203	cp	22	st	1891					
+Bangolo	m	chimpanzee	8	parent	5	2	21	117		p_test	training	l	43099.47899	l	1							et	488	it	1563	
+Bangolo	m	chimpanzee	8	parent	5	2	22	118	12	p_test	test	l	43099.47956	l	1	ct	1054	cp	16	st	1664					
+Bangolo	m	chimpanzee	8	parent	5	2	23	119		p_test	training	r	43099.47979	r	1							et	669	it	671	
+Bangolo	m	chimpanzee	8	parent	5	2	24	120		p_test	training	r	43099.47999	r	1							et	1892	it	2205	
+Bangolo	m	chimpanzee	8	parent	6	1	1	121		p_test	training	l	43102.48862	l	1							et	460	it	1181	
+Bangolo	m	chimpanzee	8	parent	6	1	2	122	13	p_test	test	l	43102.48934	l	1	ct	1705	cp	22	st	2192					
+Bangolo	m	chimpanzee	8	parent	6	1	3	123		p_test	training	r	43102.48955	r	1							et	503	it	1010	
+Bangolo	m	chimpanzee	8	parent	6	1	4	124		p_test	training	l	43102.48973	l	1							et	562	it	1999	
+Bangolo	m	chimpanzee	8	parent	6	1	5	125		p_test	training	l	43102.48993	l	1							et	511	it	1241	
+Bangolo	m	chimpanzee	8	parent	6	1	6	126	14	p_test	test	r	43102.49013	r	1	ct	1103	cp	18	st	1422					
+Bangolo	m	chimpanzee	8	parent	6	1	7	127		p_test	training	r	43102.49041	r	1							et	621	it	1189	
+Bangolo	m	chimpanzee	8	parent	6	1	8	128		p_test	training	r	43102.49058	r	1							et	600	it	713	
+Bangolo	m	chimpanzee	8	parent	6	1	9	129	15	p_test	test	l	43102.49082	l	1	ct	1103	cp	17	st	1389					
+Bangolo	m	chimpanzee	8	parent	6	1	10	130		p_test	training	r	43102.49104	r	1							et	552	it	1864	
+Bangolo	m	chimpanzee	8	parent	6	1	11	131		p_test	training	r	43102.49126	r	1							et	419	it	1421	
+Bangolo	m	chimpanzee	8	parent	6	1	12	132		p_test	training	l	43102.49147	l	1							et	571	it	1351	
+Bangolo	m	chimpanzee	8	parent	6	2	13	133		p_test	training	l	43102.49176	l	1							et	638	it	1246	
+Bangolo	m	chimpanzee	8	parent	6	2	14	134		p_test	training	r	43102.49206	r	1							et	658	it	1421	
+Bangolo	m	chimpanzee	8	parent	6	2	15	135	16	p_test	test	r	43102.49234	r	1	ct	1203	cp	22	st	2128					
+Bangolo	m	chimpanzee	8	parent	6	2	16	136		p_test	training	l	43102.49266	l	1							et	614	it	992	
+Bangolo	m	chimpanzee	8	parent	6	2	17	137		p_test	training	r	43102.49294	r	1							et	1096	it	1021	
+Bangolo	m	chimpanzee	8	parent	6	2	18	138	17	p_test	test	r	43102.49323	r	1	ct	1053	cp	12	st	1261					
+Bangolo	m	chimpanzee	8	parent	6	2	19	139		p_test	training	l	43102.49353	l	1							et	542	it	1149	
+Bangolo	m	chimpanzee	8	parent	6	2	20	140		p_test	training	r	43102.49388	l	0							et	2187	it	1528	
+Bangolo	m	chimpanzee	8	parent	6	2	21	141		p_test	training	l	43102.49422	l	1							et	1256	it	808	
+Bangolo	m	chimpanzee	8	parent	6	2	22	142		p_test	training	r	43102.49444	l	0							et	856	it	1028	
+Bangolo	m	chimpanzee	8	parent	6	2	23	143		p_test	training	l	43102.49469	l	1							et	470	it	1554	
+Bangolo	m	chimpanzee	8	parent	6	2	24	144	18	p_test	test	l	43102.49498	l	1	ct	301	cp	1	st	1290					
+Bangolo	m	chimpanzee	8	parent	7	1	1	145		p_test	training	l	43103.41537	l	1							et	678	it	1114	
+Bangolo	m	chimpanzee	8	parent	7	1	2	146		p_test	training	r	43103.41561	r	1							et	437	it	906	
+Bangolo	m	chimpanzee	8	parent	7	1	3	147		p_test	training	l	43103.41581	l	1							et	455	it	1099	
+Bangolo	m	chimpanzee	8	parent	7	1	4	148	19	p_test	test	r	43103.41605	r	1	ct		cp		st	1136					cp and ct not recorded
+Bangolo	m	chimpanzee	8	parent	7	1	5	149		p_test	training	r	43103.41647	r	1							et	443	it	1891	
+Bangolo	m	chimpanzee	8	parent	7	1	6	150	20	p_test	test	l	43103.41669	l	1	ct	602	cp	15	st	943					
+Bangolo	m	chimpanzee	8	parent	7	1	7	151		p_test	training	r	43103.417	r	1							et	447	it	1598	
+Bangolo	m	chimpanzee	8	parent	7	1	8	152		p_test	training	l	43103.41719	l	1							et	368	it	1582	
+Bangolo	m	chimpanzee	8	parent	7	1	9	153		p_test	training	l	43103.41743	l	1							et	530	it	1014	
+Bangolo	m	chimpanzee	8	parent	7	1	10	154	21	p_test	test	r	43103.41766	r	1	ct	551	cp	12	st	827					
+Bangolo	m	chimpanzee	8	parent	7	1	11	155		p_test	training	r	43103.41789	r	1							et	544	it	960	
+Bangolo	m	chimpanzee	8	parent	7	1	12	156		p_test	training	l	43103.4181	l	1							et	552	it	1098	
+Bangolo	m	chimpanzee	8	parent	7	2	13	157		p_test	training	l	43103.41832	l	1							et	472	it	1382	
+Bangolo	m	chimpanzee	8	parent	7	2	14	158		p_test	training	r	43103.41852	r	1							et	467	it	1174	
+Bangolo	m	chimpanzee	8	parent	7	2	15	159	22	p_test	test	l	43103.41875	l	1	ct	803	cp	22	st	1153					
+Bangolo	m	chimpanzee	8	parent	7	2	16	160		p_test	training	r														
+Bangolo	m	chimpanzee	8	parent	7	2	17	161		p_test	training	r	43103.41948	r	1							et	633	it	3188	
+Bangolo	m	chimpanzee	8	parent	7	2	18	162	23	p_test	test	r	43103.41988	r	1	ct	803	cp	18	st	1142					
+Bangolo	m	chimpanzee	8	parent	7	2	19	163		p_test	training	l	43103.42012	l	1							et	631	it	928	
+Bangolo	m	chimpanzee	8	parent	7	2	20	164		p_test	training	r	43103.42035	r	1							et	495	it	1245	
+Bangolo	m	chimpanzee	8	parent	7	2	21	165		p_test	training	l	43103.42051	l	1							et	1023	it	1403	
+Bangolo	m	chimpanzee	8	parent	7	2	22	166		p_test	training	r	43103.42072	r	1							et	428	it	1537	
+Bangolo	m	chimpanzee	8	parent	7	2	23	167		p_test	training	l	43103.42089	l	1							et	571	it	976	
+Bangolo	m	chimpanzee	8	parent	7	2	24	168	24	p_test	test	l	43103.4211	l	1	ct	902	cp	22	st	1296					
+Dorien	f	chimpanzee	37	hand reared	1	1	1	1		p_training	training	r	43115.40228	l	0							et	6964	it		
+Dorien	f	chimpanzee	37	hand reared	1	1	2	2		p_training	training	l	43115.40318	r	0							et	9458	it	2665	
+Dorien	f	chimpanzee	37	hand reared	1	1	3	3		p_training	training	r	43115.4036	r	1							et	984	it	1905	
+Dorien	f	chimpanzee	37	hand reared	1	1	4	4		p_training	training	l	43115.40407	r	0							et	3602	it	2414	
+Dorien	f	chimpanzee	37	hand reared	1	1	5	5		p_training	training	r	43115.40468	r	1							et	488	it	1681	
+Dorien	f	chimpanzee	37	hand reared	1	1	6	6		p_training	training	l	43115.40492	r	0							et	1756	it	1580	
+Dorien	f	chimpanzee	37	hand reared	1	1	7	7		p_training	training	r	43115.40532	r	1							et	640	it	1642	
+Dorien	f	chimpanzee	37	hand reared	1	1	8	8		p_training	training	l	43115.40559	r	0							et	1677	it	1548	
+Dorien	f	chimpanzee	37	hand reared	1	1	9	9		p_training	training	l	43115.40588	r	0							et	1503	it	1438	
+Dorien	f	chimpanzee	37	hand reared	1	1	10	10		p_training	training	r	43115.40627	l	0							et	3492	it	1541	
+Dorien	f	chimpanzee	37	hand reared	1	1	11	11		p_training	training	r	43115.40656	l	0							et	669	it	1747	
+Dorien	f	chimpanzee	37	hand reared	1	1	12	12		p_training	training	l	43115.4069	r	0							et	2672	it	1669	
+Dorien	f	chimpanzee	37	hand reared	1	2	13	13		p_training	training	l	43115.40722	l	1							et	576	it	1217	
+Dorien	f	chimpanzee	37	hand reared	1	2	14	14		p_training	training	r	43115.40745	l	0							et	1931	it	1408	
+Dorien	f	chimpanzee	37	hand reared	1	2	15	15		p_training	training	l	43115.40775	l	1							et	451	it	1350	
+Dorien	f	chimpanzee	37	hand reared	1	2	16	16		p_training	training	r	43115.40819	l	0							et	4447	it	981	
+Dorien	f	chimpanzee	37	hand reared	1	2	17	17		p_training	training	r	43115.40861	l	0							et	1257	it	1487	
+Dorien	f	chimpanzee	37	hand reared	1	2	18	18		p_training	training	r		r	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	1	2	19	19		p_training	training	r		r	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	1	2	20	20		p_training	training	l	43115.41007	r	0							et	2177	it	3473	
+Dorien	f	chimpanzee	37	hand reared	1	2	21	21		p_training	training	l	43115.4103	l	1							et	502	it	1005	
+Dorien	f	chimpanzee	37	hand reared	1	2	22	22		p_training	training	l		l	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	1	2	23	23		p_training	training	r	43115.41153	r	1							et	738	it	2280	
+Dorien	f	chimpanzee	37	hand reared	1	2	24	24		p_training	training	l	43115.41191	r	0							et	1629	it	1838	
+Dorien	f	chimpanzee	37	hand reared	2	1	1	25		p_training	training	l	43117.36788	r	0							et	2879	it	2360	
+Dorien	f	chimpanzee	37	hand reared	2	1	2	26		p_training	training	l	43117.36809	l	1							et	543	it	1463	
+Dorien	f	chimpanzee	37	hand reared	2	1	3	27		p_training	training	r	43117.36837	l	0							et	1917	it	1674	
+Dorien	f	chimpanzee	37	hand reared	2	1	4	28		p_training	training	r	43117.36867	r	1							et	483	it	1869	
+Dorien	f	chimpanzee	37	hand reared	2	1	5	29		p_training	training	r	43117.36883	r	1							et	500	it	1381	
+Dorien	f	chimpanzee	37	hand reared	2	1	6	30		p_training	training	r	43117.36897	r	1							et	517	it	1233	
+Dorien	f	chimpanzee	37	hand reared	2	1	7	31		p_training	training	l	43117.36917	l	1							et	474	it	1885	
+Dorien	f	chimpanzee	37	hand reared	2	1	8	32		p_training	training	l	43117.36938	l	1							et	780	it	678	
+Dorien	f	chimpanzee	37	hand reared	2	1	9	33		p_training	training	r	43117.36959	r	1							et	507	it	1741	
+Dorien	f	chimpanzee	37	hand reared	2	1	10	34		p_training	training	r	43117.36988	r	1							et	641	it	2224	
+Dorien	f	chimpanzee	37	hand reared	2	1	11	35		p_training	training	l	43117.37008	r	0							et	1525	it	1881	
+Dorien	f	chimpanzee	37	hand reared	2	1	12	36		p_training	training	l	43117.37041	r	0							et	2093	it	1508	
+Dorien	f	chimpanzee	37	hand reared	2	2	13	37		p_training	training	r	43117.37073	r	1							et	651	it	1376	
+Dorien	f	chimpanzee	37	hand reared	2	2	14	38		p_training	training	l	43117.37098	r	0							et	2231	it	1464	
+Dorien	f	chimpanzee	37	hand reared	2	2	15	39		p_training	training	l	43117.37138	l	1							et	477	it	4567	
+Dorien	f	chimpanzee	37	hand reared	2	2	16	40		p_training	training	r	43117.37156	r	1							et	449	it	1572	
+Dorien	f	chimpanzee	37	hand reared	2	2	17	41		p_training	training	r	43117.37176	r	1							et	503	it	1693	
+Dorien	f	chimpanzee	37	hand reared	2	2	18	42		p_training	training	r	43117.37198	r	1							et	869	it	2050	
+Dorien	f	chimpanzee	37	hand reared	2	2	19	43		p_training	training	l	43117.37219	r	0							et	1875	it	1597	
+Dorien	f	chimpanzee	37	hand reared	2	2	20	44		p_training	training	l		l	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	2	2	21	45		p_training	training	r	43117.37299	r	1							et	804	it	8560	
+Dorien	f	chimpanzee	37	hand reared	2	2	22	46		p_training	training	l	43117.37362	l	1							et	403	it	3134	
+Dorien	f	chimpanzee	37	hand reared	2	2	23	47		p_training	training	l	43117.37383	l	1							et	671	it	1771	
+Dorien	f	chimpanzee	37	hand reared	2	2	24	48		p_training	training	r	43117.37406	r	1							et	767	it	1801	
+Dorien	f	chimpanzee	37	hand reared	3	1	1	49		p_test	training	l	43118.38056	l	1							et	618	it	4338	
+Dorien	f	chimpanzee	37	hand reared	3	1	2	50		p_test	training	l		l	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	3	1	3	51		p_test	training	r	43118.38194	r	1							et	887	it	23694	
+Dorien	f	chimpanzee	37	hand reared	3	1	4	52	1	p_test	test	r	43118.38194	l	0	ct	4963	cp	12	st	9249					
+Dorien	f	chimpanzee	37	hand reared	3	1	5	53		p_test	training	l		l	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	3	1	6	54		p_test	training	r	43118.38264	r	1							et	1004	it	6914	
+Dorien	f	chimpanzee	37	hand reared	3	1	7	55	2	p_test	test	l	43118.38403	l	1	ct	1153	cp	21	st	1599					
+Dorien	f	chimpanzee	37	hand reared	3	1	8	56		p_test	training	r	43118.38472	r	1							et	1083	it	1101	
+Dorien	f	chimpanzee	37	hand reared	3	1	9	57		p_test	training	r	43118.38472	r	1							et	625	it	1380	
+Dorien	f	chimpanzee	37	hand reared	3	1	10	58	3	p_test	test	l	43118.38542	r	0	ct	902	cp	22	st	3439					
+Dorien	f	chimpanzee	37	hand reared	3	1	11	59		p_test	training	l	43118.38542	l	1							et	3610	it	1630	
+Dorien	f	chimpanzee	37	hand reared	3	1	12	60		p_test	training	r	43118.38611	r	1							et	814	it	3311	
+Dorien	f	chimpanzee	37	hand reared	3	2	13	61		p_test	training	l	43118.38681	r	0							et	1022	it	1662	
+Dorien	f	chimpanzee	37	hand reared	3	2	14	62		p_test	training	l	43118.38681	l	1							et	536	it	1357	
+Dorien	f	chimpanzee	37	hand reared	3	2	15	63	4	p_test	test	r	43118.3875	l	0	ct	1103	cp	17	st	1307					
+Dorien	f	chimpanzee	37	hand reared	3	2	16	64		p_test	training	r	43118.3875	l	0							et	2759	it	1503	
+Dorien	f	chimpanzee	37	hand reared	3	2	17	65		p_test	training	l		l	1											not recorded
+Dorien	f	chimpanzee	37	hand reared	3	2	18	66	5	p_test	test	l	43118.38958	l	1	ct	953	cp	22	st	1916					
+Dorien	f	chimpanzee	37	hand reared	3	2	19	67		p_test	training	r	43118.38958	r	1							et	481	it	3046	
+Dorien	f	chimpanzee	37	hand reared	3	2	20	68		p_test	training	l	43118.39028	l	1							et	398	it	2818	
+Dorien	f	chimpanzee	37	hand reared	3	2	21	69		p_test	training	r	43118.39028	r	1							et	536	it	2088	
+Dorien	f	chimpanzee	37	hand reared	3	2	22	70		p_test	training	r	43118.39028	r	1							et	503	it	1531	
+Dorien	f	chimpanzee	37	hand reared	3	2	23	71	6	p_test	test	l	43118.39097	l	1	ct		cp	16	st	1580					"cp and ct not recorded, coded from video"
+Dorien	f	chimpanzee	37	hand reared	3	2	24	72		p_test	training	l	43118.39097	r	0							et	1336	it	2276	
+Dorien	f	chimpanzee	37	hand reared	4	1	1	73		p_test	training	l	43124.37339	l	1							et	509	it	4664	
+Dorien	f	chimpanzee	37	hand reared	4	1	2	74		p_test	training	l	43124.37365	l	1							et	480	it	1925	
+Dorien	f	chimpanzee	37	hand reared	4	1	3	75		p_test	training	l	43124.37384	l	1							et	577	it	971	
+Dorien	f	chimpanzee	37	hand reared	4	1	4	76		p_test	training	r	43124.37434	l	0							et	1434	it	1250	
+Dorien	f	chimpanzee	37	hand reared	4	1	5	77	7	p_test	test	l	43124.37484	l	1	ct	802	cp	19	st	1230					
+Dorien	f	chimpanzee	37	hand reared	4	1	6	78		p_test	training	r	43124.37505	r	1							et	616	it	1031	
+Dorien	f	chimpanzee	37	hand reared	4	1	7	79		p_test	training	l	43124.37532	l	1							et	1564	it	1011	
+Dorien	f	chimpanzee	37	hand reared	4	1	8	80	8	p_test	test	r	43124.37576	r	1	ct	651	cp	3	st	757					
+Dorien	f	chimpanzee	37	hand reared	4	1	9	81		p_test	training	r	43124.37612	r	1							et	675	it	1176	
+Dorien	f	chimpanzee	37	hand reared	4	1	10	82		p_test	training	l	43124.37638	r	0							et	1740	it	1153	
+Dorien	f	chimpanzee	37	hand reared	4	1	11	83	9	p_test	test	r	43124.37681	r	1	ct	653	cp	15	st	1022					
+Dorien	f	chimpanzee	37	hand reared	4	1	12	84		p_test	training	r	43124.37714	l	0							et	2472	it	1846	
+Dorien	f	chimpanzee	37	hand reared	4	2	13	85		p_test	training	l	43124.37743	r	0							et	1158	it	1228	
+Dorien	f	chimpanzee	37	hand reared	4	2	14	86		p_test	training	r	43124.37772	r	1							et	1598	it	1390	
+Dorien	f	chimpanzee	37	hand reared	4	2	15	87	10	p_test	test	l	43124.37803	r	0	ct	802	cp	20	st	1233					
+Dorien	f	chimpanzee	37	hand reared	4	2	16	88		p_test	training	r	43124.3784	r	1							et	1088	it	853	
+Dorien	f	chimpanzee	37	hand reared	4	2	17	89		p_test	training	r	43124.3789	r	1							et	848	it	1795	
+Dorien	f	chimpanzee	37	hand reared	4	2	18	90		p_test	training	l	43124.37922	r	0							et	3468	it	1211	
+Dorien	f	chimpanzee	37	hand reared	4	2	19	91		p_test	training	l	43124.37946	l	1							et	434	it	843	
+Dorien	f	chimpanzee	37	hand reared	4	2	20	92	11	p_test	test	r	43124.37976	l	0	ct	3057	cp	14	st	3087					
+Dorien	f	chimpanzee	37	hand reared	4	2	21	93		p_test	training	r	43124.38109	r	1							et	20097	it	1395	"servo motors produced unusual noise, Dorien interruped the trial"
+Dorien	f	chimpanzee	37	hand reared	4	2	22	94		p_test	training	l	43124.38141	r	0							et	1212	it	1522	
+Dorien	f	chimpanzee	37	hand reared	4	2	23	95		p_test	training	r	43124.38164	r	1							et	1502	it	1593	
+Dorien	f	chimpanzee	37	hand reared	4	2	24	96	12	p_test	test	r	43124.3819	r	1	ct	953	cp	5	st	1044					
+Dorien	f	chimpanzee	37	hand reared	5	1	1	97		p_test	training	r	43125.35863	l	0							et	1971	it	2408	
+Dorien	f	chimpanzee	37	hand reared	5	1	2	98		p_test	training	l	43125.3589	l	1							et	347	it	2380	
+Dorien	f	chimpanzee	37	hand reared	5	1	3	99		p_test	training	r	43125.35919	r	1							et	495	it	1469	
+Dorien	f	chimpanzee	37	hand reared	5	1	4	100		p_test	training	l	43125.35944	l	1							et	590	it	1761	
+Dorien	f	chimpanzee	37	hand reared	5	1	5	101	13	p_test	test	r	43125.35971	r	1	ct	802	cp	22	st	1175					
+Dorien	f	chimpanzee	37	hand reared	5	1	6	102		p_test	training	r	43125.36003	r	1							et	431	it	1639	
+Dorien	f	chimpanzee	37	hand reared	5	1	7	103	14	p_test	test	l	43125.36042	l	1	ct	1153	cp	9	st	1380					
+Dorien	f	chimpanzee	37	hand reared	5	1	8	104		p_test	training	l	43125.36074	l	1							et	499	it	1966	
+Dorien	f	chimpanzee	37	hand reared	5	1	9	105		p_test	training	r	43125.36117	r	1							et	521	it	1477	
+Dorien	f	chimpanzee	37	hand reared	5	1	10	106		p_test	training	l	43125.36144	l	1							et	499	it	1308	
+Dorien	f	chimpanzee	37	hand reared	5	1	11	107	15	p_test	test	r	43125.36169	r	1	ct	1554	cp	20	st	1704					
+Dorien	f	chimpanzee	37	hand reared	5	1	12	108		p_test	training	l	43125.36203	l	1							et	396	it	1426	
+Dorien	f	chimpanzee	37	hand reared	5	2	13	109		p_test	training	r	43125.36241	r	1							et	1320	it	1559	
+Dorien	f	chimpanzee	37	hand reared	5	2	14	110		p_test	training	l	43125.36266	l	1							et	941	it	1152	
+Dorien	f	chimpanzee	37	hand reared	5	2	15	111	16	p_test	test	l	43125.36304	l	1	ct	852	cp	22	st	1165					
+Dorien	f	chimpanzee	37	hand reared	5	2	16	112		p_test	training	r	43125.36345	r	1							et	412	it	1450	
+Dorien	f	chimpanzee	37	hand reared	5	2	17	113		p_test	training	r	43125.3637	r	1							et	875	it	880	
+Dorien	f	chimpanzee	37	hand reared	5	2	18	114	17	p_test	test	r	43125.36392	r	1	ct	1554	cp	22	st	1704					
+Dorien	f	chimpanzee	37	hand reared	5	2	19	115		p_test	training	l	43125.36436	l	1							et	1142	it	914	
+Dorien	f	chimpanzee	37	hand reared	5	2	20	116		p_test	training	r	43125.36462	r	1							et	591	it	1268	
+Dorien	f	chimpanzee	37	hand reared	5	2	21	117		p_test	training	l	43125.36491	l	1							et	651	it	1422	
+Dorien	f	chimpanzee	37	hand reared	5	2	22	118	18	p_test	test	l	43125.36522	l	1	ct	1153	cp	21	st	1374					
+Dorien	f	chimpanzee	37	hand reared	5	2	23	119		p_test	training	r	43125.36575	r	1							et	477	it	1679	
+Dorien	f	chimpanzee	37	hand reared	5	2	24	120		p_test	training	l	43125.3661	l	1							et	826	it	6138	
+Fraukje	f	chimpanzee	41	hand reared	1	1	1	1		p_training	training	l	43103.43425	l	1							et	1407	it	21933	
+Fraukje	f	chimpanzee	41	hand reared	1	1	2	2		p_training	training	r	43103.43453	l	0							et	6806	it	2358	
+Fraukje	f	chimpanzee	41	hand reared	1	1	3	3		p_training	training	r	43103.43493	r	1							et	366	it	2376	
+Fraukje	f	chimpanzee	41	hand reared	1	1	4	4		p_training	training	r	43103.43516	r	1							et	474	it	1169	
+Fraukje	f	chimpanzee	41	hand reared	1	1	5	5		p_training	training	l	43103.43537	r	0							et	2885	it	1225	
+Fraukje	f	chimpanzee	41	hand reared	1	1	6	6		p_training	training	l	43103.43559	l	1							et	3412	it	888	
+Fraukje	f	chimpanzee	41	hand reared	1	1	7	7		p_training	training	l	43103.43595	l	1							et	421	it	1221	
+Fraukje	f	chimpanzee	41	hand reared	1	1	8	8		p_training	training	r	43103.43626	l	0							et	3474	it	1293	
+Fraukje	f	chimpanzee	41	hand reared	1	1	9	9		p_training	training	l	43103.43653	r	0							et	1507	it	1476	
+Fraukje	f	chimpanzee	41	hand reared	1	1	10	10		p_training	training	r	43103.4367	r	1							et	387	it	1424	
+Fraukje	f	chimpanzee	41	hand reared	1	1	11	11		p_training	training	l	43103.43704	r	0							et	2298	it	1231	
+Fraukje	f	chimpanzee	41	hand reared	1	1	12	12		p_training	training	r	43103.43753	r	1							et	360	it	1324	
+Fraukje	f	chimpanzee	41	hand reared	1	2	13	13		p_training	training	l	43103.43781	r	0							et	3335	it	1326	
+Fraukje	f	chimpanzee	41	hand reared	1	2	14	14		p_training	training	r	43103.43806	r	1							et	1947	it	1108	
+Fraukje	f	chimpanzee	41	hand reared	1	2	15	15		p_training	training	r	43103.43839	r	1							et	549	it	1450	
+Fraukje	f	chimpanzee	41	hand reared	1	2	16	16		p_training	training	l	43103.4387	r	0							et	1065	it	1328	
+Fraukje	f	chimpanzee	41	hand reared	1	2	17	17		p_training	training	l	43103.43992	r	0							et	2529	it	2365	
+Fraukje	f	chimpanzee	41	hand reared	1	2	18	18		p_training	training	r	43103.44015	r	1							et	591	it	1750	
+Fraukje	f	chimpanzee	41	hand reared	1	2	19	19		p_training	training	l	43103.44039	r	0							et	856	it	1316	
+Fraukje	f	chimpanzee	41	hand reared	1	2	20	20		p_training	training	r	43103.44072	r	1							et	505	it	2183	
+Fraukje	f	chimpanzee	41	hand reared	1	2	21	21		p_training	training	l	43103.44097	r	0							et	685	it	1171	
+Fraukje	f	chimpanzee	41	hand reared	1	2	22	22		p_training	training	l	43103.4412	l	1							et	499	it	1100	
+Fraukje	f	chimpanzee	41	hand reared	1	2	23	23		p_training	training	r	43103.44145	r	1							et	622	it	1629	
+Fraukje	f	chimpanzee	41	hand reared	1	2	24	24		p_training	training	r	43103.4417	r	1							et	462	it	1226	
+Fraukje	f	chimpanzee	41	hand reared	2	1	1	25		p_training	training	l		l	1											
+Fraukje	f	chimpanzee	41	hand reared	2	1	2	26		p_training	training	l	43115.41758	l	1							et	426	it	314	
+Fraukje	f	chimpanzee	41	hand reared	2	1	3	27		p_training	training	r	43115.41799	l	0							et	1972	it	9299	
+Fraukje	f	chimpanzee	41	hand reared	2	1	4	28		p_training	training	r	43115.4183	r	1							et	365	it	1836	
+Fraukje	f	chimpanzee	41	hand reared	2	1	5	29		p_training	training	r	43115.41854	r	1							et	473	it	1649	
+Fraukje	f	chimpanzee	41	hand reared	2	1	6	30		p_training	training	l	43115.41876	r	0							et	3239	it	1628	
+Fraukje	f	chimpanzee	41	hand reared	2	1	7	31		p_training	training	r	43115.41898	r	1							et	428	it	1937	
+Fraukje	f	chimpanzee	41	hand reared	2	1	8	32		p_training	training	l	43115.41927	l	1							et	477	it	1714	
+Fraukje	f	chimpanzee	41	hand reared	2	1	9	33		p_training	training	l	43115.41954	r	0							et	4827	it	3199	
+Fraukje	f	chimpanzee	41	hand reared	2	1	10	34		p_training	training	r	43115.4198	l	0							et	1151	it	1291	
+Fraukje	f	chimpanzee	41	hand reared	2	1	11	35		p_training	training	l	43115.42014	l	1							et	1314	it	1627	
+Fraukje	f	chimpanzee	41	hand reared	2	1	12	36		p_training	training	l		l	1											
+Fraukje	f	chimpanzee	41	hand reared	2	2	13	37		p_training	training	l	43115.42135	r	1							et	384	it	1907	
+Fraukje	f	chimpanzee	41	hand reared	2	2	14	38		p_training	training	r	43115.42157	r	1							et	566	it	1285	
+Fraukje	f	chimpanzee	41	hand reared	2	2	15	39		p_training	training	l	43115.42184	r	0							et	2840	it	2685	
+Fraukje	f	chimpanzee	41	hand reared	2	2	16	40		p_training	training	r	43115.42215	r	1							et	513	it	1564	
+Fraukje	f	chimpanzee	41	hand reared	2	2	17	41		p_training	training	r	43115.42242	r	1							et	513	it	1373	
+Fraukje	f	chimpanzee	41	hand reared	2	2	18	42		p_training	training	l	43115.42282	l	1							et	559	it	1603	
+Fraukje	f	chimpanzee	41	hand reared	2	2	19	43		p_training	training	r	43115.4231	r	1							et	629	it	1414	
+Fraukje	f	chimpanzee	41	hand reared	2	2	20	44		p_training	training	l	43115.42334	l	1							et	485	it	1282	
+Fraukje	f	chimpanzee	41	hand reared	2	2	21	45		p_training	training	l	43115.4237	l	1							et	458	it	1149	
+Fraukje	f	chimpanzee	41	hand reared	2	2	22	46		p_training	training	l	43115.42395	l	1							et	457	it	1106	
+Fraukje	f	chimpanzee	41	hand reared	2	2	23	47		p_training	training	r	43115.42435	l	0							et	1422	it	1851	
+Fraukje	f	chimpanzee	41	hand reared	2	2	24	48		p_training	training	r	43115.42469	r	1							et	601	it	1592	
+Fraukje	f	chimpanzee	41	hand reared	3	1	1	49		p_test	training	l	43116.38014	r	0							et	2012	it	1770	
+Fraukje	f	chimpanzee	41	hand reared	3	1	2	50		p_test	training	r	43116.38036	r	1							et	423	it	1498	
+Fraukje	f	chimpanzee	41	hand reared	3	1	3	51	1	p_test	test	l	43116.38063	r	0	ct	1203	cp	21	st	1575					
+Fraukje	f	chimpanzee	41	hand reared	3	1	4	52		p_test	training	r	43116.38109	r	1							et	540	it	1760	
+Fraukje	f	chimpanzee	41	hand reared	3	1	5	53		p_test	training	l	43116.38146	l	1							et	362	it	1506	
+Fraukje	f	chimpanzee	41	hand reared	3	1	6	54		p_test	training	l	43116.38167	l	1							et	368	it	999	
+Fraukje	f	chimpanzee	41	hand reared	3	1	7	55		p_test	training	r	43116.38185	r	1							et	613	it	1557	
+Fraukje	f	chimpanzee	41	hand reared	3	1	8	56	2	p_test	test	r	43116.38211	r	1	ct	2156	cp	22	st	2503					
+Fraukje	f	chimpanzee	41	hand reared	3	1	9	57		p_test	training	l	43116.38244	l	1							et	326	it	1220	
+Fraukje	f	chimpanzee	41	hand reared	3	1	10	58	3	p_test	test	r	43116.38273	r	1	ct		cp	22	st	1605					"cp and ct not recorded, cp coded from video"
+Fraukje	f	chimpanzee	41	hand reared	3	1	11	59		p_test	training	l	43116.38323	l	1							et	312	it	1208	
+Fraukje	f	chimpanzee	41	hand reared	3	1	12	60		p_test	training	r	43116.3834	r	1							et	488	it	1370	
+Fraukje	f	chimpanzee	41	hand reared	3	2	13	61		p_test	training	r	43116.38361	r	1							et	451	it	1221	
+Fraukje	f	chimpanzee	41	hand reared	3	2	14	62		p_test	training	l	43116.38383	l	1							et	287	it	1475	
+Fraukje	f	chimpanzee	41	hand reared	3	2	15	63	4	p_test	test	l	43116.38403	l	1	ct	1153	cp	22	st	1574					
+Fraukje	f	chimpanzee	41	hand reared	3	2	16	64		p_test	training	r	43116.38426	r	1							et	466	it	1050	
+Fraukje	f	chimpanzee	41	hand reared	3	2	17	65	5	p_test	test	r	43116.38453	r	1	ct	1404	cp	22	st	1711					
+Fraukje	f	chimpanzee	41	hand reared	3	2	18	66		p_test	training	r	43116.38477	r	1							et	500	it	1255	
+Fraukje	f	chimpanzee	41	hand reared	3	2	19	67		p_test	training	l	43116.38502	l	1							et	375	it	1255	
+Fraukje	f	chimpanzee	41	hand reared	3	2	20	68		p_test	training	r	43116.38521	r	1							et	425	it	1174	
+Fraukje	f	chimpanzee	41	hand reared	3	2	21	69	6	p_test	test	l	43116.38546	l	1	ct	1203	cp	21	st	1581					
+Fraukje	f	chimpanzee	41	hand reared	3	2	22	70		p_test	training	r	43116.38572	r	1							et	543	it	1688	
+Fraukje	f	chimpanzee	41	hand reared	3	2	23	71		p_test	training	l	43116.38598	l	1							et	341	it	1164	
+Fraukje	f	chimpanzee	41	hand reared	3	2	24	72		p_test	training	l	43116.38617	l	1							et	387	it	989	
+Fraukje	f	chimpanzee	41	hand reared	4	1	1	73		p_test	training	l	43117.38007	l	1							et	371	it	2028	
+Fraukje	f	chimpanzee	41	hand reared	4	1	2	74		p_test	training	r	43117.38025	r	1							et	414	it	1083	
+Fraukje	f	chimpanzee	41	hand reared	4	1	3	75	7	p_test	test	l	43117.38049	r	0	ct	1354	cp	21	st	1822					
+Fraukje	f	chimpanzee	41	hand reared	4	1	4	76		p_test	training	r	43117.38075	r	1							et	367	it	1896	
+Fraukje	f	chimpanzee	41	hand reared	4	1	5	77		p_test	training	l	43117.38096	l	1							et	334	it	1214	
+Fraukje	f	chimpanzee	41	hand reared	4	1	6	78	8	p_test	test	r	43117.38117	r	1	ct	1805	cp	22	st	2076					
+Fraukje	f	chimpanzee	41	hand reared	4	1	7	79		p_test	training	r	43117.38142	r	1							et	422	it	1362	
+Fraukje	f	chimpanzee	41	hand reared	4	1	8	80		p_test	training	l	43117.38214	l	1							et	371	it	1334	
+Fraukje	f	chimpanzee	41	hand reared	4	1	9	81		p_test	training	l	43117.38238	l	1							et	336	it	1271	
+Fraukje	f	chimpanzee	41	hand reared	4	1	10	82		p_test	training	r	43117.38257	r	1							et	550	it	1669	
+Fraukje	f	chimpanzee	41	hand reared	4	1	11	83	9	p_test	test	r	43117.38278	r	1	ct	1354	cp	22	st	1670					
+Fraukje	f	chimpanzee	41	hand reared	4	1	12	84		p_test	training	l	43117.38309	l	1							et	461	it	1601	
+Fraukje	f	chimpanzee	41	hand reared	4	2	13	85		p_test	training	r	43117.38339	r	1							et	384	it	1610	
+Fraukje	f	chimpanzee	41	hand reared	4	2	14	86	10	p_test	test	l	43117.38363	l	1	ct	1404	cp	21	st	1669					
+Fraukje	f	chimpanzee	41	hand reared	4	2	15	87		p_test	training	r	43117.3839	r	1							et	359	it	1541	
+Fraukje	f	chimpanzee	41	hand reared	4	2	16	88		p_test	training	l	43117.38412	l	1							et	462	it	1528	
+Fraukje	f	chimpanzee	41	hand reared	4	2	17	89	11	p_test	test	r	43117.38435	r	1			cp	22	st	1333					"cp and ct not recorded, cp coded from video"
+Fraukje	f	chimpanzee	41	hand reared	4	2	18	90		p_test	training	r	43117.38488	r	1							et	562	it	1455	
+Fraukje	f	chimpanzee	41	hand reared	4	2	19	91		p_test	training	l	43117.38506	l	1							et	345	it	1193	
+Fraukje	f	chimpanzee	41	hand reared	4	2	20	92	12	p_test	test	l	43117.38527	l	1	ct	501	cp	22	st	1538					
+Fraukje	f	chimpanzee	41	hand reared	4	2	21	93		p_test	training	l	43117.38558	l	1							et	328	it	1320	
+Fraukje	f	chimpanzee	41	hand reared	4	2	22	94		p_test	training	r	43117.38584	r	1							et	484	it	1398	
+Fraukje	f	chimpanzee	41	hand reared	4	2	23	95		p_test	training	l	43117.38606	l	1							et	331	it	1272	
+Fraukje	f	chimpanzee	41	hand reared	4	2	24	96		p_test	training	r	43117.38637	r	1							et	507	it	1367	
+Fraukje	f	chimpanzee	41	hand reared	5	1	1	97		p_test	training	r	43118.39422	r	1							et	2064	it		
+Fraukje	f	chimpanzee	41	hand reared	5	1	2	98		p_test	training	r	43118.39459	r	1							et	384	it	1571	
+Fraukje	f	chimpanzee	41	hand reared	5	1	3	99	13	p_test	test	r	43118.39497	r	1	ct	1153	cp	22	st	1412					
+Fraukje	f	chimpanzee	41	hand reared	5	1	4	100		p_test	training	l	43118.39528	l	1							et	308	it	4165	
+Fraukje	f	chimpanzee	41	hand reared	5	1	5	101		p_test	training	r	43118.39549	r	1							et	536	it	1539	
+Fraukje	f	chimpanzee	41	hand reared	5	1	6	102	14	p_test	test	l	43118.39572	l	1	ct	1052	cp	21	st	1478					
+Fraukje	f	chimpanzee	41	hand reared	5	1	7	103		p_test	training	l	43118.39606	l	1							et	314	it	1376	
+Fraukje	f	chimpanzee	41	hand reared	5	1	8	104		p_test	training	l	43118.3963	l	1							et	323	it	1373	
+Fraukje	f	chimpanzee	41	hand reared	5	1	9	105	15	p_test	test	r	43118.39653	r	1	ct	1954	cp	22	st	2413					
+Fraukje	f	chimpanzee	41	hand reared	5	1	10	106		p_test	training	l	43118.39682	l	1							et	296	it	1394	
+Fraukje	f	chimpanzee	41	hand reared	5	1	11	107		p_test	training	r	43118.397	r	1							et	421	it	1456	
+Fraukje	f	chimpanzee	41	hand reared	5	1	12	108		p_test	training	l	43118.39727	l	1							et	289	it	1319	
+Fraukje	f	chimpanzee	41	hand reared	5	2	13	109		p_test	training	l	43118.39756	l	1							et	339	it	1433	
+Fraukje	f	chimpanzee	41	hand reared	5	2	14	110	16	p_test	test	l	43118.39785	l	1	ct	1204	cp	21	st	1453					
+Fraukje	f	chimpanzee	41	hand reared	5	2	15	111		p_test	training	r	43118.39814	r	1							et	434	it	2178	
+Fraukje	f	chimpanzee	41	hand reared	5	2	16	112		p_test	training	r	43118.39833	r	1							et	471	it	1367	
+Fraukje	f	chimpanzee	41	hand reared	5	2	17	113	17	p_test	test	r	43118.39858	r	1	ct	1052	cp	22	st	1323					
+Fraukje	f	chimpanzee	41	hand reared	5	2	18	114		p_test	training	l		l	1											not recorded
+Fraukje	f	chimpanzee	41	hand reared	5	2	19	115		p_test	training	l	43118.39916	l	1							et	340	it	1641	
+Fraukje	f	chimpanzee	41	hand reared	5	2	20	116		p_test	training	r	43118.39938	r	1							et	420	it	1477	
+Fraukje	f	chimpanzee	41	hand reared	5	2	21	117		p_test	training	r	43118.39956	r	1							et	452	it	1603	
+Fraukje	f	chimpanzee	41	hand reared	5	2	22	118	18	p_test	test	l	43118.3998	l	1	ct	1254	cp	22	st	1842					
+Fraukje	f	chimpanzee	41	hand reared	5	2	23	119		p_test	training	r	43118.40017	r	1							et	340	it	2333	
+Fraukje	f	chimpanzee	41	hand reared	5	2	24	120		p_test	training	l	43118.40044	l	1							et	320	it	1775	
+Fraukje	f	chimpanzee	41	hand reared	6	1	1	121		p_test	training	r	43124.38493	r	1							et	414	it	2085	
+Fraukje	f	chimpanzee	41	hand reared	6	1	2	122	19	p_test	test	l	43124.38514	l	1	ct	1153	cp	22	st	1450					
+Fraukje	f	chimpanzee	41	hand reared	6	1	3	123		p_test	training	l	43124.38538	l	1							et	843	it	1450	
+Fraukje	f	chimpanzee	41	hand reared	6	1	4	124		p_test	training	r	43124.38578	l	0							et	1175	it	1364	
+Fraukje	f	chimpanzee	41	hand reared	6	1	5	125		p_test	training	l	43124.38617	r	0							et	11288	it	1454	
+Fraukje	f	chimpanzee	41	hand reared	6	1	6	126		p_test	training	r	43124.38661	r	1							et	1812	it	1923	
+Fraukje	f	chimpanzee	41	hand reared	6	1	7	127		p_test	training	l	43124.38696	l	1							et	407	it	1552	
+Fraukje	f	chimpanzee	41	hand reared	6	1	8	128		p_test	training	l		l	1											not recorded
+Fraukje	f	chimpanzee	41	hand reared	6	1	9	129	20	p_test	test	r	43124.38803	r	1	ct	1103	cp	1	st	1606					
+Fraukje	f	chimpanzee	41	hand reared	6	1	10	130		p_test	training	r	43124.38845	r	1							et	746	it	1350	
+Fraukje	f	chimpanzee	41	hand reared	6	1	11	131		p_test	training	r	43124.38874	r	1							et	948	it	1582	
+Fraukje	f	chimpanzee	41	hand reared	6	1	12	132	21	p_test	test	l	43124.38899	l	1	ct	902	cp	0	st	902					
+Fraukje	f	chimpanzee	41	hand reared	6	2	13	133		p_test	training	r	43124.38949	r	1							et	705	it	2842	
+Fraukje	f	chimpanzee	41	hand reared	6	2	14	134		p_test	training	l	43124.38983	l	1							et	357	it	1522	
+Fraukje	f	chimpanzee	41	hand reared	6	2	15	135	22	p_test	test	r	43124.39016	r	1	ct	1855	cp	22	st	2144					
+Fraukje	f	chimpanzee	41	hand reared	6	2	16	136		p_test	training	l	43124.39045	l	1							et	536	it	1165	
+Fraukje	f	chimpanzee	41	hand reared	6	2	17	137		p_test	training	l	43124.39068	l	1							et	410	it	1118	
+Fraukje	f	chimpanzee	41	hand reared	6	2	18	138		p_test	training	r	43124.391	r	1							et	902	it	1494	
+Fraukje	f	chimpanzee	41	hand reared	6	2	19	139	23	p_test	test	l	43124.39133	r	0	ct	1304	cp	22	st	1793					
+Fraukje	f	chimpanzee	41	hand reared	6	2	20	140		p_test	training	l	43124.39169	l	1							et	374	it	1245	
+Fraukje	f	chimpanzee	41	hand reared	6	2	21	141		p_test	training	l	43124.39189	l	1							et	310	it	1108	
+Fraukje	f	chimpanzee	41	hand reared	6	2	22	142		p_test	training	r	43124.39227	r	1							et	718	it	1453	
+Fraukje	f	chimpanzee	41	hand reared	6	2	23	143		p_test	training	r	43124.39253	r	1							et	1235	it	1230	
+Fraukje	f	chimpanzee	41	hand reared	6	2	24	144	24	p_test	test	r	43124.39272	r	1	ct	803	cp	16	st	1090					
+Frodo	m	chimpanzee	24	parent	1	1	1	1		p_training	training	l	43099.48431	l	1							et	1553	it	16990	
+Frodo	m	chimpanzee	24	parent	1	1	2	2		p_training	training	l	43099.48461	l	1							et	1243	it	2375	
+Frodo	m	chimpanzee	24	parent	1	1	3	3		p_training	training	r	43099.48523	l	0							et	22055	it	2230	
+Frodo	m	chimpanzee	24	parent	1	1	4	4		p_training	training	r	43099.48597	r	1							et	515	it	3940	
+Frodo	m	chimpanzee	24	parent	1	1	5	5		p_training	training	r	43099.48613	r	1							et	528	it	2731	
+Frodo	m	chimpanzee	24	parent	1	1	6	6		p_training	training	r	43099.4863	r	1							et	467	it	2397	
+Frodo	m	chimpanzee	24	parent	1	1	7	7		p_training	training	l	43099.48646	l	1							et	1907	it	3253	
+Frodo	m	chimpanzee	24	parent	1	1	8	8		p_training	training	l	43099.48666	l	1							et	554	it	1759	
+Frodo	m	chimpanzee	24	parent	1	1	9	9		p_training	training	l	43099.48691	l	1							et	1648	it	6785	
+Frodo	m	chimpanzee	24	parent	1	1	10	10		p_training	training	r	43099.48741	r	1							et	446	it	2637	
+Frodo	m	chimpanzee	24	parent	1	1	11	11		p_training	training	l	43099.48755	l	1							et	592	it	2076	
+Frodo	m	chimpanzee	24	parent	1	1	12	12		p_training	training	r	43099.48767	r	1							et	596	it	2703	
+Frodo	m	chimpanzee	24	parent	1	2	13	13		p_training	training	r	43099.48786	r	1							et	526	it	2580	
+Frodo	m	chimpanzee	24	parent	1	2	14	14		p_training	training	l	43099.48803	l	1							et	945	it	1722	
+Frodo	m	chimpanzee	24	parent	1	2	15	15		p_training	training	l	43099.48817	l	1							et	491	it	1639	
+Frodo	m	chimpanzee	24	parent	1	2	16	16		p_training	training	r	43099.4883	r	1							et	552	it	2039	
+Frodo	m	chimpanzee	24	parent	1	2	17	17		p_training	training	l	43099.48845	l	1							et	454	it	1716	
+Frodo	m	chimpanzee	24	parent	1	2	18	18		p_training	training	r	43099.48859	r	1							et	880	it	1976	
+Frodo	m	chimpanzee	24	parent	1	2	19	19		p_training	training	r	43099.48875	r	1							et	470	it	1563	
+Frodo	m	chimpanzee	24	parent	1	2	20	20		p_training	training	l	43099.48891	l	1							et	379	it	1591	
+Frodo	m	chimpanzee	24	parent	1	2	21	21		p_training	training	l	43099.48906	l	1							et	560	it	1940	
+Frodo	m	chimpanzee	24	parent	1	2	22	22		p_training	training	r	43099.48921	r	1							et	660	it	1929	
+Frodo	m	chimpanzee	24	parent	1	2	23	23		p_training	training	r	43099.48935	r	1							et	561	it	1682	
+Frodo	m	chimpanzee	24	parent	1	2	24	24		p_training	training	l	43099.48962	l	1							et	490	it	1494	
+Frodo	m	chimpanzee	24	parent	2	1	1	25		p_test	training	r	43102.47803	r	1							et	345	it	2906	
+Frodo	m	chimpanzee	24	parent	2	1	2	26		p_test	training	l	43102.47826	l	1							et	1189	it	4059	
+Frodo	m	chimpanzee	24	parent	2	1	3	27	1	p_test	test	l	43102.47846	l	1	ct	1655	cp	21	st	2041					
+Frodo	m	chimpanzee	24	parent	2	1	4	28		p_test	training	l	43102.47885	l	1							et	712	it	1687	
+Frodo	m	chimpanzee	24	parent	2	1	5	29		p_test	training	r	43102.47906	r	1							et	330	it	1435	
+Frodo	m	chimpanzee	24	parent	2	1	6	30		p_test	training	r	43102.47936	r	1							et	412	it	1759	
+Frodo	m	chimpanzee	24	parent	2	1	7	31	2	p_test	test	r	43102.47959	r	1	ct	1503	cp	22	st	1826					
+Frodo	m	chimpanzee	24	parent	2	1	8	32		p_test	training	l	43102.47983	l	1							et	578	it	1735	
+Frodo	m	chimpanzee	24	parent	2	1	9	33		p_test	training	l	43102.48005	l	1							et	442	it	1756	
+Frodo	m	chimpanzee	24	parent	2	1	10	34	3	p_test	test	r	43102.48037	r	1	ct	1153	cp	22	st	1445					
+Frodo	m	chimpanzee	24	parent	2	1	11	35		p_test	training	l	43102.4806	l	1							et	382	it	2412	
+Frodo	m	chimpanzee	24	parent	2	1	12	36		p_test	training	r	43102.48081	r	1							et	434	it	1666	
+Frodo	m	chimpanzee	24	parent	2	2	13	37		p_test	training	l	43102.48174	l	1							et	452	it	4020	
+Frodo	m	chimpanzee	24	parent	2	2	14	38	4	p_test	test	l	43102.48218	l	1	ct	1204	cp	12	st	1402					
+Frodo	m	chimpanzee	24	parent	2	2	15	39		p_test	training	r	43102.48249	r	1							et	374	it	2158	
+Frodo	m	chimpanzee	24	parent	2	2	16	40		p_test	training	r	43102.48271	r	1							et	418	it	4875	
+Frodo	m	chimpanzee	24	parent	2	2	17	41		p_test	training	l	43102.483	l	1							et	675	it	1679	
+Frodo	m	chimpanzee	24	parent	2	2	18	42		p_test	training	r	43102.48334	r	1							et	489	it	1486	
+Frodo	m	chimpanzee	24	parent	2	2	19	43	5	p_test	test	r	43102.48359	r	1	ct	1353	cp	18	st	1589					
+Frodo	m	chimpanzee	24	parent	2	2	20	44		p_test	training	r	43102.48388	r	1							et	503	it	1772	
+Frodo	m	chimpanzee	24	parent	2	2	21	45		p_test	training	r	43102.48404	r	1							et	531	it	1530	
+Frodo	m	chimpanzee	24	parent	2	2	22	46		p_test	training	l	43102.48421	l	1							et	455	it	2058	
+Frodo	m	chimpanzee	24	parent	2	2	23	47	6	p_test	test	l	43102.48441	l	1	ct	1555	cp	21	st	1850					
+Frodo	m	chimpanzee	24	parent	2	2	24	48		p_test	training	l	43102.48465	l	1							et	280	it	1534	
+Frodo	m	chimpanzee	24	parent	3	1	1	49		p_test	training	l	43103.4242	l	1							et	501	it	7556	
+Frodo	m	chimpanzee	24	parent	3	1	2	50	7	p_test	test	r	43103.42447	r	1	ct	1605	cp	22	st	2027					
+Frodo	m	chimpanzee	24	parent	3	1	3	51		p_test	training	l	43103.42475	l	1							et	398	it	1768	
+Frodo	m	chimpanzee	24	parent	3	1	4	52		p_test	training	r	43103.42495	r	1							et	760	it	1940	
+Frodo	m	chimpanzee	24	parent	3	1	5	53	8	p_test	test	l	43103.42516	l	1	ct	1553	cp	22	st	2160					
+Frodo	m	chimpanzee	24	parent	3	1	6	54		p_test	training	l	43103.42542	l	1							et	336	it	1758	
+Frodo	m	chimpanzee	24	parent	3	1	7	55		p_test	training	r	43103.42564	r	1							et	584	it	1893	
+Frodo	m	chimpanzee	24	parent	3	1	8	56		p_test	training	r	43103.42581	r	1							et	686	it	1897	
+Frodo	m	chimpanzee	24	parent	3	1	9	57		p_test	training	r	43103.42598	r	1							et	585	it	2622	
+Frodo	m	chimpanzee	24	parent	3	1	10	58		p_test	training	l	43103.42615	l	1							et	418	it	1743	
+Frodo	m	chimpanzee	24	parent	3	1	11	59	9	p_test	test	r	43103.42641	r	1	ct	1403	cp	14	st	1677					
+Frodo	m	chimpanzee	24	parent	3	1	12	60		p_test	training	l	43103.4267	l	1							et	363	it	1510	
+Frodo	m	chimpanzee	24	parent	3	2	13	61		p_test	training	l	43103.42694	l	1							et	403	it	1664	
+Frodo	m	chimpanzee	24	parent	3	2	14	62		p_test	training	r	43103.42728	r	1							et	12760	it	1681	"slider was stuck, hard to move"
+Frodo	m	chimpanzee	24	parent	3	2	15	63	10	p_test	test	l	43103.42771	l	1	ct	1153	cp	22	st	1462					
+Frodo	m	chimpanzee	24	parent	3	2	16	64		p_test	training	r	43103.42792	r	1							et	692	it	2369	
+Frodo	m	chimpanzee	24	parent	3	2	17	65		p_test	training	l	43103.4281	l	1							et	393	it	1569	
+Frodo	m	chimpanzee	24	parent	3	2	18	66		p_test	training	l	43103.42837	l	1							et	382	it	1643	
+Frodo	m	chimpanzee	24	parent	3	2	19	67	11	p_test	test	l	43103.42859	l	1	ct	451	cp	3	st	1607					
+Frodo	m	chimpanzee	24	parent	3	2	20	68		p_test	training	r	43103.42899	r	1							et	463	it	1758	check ct and cp
+Frodo	m	chimpanzee	24	parent	3	2	21	69	12	p_test	test	r	43103.42924	r	1	ct	1805	cp	22	st	6518					
+Frodo	m	chimpanzee	24	parent	3	2	22	70		p_test	training	r	43103.42953	r	1							et	417	it	4528	
+Frodo	m	chimpanzee	24	parent	3	2	23	71		p_test	training	r	43103.4297	r	1							et	434	it	2254	
+Frodo	m	chimpanzee	24	parent	3	2	24	72		p_test	training	l	43103.43002	l	1							et	444	it	1629	
+Frodo	m	chimpanzee	24	parent	4	1	1	73		p_test	training	r	43115.42828	r	1							et	594	it		
+Frodo	m	chimpanzee	24	parent	4	1	2	74		p_test	training	l	43115.42848	l	1							et	510	it	4421	
+Frodo	m	chimpanzee	24	parent	4	1	3	75	13	p_test	test	r	43115.42875	r	1	ct	1454	cp	18	st	1730					
+Frodo	m	chimpanzee	24	parent	4	1	4	76		p_test	training	r	43115.42904	r	1							et	857	it	1816	
+Frodo	m	chimpanzee	24	parent	4	1	5	77		p_test	training	l	43115.42927	l	1							et	472	it	1853	
+Frodo	m	chimpanzee	24	parent	4	1	6	78	14	p_test	test	l	43115.42949	l	1	ct	1103	cp	21	st	1599					
+Frodo	m	chimpanzee	24	parent	4	1	7	79		p_test	training	l	43115.42975	l	1							et	2018	it	1909	
+Frodo	m	chimpanzee	24	parent	4	1	8	80		p_test	training	r	43115.43003	r	1							et	511	it	1836	
+Frodo	m	chimpanzee	24	parent	4	1	9	81		p_test	training	r	43115.43025	r	1							et	518	it	2069	
+Frodo	m	chimpanzee	24	parent	4	1	10	82		p_test	training	l	43115.43045	l	1							et	500	it	1899	
+Frodo	m	chimpanzee	24	parent	4	1	11	83	15	p_test	test	l	43115.43072	l	1	ct	1103	cp	21	st	1420					
+Frodo	m	chimpanzee	24	parent	4	1	12	84	16	p_test	test	r	43115.43106	r	1	ct	1155	cp	22	st	1450					
+Frodo	m	chimpanzee	24	parent	4	2	13	85		p_test	training	r	43115.43155	r	1							et	398	it	1753	
+Frodo	m	chimpanzee	24	parent	4	2	14	86		p_test	training	r	43115.43183	r	1							et	427	it	2068	
+Frodo	m	chimpanzee	24	parent	4	2	15	87		p_test	training	l	43115.43207	l	1							et	360	it	1598	
+Frodo	m	chimpanzee	24	parent	4	2	16	88		p_test	training	l	43115.43228	l	1							et	399	it	2082	
+Frodo	m	chimpanzee	24	parent	4	2	17	89		p_test	training	r	43115.43249	r	1							et	595	it	2020	
+Frodo	m	chimpanzee	24	parent	4	2	18	90	17	p_test	test	l	43115.43279	l	1	ct	952	cp	22	st	1234					
+Frodo	m	chimpanzee	24	parent	4	2	19	91		p_test	training	l	43115.43317	l	1							et	326	it	1666	
+Frodo	m	chimpanzee	24	parent	4	2	20	92		p_test	training	r	43115.43344	r	1							et	405	it	1330	
+Frodo	m	chimpanzee	24	parent	4	2	21	93		p_test	training	r	43115.43368	r	1							et	350	it	1698	
+Frodo	m	chimpanzee	24	parent	4	2	22	94		p_test	training	l	43115.43392	l	1							et	350	it	1546	
+Frodo	m	chimpanzee	24	parent	4	2	23	95	18	p_test	test	r	43115.43416	r	1	ct	1052	cp	22	st	1379					
+Frodo	m	chimpanzee	24	parent	4	2	24	96		p_test	training	l	43115.43447	l	1							et	358	it	2522	
+Frodo	m	chimpanzee	24	parent	5	1	1	97		p_test	training	l	43116.37149	l	1							et	481	it	5455	
+Frodo	m	chimpanzee	24	parent	5	1	2	98	19	p_test	test	r	43116.37176	r	1	ct	1304	cp	20	st	1577					
+Frodo	m	chimpanzee	24	parent	5	1	3	99		p_test	training	r	43116.37206	r	1							et	379	it	1796	
+Frodo	m	chimpanzee	24	parent	5	1	4	100		p_test	training	l	43116.37233	l	1							et	326	it	1870	
+Frodo	m	chimpanzee	24	parent	5	1	5	101		p_test	training	l	43116.3726	l	1							et	392	it	2188	
+Frodo	m	chimpanzee	24	parent	5	1	6	102		p_test	training	r	43116.37284	r	1							et	407	it	1775	
+Frodo	m	chimpanzee	24	parent	5	1	7	103	20	p_test	test	l	43116.37331	l	1	ct	1153	cp	21	st	1452					
+Frodo	m	chimpanzee	24	parent	5	1	8	104		p_test	training	r	43116.3736	r	1							et	454	it	2991	
+Frodo	m	chimpanzee	24	parent	5	1	9	105		p_test	training	r	43116.37381	r	1							et	405	it	2459	
+Frodo	m	chimpanzee	24	parent	5	1	10	106		p_test	training	l	43116.37404	l	1							et	378	it	1782	
+Frodo	m	chimpanzee	24	parent	5	1	11	107		p_test	training	l	43116.37421	l	1							et	380	it	1852	
+Frodo	m	chimpanzee	24	parent	5	1	12	108	21	p_test	test	r	43116.37451	r	1	ct	1203	cp	22	st	1467					
+Frodo	m	chimpanzee	24	parent	5	2	13	109		p_test	training	l	43116.37481	l	1							et	358	it	1677	
+Frodo	m	chimpanzee	24	parent	5	2	14	110	22	p_test	test	l	43116.37503	l	1	ct	1053	cp	21	st	1300					
+Frodo	m	chimpanzee	24	parent	5	2	15	111		p_test	training	r	43116.37532	r	1							et	369	it	1910	
+Frodo	m	chimpanzee	24	parent	5	2	16	112		p_test	training	r	43116.37552	r	1							et	432	it	2555	
+Frodo	m	chimpanzee	24	parent	5	2	17	113		p_test	training	l	43116.37572	l	1							et	392	it	2050	
+Frodo	m	chimpanzee	24	parent	5	2	18	114		p_test	training	l	43116.37587	l	1							et	330	it	1695	
+Frodo	m	chimpanzee	24	parent	5	2	19	115	23	p_test	test	r	43116.37605	r	1	ct	1303	cp	15	st	1476					
+Frodo	m	chimpanzee	24	parent	5	2	20	116		p_test	training	r	43116.37626	r	1							et	601	it	1943	
+Frodo	m	chimpanzee	24	parent	5	2	21	117		p_test	training	r	43116.37646	r	1							et	428	it	2757	
+Frodo	m	chimpanzee	24	parent	5	2	22	118		p_test	training	l	43116.37669	l	1							et	360	it	2363	
+Frodo	m	chimpanzee	24	parent	5	2	23	119	24	p_test	test	l	43116.3769	l	1	ct	1003	cp	21	st	1281					
+Frodo	m	chimpanzee	24	parent	5	2	24	120		p_test	training	r	43116.37715	r	1							et	370	it	1913	
+Kofi	m	chimpanzee	12	parent	1	1	1	1		p_training	training	l	43092.51446	l	1							et	12861			"Kofi was vocalizing and pant-hooting after the first move of the slider, he reacted to screams in the indoor enclosure"
+Kofi	m	chimpanzee	12	parent	1	1	2	2		p_training	training	r	43092.51466	l	0							et	4673			
+Kofi	m	chimpanzee	12	parent	1	1	3	3		p_training	training	r	43092.51481	r	1							et	1006			
+Kofi	m	chimpanzee	12	parent	1	1	4	4		p_training	training	r	43092.51505	r	1							et	1022			
+Kofi	m	chimpanzee	12	parent	1	1	5	5		p_training	training	l	43092.51524	l	1							et	1001			
+Kofi	m	chimpanzee	12	parent	1	1	6	6		p_training	training	l	43092.51539	l	1							et	1019			
+Kofi	m	chimpanzee	12	parent	1	1	7	7		p_training	training	l	43092.51556	l	1							et	1157			
+Kofi	m	chimpanzee	12	parent	1	1	8	8		p_training	training	r	43092.51571	r	1							et	997			
+Kofi	m	chimpanzee	12	parent	1	1	9	9		p_training	training	l	43092.51594	l	1							et	821			
+Kofi	m	chimpanzee	12	parent	1	1	10	10		p_training	training	r	43092.51619	r	1							et	843			
+Kofi	m	chimpanzee	12	parent	1	1	11	11		p_training	training	l	43092.51645	l	1							et	860			
+Kofi	m	chimpanzee	12	parent	1	1	12	12		p_training	training	r	43092.51664	r	1							et	1185			
+Kofi	m	chimpanzee	12	parent	1	2	13	13		p_training	training	l	43092.51688	l	1							et	980			
+Kofi	m	chimpanzee	12	parent	1	2	14	14		p_training	training	r	43092.51707	r	1							et	924			
+Kofi	m	chimpanzee	12	parent	1	2	15	15		p_training	training	r	43092.51728	r	1							et	1148			
+Kofi	m	chimpanzee	12	parent	1	2	16	16		p_training	training	l	43092.51743	l	1							et	739			
+Kofi	m	chimpanzee	12	parent	1	2	17	17		p_training	training	l	43092.51762	l	1							et	692			
+Kofi	m	chimpanzee	12	parent	1	2	18	18		p_training	training	l	43092.51782	l	1							et	716			
+Kofi	m	chimpanzee	12	parent	1	2	19	19		p_training	training	r	43092.51801	r	1							et	1235			
+Kofi	m	chimpanzee	12	parent	1	2	20	20		p_training	training	r	43092.51816	r	1							et	888			
+Kofi	m	chimpanzee	12	parent	1	2	21	21		p_training	training	r	43092.5183	r	1							et	1070			
+Kofi	m	chimpanzee	12	parent	1	2	22	22		p_training	training	l	43092.51848	l	1							et	865			
+Kofi	m	chimpanzee	12	parent	1	2	23	23		p_training	training	l	43092.51866	l	1							et	1599			
+Kofi	m	chimpanzee	12	parent	1	2	24	24		p_training	training	r	43092.5188	r	1							et	1464			
+Kofi	m	chimpanzee	12	parent	2	1	1	25		p_test	training	r	43096.48869	r	1							et	927			
+Kofi	m	chimpanzee	12	parent	2	1	2	26	1	p_test	test	r	43096.48892	r	1	ct	2256	cp	22	st	2944					
+Kofi	m	chimpanzee	12	parent	2	1	3	27		p_test	training	l	43096.48926	l	1							et	600			
+Kofi	m	chimpanzee	12	parent	2	1	4	28		p_test	training	r	43096.48948	r	1							et	1170			
+Kofi	m	chimpanzee	12	parent	2	1	5	29		p_test	training	l	43096.48968	l	1							et	797			
+Kofi	m	chimpanzee	12	parent	2	1	6	30	2	p_test	test	l	43096.49005	l	1	ct	2657	cp	16	st	3176					
+Kofi	m	chimpanzee	12	parent	2	1	7	31		p_test	training	r	43096.49031	r	1							et	641			
+Kofi	m	chimpanzee	12	parent	2	1	8	32		p_test	training	l	43096.49051	l	1							et	883			
+Kofi	m	chimpanzee	12	parent	2	1	9	33		p_test	training	l	43096.49073	l	1							et	961			
+Kofi	m	chimpanzee	12	parent	2	1	10	34		p_test	training	r	43096.49094	r	1							et	1013			
+Kofi	m	chimpanzee	12	parent	2	1	11	35	3	p_test	test	l	43096.49113	l	1	ct	1705	cp	21	st	2422					
+Kofi	m	chimpanzee	12	parent	2	1	12	36		p_test	training	r	43096.49137	r	1							et	1049			
+Kofi	m	chimpanzee	12	parent	2	2	13	37		p_test	training	l	43096.49189	l	1							et	901			
+Kofi	m	chimpanzee	12	parent	2	2	14	38		p_test	training	l	43096.49206	l	1							et	1086			
+Kofi	m	chimpanzee	12	parent	2	2	15	39		p_test	training	r	43096.49225	r	1							et	1487			
+Kofi	m	chimpanzee	12	parent	2	2	16	40	4	p_test	test	r	43096.49247	r	1	ct	1304	cp	9	st	2618					
+Kofi	m	chimpanzee	12	parent	2	2	17	41		p_test	training	l	43096.49273	l	1							et	986			
+Kofi	m	chimpanzee	12	parent	2	2	18	42	5	p_test	test	l	43096.49295	l	1	ct	1504	cp	10	st	1909					
+Kofi	m	chimpanzee	12	parent	2	2	19	43		p_test	training	r	43096.49319	r	1							et	1160			
+Kofi	m	chimpanzee	12	parent	2	2	20	44		p_test	training	r	43096.49338	r	1							et	1882			
+Kofi	m	chimpanzee	12	parent	2	2	21	45	6	p_test	test	r	43096.49362	r	1	ct	1253	cp	9	st	1502					
+Kofi	m	chimpanzee	12	parent	2	2	22	46		p_test	training	l	43096.49389	l	1							et	1019			
+Kofi	m	chimpanzee	12	parent	2	2	23	47		p_test	training	l	43096.49411	l	1							et	851			
+Kofi	m	chimpanzee	12	parent	2	2	24	48		p_test	training	r	43096.49428	l	0							et	2386			
+Kofi	m	chimpanzee	12	parent	3	1	1	49		p_test	training	r	43097.44137	r	1							et	910	it	2821	
+Kofi	m	chimpanzee	12	parent	3	1	2	50		p_test	training	l	43097.44155	l	1							et	684	it	2933	
+Kofi	m	chimpanzee	12	parent	3	1	3	51		p_test	training	r	43097.44174	r	1							et	1016	it	1395	
+Kofi	m	chimpanzee	12	parent	3	1	4	52	7	p_test	test	r	43097.44199	r	1	ct	1354	cp	12	st	1637					
+Kofi	m	chimpanzee	12	parent	3	1	5	53		p_test	training	l	43097.4423	l	1							et	673	it	1483	
+Kofi	m	chimpanzee	12	parent	3	1	6	54		p_test	training	r	43097.44248	r	1							et	708	it	1563	
+Kofi	m	chimpanzee	12	parent	3	1	7	55		p_test	training	l	43097.4427	l	1							et	699	it	1387	
+Kofi	m	chimpanzee	12	parent	3	1	8	56	8	p_test	test	l	43097.44318	l	1	ct	1404	cp	21	st	1946					
+Kofi	m	chimpanzee	12	parent	3	1	9	57		p_test	training	r	43097.44338	r	1							et	629	it	1391	
+Kofi	m	chimpanzee	12	parent	3	1	10	58		p_test	training	l	43097.44356	l	1							et	769	it	1184	
+Kofi	m	chimpanzee	12	parent	3	1	11	59		p_test	training	l	43097.44377	l	1							et	989	it	1501	
+Kofi	m	chimpanzee	12	parent	3	1	12	60	9	p_test	test	r	43097.44398	r	1	ct	1404	cp	22	st	1942					
+Kofi	m	chimpanzee	12	parent	3	2	13	61		p_test	training	l	43097.4442	l	1							et	691	it	1617	
+Kofi	m	chimpanzee	12	parent	3	2	14	62	10	p_test	test	l	43097.4444	l	1	ct	1103	cp	8	st	1306					
+Kofi	m	chimpanzee	12	parent	3	2	15	63		p_test	training	r	43097.44465	r	1							et	827	it	1474	
+Kofi	m	chimpanzee	12	parent	3	2	16	64		p_test	training	r	43097.44481	r	1							et	799	it	1535	
+Kofi	m	chimpanzee	12	parent	3	2	17	65		p_test	training	r	43097.44499	r	1							et	1491	it	1589	
+Kofi	m	chimpanzee	12	parent	3	2	18	66		p_test	training	l	43097.4452	l	1							et	953	it	1301	
+Kofi	m	chimpanzee	12	parent	3	2	19	67	11	p_test	test	r	43097.44545	r	1	ct	1153	cp	14	st	1551					
+Kofi	m	chimpanzee	12	parent	3	2	20	68		p_test	training	l	43097.44565	l	1							et	730	it	1249	
+Kofi	m	chimpanzee	12	parent	3	2	21	69		p_test	training	r	43097.44583	r	1							et	792	it	1642	
+Kofi	m	chimpanzee	12	parent	3	2	22	70	12	p_test	test	l	43097.44604	l	1	ct	1303	cp	14	st	1718					
+Kofi	m	chimpanzee	12	parent	3	2	23	71		p_test	training	l	43097.44632	l	1							et	791	it	1647	
+Kofi	m	chimpanzee	12	parent	3	2	24	72		p_test	training	r	43097.44652	r	1							et	965	it	1555	
+Kofi	m	chimpanzee	12	parent	4	1	1	73		p_test	training	r	43098.4386	r	1							et	896	it	1417	
+Kofi	m	chimpanzee	12	parent	4	1	2	74	13	p_test	test	r	43098.43877	r	1	ct		cp	1	st	770					cp and ct corrected from video
+Kofi	m	chimpanzee	12	parent	4	1	3	75		p_test	training	r	43098.43916	r	1							et	666	it	1873	
+Kofi	m	chimpanzee	12	parent	4	1	4	76		p_test	training	l	43098.4394	l	1							et	559	it	1490	
+Kofi	m	chimpanzee	12	parent	4	1	5	77		p_test	training	l														"did not record, apparatus malfunction"
+Kofi	m	chimpanzee	12	parent	4	1	6	78	14	p_test	test	l	43098.44098	l	1	ct	1504	cp	16	st	2496					
+Kofi	m	chimpanzee	12	parent	4	1	7	79		p_test	training	r	43098.44124	r	1							et	674	it	1777	
+Kofi	m	chimpanzee	12	parent	4	1	8	80		p_test	training	l	43098.44145	l	1							et	6987	it		no it
+Kofi	m	chimpanzee	12	parent	4	1	9	81		p_test	training	l	43098.44172	l	1							et	761	it	1898	
+Kofi	m	chimpanzee	12	parent	4	1	10	82		p_test	training	l	43098.44204	l	1							et	700	it	1817	
+Kofi	m	chimpanzee	12	parent	4	1	11	83		p_test	training	r	43098.44228	r	1							et	828	it	1575	
+Kofi	m	chimpanzee	12	parent	4	1	12	84	15	p_test	test	r	43098.44248	r	1	ct	1303	cp	18	st	1644					
+Kofi	m	chimpanzee	12	parent	4	2	13	85		p_test	training	r	43098.44271	r	1							et		it	327	corrected from video
+Kofi	m	chimpanzee	12	parent	4	2	14	86		p_test	training	l	43098.44287	l	1							et	522	it	1423	
+Kofi	m	chimpanzee	12	parent	4	2	15	87	16	p_test	test	l	43098.44319	l	1	ct	1053	cp	13	st	1337					
+Kofi	m	chimpanzee	12	parent	4	2	16	88		p_test	training	r	43098.44352	r	1							et	670	it	1782	
+Kofi	m	chimpanzee	12	parent	4	2	17	89		p_test	training	l	43098.44367	l	1							et	608	it	1537	
+Kofi	m	chimpanzee	12	parent	4	2	18	90		p_test	training	l	43098.44383	l	1							et	800	it	1697	
+Kofi	m	chimpanzee	12	parent	4	2	19	91		p_test	training	r	43098.44402	r	1							et	1026	it	2309	
+Kofi	m	chimpanzee	12	parent	4	2	20	92		p_test	training	r	43098.44418	r	1							et	937	it	1620	
+Kofi	m	chimpanzee	12	parent	4	2	21	93	17	p_test	test	l	43098.44436	l	1	ct	1704	cp	14	st	2070					
+Kofi	m	chimpanzee	12	parent	4	2	22	94		p_test	training	l	43098.44468	l	1							et	619	it	1616	
+Kofi	m	chimpanzee	12	parent	4	2	23	95	18	p_test	test	r	43098.4449	r	1	ct	1103	cp	15	st	1383					
+Kofi	m	chimpanzee	12	parent	4	2	24	96		p_test	training	r	43098.44516	r	1							et	779	it	1758	no it
+Kofi	m	chimpanzee	12	parent	5	1	1	97		p_test	training	r	43099.45667	r	1							et	1242	it	4987	
+Kofi	m	chimpanzee	12	parent	5	1	2	98	19	p_test	test	r	43099.45705	r	1	ct	1003	cp	19	st	1348					
+Kofi	m	chimpanzee	12	parent	5	1	3	99		p_test	training	l	43099.45723	l	1							et	547	it	1671	
+Kofi	m	chimpanzee	12	parent	5	1	4	100		p_test	training	l	43099.45741	l	1							et	810	it	2088	
+Kofi	m	chimpanzee	12	parent	5	1	5	101		p_test	training	l	43099.4576	l	1							et	732	it	2281	
+Kofi	m	chimpanzee	12	parent	5	1	6	102		p_test	training	r	43099.45778	r	1							et	1100	it	2543	
+Kofi	m	chimpanzee	12	parent	5	1	7	103		p_test	training	r	43099.458	l	0							et	1708	it	7094	
+Kofi	m	chimpanzee	12	parent	5	1	8	104	20	p_test	test	l	43099.45825	l	1	ct	702	cp	16	st	1470					
+Kofi	m	chimpanzee	12	parent	5	1	9	105		p_test	training	l	43099.45848	l	1							et	931	it	3195	
+Kofi	m	chimpanzee	12	parent	5	1	10	106		p_test	training	l	43099.45869	l	1							et	819	it	1876	
+Kofi	m	chimpanzee	12	parent	5	1	11	107		p_test	training	r	43099.45885	r	1							et	704	it	1730	
+Kofi	m	chimpanzee	12	parent	5	1	12	108	21	p_test	test	r	43099.45911	l	0	ct	954	cp	4	st	1764					
+Kofi	m	chimpanzee	12	parent	5	2	13	109		p_test	training	r	43099.45957	r	1							et	806	it	1784	
+Kofi	m	chimpanzee	12	parent	5	2	14	110		p_test	training	l	43099.45977	l	1							et	2560	it	1416	
+Kofi	m	chimpanzee	12	parent	5	2	15	111		p_test	training	r	43099.46009	r	1							et	699	it	1805	
+Kofi	m	chimpanzee	12	parent	5	2	16	112	22	p_test	test	l	43099.46034	r	1	ct	651	cp	9	st	885					
+Kofi	m	chimpanzee	12	parent	5	2	17	113		p_test	training	l	43099.46057	l	1							et	779	it	1916	
+Kofi	m	chimpanzee	12	parent	5	2	18	114		p_test	training	r	43099.46074	r	1							et	750	it	1823	
+Kofi	m	chimpanzee	12	parent	5	2	19	115		p_test	training	l	43099.46094	l	1							et	718	it	1576	
+Kofi	m	chimpanzee	12	parent	5	2	20	116	23	p_test	test	l	43099.4612	l	1	ct	1103	cp	13	st	1398					
+Kofi	m	chimpanzee	12	parent	5	2	21	117		p_test	training	r	43099.46145	r	1							et	730	it	1701	
+Kofi	m	chimpanzee	12	parent	5	2	22	118		p_test	training	l	43099.46163	l	1							et	785	it	1645	
+Kofi	m	chimpanzee	12	parent	5	2	23	119	24	p_test	test	r	43099.46185	r	1	ct	602	cp	13	st	983					
+Kofi	m	chimpanzee	12	parent	5	2	24	120		p_test	training	r	43099.46225	r	1							et	818	it	1896	
+Lobo	m	chimpanzee	13	parent	1	1	1	1		p_training	training	l	43096.50454	l	1							et	1959			
+Lobo	m	chimpanzee	13	parent	1	1	2	2		p_training	training	l	43096.50528	l	1							et	515			
+Lobo	m	chimpanzee	13	parent	1	1	3	3		p_training	training	r	43096.50564	l	0							et	11581			
+Lobo	m	chimpanzee	13	parent	1	1	4	4		p_training	training	l	43096.50591	l	1							et	520			
+Lobo	m	chimpanzee	13	parent	1	1	5	5		p_training	training	r	43096.50612	l	0							et	5240			
+Lobo	m	chimpanzee	13	parent	1	1	6	6		p_training	training	l	43096.50644	r	0							et	1840			
+Lobo	m	chimpanzee	13	parent	1	1	7	7		p_training	training	r	43096.50666	l	0							et	4239			
+Lobo	m	chimpanzee	13	parent	1	1	8	8		p_training	training	r	43096.50683	r	1							et	528			
+Lobo	m	chimpanzee	13	parent	1	1	9	9		p_training	training	l	43096.50697	l	1							et	816			
+Lobo	m	chimpanzee	13	parent	1	1	10	10		p_training	training	l	43096.50715	l	1							et	751			
+Lobo	m	chimpanzee	13	parent	1	1	11	11		p_training	training	r	43096.50744	r	1							et	630			
+Lobo	m	chimpanzee	13	parent	1	1	12	12		p_training	training	r	43096.50762	r	1							et	832			
+Lobo	m	chimpanzee	13	parent	1	2	13	13		p_training	training	l	43096.5078	l	1							et	604			
+Lobo	m	chimpanzee	13	parent	1	2	14	14		p_training	training	r	43096.5081	l	0							et	4649			
+Lobo	m	chimpanzee	13	parent	1	2	15	15		p_training	training	r	43096.50824	r	1							et	719			
+Lobo	m	chimpanzee	13	parent	1	2	16	16		p_training	training	l	43096.50841	l	1							et	693			
+Lobo	m	chimpanzee	13	parent	1	2	17	17		p_training	training	r	43096.50858	r	1							et	756			
+Lobo	m	chimpanzee	13	parent	1	2	18	18		p_training	training	r	43096.50877	r	1							et	507			
+Lobo	m	chimpanzee	13	parent	1	2	19	19		p_training	training	r	43096.50897	r	1							et	555			
+Lobo	m	chimpanzee	13	parent	1	2	20	20		p_training	training	l	43096.50918	l	1							et	1100			
+Lobo	m	chimpanzee	13	parent	1	2	21	21		p_training	training	r	43096.50962	r	1							et	1109			
+Lobo	m	chimpanzee	13	parent	1	2	22	22		p_training	training	l	43096.50981	l	1							et	715			
+Lobo	m	chimpanzee	13	parent	1	2	23	23		p_training	training	l	43096.50997	l	1							et	650			
+Lobo	m	chimpanzee	13	parent	1	2	24	24		p_training	training	l	43096.51015	l	1							et	738			
+Lobo	m	chimpanzee	13	parent	2	1	1	25		p_test	training	l	43097.47567	l	1							et	577	it	4538	
+Lobo	m	chimpanzee	13	parent	2	1	2	26	1	p_test	test	l	43097.47588	l	1	ct	1554	cp	22	st	2307					
+Lobo	m	chimpanzee	13	parent	2	1	3	27		p_test	training	l	43097.47615	l	1							et	543	it	6115	
+Lobo	m	chimpanzee	13	parent	2	1	4	28		p_test	training	r	43097.47634	r	1							et	462	it	5149	
+Lobo	m	chimpanzee	13	parent	2	1	5	29		p_test	training	l	43097.47647	l	1							et	392	it	1298	
+Lobo	m	chimpanzee	13	parent	2	1	6	30	2	p_test	test	r	43097.47701	r	1	ct	1353	cp	22	st	1677					
+Lobo	m	chimpanzee	13	parent	2	1	7	31		p_test	training	r	43097.47726	r	1							et	648	it	1813	
+Lobo	m	chimpanzee	13	parent	2	1	8	32		p_test	training	r	43097.47747	r	1							et	479	it	3797	
+Lobo	m	chimpanzee	13	parent	2	1	9	33	3	p_test	test	l	43097.47766	l	1	ct	1454	cp	21	st	2549					
+Lobo	m	chimpanzee	13	parent	2	1	10	34		p_test	training	r	43097.47782	r	1							et	541	it	1386	
+Lobo	m	chimpanzee	13	parent	2	1	11	35		p_test	training	l	43097.47799	l	1							et	520	it	1580	
+Lobo	m	chimpanzee	13	parent	2	1	12	36		p_test	training	r	43097.47823	r	1							et	568	it	1333	
+Lobo	m	chimpanzee	13	parent	2	2	13	37	4	p_test	test	r	43097.47846	r	1	ct	903	cp	22	st	1292					
+Lobo	m	chimpanzee	13	parent	2	2	14	38		p_test	training	r	43097.47869	r	1							et	603	it	1206	
+Lobo	m	chimpanzee	13	parent	2	2	15	39		p_test	training	l	43097.47892	l	1							et	510	it	1121	
+Lobo	m	chimpanzee	13	parent	2	2	16	40		p_test	training	l	43097.4791	l	1							et	510	it	1201	
+Lobo	m	chimpanzee	13	parent	2	2	17	41		p_test	training	r	43097.47927	r	1							et	534	it	1492	
+Lobo	m	chimpanzee	13	parent	2	2	18	42	5	p_test	test	r	43097.47947	r	1	ct	1153	cp	20	st	1448					
+Lobo	m	chimpanzee	13	parent	2	2	19	43		p_test	training	l	43097.47973	l	1							et	2604	it	4024	
+Lobo	m	chimpanzee	13	parent	2	2	20	44		p_test	training	r	43097.47992	r	1							et	613	it	1111	
+Lobo	m	chimpanzee	13	parent	2	2	21	45		p_test	training	r	43097.48012	r	1							et	542	it	1509	
+Lobo	m	chimpanzee	13	parent	2	2	22	46		p_test	training	l	43097.48035	l	1							et	2336	it	1208	
+Lobo	m	chimpanzee	13	parent	2	2	23	47	6	p_test	test	l	43097.48057	l	1	ct		cp	18	st	1576					"change position not recorded, coded from video"
+Lobo	m	chimpanzee	13	parent	2	2	24	48		p_test	training	l	43097.48095	l	1							et	450	it	1498	
+Lobo	m	chimpanzee	13	parent	3	1	1	49		p_test	training	l	43098.45839	r	0							et	1056	it	913	
+Lobo	m	chimpanzee	13	parent	3	1	2	50		p_test	training	r	43098.45863	r	1							et	354	it	2367	
+Lobo	m	chimpanzee	13	parent	3	1	3	51	7	p_test	test	r	43098.45897	r	1	ct	1153	cp	22	st	2353					
+Lobo	m	chimpanzee	13	parent	3	1	4	52		p_test	training	l	43098.45927	l	1							et	307	it	1661	
+Lobo	m	chimpanzee	13	parent	3	1	5	53		p_test	training	r	43098.45972	r	1							et	520	it	9177	
+Lobo	m	chimpanzee	13	parent	3	1	6	54		p_test	training	l	43098.45997	l	1							et	609	it	1427	
+Lobo	m	chimpanzee	13	parent	3	1	7	55		p_test	training	l	43098.46027	l	1							et	482	it	1142	
+Lobo	m	chimpanzee	13	parent	3	1	8	56	8	p_test	test	r	43098.46045	r	1	ct		cp	8	st	1477					"did not record cp, coded from video"
+Lobo	m	chimpanzee	13	parent	3	1	9	57		p_test	training	l	43098.46192	l	1							et	2274	it		no it
+Lobo	m	chimpanzee	13	parent	3	1	10	58		p_test	training	r	43098.46234	r	1							et	696	it	1720	
+Lobo	m	chimpanzee	13	parent	3	1	11	59	9	p_test	test	l	43098.46258	l	1	ct	502	cp	22	st	1388					
+Lobo	m	chimpanzee	13	parent	3	1	12	60		p_test	training	r	43098.46284	r	1							et	1047	it	2161	
+Lobo	m	chimpanzee	13	parent	3	2	13	61		p_test	training	l	43098.46304	l	1							et	538	it	2535	
+Lobo	m	chimpanzee	13	parent	3	2	14	62		p_test	training	r	43098.46318	r	1							et	571	it	1317	
+Lobo	m	chimpanzee	13	parent	3	2	15	63		p_test	training	l	43098.46337	l	1							et	419	it	1066	
+Lobo	m	chimpanzee	13	parent	3	2	16	64	10	p_test	test	l	43098.46358	l	1	ct	1103	cp	21	st	1321					
+Lobo	m	chimpanzee	13	parent	3	2	17	65		p_test	training	l	43098.46392	l	1							et	374	it	1146	
+Lobo	m	chimpanzee	13	parent	3	2	18	66		p_test	training	r	43098.46412	r	1							et	858	it	1376	
+Lobo	m	chimpanzee	13	parent	3	2	19	67		p_test	training	r	43098.46428	r	1							et	413	it	1777	
+Lobo	m	chimpanzee	13	parent	3	2	20	68	11	p_test	test	r	43098.46451	r	1	ct	953	cp	22	st	1130					
+Lobo	m	chimpanzee	13	parent	3	2	21	69		p_test	training	r	43098.46468	r	1							et	389	it	1670	
+Lobo	m	chimpanzee	13	parent	3	2	22	70	12	p_test	test	l	43098.4649	l	1	ct	1504	cp	20	st	1850					
+Lobo	m	chimpanzee	13	parent	3	2	23	71		p_test	training	r		r	1											not recorded
+Lobo	m	chimpanzee	13	parent	3	2	24	72		p_test	training	l	43098.4658	l	1							et	470	it	3305	
+Lobo	m	chimpanzee	13	parent	4	1	1	73		p_test	training	r	43099.49362	r	1							et	473	it	1843	
+Lobo	m	chimpanzee	13	parent	4	1	2	74		p_test	training	r	43099.49388	r	1							et	728	it	9012	
+Lobo	m	chimpanzee	13	parent	4	1	3	75	13	p_test	test	l	43099.4941	l	1	ct	1103	cp	19	st	1332					
+Lobo	m	chimpanzee	13	parent	4	1	4	76		p_test	training	l	43099.49432	l	1							et	517	it	1431	
+Lobo	m	chimpanzee	13	parent	4	1	5	77		p_test	training	l	43099.49451	l	1							et	416	it	1574	
+Lobo	m	chimpanzee	13	parent	4	1	6	78		p_test	training	r	43099.49465	r	1							et	311	it	1329	
+Lobo	m	chimpanzee	13	parent	4	1	7	79	14	p_test	test	r	43099.49486	r	1	ct	1053	cp	22	st	1317					
+Lobo	m	chimpanzee	13	parent	4	1	8	80		p_test	training	l	43099.49505	l	1							et	483	it	1367	
+Lobo	m	chimpanzee	13	parent	4	1	9	81		p_test	training	r	43099.49522	r	1							et	369	it	1378	
+Lobo	m	chimpanzee	13	parent	4	1	10	82	15	p_test	test	l	43099.49544	l	1	ct	552	cp	16	st	1405					
+Lobo	m	chimpanzee	13	parent	4	1	11	83		p_test	training	r	43099.4956	r	1							et	361	it	1514	
+Lobo	m	chimpanzee	13	parent	4	1	12	84		p_test	training	l	43099.49583	l	1							et	352	it	1309	
+Lobo	m	chimpanzee	13	parent	4	2	13	85	16	p_test	test	r	43099.49609	r	1	ct	903	cp	22	st	1109					
+Lobo	m	chimpanzee	13	parent	4	2	14	86		p_test	training	l	43099.49628	l	1							et	415	it	1440	
+Lobo	m	chimpanzee	13	parent	4	2	15	87		p_test	training	r	43099.49655	r	1							et	396	it	1359	
+Lobo	m	chimpanzee	13	parent	4	2	16	88		p_test	training	l	43099.49674	l	1							et	439	it	942	
+Lobo	m	chimpanzee	13	parent	4	2	17	89		p_test	training	r	43099.49694	r	1							et	449	it	1451	
+Lobo	m	chimpanzee	13	parent	4	2	18	90	17	p_test	test	l	43099.4972	r	0	ct	1052	cp	22	st	1302					
+Lobo	m	chimpanzee	13	parent	4	2	19	91		p_test	training	l	43099.4977	l	1							et	505	it	3416	
+Lobo	m	chimpanzee	13	parent	4	2	20	92		p_test	training	l	43099.49796	l	1							et	449	it	3693	
+Lobo	m	chimpanzee	13	parent	4	2	21	93		p_test	training	r	43099.49823	r	1							et	838	it	1284	
+Lobo	m	chimpanzee	13	parent	4	2	22	94	18	p_test	test	r	43099.49856	r	1	ct	803	cp	22	st	4966					
+Lobo	m	chimpanzee	13	parent	4	2	23	95		p_test	training	r	43099.49911	r	1							et	405	it	1922	
+Lobo	m	chimpanzee	13	parent	4	2	24	96		p_test	training	l	43099.49927	l	1							et	407	it	1371	
+Lobo	m	chimpanzee	13	parent	5	1	1	97		p_test	training	r	43102.468	r	1							et	400	it	1909	
+Lobo	m	chimpanzee	13	parent	5	1	2	98		p_test	training	l	43102.46821	l	1							et	435	it	2092	
+Lobo	m	chimpanzee	13	parent	5	1	3	99		p_test	training	l		l	1											not recorded
+Lobo	m	chimpanzee	13	parent	5	1	4	100		p_test	training	r	43102.46877	r	1							et	472	it	1487	
+Lobo	m	chimpanzee	13	parent	5	1	5	101	19	p_test	test	l	43102.46904	l	1	ct	903	cp	22	st	1284					
+Lobo	m	chimpanzee	13	parent	5	1	6	102		p_test	training	l	43102.46931	l	1							et	340	it	1390	
+Lobo	m	chimpanzee	13	parent	5	1	7	103		p_test	training	r	43102.46956	r	1							et	393	it	1259	
+Lobo	m	chimpanzee	13	parent	5	1	8	104	20	p_test	test	r	43102.46977	r	1	ct	1002	cp	14	st	1126					
+Lobo	m	chimpanzee	13	parent	5	1	9	105		p_test	training	l	43102.47005	l	1							et	300	it	1427	
+Lobo	m	chimpanzee	13	parent	5	1	10	106	21	p_test	test	l	43102.47038	l	1	ct	1354	cp	21	st	1602					
+Lobo	m	chimpanzee	13	parent	5	1	11	107		p_test	training	r	43102.47069	r	1							et	311	it	1833	
+Lobo	m	chimpanzee	13	parent	5	1	12	108		p_test	training	r	43102.47089	r	1							et	355	it	1311	
+Lobo	m	chimpanzee	13	parent	5	2	13	109		p_test	training	l	43102.4712	l	1							et	502	it	1097	
+Lobo	m	chimpanzee	13	parent	5	2	14	110		p_test	training	l	43102.47146	l	1							et	552	it	1511	
+Lobo	m	chimpanzee	13	parent	5	2	15	111	22	p_test	test	r	43102.47171	r	1	ct	802	cp	22	st	1452					
+Lobo	m	chimpanzee	13	parent	5	2	16	112		p_test	training	r	43102.47205	r	1							et	469	it	1416	
+Lobo	m	chimpanzee	13	parent	5	2	17	113		p_test	training	l	43102.47225	l	1							et	449	it	1270	
+Lobo	m	chimpanzee	13	parent	5	2	18	114		p_test	training	l	43102.47248	l	1							et	461	it	1979	
+Lobo	m	chimpanzee	13	parent	5	2	19	115		p_test	training	r	43102.4727	r	1							et	361	it	1406	
+Lobo	m	chimpanzee	13	parent	5	2	20	116	23	p_test	test	r	43102.47299	r	1	ct	953	cp	22	st	1279					
+Lobo	m	chimpanzee	13	parent	5	2	21	117		p_test	training	r	43102.47331	r	1							et	512	it	1196	
+Lobo	m	chimpanzee	13	parent	5	2	22	118		p_test	training	l	43102.47353	l	1							et	630	it	1071	
+Lobo	m	chimpanzee	13	parent	5	2	23	119	24	p_test	test	l	43102.47381	l	1	ct	1103	cp	22	st	1370					
+Lobo	m	chimpanzee	13	parent	5	2	24	120		p_test	training	r	43102.47405	r	1							et	580	it	1569	
+Lome	m	chimpanzee	16	parent	1	1	1	1		p_training	training	l	43096.49716	l	1							et	1188			
+Lome	m	chimpanzee	16	parent	1	1	2	2		p_training	training	r	43096.49736	l	0							et	2380			
+Lome	m	chimpanzee	16	parent	1	1	3	3		p_training	training	l	43096.49751	l	1							et	479			
+Lome	m	chimpanzee	16	parent	1	1	4	4		p_training	training	r	43096.49773	l	0							et	3453			
+Lome	m	chimpanzee	16	parent	1	1	5	5		p_training	training	r	43096.49804	r	1							et	358			
+Lome	m	chimpanzee	16	parent	1	1	6	6		p_training	training	l	43096.49824	l	1							et	313			
+Lome	m	chimpanzee	16	parent	1	1	7	7		p_training	training	r	43096.4984	r	1							et	388			
+Lome	m	chimpanzee	16	parent	1	1	8	8		p_training	training	l	43096.49861	l	1							et	389			
+Lome	m	chimpanzee	16	parent	1	1	9	9		p_training	training	l	43096.49876	l	1							et	327			
+Lome	m	chimpanzee	16	parent	1	1	10	10		p_training	training	r	43096.49897	l	0							et	3916			
+Lome	m	chimpanzee	16	parent	1	1	11	11		p_training	training	l	43096.49912	l	1							et	328			
+Lome	m	chimpanzee	16	parent	1	1	12	12		p_training	training	r	43096.49928	r	1							et	700			
+Lome	m	chimpanzee	16	parent	1	2	13	13		p_training	training	r	43096.49949	r	1							et	375			
+Lome	m	chimpanzee	16	parent	1	2	14	14		p_training	training	l	43096.49962	l	1							et	482			
+Lome	m	chimpanzee	16	parent	1	2	15	15		p_training	training	r	43096.49986	r	1							et	2164			
+Lome	m	chimpanzee	16	parent	1	2	16	16		p_training	training	l	43096.50001	l	1							et	405			
+Lome	m	chimpanzee	16	parent	1	2	17	17		p_training	training	l	43096.50019	l	1							et	2307			
+Lome	m	chimpanzee	16	parent	1	2	18	18		p_training	training	r	43096.5006	r	1							et	468			
+Lome	m	chimpanzee	16	parent	1	2	19	19		p_training	training	l	43096.50083	l	1							et	369			
+Lome	m	chimpanzee	16	parent	1	2	20	20		p_training	training	l	43096.501	l	1							et	312			
+Lome	m	chimpanzee	16	parent	1	2	21	21		p_training	training	r	43096.50115	r	1							et	698			
+Lome	m	chimpanzee	16	parent	1	2	22	22		p_training	training	r	43096.5013	r	1							et	520			
+Lome	m	chimpanzee	16	parent	1	2	23	23		p_training	training	r	43096.50142	r	1							et	604			
+Lome	m	chimpanzee	16	parent	1	2	24	24		p_training	training	l	43096.50161	l	1							et	333			
+Lome	m	chimpanzee	16	parent	2	1	1	25		p_test	training	l	43097.45868	l	1							et	353	it	1584	
+Lome	m	chimpanzee	16	parent	2	1	2	26		p_test	training	r	43097.45888	r	1							et	618	it	4527	
+Lome	m	chimpanzee	16	parent	2	1	3	27	1	p_test	test	r	43097.45917	r	1	ct	1755	cp	22	st	2045					
+Lome	m	chimpanzee	16	parent	2	1	4	28		p_test	training	r	43097.45936	r	1							et	411	it	1854	
+Lome	m	chimpanzee	16	parent	2	1	5	29		p_test	training	l	43097.45955	l	1							et	308	it	1393	
+Lome	m	chimpanzee	16	parent	2	1	6	30	2	p_test	test	l	43097.45973	l	1	ct	1655	cp	21	st	2179					
+Lome	m	chimpanzee	16	parent	2	1	7	31		p_test	training	l	43097.45998	l	1							et	1665	it	1426	
+Lome	m	chimpanzee	16	parent	2	1	8	32		p_test	training	r	43097.46044	l	0							et	2069	it	18696	
+Lome	m	chimpanzee	16	parent	2	1	9	33		p_test	training	l	43097.46065	l	1							et	429	it	1639	
+Lome	m	chimpanzee	16	parent	2	1	10	34		p_test	training	r	43097.46084	r	1							et	559	it	1698	
+Lome	m	chimpanzee	16	parent	2	1	11	35	3	p_test	test	r	43097.46117	r	1	ct	1603	cp	22	st	1841					
+Lome	m	chimpanzee	16	parent	2	1	12	36		p_test	training	l	43097.46146	l	1							et	348	it	1508	
+Lome	m	chimpanzee	16	parent	2	2	13	37		p_test	training	r	43097.46164	r	1							et	424	it	1846	
+Lome	m	chimpanzee	16	parent	2	2	14	38		p_test	training	l	43097.46186	l	1							et	360	it	1635	
+Lome	m	chimpanzee	16	parent	2	2	15	39		p_test	training	r	43097.46208	r	1							et	364	it	1402	
+Lome	m	chimpanzee	16	parent	2	2	16	40	4	p_test	test	l	43097.46225	l	1	ct	1053	cp	22	st	1388					
+Lome	m	chimpanzee	16	parent	2	2	17	41		p_test	training	l	43097.4625	l	1							et	1689	it	195	
+Lome	m	chimpanzee	16	parent	2	2	18	42		p_test	training	r	43097.46269	r	1							et	481	it	1539	
+Lome	m	chimpanzee	16	parent	2	2	19	43		p_test	training	r	43097.46285	r	1							et	549	it	1475	
+Lome	m	chimpanzee	16	parent	2	2	20	44	5	p_test	test	r	43097.46306	r	1	ct	1254	cp	22	st	1501					
+Lome	m	chimpanzee	16	parent	2	2	21	45		p_test	training	l	43097.46329	l	1							et	397	it	1965	
+Lome	m	chimpanzee	16	parent	2	2	22	46		p_test	training	r	43097.46347	r	1							et	416	it	1373	
+Lome	m	chimpanzee	16	parent	2	2	23	47		p_test	training	l	43097.46365	l	1							et	278	it	1632	
+Lome	m	chimpanzee	16	parent	2	2	24	48	6	p_test	test	l	43097.46385	l	1	ct	903	cp	21	st	1165					
+Lome	m	chimpanzee	16	parent	3	1	1	49		p_test	training	r	43098.46883	r	1							et	438	it	12928	
+Lome	m	chimpanzee	16	parent	3	1	2	50		p_test	training	r	43098.4691	r	1							et	468	it	3160	
+Lome	m	chimpanzee	16	parent	3	1	3	51		p_test	training	r	43098.46936	r	1							et	384	it	3030	
+Lome	m	chimpanzee	16	parent	3	1	4	52		p_test	training	l	43098.46957	l	1							et	1610	it	2627	
+Lome	m	chimpanzee	16	parent	3	1	5	53	7	p_test	test	r	43098.46995	r	1	ct	1354	cp	22	st	1484					
+Lome	m	chimpanzee	16	parent	3	1	6	54		p_test	training	l	43098.47025	l	1							et	526	it	1955	
+Lome	m	chimpanzee	16	parent	3	1	7	55		p_test	training	l	43098.47047	l	1							et	467	it	4714	
+Lome	m	chimpanzee	16	parent	3	1	8	56	8	p_test	test	l	43098.47078	l	1	ct	1054	cp	21	st	1434					
+Lome	m	chimpanzee	16	parent	3	1	9	57		p_test	training	r	43098.4716	r	1									it	13888	"corrected from video, coding was triggered by Lome jumping against the panel, no et"
+Lome	m	chimpanzee	16	parent	3	1	10	58	9	p_test	test	l	43098.47198	l	1	ct	1053	cp	21	st	1397					
+Lome	m	chimpanzee	16	parent	3	1	11	59		p_test	training	l	43098.47223	l	1							et	304	it	1555	
+Lome	m	chimpanzee	16	parent	3	1	12	60		p_test	training	r	43098.47243	r	1							et	514	it	1236	
+Lome	m	chimpanzee	16	parent	3	2	13	61		p_test	training	l	43098.47262	l	1							et	329	it	1679	
+Lome	m	chimpanzee	16	parent	3	2	14	62	10	p_test	test	r	43098.47282	r	1	ct	1153	cp	22	st	1373					
+Lome	m	chimpanzee	16	parent	3	2	15	63		p_test	training	l	43098.47318	l	1							et	263	it	16713	
+Lome	m	chimpanzee	16	parent	3	2	16	64		p_test	training	r	43098.47339	r	1							et	314	it	1065	
+Lome	m	chimpanzee	16	parent	3	2	17	65		p_test	training	r	43098.4736	r	1							et	374	it	3955	
+Lome	m	chimpanzee	16	parent	3	2	18	66	11	p_test	test	r	43098.47384	r	1	ct	902	cp	22	st	1109					
+Lome	m	chimpanzee	16	parent	3	2	19	67		p_test	training	r	43098.47407	r	1							et	334	it	1508	
+Lome	m	chimpanzee	16	parent	3	2	20	68		p_test	training	l	43098.47431	l	1							et	280	it	1338	
+Lome	m	chimpanzee	16	parent	3	2	21	69	12	p_test	test	l	43098.47455	l	1	ct	601	cp	22	st	1553					
+Lome	m	chimpanzee	16	parent	3	2	22	70		p_test	training	r	43098.47476	r	1							et	374	it	1457	
+Lome	m	chimpanzee	16	parent	3	2	23	71		p_test	training	l	43098.47494	l	1							et	246	it	1755	
+Lome	m	chimpanzee	16	parent	3	2	24	72		p_test	training	l	43098.47519	l	1							et	261	it	3813	
+Lome	m	chimpanzee	16	parent	4	1	1	73		p_test	training	l	43099.4651	l	1							et	435	it	1666	
+Lome	m	chimpanzee	16	parent	4	1	2	74	13	p_test	test	l	43099.4653	l	1	ct	1804	cp	21	st	2324					
+Lome	m	chimpanzee	16	parent	4	1	3	75		p_test	training	l	43099.4655	l	1							et	339	it	1275	
+Lome	m	chimpanzee	16	parent	4	1	4	76		p_test	training	r	43099.46568	r	1							et	1106	it	1508	
+Lome	m	chimpanzee	16	parent	4	1	5	77		p_test	training	r	43099.46583	r	1							et	374	it	1484	
+Lome	m	chimpanzee	16	parent	4	1	6	78		p_test	training	l	43099.46601	l	1							et	311	it	1388	
+Lome	m	chimpanzee	16	parent	4	1	7	79	14	p_test	test	r	43099.46618	r	1	ct		cp	22	st	1160					"cp and ct not recorded , coded  from video"
+Lome	m	chimpanzee	16	parent	4	1	8	80		p_test	training	r	43099.46655	r	1							et	401	it	1632	
+Lome	m	chimpanzee	16	parent	4	1	9	81		p_test	training	r	43099.46675	r	1							et	520	it	1672	
+Lome	m	chimpanzee	16	parent	4	1	10	82	15	p_test	test	r	43099.46698	r	1	ct	3009	cp	22	st	3285					
+Lome	m	chimpanzee	16	parent	4	1	11	83		p_test	training	l	43099.46725	l	1							et	403	it	1885	
+Lome	m	chimpanzee	16	parent	4	1	12	84		p_test	training	l	43099.46748	l	1							et	1623	it	2277	
+Lome	m	chimpanzee	16	parent	4	2	13	85		p_test	training	r	43099.46765	r	1							et	513	it	2508	
+Lome	m	chimpanzee	16	parent	4	2	14	86		p_test	training	l	43099.46781	l	1							et	401	it	1595	
+Lome	m	chimpanzee	16	parent	4	2	15	87	16	p_test	test	l	43099.468	l	1	ct	1203	cp	7	st	1871					
+Lome	m	chimpanzee	16	parent	4	2	16	88		p_test	training	r	43099.46821	r	1							et	492	it	2260	
+Lome	m	chimpanzee	16	parent	4	2	17	89	17	p_test	test	r	43099.46839	r	1	ct	1654	cp	22	st	1888					
+Lome	m	chimpanzee	16	parent	4	2	18	90		p_test	training	r	43099.46858	r	1							et	467	it	1779	
+Lome	m	chimpanzee	16	parent	4	2	19	91		p_test	training	r	43099.4688	r	1							et	556	it	1967	
+Lome	m	chimpanzee	16	parent	4	2	20	92		p_test	training	l	43099.46896	l	1							et	346	it	1683	
+Lome	m	chimpanzee	16	parent	4	2	21	93		p_test	training	l	43099.46912	l	1							et	1599	it	2138	
+Lome	m	chimpanzee	16	parent	4	2	22	94	18	p_test	test	l	43099.46999	l	1	ct	952	cp	22	st	1253					
+Lome	m	chimpanzee	16	parent	4	2	23	95		p_test	training	r	43099.47023	r	1							et	440	it	3525	
+Lome	m	chimpanzee	16	parent	4	2	24	96		p_test	training	l	43099.47041	l	1							et	1211	it	1857	
+Lome	m	chimpanzee	16	parent	5	1	1	97		p_test	training	r	43102.49839	r	1							et	545	it	9216	
+Lome	m	chimpanzee	16	parent	5	1	2	98	19	p_test	test	l	43102.49866	r	0	ct	1905	cp	21	st	2241					
+Lome	m	chimpanzee	16	parent	5	1	3	99		p_test	training	l	43102.49931	l	1							et	383	it	1365	
+Lome	m	chimpanzee	16	parent	5	1	4	100	20	p_test	test	r	43102.49972	r	1	ct	903	cp	22	st	1161					
+Lome	m	chimpanzee	16	parent	5	1	5	101		p_test	training	l	43102.49998	l	1							et	351	it	1574	
+Lome	m	chimpanzee	16	parent	5	1	6	102		p_test	training	r	43102.50024	r	1							et	331	it	1371	
+Lome	m	chimpanzee	16	parent	5	1	7	103		p_test	training	r	43102.50045	r	1							et	381	it	1524	
+Lome	m	chimpanzee	16	parent	5	1	8	104		p_test	training	l	43102.50067	l	1							et	372	it	1380	
+Lome	m	chimpanzee	16	parent	5	1	9	105		p_test	training	l	43102.5009	l	1							et	466	it	1600	
+Lome	m	chimpanzee	16	parent	5	1	10	106	21	p_test	test	r	43102.50128	r	1	ct	852	cp	22	st	1079					
+Lome	m	chimpanzee	16	parent	5	1	11	107		p_test	training	r	43102.50155	r	1							et	413	it	1370	
+Lome	m	chimpanzee	16	parent	5	1	12	108		p_test	training	l	43102.50178	l	1							et	387	it	1397	
+Lome	m	chimpanzee	16	parent	5	2	13	109		p_test	training	l	43102.50228	l	1							et	385	it	1620	
+Lome	m	chimpanzee	16	parent	5	2	14	110		p_test	training	r	43102.50279	r	1							et	321	it	1357	
+Lome	m	chimpanzee	16	parent	5	2	15	111		p_test	training	r	43102.50297	r	1							et	461	it	1507	
+Lome	m	chimpanzee	16	parent	5	2	16	112	22	p_test	test	l	43102.50316	l	1	ct	1153	cp	22	st	1338					
+Lome	m	chimpanzee	16	parent	5	2	17	113		p_test	training	l	43102.50344	l	1							et	348	it	1609	
+Lome	m	chimpanzee	16	parent	5	2	18	114		p_test	training	l	43102.5036	l	1							et	373	it	1536	
+Lome	m	chimpanzee	16	parent	5	2	19	115	23	p_test	test	r	43102.50384	r	1	ct	902	cp	22	st	1147					
+Lome	m	chimpanzee	16	parent	5	2	20	116		p_test	training	r	43102.50418	r	1							et	2121	it	1482	
+Lome	m	chimpanzee	16	parent	5	2	21	117		p_test	training	r	43102.50456	r	1							et	355	it	2746	
+Lome	m	chimpanzee	16	parent	5	2	22	118		p_test	training	l	43102.50485	l	1							et	402	it	1285	
+Lome	m	chimpanzee	16	parent	5	2	23	119	24	p_test	test	l	43102.50539	l	1	ct		cp	22	st	1306					"cp and ct not recorded , coded  from video"
+Lome	m	chimpanzee	16	parent	5	2	24	120		p_test	training	r	43102.50606	r	1							et	437	it	1256	
+Natascha	f	chimpanzee	37	hand reared	1	1	1	1		p_training	training	r	43103.46301	r	1							et	28254	it	11362	
+Natascha	f	chimpanzee	37	hand reared	1	1	2	2		p_training	training	r	43103.46346	r	1							et	1140	it	15123	
+Natascha	f	chimpanzee	37	hand reared	1	1	3	3		p_training	training	l	43103.46476	r	0							et	17127	it	19700	
+Natascha	f	chimpanzee	37	hand reared	1	1	4	4		p_training	training	l	43103.46516	r	0							et	3415	it	10587	
+Natascha	f	chimpanzee	37	hand reared	1	1	5	5		p_training	training	r	43103.46558	r	1							et	739	it	17761	
+Natascha	f	chimpanzee	37	hand reared	1	1	6	6		p_training	training	r	43103.46624	r	1							et	430	it		
+Natascha	f	chimpanzee	37	hand reared	1	1	7	7		p_training	training	l	43103.46661	l	1							et	729	it	19295	
+Natascha	f	chimpanzee	37	hand reared	1	1	8	8		p_training	training	l	43103.46721	l	1							et	418	it		
+Natascha	f	chimpanzee	37	hand reared	1	1	9	9		p_training	training	l	43103.46749	l	1							et	510	it	9880	
+Natascha	f	chimpanzee	37	hand reared	1	1	10	10		p_training	training	r	43103.46792	l	0							et	3736	it	21553	
+Natascha	f	chimpanzee	37	hand reared	1	1	11	11		p_training	training	r	43103.46832	r	1							et	480	it	17154	
+Natascha	f	chimpanzee	37	hand reared	1	1	12	12		p_training	training	l	43103.4687	l	1							et	484	it	5867	session stopped after 15 trials
+Natascha	f	chimpanzee	37	hand reared	2	1	1	13		p_training	training	r	43115.44178	r	1							et	749	it	9485	
+Natascha	f	chimpanzee	37	hand reared	2	1	2	14		p_training	training	l	43115.44223	r	0							et	4072	it	6282	
+Natascha	f	chimpanzee	37	hand reared	2	1	3	15		p_training	training	l	43115.44258	l	1							et	2235	it	6333	
+Natascha	f	chimpanzee	37	hand reared	2	1	4	16		p_training	training	l	43115.44297	l	1							et	819	it	17035	
+Natascha	f	chimpanzee	37	hand reared	2	1	5	17		p_training	training	r	43115.44329	l	0							et	1343	it	4260	
+Natascha	f	chimpanzee	37	hand reared	2	1	6	18		p_training	training	r		r	1											not recorded
+Natascha	f	chimpanzee	37	hand reared	2	1	7	19		p_training	training	l	43115.44418	l	1							et	457	it	3489	
+Natascha	f	chimpanzee	37	hand reared	2	1	8	20		p_training	training	r	43115.44447	l	0							et	2548	it	4906	
+Natascha	f	chimpanzee	37	hand reared	2	1	9	21		p_training	training	l	43115.44475	l	1							et	353	it	4258	
+Natascha	f	chimpanzee	37	hand reared	2	1	10	22		p_training	training	r	43115.44506	l	0							et	4503	it	5438	
+Natascha	f	chimpanzee	37	hand reared	2	1	11	23		p_training	training	l	43115.44536	l	1							et	398	it	3703	
+Natascha	f	chimpanzee	37	hand reared	2	1	12	24		p_training	training	r	43115.44559	r	1							et	418	it	2639	
+Natascha	f	chimpanzee	37	hand reared	2	2	13	25		p_training	training	r	43115.44588	l	0							et	1079	it	5004	
+Natascha	f	chimpanzee	37	hand reared	2	2	14	26		p_training	training	l	43115.44626	l	1							et	426	it	6258	
+Natascha	f	chimpanzee	37	hand reared	2	2	15	27		p_training	training	r	43115.44654	r	1							et	458	it	5857	
+Natascha	f	chimpanzee	37	hand reared	2	2	16	28		p_training	training	l	43115.44681	l	1							et	620	it	3793	
+Natascha	f	chimpanzee	37	hand reared	2	2	17	29		p_training	training	l	43115.44701	l	1							et	512	it	4935	
+Natascha	f	chimpanzee	37	hand reared	2	2	18	30		p_training	training	r	43115.44729	r	1							et	384	it	10624	
+Natascha	f	chimpanzee	37	hand reared	2	2	19	31		p_training	training	l	43115.44759	r	0							et	687	it	4554	
+Natascha	f	chimpanzee	37	hand reared	2	2	20	32		p_training	training	l	43115.44793	l	1							et	1736	it	3640	
+Natascha	f	chimpanzee	37	hand reared	2	2	21	33		p_training	training	l	43115.44819	l	1							et	676	it	7779	
+Natascha	f	chimpanzee	37	hand reared	2	2	22	34		p_training	training	r	43115.4486	l	0							et	1765	it	14739	
+Natascha	f	chimpanzee	37	hand reared	2	2	23	35		p_training	training	r	43115.44894	r	1							et	565	it	4798	
+Natascha	f	chimpanzee	37	hand reared	2	2	24	36		p_training	training	r	43115.44925	r	1							et	414	it	4535	
+Natascha	f	chimpanzee	37	hand reared	3	1	1	37		p_training	training	r	43116.39795	r	1							et	979	it	5909	
+Natascha	f	chimpanzee	37	hand reared	3	1	2	38		p_training	training	l	43116.39833	l	1							et	493	it	14746	
+Natascha	f	chimpanzee	37	hand reared	3	1	3	39		p_training	training	l		l	1											
+Natascha	f	chimpanzee	37	hand reared	3	1	4	40		p_training	training	l	43116.39898	l	1							et	750	it	12036	
+Natascha	f	chimpanzee	37	hand reared	3	1	5	41		p_training	training	r	43116.39939	r	1							et	502	it	19743	
+Natascha	f	chimpanzee	37	hand reared	3	1	6	42		p_training	training	r	43116.39956	r	1							et	568	it	2075	
+Natascha	f	chimpanzee	37	hand reared	3	1	7	43		p_training	training	l	43116.39977	l	1							et	480	it	4415	
+Natascha	f	chimpanzee	37	hand reared	3	1	8	44		p_training	training	r	43116.40009	r	1							et	557	it	13084	
+Natascha	f	chimpanzee	37	hand reared	3	1	9	45		p_training	training	r	43116.40035	r	1							et	578	it	6026	
+Natascha	f	chimpanzee	37	hand reared	3	1	10	46		p_training	training	l	43116.40063	l	1							et	533	it	5203	
+Natascha	f	chimpanzee	37	hand reared	3	1	11	47		p_training	training	l	43116.40089	l	1							et	1487	it	9184	
+Natascha	f	chimpanzee	37	hand reared	3	1	12	48		p_training	training	r	43116.40125	r	1							et	639	it	18963	
+Natascha	f	chimpanzee	37	hand reared	3	2	1	49		p_test	training	r	43116.40181	r	1							et	416	it	3212	
+Natascha	f	chimpanzee	37	hand reared	3	2	2	50		p_test	training	r	43116.40201	r	1							et	488	it	5555	
+Natascha	f	chimpanzee	37	hand reared	3	2	3	51	1	p_test	test	l	43116.40234	l	1	ct	803	cp	15	st	3047					
+Natascha	f	chimpanzee	37	hand reared	3	2	4	52		p_test	training	l	43116.40258	l	1							et	491	it	4129	
+Natascha	f	chimpanzee	37	hand reared	3	2	5	53		p_test	training	l	43116.40277	l	1							et	434	it	4856	
+Natascha	f	chimpanzee	37	hand reared	3	2	6	54		p_test	training	r	43116.40303	r	1							et	675	it	10245	
+Natascha	f	chimpanzee	37	hand reared	3	2	7	55		p_test	training	l	43116.40334	l	1							et	491	it	3944	
+Natascha	f	chimpanzee	37	hand reared	3	2	8	56	2	p_test	test	r	43116.40369	r	1	ct	4212	cp	22	st	4555					
+Natascha	f	chimpanzee	37	hand reared	3	2	9	57		p_test	training	l	43116.404	l	1							et	502	it	5959	
+Natascha	f	chimpanzee	37	hand reared	3	2	10	58		p_test	training	r	43116.40429	r	1							et	709	it	9289	
+Natascha	f	chimpanzee	37	hand reared	3	2	11	59	3	p_test	test	r	43116.40455	r	1	ct	1253	cp	22	st	1607					
+Natascha	f	chimpanzee	37	hand reared	3	2	12	60		p_test	training	l	43116.40495	l	1							et	548	it	4920	
+Natascha	f	chimpanzee	37	hand reared	4	1	1	61		p_test	training	l	43117.39362	l	1							et	495	it	5101	
+Natascha	f	chimpanzee	37	hand reared	4	1	2	62		p_test	training	r	43117.39407	l	0									it	3703	et not recorded
+Natascha	f	chimpanzee	37	hand reared	4	1	3	63	4	p_test	test	l	43117.39453	l	1	ct	1004	cp	13	st	1621					
+Natascha	f	chimpanzee	37	hand reared	4	1	4	64		p_test	training	l	43117.39492	l	1							et	532	it	6016	
+Natascha	f	chimpanzee	37	hand reared	4	1	5	65		p_test	training	r														not recorded
+Natascha	f	chimpanzee	37	hand reared	4	1	6	66	5	p_test	test	r	43117.39593	r	1	ct	1054	cp	22	st	1458					
+Natascha	f	chimpanzee	37	hand reared	4	1	7	67		p_test	training	r	43117.39642	l	0							et	1931	it	3331	
+Natascha	f	chimpanzee	37	hand reared	4	1	8	68		p_test	training	l	43117.39672	r	1							et	633	it	10825	
+Natascha	f	chimpanzee	37	hand reared	4	1	9	69		p_test	training	l	43117.39694	l	1							et	510	it	3386	
+Natascha	f	chimpanzee	37	hand reared	4	1	10	70		p_test	training	r	43117.39719	r	1							et	479	it	5174	
+Natascha	f	chimpanzee	37	hand reared	4	1	11	71		p_test	training	l	43117.3974	l	1							et	471	it	5822	
+Natascha	f	chimpanzee	37	hand reared	4	1	12	72	6	p_test	test	r	43117.39765	r	1	ct	1503	cp	22	st	1801					
+Natascha	f	chimpanzee	37	hand reared	4	2	13	73		p_test	training	l														not recorded
+Natascha	f	chimpanzee	37	hand reared	4	2	14	74		p_test	training	r	43117.3984	r	1							et	722	it	1326	
+Natascha	f	chimpanzee	37	hand reared	4	2	15	75	7	p_test	test	l	43117.3987	l	1	ct	2206	cp	21	st	3360					
+Natascha	f	chimpanzee	37	hand reared	4	2	16	76		p_test	training	r	43117.39904	r	1							et	498	it	7836	
+Natascha	f	chimpanzee	37	hand reared	4	2	17	77		p_test	training	l	43117.39921	l	1							et	401	it	1641	
+Natascha	f	chimpanzee	37	hand reared	4	2	18	78	8	p_test	test	r	43117.39946	r	1	ct	1203	cp	22	st	1551					
+Natascha	f	chimpanzee	37	hand reared	4	2	19	79		p_test	training	l	43117.39971	l	1							et	375	it	7733	
+Natascha	f	chimpanzee	37	hand reared	4	2	20	80		p_test	training	r	43117.40002	r	1							et	1483	it	15808	
+Natascha	f	chimpanzee	37	hand reared	4	2	21	81		p_test	training	r	43117.40021	r	1							et	497	it	1950	
+Natascha	f	chimpanzee	37	hand reared	4	2	22	82	9	p_test	test	l	43117.40047	l	1	ct	1153	cp	21	st	1473					
+Natascha	f	chimpanzee	37	hand reared	4	2	23	83		p_test	training	l	43117.40069	l	1							et	434	it	1776	
+Natascha	f	chimpanzee	37	hand reared	4	2	24	84		p_test	training	r	43117.4009	r	1							et	830	it	4010	
+Natascha	f	chimpanzee	37	hand reared	5	1	1	85		p_test	training	r		r	1											not recorded
+Natascha	f	chimpanzee	37	hand reared	5	1	2	86	10	p_test	test	r	43118.36872	r	1	ct	2756	cp	18	st	3073					
+Natascha	f	chimpanzee	37	hand reared	5	1	3	87		p_test	training	l	43118.36922	l	1							et	478	it	19331	
+Natascha	f	chimpanzee	37	hand reared	5	1	4	88		p_test	training	r	43118.36966	r	1							et	974	it	17479	
+Natascha	f	chimpanzee	37	hand reared	5	1	5	89		p_test	training	l	43118.36988	l	1							et	552	it	1569	
+Natascha	f	chimpanzee	37	hand reared	5	1	6	90	11	p_test	test	l	43118.37027	l	1	ct	1504	cp	21	st	3441					
+Natascha	f	chimpanzee	37	hand reared	5	1	7	91		p_test	training	l	43118.37064	l	1							et	365	it	10486	
+Natascha	f	chimpanzee	37	hand reared	5	1	8	92		p_test	training	r	43118.37104	r	1							et	625	it	17442	
+Natascha	f	chimpanzee	37	hand reared	5	1	9	93		p_test	training	l	43118.37127	l	1							et	381	it	2026	
+Natascha	f	chimpanzee	37	hand reared	5	1	10	94		p_test	training	r	43118.37159	r	1							et	768	it	9360	
+Natascha	f	chimpanzee	37	hand reared	5	1	11	95	12	p_test	test	l	43118.37186	l	1	ct	1203	cp	21	st	1468					
+Natascha	f	chimpanzee	37	hand reared	5	1	12	96		p_test	training	r	43118.37209	r	1							et	555	it	2456	
+Natascha	f	chimpanzee	37	hand reared	5	2	13	97		p_test	training	r	43118.37236	r	1							et	559	it	4943	
+Natascha	f	chimpanzee	37	hand reared	5	2	14	98		p_test	training	l	43118.37262	l	1							et	434	it	1901	
+Natascha	f	chimpanzee	37	hand reared	5	2	15	99	13	p_test	test	r	43118.37324	r	1	ct	1052	cp	19	st	1260					
+Natascha	f	chimpanzee	37	hand reared	5	2	16	100		p_test	training	l	43118.37361	l	1							et	414	it	6884	
+Natascha	f	chimpanzee	37	hand reared	5	2	17	101		p_test	training	r	43118.37412	r	1							et	867	it	3126	
+Natascha	f	chimpanzee	37	hand reared	5	2	18	102		p_test	training	l	43118.37449	l	1							et	418	it	12833	
+Natascha	f	chimpanzee	37	hand reared	5	2	19	103		p_test	training	r	43118.37523	r	1							et	1644	it		
+Natascha	f	chimpanzee	37	hand reared	5	2	20	104		p_test	training	l	43118.37561	l	1							et	488	it	22755	
+Natascha	f	chimpanzee	37	hand reared	5	2	21	105	14	p_test	test	r	43118.37623	r	1	ct	2305	cp	22	st	2567					
+Natascha	f	chimpanzee	37	hand reared	5	2	22	106		p_test	training	l	43118.37657	l	1							et	470	it	6067	
+Natascha	f	chimpanzee	37	hand reared	5	2	23	107	15	p_test	test	l	43118.37682	l	1	ct	602	cp	22	st	2844					
+Natascha	f	chimpanzee	37	hand reared	5	2	24	108		p_test	training	r		r	1											not recorded
+Natascha	f	chimpanzee	37	hand reared	6	1	1	109	16	p_test	test	l	43124.39918	l	1	ct	1053	cp	20	st	3704					
+Natascha	f	chimpanzee	37	hand reared	6	1	2	110		p_test	training	l	43124.39973	l	1							et	547	it	4661	
+Natascha	f	chimpanzee	37	hand reared	6	1	3	111		p_test	training	l	43124.40003	l	1							et	439	it	7714	
+Natascha	f	chimpanzee	37	hand reared	6	1	4	112		p_test	training	r	43124.40044	r	1							et	2246	it	9329	
+Natascha	f	chimpanzee	37	hand reared	6	1	5	113	17	p_test	test	r	43124.40078	r	1	ct	1153	cp	14	st	1296					
+Natascha	f	chimpanzee	37	hand reared	6	1	6	114		p_test	training	l	43124.40111	l	1							et	391	it	4082	
+Natascha	f	chimpanzee	37	hand reared	6	1	7	115		p_test	training	r	43124.40137	r	1							et	860	it	8551	
+Natascha	f	chimpanzee	37	hand reared	6	1	8	116		p_test	training	r	43124.40155	r	1							et	1318	it	1708	
+Natascha	f	chimpanzee	37	hand reared	6	1	9	117		p_test	training	r	43124.40183	r	1							et	858	it	4339	
+Natascha	f	chimpanzee	37	hand reared	6	1	10	118		p_test	training	l	43124.40222	l	1							et		it		"times incorrect, Natascha moved the slider before the baiting"
+Natascha	f	chimpanzee	37	hand reared	6	1	11	119	18	p_test	test	r	43124.40275	r	1	ct	1203	cp	18	st	1396					
+Natascha	f	chimpanzee	37	hand reared	6	1	12	120		p_test	training	l	43124.40308	l	1							et	386	it	2577	
+Natascha	f	chimpanzee	37	hand reared	6	2	13	121		p_test	training	r	43124.40337	r	1							et	563	it	2142	
+Natascha	f	chimpanzee	37	hand reared	6	2	14	122		p_test	training	l	43124.40405	l	1							et	527	it	4851	
+Natascha	f	chimpanzee	37	hand reared	6	2	15	123	19	p_test	test	l	43124.40448	l	1	ct	1203	cp	21	st	1507					
+Natascha	f	chimpanzee	37	hand reared	6	2	16	124		p_test	training	r	43124.40477	r	1							et	872	it	1743	
+Natascha	f	chimpanzee	37	hand reared	6	2	17	125		p_test	training	l	43124.40525	l	1							et	449	it	4653	
+Natascha	f	chimpanzee	37	hand reared	6	2	18	126		p_test	training	r	43124.40549	r	1							et	904	it	1997	
+Natascha	f	chimpanzee	37	hand reared	6	2	19	127	20	p_test	test	l	43124.40575	l	1	ct	1003	cp	21	st	1328					
+Natascha	f	chimpanzee	37	hand reared	6	2	20	128		p_test	training	r	43124.40606	r	1							et	834	it	1883	
+Natascha	f	chimpanzee	37	hand reared	6	2	21	129		p_test	training	l	43124.40644	l	1							et	428	it	6200	
+Natascha	f	chimpanzee	37	hand reared	6	2	22	130		p_test	training	r	43124.40676	r	1							et	681	it	6367	
+Natascha	f	chimpanzee	37	hand reared	6	2	23	131	21	p_test	test	r	43124.407	r	1	ct	1103	cp	18	st	1389					
+Natascha	f	chimpanzee	37	hand reared	6	2	24	132		p_test	training	l	43124.40742	l	1							et	312	it	4769	
+Riet	f	chimpanzee	40	hand reared	1	1	1	1		p_training	training	l	43092.48529	l	1							et	3816			
+Riet	f	chimpanzee	40	hand reared	1	1	2	2		p_training	training	r	43092.48664	l	0							et	9161			
+Riet	f	chimpanzee	40	hand reared	1	1	3	3		p_training	training	l	43092.48698	l	1							et	3524			
+Riet	f	chimpanzee	40	hand reared	1	1	4	4		p_training	training	l	43092.4872	l	1							et	343			
+Riet	f	chimpanzee	40	hand reared	1	1	5	5		p_training	training	r	43092.48745	l	0							et	5638			
+Riet	f	chimpanzee	40	hand reared	1	1	6	6		p_training	training	r	43092.48766	r	1							et	412			
+Riet	f	chimpanzee	40	hand reared	1	1	7	7		p_training	training	l	43092.48791	r	0							et	3813			
+Riet	f	chimpanzee	40	hand reared	1	1	8	8		p_training	training	r	43092.48813	l	0							et	3130			
+Riet	f	chimpanzee	40	hand reared	1	1	9	9		p_training	training	l	43092.48837	l	1							et	3088			
+Riet	f	chimpanzee	40	hand reared	1	1	10	10		p_training	training	l	43092.48856	l	1							et	408			
+Riet	f	chimpanzee	40	hand reared	1	1	11	11		p_training	training	r	43092.48878	l	0							et	2176			
+Riet	f	chimpanzee	40	hand reared	1	1	12	12		p_training	training	r	43092.48903	r	1							et	449			
+Riet	f	chimpanzee	40	hand reared	1	2	13	13		p_training	training	r	43092.48918	r	1							et	338			
+Riet	f	chimpanzee	40	hand reared	1	2	14	14		p_training	training	l	43092.48935	r	0							et	3563			
+Riet	f	chimpanzee	40	hand reared	1	2	15	15		p_training	training	l	43092.48953	l	1							et	594			
+Riet	f	chimpanzee	40	hand reared	1	2	16	16		p_training	training	r	43092.4898	r	1							et	457			
+Riet	f	chimpanzee	40	hand reared	1	2	17	17		p_training	training	r	43092.48999	r	1							et	622			
+Riet	f	chimpanzee	40	hand reared	1	2	18	18		p_training	training	r	43092.49013	r	1							et	365			
+Riet	f	chimpanzee	40	hand reared	1	2	19	19		p_training	training	l	43092.49032	r	0							et	4020			
+Riet	f	chimpanzee	40	hand reared	1	2	20	20		p_training	training	l	43092.49046	l	1							et	424			
+Riet	f	chimpanzee	40	hand reared	1	2	21	21		p_training	training	r	43092.49059	r	1							et	666			
+Riet	f	chimpanzee	40	hand reared	1	2	22	22		p_training	training	l	43092.49075	l	1							et	380			
+Riet	f	chimpanzee	40	hand reared	1	2	23	23		p_training	training	r	43092.49101	l	0							et	1452			
+Riet	f	chimpanzee	40	hand reared	1	2	24	24		p_training	training	l	43092.49138	l	1							et	373			
+Riet	f	chimpanzee	40	hand reared	2	1	1	25		p_training	training	r	43096.45353	r	1							et	339			
+Riet	f	chimpanzee	40	hand reared	2	1	2	26		p_training	training	l	43096.45372	l	1							et	373			
+Riet	f	chimpanzee	40	hand reared	2	1	3	27		p_training	training	r	43096.45391	l	0							et	2881			
+Riet	f	chimpanzee	40	hand reared	2	1	4	28		p_training	training	l	43096.45412	l	1							et	392			
+Riet	f	chimpanzee	40	hand reared	2	1	5	29		p_training	training	l	43096.45433	l	1							et	1212			
+Riet	f	chimpanzee	40	hand reared	2	1	6	30		p_training	training	r	43096.45448	r	1							et	335			
+Riet	f	chimpanzee	40	hand reared	2	1	7	31		p_training	training	r	43096.45466	r	1							et	332			
+Riet	f	chimpanzee	40	hand reared	2	1	8	32		p_training	training	l	43096.45486	l	1							et	333			
+Riet	f	chimpanzee	40	hand reared	2	1	9	33		p_training	training	r	43096.45507	r	1							et	405			
+Riet	f	chimpanzee	40	hand reared	2	1	10	34		p_training	training	l	43096.45527	l	1							et	3118			
+Riet	f	chimpanzee	40	hand reared	2	1	11	35		p_training	training	l	43096.45546	l	1							et	1479			
+Riet	f	chimpanzee	40	hand reared	2	1	12	36		p_training	training	r	43096.45569	r	1							et	333			
+Riet	f	chimpanzee	40	hand reared	3	1	1	37		p_test	training	l	43096.45715	l	1							et	354			
+Riet	f	chimpanzee	40	hand reared	3	1	2	38	1	p_test	test	l	43096.45744	l	1	ct	3409	cp	12	st	3661					
+Riet	f	chimpanzee	40	hand reared	3	1	3	39		p_test	training	r	43096.45806	r	1							et	1412			
+Riet	f	chimpanzee	40	hand reared	3	1	4	40		p_test	training	r	43096.45841	l	0							et	6262			
+Riet	f	chimpanzee	40	hand reared	3	1	5	41		p_test	training	l	43096.45859	l	1							et	379			
+Riet	f	chimpanzee	40	hand reared	3	1	6	42	2	p_test	test	r	43096.45884	r	1	ct	3158	cp	20	st	3406					
+Riet	f	chimpanzee	40	hand reared	3	1	7	43		p_test	training	r	43096.45909	r	1							et	260			
+Riet	f	chimpanzee	40	hand reared	3	1	8	44		p_test	training	l	43096.45928	l	1							et	332			
+Riet	f	chimpanzee	40	hand reared	3	1	9	45	3	p_test	test	l	43096.45948	r	1	ct	2807	cp	22	st	3093					
+Riet	f	chimpanzee	40	hand reared	3	1	10	46		p_test	training	r	43096.45968	r	1							et	317			
+Riet	f	chimpanzee	40	hand reared	3	1	11	47		p_test	training	r	43096.45997	r	1							et	1807			
+Riet	f	chimpanzee	40	hand reared	3	1	12	48		p_test	training	l	43096.46016	l	1							et	392			
+Riet	f	chimpanzee	40	hand reared	4	1	1	49		p_test	training	l	43097.48249	l	1							et	337	it	1616	
+Riet	f	chimpanzee	40	hand reared	4	1	2	50		p_test	training	l	43097.4827	l	1							et	4134	it	2049	
+Riet	f	chimpanzee	40	hand reared	4	1	3	51		p_test	training	l	43097.48288	l	1							et	319	it	1990	
+Riet	f	chimpanzee	40	hand reared	4	1	4	52		p_test	training	r	43097.48307	r	1							et	434	it	3481	
+Riet	f	chimpanzee	40	hand reared	4	1	5	53	4	p_test	test	r	43097.48329	r	1	ct	3108	cp	22	st	3341					
+Riet	f	chimpanzee	40	hand reared	4	1	6	54		p_test	training	r	43097.48352	r	1							et	299	it	1626	
+Riet	f	chimpanzee	40	hand reared	4	1	7	55	5	p_test	test	l	43097.48372	l	1	ct	1003	cp	16	st	2163					
+Riet	f	chimpanzee	40	hand reared	4	1	8	56		p_test	training	r	43097.48395	r	1							et	1217	it	2380	
+Riet	f	chimpanzee	40	hand reared	4	1	9	57	6	p_test	test	l	43097.48421	l	1	ct	1404	cp	21	st	1578					
+Riet	f	chimpanzee	40	hand reared	4	1	10	58		p_test	training	r	43097.48443	r	1							et	356	it	2276	
+Riet	f	chimpanzee	40	hand reared	4	1	11	59		p_test	training	r	43097.48458	r	1							et	350	it	1869	
+Riet	f	chimpanzee	40	hand reared	4	1	12	60		p_test	training	l	43097.48477	l	1							et	440	it	2182	
+Riet	f	chimpanzee	40	hand reared	4	2	13	61		p_test	training	r	43097.48494	r	1							et	312	it	1798	
+Riet	f	chimpanzee	40	hand reared	4	2	14	62	7	p_test	test	r	43097.48516	r	1	ct	1854	cp	16	st	2069					
+Riet	f	chimpanzee	40	hand reared	4	2	15	63		p_test	training	l	43097.48538	l	1							et	373	it	1847	
+Riet	f	chimpanzee	40	hand reared	4	2	16	64		p_test	training	l	43097.48556	l	1							et	374	it	1907	
+Riet	f	chimpanzee	40	hand reared	4	2	17	65	8	p_test	test	r	43097.4858	r	1	ct	1454	cp	22	st	1751					
+Riet	f	chimpanzee	40	hand reared	4	2	18	66		p_test	training	r	43097.48603	r	1							et	435	it	1706	
+Riet	f	chimpanzee	40	hand reared	4	2	19	67	9	p_test	test	l	43097.4862	l	1	ct	701	cp	14	st	1646					
+Riet	f	chimpanzee	40	hand reared	4	2	20	68		p_test	training	r	43097.48641	r	1							et	334	it	1797	
+Riet	f	chimpanzee	40	hand reared	4	2	21	69		p_test	training	l	43097.48667	l	1							et	418	it	1733	
+Riet	f	chimpanzee	40	hand reared	4	2	22	70		p_test	training	l	43097.48684	l	1							et	400	it	2597	
+Riet	f	chimpanzee	40	hand reared	4	2	23	71		p_test	training	r	43097.48703	r	1							et	393	it	1570	
+Riet	f	chimpanzee	40	hand reared	4	2	24	72		p_test	training	l	43097.48723	l	1							et	367	it	1769	
+Riet	f	chimpanzee	40	hand reared	5	1	1	73		p_test	training	l	43098.48897	l	1							et	310	it	13032	
+Riet	f	chimpanzee	40	hand reared	5	1	2	74		p_test	training	r	43098.48948	l	0							et	6001	it	12207	
+Riet	f	chimpanzee	40	hand reared	5	1	3	75		p_test	training	r	43098.48971	r	1							et	1354	it	3829	
+Riet	f	chimpanzee	40	hand reared	5	1	4	76		p_test	training	l	43098.49002	l	1							et	352	it	3539	
+Riet	f	chimpanzee	40	hand reared	5	1	5	77	10	p_test	test	r	43098.49028	r	1	ct	2156	cp	16	st	2407					
+Riet	f	chimpanzee	40	hand reared	5	1	6	78		p_test	training	l	43098.49049	l	1							et	296	it	2399	
+Riet	f	chimpanzee	40	hand reared	5	1	7	79		p_test	training	r	43098.49071	r	1							et	1742	it	2107	
+Riet	f	chimpanzee	40	hand reared	5	1	8	80	11	p_test	test	l	43098.49093	l	1	ct	1905	cp	16	st	3292					
+Riet	f	chimpanzee	40	hand reared	5	1	9	81		p_test	training	l	43098.49119	l	1							et	350	it	2785	
+Riet	f	chimpanzee	40	hand reared	5	1	10	82		p_test	training	l	43098.49135	l	1							et	430	it	2021	
+Riet	f	chimpanzee	40	hand reared	5	1	11	83	12	p_test	test	r	43098.49164	r	1	ct	2456	cp	13	st	2620					
+Riet	f	chimpanzee	40	hand reared	5	1	12	84		p_test	training	r	43098.49186	r	1							et	369	it	1577	
+Riet	f	chimpanzee	40	hand reared	5	2	13	85		p_test	training	r	43098.49211	r	1							et	327	it	1513	
+Riet	f	chimpanzee	40	hand reared	5	2	14	86		p_test	training	l	43098.49229	l	1							et	346	it	1572	
+Riet	f	chimpanzee	40	hand reared	5	2	15	87	13	p_test	test	l	43098.49249	l	1	ct	1805	cp	13	st	2517					
+Riet	f	chimpanzee	40	hand reared	5	2	16	88		p_test	training	r	43098.49302	r	1							et	362	it	3395	
+Riet	f	chimpanzee	40	hand reared	5	2	17	89		p_test	training	l	43098.49318	l	1							et	363	it	1886	
+Riet	f	chimpanzee	40	hand reared	5	2	18	90		p_test	training	l	43098.49334	l	1							et	362	it	2051	
+Riet	f	chimpanzee	40	hand reared	5	2	19	91		p_test	training	r	43098.49354	r	1							et	1401	it	1848	
+Riet	f	chimpanzee	40	hand reared	5	2	20	92		p_test	training	r		r	1											did not record
+Riet	f	chimpanzee	40	hand reared	5	2	21	93	14	p_test	test	l	43098.4947	l	1	ct	1404	cp	15	st	1540					
+Riet	f	chimpanzee	40	hand reared	5	2	22	94		p_test	training	r	43098.49503	r	1							et	376	it	4460	
+Riet	f	chimpanzee	40	hand reared	5	2	23	95	15	p_test	test	r	43098.49529	r	1	ct	1505	cp	16	st	1742					
+Riet	f	chimpanzee	40	hand reared	5	2	24	96		p_test	training	l	43098.49552	l	1							et	352	it	2092	
+Riet	f	chimpanzee	40	hand reared	6	1	1	97		p_test	training	r	43099.42685	r	1							et	1307	it	7444	
+Riet	f	chimpanzee	40	hand reared	6	1	2	98	16	p_test	test	r	43099.42715	r	1	ct	2757	cp	22	st	3036					
+Riet	f	chimpanzee	40	hand reared	6	1	3	99		p_test	training	l	43099.42751	l	1							et	319	it	2662	
+Riet	f	chimpanzee	40	hand reared	6	1	4	100	17	p_test	test	l	43099.42774	l	1	ct	1505	cp	22	st	1762					
+Riet	f	chimpanzee	40	hand reared	6	1	5	101		p_test	training	l	43099.4281	l	1							et	318	it	1682	
+Riet	f	chimpanzee	40	hand reared	6	1	6	102		p_test	training	r	43099.42826	r	1							et	321	it	1704	
+Riet	f	chimpanzee	40	hand reared	6	1	7	103		p_test	training	r	43099.42846	r	1							et	393	it	2308	
+Riet	f	chimpanzee	40	hand reared	6	1	8	104		p_test	training	l	43099.42867	l	1							et	332	it	2662	
+Riet	f	chimpanzee	40	hand reared	6	1	9	105	18	p_test	test	r	43099.42889	r	1	ct	1253	cp	22	st	1584					
+Riet	f	chimpanzee	40	hand reared	6	1	10	106		p_test	training	l	43099.42924	l	1							et	350	it	2661	
+Riet	f	chimpanzee	40	hand reared	6	1	11	107		p_test	training	l	43099.42943	l	1							et	357	it	1810	
+Riet	f	chimpanzee	40	hand reared	6	1	12	108		p_test	training	r	43099.42972	r	1							et	289	it	1874	
+Riet	f	chimpanzee	40	hand reared	6	2	13	109		p_test	training	r	43099.42992	r	1							et	299	it	1975	
+Riet	f	chimpanzee	40	hand reared	6	2	14	110		p_test	training	l	43099.43008	l	1							et	726	it	2672	
+Riet	f	chimpanzee	40	hand reared	6	2	15	111	19	p_test	test	l	43099.43032	l	1	ct	1354	cp	21	st	1569					
+Riet	f	chimpanzee	40	hand reared	6	2	16	112		p_test	training	r	43099.43057	r	1							et	384	it	3913	
+Riet	f	chimpanzee	40	hand reared	6	2	17	113		p_test	training	l	43099.43078	l	1							et	353	it	1726	
+Riet	f	chimpanzee	40	hand reared	6	2	18	114		p_test	training	l	43099.43097	l	1							et	383	it	1665	
+Riet	f	chimpanzee	40	hand reared	6	2	19	115	20	p_test	test	l	43099.4312	l	1	ct	1354	cp	21	st	1551					
+Riet	f	chimpanzee	40	hand reared	6	2	20	116		p_test	training	r	43099.43145	r	1							et	397	it	2118	
+Riet	f	chimpanzee	40	hand reared	6	2	21	117	21	p_test	test	r	43099.4317	r	1	ct	1354	cp	22	st	1599					
+Riet	f	chimpanzee	40	hand reared	6	2	22	118		p_test	training	r	43099.43197	r	1							et	303	it	1838	
+Riet	f	chimpanzee	40	hand reared	6	2	23	119		p_test	training	r	43099.43215	r	1							et	311	it	1750	
+Riet	f	chimpanzee	40	hand reared	6	2	24	120		p_test	training	l	43099.43229	l	1							et	354	it	1811	
+Riet	f	chimpanzee	40	hand reared	7	1	1	121		p_test	training	l	43102.44145	l	1							et	546	it	25144	
+Riet	f	chimpanzee	40	hand reared	7	1	2	122		p_test	training	r	43102.44196	r	1							et	361	it	19388	
+Riet	f	chimpanzee	40	hand reared	7	1	3	123	22	p_test	test	r	43102.44242	r	1	ct	2657	cp	15	st	3181					
+Riet	f	chimpanzee	40	hand reared	7	1	4	124		p_test	training	l	43102.44287	l	1							et	472	it	9493	
+Riet	f	chimpanzee	40	hand reared	7	1	5	125	23	p_test	test	l	43102.44339	l	1	ct	3258			st	3662					cp not recorded
+Riet	f	chimpanzee	40	hand reared	7	1	6	126		p_test	training	r	43102.44439	r	1							et	1365	it	22523	
+Riet	f	chimpanzee	40	hand reared	7	1	7	127		p_test	training	r	43102.44479	r	1							et	554	it	10565	
+Riet	f	chimpanzee	40	hand reared	7	1	8	128		p_test	training	l	43102.4451	l	1							et	1287	it	10843	
+Riet	f	chimpanzee	40	hand reared	7	1	9	129		p_test	training	r	43102.44537	r	1							et	472	it	2220	
+Riet	f	chimpanzee	40	hand reared	7	1	10	130	24	p_test	test	r	43102.44561	r	1	ct	1454	cp	22	st	1716					
+Riet	f	chimpanzee	40	hand reared	7	1	11	131		p_test	training	l	43102.44595	l	1							et	433	it	2913	
+Riet	f	chimpanzee	40	hand reared	7	1	12	132		p_test	training	l	43102.44619	l	1							et	329	it	4622	
+Robert	m	chimpanzee	42	hand reared	1	1	1	1		p_training	training	r	43097.49793	l	0											"experimenter error, test trial instead of training trial"
+Robert	m	chimpanzee	42	hand reared	1	1	2	2		p_training	training	l	43097.4984	l	1							et	835	it	8188	
+Robert	m	chimpanzee	42	hand reared	1	1	3	3		p_training	training	r	43097.4987	l	0							et	5934	it	9964	
+Robert	m	chimpanzee	42	hand reared	1	1	4	4		p_training	training	l	43097.49889	l	1							et	747	it	2740	
+Robert	m	chimpanzee	42	hand reared	1	1	5	5		p_training	training	l		l	1											"not recorded, apparatus malfunction"
+Robert	m	chimpanzee	42	hand reared	1	1	6	6		p_training	training	l	43097.49925	l	1							et	711	it	2148	
+Robert	m	chimpanzee	42	hand reared	1	1	7	7		p_training	training	r	43097.49951	l	0							et	9838	it	2314	
+Robert	m	chimpanzee	42	hand reared	1	1	8	8		p_training	training	r	43097.49997	r	1							et	807	it	4973	
+Robert	m	chimpanzee	42	hand reared	1	1	9	9		p_training	training	l	43097.50021	r	0							et	3617	it	2836	
+Robert	m	chimpanzee	42	hand reared	1	1	10	10		p_training	training	r		l	1											"not recorded, apparatus malfunction"
+Robert	m	chimpanzee	42	hand reared	1	1	11	11		p_training	training	r	43097.5008	r	1							et	551	it	5326	
+Robert	m	chimpanzee	42	hand reared	1	1	12	12		p_training	training	l	43097.50152	l	1							et	730	it	4667	
+Robert	m	chimpanzee	42	hand reared	1	2	13	13		p_training	training	r	43097.50174	r	1							et	727	it	2721	
+Robert	m	chimpanzee	42	hand reared	1	2	14	14		p_training	training	l	43097.50193	l	1							et	602	it	2006	
+Robert	m	chimpanzee	42	hand reared	1	2	15	15		p_training	training	l	43097.50209	l	1							et	700	it	1937	
+Robert	m	chimpanzee	42	hand reared	1	2	16	16		p_training	training	r	43097.50227	r	1							et	828	it	3916	
+Robert	m	chimpanzee	42	hand reared	1	2	17	17		p_training	training	r	43097.50249	r	1							et	1026	it	4495	
+Robert	m	chimpanzee	42	hand reared	1	2	18	18		p_training	training	l	43097.50267	l	1							et	645	it	2572	
+Robert	m	chimpanzee	42	hand reared	1	2	19	19		p_training	training	l	43097.50286	l	1							et	564	it	3935	
+Robert	m	chimpanzee	42	hand reared	1	2	20	20		p_training	training	r	43097.5031	r	1							et	867	it	2140	
+Robert	m	chimpanzee	42	hand reared	1	2	21	21		p_training	training	r	43097.50334	r	1							et	2563	it	4530	
+Robert	m	chimpanzee	42	hand reared	1	2	22	22		p_training	training	r	43097.50356	r	1							et	1142	it	3899	
+Robert	m	chimpanzee	42	hand reared	1	2	23	23		p_training	training	l	43097.50381	l	1							et	1320	it	4365	
+Robert	m	chimpanzee	42	hand reared	1	2	24	24		p_training	training	l	43097.50409	l	1							et	552	it	9187	
+Robert	m	chimpanzee	42	hand reared	2	1	1	25		p_test	training	r	43098.51167	r	1							et	1307	it	6027	
+Robert	m	chimpanzee	42	hand reared	2	1	2	26	1	p_test	test	l	43098.51196	l	1	ct	1704	cp	19	st	3047					
+Robert	m	chimpanzee	42	hand reared	2	1	3	27		p_test	training	l	43098.51228	l	1							et	599	it	9197	
+Robert	m	chimpanzee	42	hand reared	2	1	4	28		p_test	training	r	43098.51248	r	1							et	704	it	3142	
+Robert	m	chimpanzee	42	hand reared	2	1	5	29		p_test	training	l	43098.51269	l	1							et	519	it	3946	
+Robert	m	chimpanzee	42	hand reared	2	1	6	30		p_test	training	l	43098.51301	l	1							et	471	it	6165	
+Robert	m	chimpanzee	42	hand reared	2	1	7	31		p_test	training	r	43098.51326	r	1							et	548	it	3818	
+Robert	m	chimpanzee	42	hand reared	2	1	8	32	2	p_test	test	r	43098.51469	r	1	ct	9225	cp	17	st	27845					
+Robert	m	chimpanzee	42	hand reared	2	1	9	33		p_test	training	r		r	1											not recorded
+Robert	m	chimpanzee	42	hand reared	2	1	10	34	3	p_test	test	l	43098.51546	l	1	ct	2206	cp	14	st	2577					
+Robert	m	chimpanzee	42	hand reared	2	1	11	35		p_test	training	r	43098.51583	r	1							et	739	it	9242	
+Robert	m	chimpanzee	42	hand reared	2	1	12	36		p_test	training	l	43098.51604	l	1							et	606	it	1757	
+Robert	m	chimpanzee	42	hand reared	2	2	13	37	4	p_test	test	r	43098.51632	r	1	ct	2607	cp	18	st	2993					
+Robert	m	chimpanzee	42	hand reared	2	2	14	38		p_test	training	r	43098.51654	r	1							et	2390	it		
+Robert	m	chimpanzee	42	hand reared	2	2	15	39		p_test	training	l	43098.51711	l	1							et	463	it	4737	
+Robert	m	chimpanzee	42	hand reared	2	2	16	40		p_test	training	l	43098.51742	l	1							et		it	1909	
+Robert	m	chimpanzee	42	hand reared	2	2	17	41	5	p_test	test	r	43098.51765	r	1	ct	452	cp	20	st	452					cp corrected from video
+Robert	m	chimpanzee	42	hand reared	2	2	18	42		p_test	training	r	43098.51807	r	1							et	794	it	3096	
+Robert	m	chimpanzee	42	hand reared	2	2	19	43		p_test	training	r	43098.51826	r	1							et	1786	it	3240	
+Robert	m	chimpanzee	42	hand reared	2	2	20	44	6	p_test	test	l	43098.5185	l	1	ct	653	cp	21	st	663					corrected from video
+Robert	m	chimpanzee	42	hand reared	2	2	21	45		p_test	training	r	43098.51885	r	1							et	381	it	3838	
+Robert	m	chimpanzee	42	hand reared	2	2	22	46		p_test	training	l	43098.51913	l	1							et	478	it	2090	
+Robert	m	chimpanzee	42	hand reared	2	2	23	47		p_test	training	l	43098.51938	l	1							et	487	it	4325	
+Robert	m	chimpanzee	42	hand reared	2	2	24	48		p_test	training	l	43098.51956	l	1							et	496	it	1745	
+Robert	m	chimpanzee	42	hand reared	3	1	1	49		p_test	training	l	43099.50495	l	1							et	937	it	4052	
+Robert	m	chimpanzee	42	hand reared	3	1	2	50	7	p_test	test	r	43099.50519	r	1	ct	2005	cp	22	st	2827					
+Robert	m	chimpanzee	42	hand reared	3	1	3	51		p_test	training	r	43099.50539	r	1							et	677	it	4104	
+Robert	m	chimpanzee	42	hand reared	3	1	4	52	8	p_test	test	l	43099.50573	l	1	ct		cp	22	st	2552					"cp and ct not recorded, coded from video"
+Robert	m	chimpanzee	42	hand reared	3	1	5	53		p_test	training	r	43099.506	r	1							et	529	it	3353	
+Robert	m	chimpanzee	42	hand reared	3	1	6	54		p_test	training	r	43099.50627	r	1							et	650	it	5890	
+Robert	m	chimpanzee	42	hand reared	3	1	7	55		p_test	training	l	43099.50647	l	1							et	586	it	2010	
+Robert	m	chimpanzee	42	hand reared	3	1	8	56		p_test	training	l	43099.50663	l	1							et	517	it	1618	
+Robert	m	chimpanzee	42	hand reared	3	1	9	57		p_test	training	l	43099.50686	l	1							et	590	it	1393	
+Robert	m	chimpanzee	42	hand reared	3	1	10	58	9	p_test	test	r	43099.50711	r	1	ct	1003	cp	12	st	1185					
+Robert	m	chimpanzee	42	hand reared	3	1	11	59		p_test	training	r	43099.50728	r	1							et	584	it	2160	
+Robert	m	chimpanzee	42	hand reared	3	1	12	60		p_test	training	l	43099.50753	l	1							et	485	it	2048	
+Robert	m	chimpanzee	42	hand reared	3	2	13	61		p_test	training	r	43099.50772	r	1							et	644	it	2041	
+Robert	m	chimpanzee	42	hand reared	3	2	14	62	10	p_test	test	l	43099.50797	l	1	ct		cp	17	st	2070					"cp and ct not recorded, coded from video"
+Robert	m	chimpanzee	42	hand reared	3	2	15	63		p_test	training	l	43099.50838	l	1							et	1429	it	1705	
+Robert	m	chimpanzee	42	hand reared	3	2	16	64		p_test	training	r	43099.50861	r	1							et	626	it	2282	
+Robert	m	chimpanzee	42	hand reared	3	2	17	65		p_test	training	r	43099.50899	r	1							et	492	it	1603	
+Robert	m	chimpanzee	42	hand reared	3	2	18	66	11	p_test	test	r	43099.50919	r	1	ct	1856	cp	22	st	2390					
+Robert	m	chimpanzee	42	hand reared	3	2	19	67		p_test	training	r	43099.50947	r	1							et	536	it	7485	
+Robert	m	chimpanzee	42	hand reared	3	2	20	68		p_test	training	l	43099.50971	l	1							et	696	it	1533	
+Robert	m	chimpanzee	42	hand reared	3	2	21	69		p_test	training	r	43099.50991	r	1							et	474	it	2804	
+Robert	m	chimpanzee	42	hand reared	3	2	22	70		p_test	training	l	43099.51017	l	1							et	610	it	1416	
+Robert	m	chimpanzee	42	hand reared	3	2	23	71	12	p_test	test	l	43099.51041	l	1	ct	1303	cp	21	st	2946					
+Robert	m	chimpanzee	42	hand reared	3	2	24	72		p_test	training	l	43099.51068	l	1							et	673	it	1744	
+Robert	m	chimpanzee	42	hand reared	4	1	1	73		p_test	training	r	43103.45028	r	1							et	707	it	3297	
+Robert	m	chimpanzee	42	hand reared	4	1	2	74	13	p_test	test	l	43103.45052	l	1	ct	1805	cp	16	st	2496					
+Robert	m	chimpanzee	42	hand reared	4	1	3	75		p_test	training	r	43103.45075	r	1							et	498	it	1714	
+Robert	m	chimpanzee	42	hand reared	4	1	4	76		p_test	training	r	43103.45102	r	1							et	585	it	1561	
+Robert	m	chimpanzee	42	hand reared	4	1	5	77		p_test	training	l	43103.45125	l	1							et	4123	it	1881	
+Robert	m	chimpanzee	42	hand reared	4	1	6	78	14	p_test	test	r	43103.45152	r	1	ct	1454	cp	15	st	1690					
+Robert	m	chimpanzee	42	hand reared	4	1	7	79		p_test	training	l	43103.4519	l	1							et	496	it	1382	
+Robert	m	chimpanzee	42	hand reared	4	1	8	80		p_test	training	l	43103.45208	l	1							et	726	it	2049	
+Robert	m	chimpanzee	42	hand reared	4	1	9	81		p_test	training	l	43103.45227	l	1							et	469	it	2194	
+Robert	m	chimpanzee	42	hand reared	4	1	10	82		p_test	training	r	43103.4526	r	1							et	485	it	2180	
+Robert	m	chimpanzee	42	hand reared	4	1	11	83	15	p_test	test	l	43103.45286	l	1	ct	1153	cp	17	st	1603					
+Robert	m	chimpanzee	42	hand reared	4	1	12	84		p_test	training	r	43103.45311	r	1							et	1572	it	1080	
+Robert	m	chimpanzee	42	hand reared	4	2	13	85		p_test	training	l	43103.45341	l	1							et	414	it	1564	
+Robert	m	chimpanzee	42	hand reared	4	2	14	86		p_test	training	r	43103.45372	r	1							et	622	it	1493	
+Robert	m	chimpanzee	42	hand reared	4	2	15	87	16	p_test	test	r	43103.45391	r	1	ct	2005	cp	22	st	3056					
+Robert	m	chimpanzee	42	hand reared	4	2	16	88		p_test	training	l	43103.45427	l	1							et	519	it	1221	
+Robert	m	chimpanzee	42	hand reared	4	2	17	89		p_test	training	l	43103.45448	l	1							et	499	it	1452	
+Robert	m	chimpanzee	42	hand reared	4	2	18	90		p_test	training	r	43103.4549	r	1							et	1182	it	1754	
+Robert	m	chimpanzee	42	hand reared	4	2	19	91		p_test	training	r	43103.45512	r	1							et	715	it	5017	
+Robert	m	chimpanzee	42	hand reared	4	2	20	92	17	p_test	test	l	43103.45569	l	1	ct	2507	cp	18	st	30948					"screams outside the enclosure , Robert left the platform after the stop signal occurred, st very long"
+Robert	m	chimpanzee	42	hand reared	4	2	21	93		p_test	training	l	43103.45615	l	1							et	617	it	1888	
+Robert	m	chimpanzee	42	hand reared	4	2	22	94		p_test	training	l	43103.45632	l	1							et	606	it	1655	
+Robert	m	chimpanzee	42	hand reared	4	2	23	95		p_test	training	r	43103.45656	r	1							et	673	it	1498	
+Robert	m	chimpanzee	42	hand reared	4	2	24	96	18	p_test	test	r	43103.4569	r	1	ct	1554	cp	14	st	1913					
+Robert	m	chimpanzee	42	hand reared	5	1	1	97		p_test	training	r	43115.45244	r	1							et	706	it	4910	
+Robert	m	chimpanzee	42	hand reared	5	1	2	98		p_test	training	l	43115.45265	l	1							et	432	it	1737	
+Robert	m	chimpanzee	42	hand reared	5	1	3	99		p_test	training	r	43115.45291	r	1							et	520	it	1994	
+Robert	m	chimpanzee	42	hand reared	5	1	4	100		p_test	training	r	43115.45308	r	1							et	618	it	2048	
+Robert	m	chimpanzee	42	hand reared	5	1	5	101	19	p_test	test	r	43115.45395	r	1	ct		cp	19	st	7011					"cp and ct not recorded, coded from video"
+Robert	m	chimpanzee	42	hand reared	5	1	6	102		p_test	training	l	43115.45443	l	1							et	1509	it	1661	
+Robert	m	chimpanzee	42	hand reared	5	1	7	103		p_test	training	l	43115.45466	l	1							et	521	it	2355	
+Robert	m	chimpanzee	42	hand reared	5	1	8	104	20	p_test	test	l	43115.45493	l	1	ct	1855	cp	21	st	2563					
+Robert	m	chimpanzee	42	hand reared	5	1	9	105		p_test	training	r	43115.45522	r	1							et	483	it	1753	
+Robert	m	chimpanzee	42	hand reared	5	1	10	106		p_test	training	l	43115.4555	l	1							et	529	it	2022	
+Robert	m	chimpanzee	42	hand reared	5	1	11	107		p_test	training	l	43115.4558	l	1							et	564	it	1913	
+Robert	m	chimpanzee	42	hand reared	5	1	12	108		p_test	training	r	43115.45634	r	1							et	817	it	2986	
+Robert	m	chimpanzee	42	hand reared	5	2	13	109	21	p_test	test	r	43115.45671	r	1	ct	1805	cp	22	st	2276					
+Robert	m	chimpanzee	42	hand reared	5	2	14	110		p_test	training	r	43115.45712	r	1							et	1397	it	2200	
+Robert	m	chimpanzee	42	hand reared	5	2	15	111		p_test	training	l	43115.45744	l	1							et	488	it	1966	
+Robert	m	chimpanzee	42	hand reared	5	2	16	112	22	p_test	test	l	43115.45772	l	1	ct	1705	cp	21	st	2075					
+Robert	m	chimpanzee	42	hand reared	5	2	17	113		p_test	training	l	43115.45804	l	1							et	459	it	1570	
+Robert	m	chimpanzee	42	hand reared	5	2	18	114		p_test	training	r	43115.4584	r	1							et	626	it	1521	
+Robert	m	chimpanzee	42	hand reared	5	2	19	115	23	p_test	test	r	43115.45876	r	1	ct	1352	cp	22	st	1731					
+Robert	m	chimpanzee	42	hand reared	5	2	20	116		p_test	training	r	43115.45918	r	1							et	567	it	1795	
+Robert	m	chimpanzee	42	hand reared	5	2	21	117		p_test	training	r	43115.45943	r	1							et	648	it	2742	
+Robert	m	chimpanzee	42	hand reared	5	2	22	118	24	p_test	test	l	43115.45969	l	1	ct	2306	cp	15	st	2564					
+Robert	m	chimpanzee	42	hand reared	5	2	23	119		p_test	training	l	43115.45998	l	1							et	630	it	2648	
+Robert	m	chimpanzee	42	hand reared	5	2	24	120		p_test	training	l	43115.46016	l	1							et	449	it	2014	
+Sandra	f	chimpanzee	24	parent	1	1	1	1		p_training	training	l	43092.4956	l	1							et	741			
+Sandra	f	chimpanzee	24	parent	1	1	2	2		p_training	training	l	43092.49591	l	1							et	1589			
+Sandra	f	chimpanzee	24	parent	1	1	3	3		p_training	training	l	43092.49612	l	1							et	500			
+Sandra	f	chimpanzee	24	parent	1	1	4	4		p_training	training	r	43092.4963	l	0							et	2890			
+Sandra	f	chimpanzee	24	parent	1	1	5	5		p_training	training	r	43092.49647	r	1							et	1211			
+Sandra	f	chimpanzee	24	parent	1	1	6	6		p_training	training	r	43092.49663	r	1							et	2561			
+Sandra	f	chimpanzee	24	parent	1	1	7	7		p_training	training	r	43092.49688	r	1							et	526			
+Sandra	f	chimpanzee	24	parent	1	1	8	8		p_training	training	l	43092.49712	r	0							et	7674			
+Sandra	f	chimpanzee	24	parent	1	1	9	9		p_training	training	l	43092.49733	l	1							et	453			
+Sandra	f	chimpanzee	24	parent	1	1	10	10		p_training	training	l	43092.49747	l	1							et	499			
+Sandra	f	chimpanzee	24	parent	1	1	11	11		p_training	training	r	43092.49767	l	0							et	2357			
+Sandra	f	chimpanzee	24	parent	1	1	12	12		p_training	training	r	43092.49782	r	1							et	497			
+Sandra	f	chimpanzee	24	parent	1	2	13	13		p_training	training	r	43092.498	r	1							et	586			
+Sandra	f	chimpanzee	24	parent	1	2	14	14		p_training	training	l	43092.49818	r	0							et	1889			
+Sandra	f	chimpanzee	24	parent	1	2	15	15		p_training	training	r	43092.49841	r	1							et	485			
+Sandra	f	chimpanzee	24	parent	1	2	16	16		p_training	training	l	43092.49859	r	0							et	4656			
+Sandra	f	chimpanzee	24	parent	1	2	17	17		p_training	training	r	43092.49874	r	1							et	431			
+Sandra	f	chimpanzee	24	parent	1	2	18	18		p_training	training	l	43092.49889	r	0							et	1734			
+Sandra	f	chimpanzee	24	parent	1	2	19	19		p_training	training	r	43092.49903	r	1							et	376			
+Sandra	f	chimpanzee	24	parent	1	2	20	20		p_training	training	l	43092.49917	l	1							et	540			
+Sandra	f	chimpanzee	24	parent	1	2	21	21		p_training	training	l	43092.49932	l	1							et	459			
+Sandra	f	chimpanzee	24	parent	1	2	22	22		p_training	training	l	43092.49944	l	1							et	629			
+Sandra	f	chimpanzee	24	parent	1	2	23	23		p_training	training	r	43092.49964	r	1							et	1257			
+Sandra	f	chimpanzee	24	parent	1	2	24	24		p_training	training	r	43092.49979	r	1							et	763			
+Sandra	f	chimpanzee	24	parent	2	1	1	25		p_training	training	l	43096.47412	l	1							et	595			
+Sandra	f	chimpanzee	24	parent	2	1	2	26		p_training	training	l	43096.47434	l	1							et	729			
+Sandra	f	chimpanzee	24	parent	2	1	3	27		p_training	training	r	43096.47454	r	1							et	725			
+Sandra	f	chimpanzee	24	parent	2	1	4	28		p_training	training	l	43096.47472	l	1							et	615			
+Sandra	f	chimpanzee	24	parent	2	1	5	29		p_training	training	r	43096.47491	l	0							et	2324			
+Sandra	f	chimpanzee	24	parent	2	1	6	30		p_training	training	l	43096.47513	r	0							et	968			
+Sandra	f	chimpanzee	24	parent	2	1	7	31		p_training	training	r	43096.47546	r	1							et	513			
+Sandra	f	chimpanzee	24	parent	2	1	8	32		p_training	training	r	43096.47575	r	1							et	1047			
+Sandra	f	chimpanzee	24	parent	2	1	9	33		p_training	training	r	43096.47596	r	1							et	939			
+Sandra	f	chimpanzee	24	parent	2	1	10	34		p_training	training	l	43096.47613	l	1							et	570			
+Sandra	f	chimpanzee	24	parent	2	1	11	35		p_training	training	l	43096.47681	l	1							et	503			
+Sandra	f	chimpanzee	24	parent	2	1	12	36		p_training	training	r	43096.47696	l	0							et	1171			
+Sandra	f	chimpanzee	24	parent	2	2	13	37		p_training	training	r	43096.47725	r	1							et	425			
+Sandra	f	chimpanzee	24	parent	2	2	14	38		p_training	training	l	43096.47737	r	0							et	1106			
+Sandra	f	chimpanzee	24	parent	2	2	15	39		p_training	training	l	43096.47755	l	1							et	422			
+Sandra	f	chimpanzee	24	parent	2	2	16	40		p_training	training	r	43096.4777	r	1							et	442			
+Sandra	f	chimpanzee	24	parent	2	2	17	41		p_training	training	r	43096.47785	r	1							et	457			
+Sandra	f	chimpanzee	24	parent	2	2	18	42		p_training	training	r	43096.47804	r	1							et	474			
+Sandra	f	chimpanzee	24	parent	2	2	19	43		p_training	training	l	43096.47828	l	1							et	789			
+Sandra	f	chimpanzee	24	parent	2	2	20	44		p_training	training	r	43096.47848	r	1							et	674			
+Sandra	f	chimpanzee	24	parent	2	2	21	45		p_training	training	l	43096.47867	l	1							et	501			
+Sandra	f	chimpanzee	24	parent	2	2	22	46		p_training	training	l		l	1											not recorded due to apparatus malfunction
+Sandra	f	chimpanzee	24	parent	2	2	23	47		p_training	training	l	43096.47921	l	1							et	422			
+Sandra	f	chimpanzee	24	parent	2	2	24	48		p_training	training	r	43096.47941	r	1							et	2510			
+Sandra	f	chimpanzee	24	parent	3	1	1	49		p_test	training	l	43097.48882	l	1							et	425	it	1411	
+Sandra	f	chimpanzee	24	parent	3	1	2	50		p_test	training	l	43097.48899	l	1							et	342	it	1308	
+Sandra	f	chimpanzee	24	parent	3	1	3	51	1	p_test	test	r	43097.48927	r	1	ct	2857	cp	13	st	4220					
+Sandra	f	chimpanzee	24	parent	3	1	4	52		p_test	training	l	43097.48998	l	1							et	2415	it	24484	
+Sandra	f	chimpanzee	24	parent	3	1	5	53		p_test	training	r	43097.49027	r	1							et	457	it	1534	
+Sandra	f	chimpanzee	24	parent	3	1	6	54	2	p_test	test	l	43097.49051	l	1	ct	2106	cp	20	st	3586					
+Sandra	f	chimpanzee	24	parent	3	1	7	55		p_test	training	r	43097.49075	r	1							et	444	it	1216	
+Sandra	f	chimpanzee	24	parent	3	1	8	56		p_test	training	r	43097.49094	r	1							et	523	it	2046	
+Sandra	f	chimpanzee	24	parent	3	1	9	57		p_test	training	l	43097.49137	r	0							et	1550	it	18459	
+Sandra	f	chimpanzee	24	parent	3	1	10	58		p_test	training	r	43097.49153	r	1							et	471	it	1226	
+Sandra	f	chimpanzee	24	parent	3	1	11	59	3	p_test	test	r	43097.49199	l	0	ct	1103	cp	14	st	1600					
+Sandra	f	chimpanzee	24	parent	3	1	12	60		p_test	training	l	43097.49314	l	1											
+Sandra	f	chimpanzee	24	parent	3	2	13	61	4	p_test	test	l	43097.49333	l	1	ct	1253	cp	21	st	2091					
+Sandra	f	chimpanzee	24	parent	3	2	14	62		p_test	training	r	43097.49355	r	1							et	476	it	2112	
+Sandra	f	chimpanzee	24	parent	3	2	15	63		p_test	training	l	43097.49376	l	1							et	365	it	1467	
+Sandra	f	chimpanzee	24	parent	3	2	16	64		p_test	training	r	43097.494	r	1							et	400	it	1429	
+Sandra	f	chimpanzee	24	parent	3	2	17	65		p_test	training	l	43097.49426	l	1							et	314	it	1368	
+Sandra	f	chimpanzee	24	parent	3	2	18	66	5	p_test	test	l	43097.49449	l	1	ct	1304	cp	22	st	1618					
+Sandra	f	chimpanzee	24	parent	3	2	19	67		p_test	training	r	43097.49475	r	1							et	1056	it	2640	
+Sandra	f	chimpanzee	24	parent	3	2	20	68		p_test	training	l	43097.49502	l	1							et	499	it	7586	
+Sandra	f	chimpanzee	24	parent	3	2	21	69		p_test	training	l	43097.49525	l	1							et	379	it	1531	
+Sandra	f	chimpanzee	24	parent	3	2	22	70		p_test	training	r	43097.49549	r	1							et	547	it	4655	
+Sandra	f	chimpanzee	24	parent	3	2	23	71		p_test	training	r	43097.49568	r	1							et	579	it	2063	
+Sandra	f	chimpanzee	24	parent	3	2	24	72	6	p_test	test	r		r	1	ct	1303	cp	22	st	1737					
+Sandra	f	chimpanzee	24	parent	4	1	1	73		p_test	training	l	43098.50102	l	1							et	554	it	2188	
+Sandra	f	chimpanzee	24	parent	4	1	2	74	7	p_test	test	r	43098.50128	r	1	ct	1254	cp	22	st	1604					
+Sandra	f	chimpanzee	24	parent	4	1	3	75		p_test	training	l	43098.50146	l	1							et	349	it	1498	
+Sandra	f	chimpanzee	24	parent	4	1	4	76		p_test	training	r	43098.50163	r	1							et	628	it	1593	
+Sandra	f	chimpanzee	24	parent	4	1	5	77	8	p_test	test	l	43098.50185	l	1	ct	1755	cp	22	st	2088					
+Sandra	f	chimpanzee	24	parent	4	1	6	78		p_test	training	l	43098.50209	l	1							et	440	it	1516	
+Sandra	f	chimpanzee	24	parent	4	1	7	79		p_test	training	r	43098.50225	r	1							et	789	it	1198	
+Sandra	f	chimpanzee	24	parent	4	1	8	80		p_test	training	r	43098.50237	r	1							et	687	it	1558	
+Sandra	f	chimpanzee	24	parent	4	1	9	81		p_test	training	l	43098.50256	l	1							et	458	it	1188	
+Sandra	f	chimpanzee	24	parent	4	1	10	82		p_test	training	r	43098.50279	r	1							et	8615	it	1260	
+Sandra	f	chimpanzee	24	parent	4	1	11	83	9	p_test	test	l	43098.50303	l	1	ct	904	cp	22	st	1299					
+Sandra	f	chimpanzee	24	parent	4	1	12	84		p_test	training	r	43098.50324	r	1							et	653	it	1898	
+Sandra	f	chimpanzee	24	parent	4	2	13	85		p_test	training	l	43098.50341	l	1							et	385	it	1164	
+Sandra	f	chimpanzee	24	parent	4	2	14	86	10	p_test	test	r	43098.50359	r	1	ct	1303	cp	22	st	1615					
+Sandra	f	chimpanzee	24	parent	4	2	15	87		p_test	training	l	43098.50378	l	1							et	542	it	1317	
+Sandra	f	chimpanzee	24	parent	4	2	16	88		p_test	training	r	43098.50398	r	1							et	564	it	1411	
+Sandra	f	chimpanzee	24	parent	4	2	17	89		p_test	training	r	43098.50442	r	1							et	833	it	24378	
+Sandra	f	chimpanzee	24	parent	4	2	18	90	11	p_test	test	r	43098.50461	r	1	ct	1353	cp	13	st	1623					
+Sandra	f	chimpanzee	24	parent	4	2	20	91		p_test	training	l	43098.5053	r	1							et	3968	it	1678	
+Sandra	f	chimpanzee	24	parent	4	2	21	92		p_test	training	r	43098.50556	l	1							et	1010	it	1490	
+Sandra	f	chimpanzee	24	parent	4	2	22	93		p_test	training	l	43098.50576	r	1							et	448	it	1656	
+Sandra	f	chimpanzee	24	parent	4	2	23	94		p_test	training	r	43098.50591	l	1							et	1415	it	1609	
+Sandra	f	chimpanzee	24	parent	4	2	24	95	12	p_test	test	l	43098.50613	l	1	ct	1855	cp	22	st	2231					
+Sandra	f	chimpanzee	24	parent	5	1	1	96		p_test	training	l	43099.43839	l	1							et	659	it	7420	
+Sandra	f	chimpanzee	24	parent	5	1	2	97	13	p_test	test	l	43099.43873	l	1	ct	1705	cp	9	st	1848					
+Sandra	f	chimpanzee	24	parent	5	1	3	98		p_test	training	l	43099.43902	l	1							et	693	it	5254	
+Sandra	f	chimpanzee	24	parent	5	1	4	99		p_test	training	r	43099.4392	r	1							et	565	it	1851	
+Sandra	f	chimpanzee	24	parent	5	1	5	100	14	p_test	test	r	43099.43942	r	1	ct	1103	cp	20	st	1401					
+Sandra	f	chimpanzee	24	parent	5	1	6	101		p_test	training	r	43099.4397	r	1							et	545	it	1351	
+Sandra	f	chimpanzee	24	parent	5	1	7	102		p_test	training	r	43099.43991	r	1							et	607	it	3431	
+Sandra	f	chimpanzee	24	parent	5	1	8	103		p_test	training	l	43099.44009	l	1							et	537	it	1315	
+Sandra	f	chimpanzee	24	parent	5	1	9	104		p_test	training	l	43099.44027	l	1							et	359	it	1663	
+Sandra	f	chimpanzee	24	parent	5	1	10	105		p_test	training	l	43099.44047	l	1							et	479	it	2901	
+Sandra	f	chimpanzee	24	parent	5	1	11	106	15	p_test	test	r	43099.44069	r	1	ct	1103	cp	22	st	1419					
+Sandra	f	chimpanzee	24	parent	5	1	12	107		p_test	training	r	43099.44087	r	1							et	515	it	1588	
+Sandra	f	chimpanzee	24	parent	5	2	13	108		p_test	training	r	43099.44109	r	1							et	590	it	2063	
+Sandra	f	chimpanzee	24	parent	5	2	14	109		p_test	training	r	43099.44125	r	1							et	519	it	1394	
+Sandra	f	chimpanzee	24	parent	5	2	15	110	16	p_test	test	l	43099.44144	l	1	ct	853	cp	19	st	1124					
+Sandra	f	chimpanzee	24	parent	5	2	16	111		p_test	training	l	43099.44166	r	0							et	638	it	1392	
+Sandra	f	chimpanzee	24	parent	5	2	17	112		p_test	training	l	43099.44186	l	1							et	491	it	1766	
+Sandra	f	chimpanzee	24	parent	5	2	18	113		p_test	training	r	43099.44207	r	1							et	553	it	935	
+Sandra	f	chimpanzee	24	parent	5	2	19	114		p_test	training	r	43099.44225	r	1							et	470	it	1467	
+Sandra	f	chimpanzee	24	parent	5	2	20	115		p_test	training	r	43099.44243	r	1							et	463	it	5594	
+Sandra	f	chimpanzee	24	parent	5	2	21	116	17	p_test	test	r	43099.44267	r	1	ct	1254	cp	22	st	5297					st longer because the string got stuck
+Sandra	f	chimpanzee	24	parent	5	2	22	117		p_test	training	l	43099.44308	l	1							et	518	it	8458	
+Sandra	f	chimpanzee	24	parent	5	2	23	118		p_test	training	l	43099.44326	l	1							et	473	it	2066	
+Sandra	f	chimpanzee	24	parent	5	2	24	119	18	p_test	test	l	43099.44353	l	1	ct	1103	cp	20	st	1374					
+Sandra	f	chimpanzee	24	parent	6	1	1	120		p_test	training	l	43102.45377	l	1							et	1152	it	2313	
+Sandra	f	chimpanzee	24	parent	6	1	2	121	19	p_test	test	r	43102.45419	r	1	ct	1555	cp	12	st	1837					
+Sandra	f	chimpanzee	24	parent	6	1	3	122		p_test	training	l	43102.45458	l	1							et	910	it	5591	
+Sandra	f	chimpanzee	24	parent	6	1	4	123		p_test	training	l	43102.45486	l	1							et	812	it	1981	
+Sandra	f	chimpanzee	24	parent	6	1	5	124		p_test	training	r	43102.4551	r	1							et	550	it	4142	
+Sandra	f	chimpanzee	24	parent	6	1	6	125		p_test	training	r	43102.45535	r	1							et	437	it	1340	
+Sandra	f	chimpanzee	24	parent	6	1	7	126	20	p_test	test	l	43102.45559	r	0	ct	853	cp	13	st	1091					
+Sandra	f	chimpanzee	24	parent	6	1	8	127		p_test	training	r	43102.45586	r	1							et	438	it	1585	
+Sandra	f	chimpanzee	24	parent	6	1	9	128		p_test	training	r	43102.45608	r	1							et	436	it	1912	
+Sandra	f	chimpanzee	24	parent	6	1	10	129		p_test	training	l	43102.45641	r	0							et	765	it	1077	
+Sandra	f	chimpanzee	24	parent	6	1	11	130		p_test	training	r	43102.45666	r	1							et	521	it	1069	
+Sandra	f	chimpanzee	24	parent	6	1	12	131	21	p_test	test	l	43102.45723	l	1	ct	601	cp	9	st	28092					
+Sandra	f	chimpanzee	24	parent	6	2	13	132		p_test	training	l	43102.45765	l	1							et	654	it	1433	
+Sandra	f	chimpanzee	24	parent	6	2	14	133		p_test	training	r	43102.45794	r	1							et	420	it	1140	
+Sandra	f	chimpanzee	24	parent	6	2	15	134		p_test	training	l	43102.45818	l	1							et	1440	it	1533	
+Sandra	f	chimpanzee	24	parent	6	2	16	135	22	p_test	test	r	43102.4585	r	1	ct	1002	cp	22	st	1266					
+Sandra	f	chimpanzee	24	parent	6	2	17	136		p_test	training	r	43102.45892	r	1							et	763	it	16813	
+Sandra	f	chimpanzee	24	parent	6	2	18	137		p_test	training	l	43102.45912	l	1							et	669	it	1504	
+Sandra	f	chimpanzee	24	parent	6	2	19	138		p_test	training	r	43102.45934	r	1							et	420	it	1402	
+Sandra	f	chimpanzee	24	parent	6	2	20	139	23	p_test	test	l	43102.45957	l	1	ct	752	cp	16	st	1375					
+Sandra	f	chimpanzee	24	parent	6	2	21	140		p_test	training	l	43102.45997	l	1							et	611	it	2356	
+Sandra	f	chimpanzee	24	parent	6	2	22	141		p_test	training	r	43102.46019	r	1							et	464	it	1118	
+Sandra	f	chimpanzee	24	parent	6	2	23	142		p_test	training	l	43102.46057	l	1							et	388	it	1273	
+Sandra	f	chimpanzee	24	parent	6	2	24	143	24	p_test	test	r	43102.46084	r	1	ct	1153	cp	22	st	1393					

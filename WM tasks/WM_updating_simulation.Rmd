@@ -350,12 +350,12 @@ for(i in 1:10000){
   trial.count2=0
   res1=c()
   res2=c()
-  while(trial.count<4 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
-    if(trial.count<4 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+  while(trial.count<8 & length(unique(res1))<crit.thresh  & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count2<4 & length(unique(res1))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
 	      res1<-c(res1,sample(n.cups,size=1, replace=T))
 	  		trial.count=trial.count+1 
 	  		trial.count1=trial.count1+1 }
-    if(trial.count<4 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
+    if(trial.count2<4 & length(unique(res2))<crit.thresh & ((trial.count1-length(unique(res1)))+(trial.count2-length(unique(res2))))<6){
 	    res2<-c(res2,sample(n.cups,size=1, replace=T))
 		  trial.count=trial.count+1
 		  trial.count2=trial.count2+1 }
@@ -378,6 +378,8 @@ red_choice=red_choice1+red_choice2
 mean(unique_res)
 mean(red_choice)
 median(red_choice)
+
+(mean(unique_res)-2)/6
 
 hist(unique_res1)
 plot(table(red_choice))
