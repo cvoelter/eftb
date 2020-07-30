@@ -183,14 +183,15 @@ multi.hist(EF_task_data[-1])
 model.MF2012 <- 'F1_WM =~  Updating_P1P2.correct   + boxes_correct_newrange + Grid_Distance_newrange
                 F2_Shifting =~  CD + proportion_switches + Shifting.tray.correct.S2
                 F3_CommonEF =~  Inh.grid.correct1 + Inh.cylinders.correct1 + Inh.boxes.correct1 + proportion_switches + CD + Shifting.tray.correct.S2 + Updating_P1P2.correct+ boxes_correct_newrange + Grid_Distance_newrange'
+
 fit.MF2012 <- cfa(model.MF2012, data = EF_task_data,  orthogonal=TRUE, estimator="ML", missing="fiml", optim.method="nlminb")#, std.lv=TRUE)
-#lavaan WARNING: the optimizer (NLMINB) claimed the model converged, but not all elements of the gradient are (near) zero;the optimizer may not have found a local solution use check.gradient = FALSE to skip this check.
+
+#lavaan WARNING: some estimated lv variances are negative
 
 summary(fit.MF2012, fit.measures = TRUE)
+parameterEstimates(fit.MF2012)  
 # 
-# parameterEstimates(fit.MF2012)  
-# 
-# parameterEstimates(fit.MF2012, standardized=TRUE) %>% 
+#parameterEstimates(fit.MF2012)%>% 
 #   filter(op == "=~") %>% 
 #   select('Latent Factor'=lhs, Indicator=rhs, B=est, SE=se, Z=z, 'p-value'=pvalue)#, Beta=std.all)
 # 
@@ -223,6 +224,7 @@ summary(fit.1factor, fit.measures = TRUE)
 model.3factors_ind <- 'F1_WM =~  Updating_P1P2.correct + boxes_correct_newrange + Grid_Distance_newrange
                 F2_Shifting =~  CD + proportion_switches + Shifting.tray.correct.S2
                   F3_Inhibition =~  Inh.grid.correct1 + Inh.cylinders.correct1 + Inh.boxes.correct1'
+
 fit.3factors_ind <- cfa(model.3factors_ind, data = EF_task_data, , orthogonal=TRUE, estimator="ML", missing="fiml", optim.method="nlminb")#std.lv=TRUE)
 #lavaan WARNING: some estimated lv variances are negative
 summary(fit.3factors_ind, fit.measures = TRUE)
