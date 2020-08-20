@@ -23,6 +23,7 @@ library(reshape2)
 library(psych)
 library(summarytools)
 library(lavaan)
+library(blavaan)
 library(MVN)
 library(car)
 library(lavaanPlot)
@@ -270,6 +271,17 @@ lavaanPlot(model = fit.2factors1, node_options = list(shape = "box", fontname = 
 
 ```{r}
 lavaanPlot(model = fit.MF2012, node_options = list(shape = "box", fontname = "Helvetica"), edge_options = list(color = "grey"), coefs = TRUE)
+```
+
+
+
+```{r}
+# Nested model 
+model.MF2012 <- 'F1_WM =~  Updating_P1P2.correct   + boxes_correct_newrange + Grid_Distance_newrange
+                F2_Shifting =~  CD + proportion_switches + Shifting.tray.correct.S2
+                F3_CommonEF =~  Inh.grid.correct1 + Inh.cylinders.correct1 + Inh.boxes.correct1 + proportion_switches + CD + Shifting.tray.correct.S2 + Updating_P1P2.correct+ boxes_correct_newrange + Grid_Distance_newrange'
+
+fit.MF2012 <- bcfa(model.MF2012, data = EF_task_data,  orthogonal=TRUE, burnin=2000, adapt=2000)
 ```
 
 
